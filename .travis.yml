@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "8"
+notifications:
+  email: false
+git:
+  submodules: false
+cache: yarn
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+install: yarn
+script:
+  - git checkout master
+  - yarn i18n
+after_success:
+  - git config user.email "travis@travis-ci.org"
+  - git config user.name "Travis CI"
+  - git add .
+  - git commit -m "Travis build and update tranlations $TRAVIS_BUILD_NUMBER [skip ci]"
+  - git remote set-url origin https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git
+  - git push origin
+

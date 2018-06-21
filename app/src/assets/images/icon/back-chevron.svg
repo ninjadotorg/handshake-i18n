@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Back Chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-16" transform="translate(-15.000000, -43.000000)" fill="#1E4EFF">
+            <path d="M15.2983955,53.7163341 C14.9136754,53.3213031 14.9162222,52.6782163 15.2983955,52.2858003 L24.0398783,43.3100379 C24.4245985,42.9150069 25.0570941,42.9052246 25.4513334,43.2869652 L25.6844897,43.5127295 C26.0792946,43.8950178 26.0890057,44.5284151 25.7087824,44.9247491 L17.9607612,53.0010672 L25.7087824,61.0328683 C26.0901709,61.4282255 26.0787289,62.0685279 25.6844897,62.4617634 L25.4513334,62.6943259 C25.0565285,63.0881257 24.4220517,63.0845125 24.0398783,62.6920965 L15.2983955,53.7163341 Z" id="Back-Chevron"></path>
+        </g>
+    </g>
+</svg>

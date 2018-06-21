@@ -1,0 +1,132 @@
+@import './src/styles/style';
+
+.discover {
+  background: $gray;
+  .feed-wrapper {
+    margin-bottom:  rem-calc(11px);
+  }
+  .category-wrapper {
+    margin-bottom: rem-calc(11px);
+    background: $white;
+    .multilanguage-block {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  .buy-sell-wrapper {
+    margin-bottom: rem-calc(15px);
+  }
+  .search-bar-wrapper {
+    margin-bottom: rem-calc(15px);
+  }
+  //.exchange-intro {
+  //  //background: #8BB7F0;
+  //  background-image: url("../../assets/images/icon/bg-exchange-intro.svg");
+  //  margin-bottom: 0.9375rem;
+  //  padding-top: 20px;
+  //  .icon-shop {
+  //    display: table-cell;
+  //    vertical-align: bottom;
+  //    width: 147px;
+  //    img {
+  //      width: 100%;
+  //    }
+  //  }
+  //  .text-intro {
+  //
+  //    font-size: 15px;
+  //    color: #FFFFFF;
+  //    letter-spacing: 0.27px;
+  //    padding-left: 12px;
+  //    display: table-cell;
+  //    font-weight: 400;
+  //    line-height: 23px;
+  //    .btn-join-now {
+  //      font-weight: bold;
+  //      color: #FFFFFF;
+  //      min-width: 121px;
+  //      background: #2456FB;
+  //      border: 2px solid #FFFFFF;
+  //      border-radius: 4px;
+  //      font-size: 14px;
+  //      letter-spacing: 0.25px;
+  //    }
+  //    .money {
+  //      font-weight: bold;
+  //      font-size: 14px;
+  //      letter-spacing: 0.25px;
+  //      //line-height: 23px;
+  //    }
+  //  }
+  //}
+  .faq-block {
+    margin-top: rem-calc(15px);
+  }
+  .info {
+    padding: rem-calc(15px);
+    font-size: 13px;
+    font-size: $light;
+  }
+}
+
+.discover-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba($color: $black, $alpha: 0.3);
+  display: none;
+  &.show {
+    display: block;
+  }
+  img {
+    display: block;
+    position: absolute;
+    width:  rem-calc(50px);
+    height: rem-calc(50px);
+    background: $white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.exchange-popup-intro {
+  font-weight: 400;
+  font-size: 16px;
+  height: 466px;
+  overflow: auto;
+  padding: 0 15px 15px;
+  color: #000000;
+  .logo {
+    width: 57px;
+    margin: 15px 0;
+  }
+  .headline {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+  }
+  .highlight-text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #2456FB;
+    letter-spacing: 0;
+  }
+  .usage {
+    font-weight: bold;
+  }
+  .link {
+    color: #15C032 !important;
+    text-decoration: underline !important;
+  }
+}
+.discover-popup {
+  .modal-custom-body {
+    padding: 0 !important;
+  }
+}

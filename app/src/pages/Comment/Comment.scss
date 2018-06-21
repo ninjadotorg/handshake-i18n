@@ -1,0 +1,25 @@
+@import './src/styles/style';
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  .lastCommentItem {
+    height: rem-calc(60px);
+    width: 100%;
+    margin-top: rem-calc(20px);
+  }
+}
+
+.noData {
+  display: flex;
+  width: 100%;
+  height: 88vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .text {
+    margin: 0;
+    font-size: rem-calc(20px);
+    color: #989898;
+  }
+}

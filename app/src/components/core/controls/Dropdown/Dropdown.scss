@@ -1,0 +1,108 @@
+@import './src/styles/style';
+
+$gray: #ededed;
+.dropdown-custom {
+  width: 100%;
+  button {
+    display: flex;
+    width: 100%;
+    padding: rem-calc(11px 21px);
+    border: 1px solid $gray;
+    border-radius: 6px;
+    background: transparent;
+    text-align: left;
+    color: #8a8a8f;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    p {
+      width: 90%;
+      margin: 0;
+      white-space: normal;
+      color: #000;
+    }
+    div {
+      width: 10%;
+      text-align: right;
+    }
+  }
+  button.show-flex {
+    border-bottom: 1px solid $white;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    img {
+      transform: rotate(180deg);
+    }
+  }
+  .show {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+  .dropdown-custom-menu {
+    width: 100%;
+    padding: 0;
+    background: $white;
+    border: 1px solid $gray;
+    border-top: none;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    list-style-type: none;
+    .active {
+      color: #16181b;
+      background-color: #f8f9fa;
+    }
+    li {
+      &:last-child {
+        span {
+          border-bottom: none;
+        }
+      }
+    }
+    .result {
+      width: 100%;
+      max-height: 250px;
+      overflow-y: scroll;
+    }
+    .dropdown-custom-item {
+      display: block;
+      margin: rem-calc(0 21px);
+      padding: 10px 0;
+      font-size: 1rem;
+      font-weight: $light;
+      color: $black;
+      border-bottom: 1px solid $gray;
+      &:hover {
+        color: #16181b;
+        background-color: #f8f9fa;
+        cursor: pointer;
+      }
+    }
+    .search-block {
+      position: relative;
+      .search-icon {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    .no-results {
+      border-bottom: none;
+    }
+    .search-box {
+      width: 100%;
+      padding: rem-calc(5px);
+      padding-right: rem-calc(20px);
+      border: 1px solid #e8e8e8;
+      font-size: 1rem;
+      color: $black;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

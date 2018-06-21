@@ -1,0 +1,11 @@
+@import './src/styles/style';
+
+.share-social {
+  img {
+    width: 28px;
+    margin-right: 12%;
+    &:last-child {
+      margin-right: rem-calc(15px);
+    }
+  }
+}

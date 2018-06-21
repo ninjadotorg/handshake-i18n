@@ -1,0 +1,43 @@
+.select-country-code {
+  //background: url("../../../../../assets/images/icon/Triangle.svg") no-repeat right center;
+  //background-size: 8px 10px;
+  cursor: pointer;
+  //font-weight: 400;
+}
+.select-list-country-code-wrapper {
+  position: absolute;
+  left: -121px;
+  bottom: 33px;
+  padding: 10px;
+  background: black;
+  z-index: 1111;
+  width: 250px;
+  border-radius: 5px;
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .list {
+    max-height: 240px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    .item {
+      cursor: pointer;
+      margin-bottom: 8px;
+      color: white;
+      font-weight: normal;
+      //width: 200px;
+    }
+  }
+  .filter {
+    input {
+      color: white;
+    }
+  }
+  .btn-close {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+

@@ -1,0 +1,120 @@
+@import './src/styles/style';
+
+.mobileTabletApp {
+  background-color: #161616;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  padding: rem-calc(50px 0);
+}
+
+.root {
+  height: 100%;
+}
+
+.mobile-tablet {
+  //height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  margin: 0 auto;
+  font-family: anonymous-pro, monospace;
+  font-style: normal;
+  & > .row {
+    height: 100%;
+  }
+  .chooseLanguage {
+    margin: 0 auto;
+    font-size: rem-calc(16px);
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: $light;
+    display: flex;
+    justify-content: center;
+    margin-bottom:rem-calc(60px);
+    .countryName {
+      padding: rem-calc(0 10px);
+      &:hover {
+        cursor: pointer;
+      }
+      span {
+        padding: rem-calc(0 7.5px 5px);
+      }
+    }
+    .countryName + .countryName {
+      border-left:1px solid #666666;
+    }
+    .countryActive {
+      span {
+        border-bottom: 2px solid #FFFF00;
+        font-weight: $semi-bold;
+      }
+    }
+  }
+  .imageHeader {
+    min-width: rem-calc(409px);
+  }
+  h1 {
+    font-size: rem-calc(22px);
+    color: #BCBCBC;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: rem-calc(78px);
+    font-weight: $normal;
+  }
+  p {
+    font-size: rem-calc(22px);
+    font-weight: $semi-bold;
+    color: #BCBCBC;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: rem-calc(34px);
+    margin-bottom: rem-calc(84px);
+    .website {
+      color: #7491F1;
+    }
+    .whiteColor {
+      color: #fff;
+    }
+  }
+  ul {
+    font-size: rem-calc(22px);
+    color: #FFFFFF;
+    letter-spacing: 0;
+    list-style: none;
+    width: 40%;
+    margin: 0 auto;
+    li {
+      img {
+        width: rem-calc(21px);
+        height: rem-calc(21px);
+      }
+      a {
+        color: #FFFF00;
+        text-decoration: underline;
+      }
+    }
+    li + li {
+      margin-top: rem-calc(16px);
+    }
+  }
+  .topBox {
+    display: flex;
+    & > div:first-child {
+      margin-right: rem-calc(40px);
+    }
+    & > div:last-child {
+      margin-left: rem-calc(40px);
+    }
+  }
+  .embed-responsive-16by9::before {
+    padding-top: 0 !important;
+  }
+  .embed-responsive {
+    iframe {
+      max-height: rem-calc(182px) !important;
+    }
+    max-height: rem-calc(182px) !important;
+  }
+}

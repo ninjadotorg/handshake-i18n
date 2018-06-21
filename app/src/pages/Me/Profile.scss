@@ -1,0 +1,110 @@
+@import './src/styles/style';
+.profile {
+  .collapse-custom {
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: $normal;
+    .head {
+      padding: rem-calc(12px 0);
+      display: flex;
+      flex-wrap: wrap;
+      &:hover {
+        cursor: pointer;
+      }
+      .label {
+        width: 90%;
+        margin: 0;
+        font-size: rem-calc(18px);
+        color: $text-black;
+        span {
+          display: block;
+          font-size: rem-calc(14px);
+          color: $oslo-gray;
+        }
+      }
+      .extend {
+        position: relative;
+        span {
+          position: absolute;
+          right: 21px;
+          top: 4px;
+        }
+        width: 10%;
+        text-align: right;
+        img {
+          transform: rotate(-90deg);
+        }
+        .rotate {
+          transform: rotate(0);
+        }
+      }
+    }
+    .content {
+      margin-bottom: rem-calc(22px);
+      input[type="text"] {
+        height: rem-calc(54px);
+        padding: 0 14px;
+        border: 1px solid #efefef;
+        border-radius: 6px;
+        font-weight: $medium;
+        font-size: rem-calc(18px);
+        color: $text-black;
+      }
+      .text {
+        margin-bottom: rem-calc(10px);
+        font-size: 1rem;
+      }
+      .submit-btn {
+        width: 100%;
+        margin-top: rem-calc(17px);
+      }
+      .phone-block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: rem-calc(33px);
+        .country-code {
+          width: 25%;
+          button {
+            width: 100%;
+            height: rem-calc(54px);
+            padding: 0 10px;
+            background: none;
+            border: 1px solid #efefef;
+            border-radius: 6px;
+            font-weight: $medium;
+            font-size: rem-calc(18px);
+            color: $text-black;
+          }
+          .dropdown-menu {
+            max-width: 350px;
+            max-height: 300px;
+            overflow-y: auto;
+          }
+          .search-country {
+            width: 100%;
+            height: rem-calc(30px);
+            font-size: 1rem
+          }
+        }
+        .phone-number {
+          width: 55%;
+        }
+        .send-btn {
+          width: 20%;
+        }
+      }
+    }
+  }
+  .modal-verify {
+    padding: rem-calc(15px 0);
+    text-align: center;
+    img {
+      margin-bottom: rem-calc(27px);
+    }
+    p {
+      margin-bottom: 8px;
+      font-weight: $normal;
+      font-size: rem-calc(18px);
+      color: #2a2a2a;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="291px" viewBox="0 0 384 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-20.0834166%" y1="-39.3126156%" x2="174.420605%" y2="189.425451%" id="linearGradient-1">
+            <stop stop-color="#3FA3D1" offset="0%"></stop>
+            <stop stop-color="#6D2FD1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="App-Wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Mask-Copy" fill="url(#linearGradient-1)" x="0" y="0" width="384" height="291"></rect>
+    </g>
+</svg>

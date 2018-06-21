@@ -1,0 +1,25 @@
+{
+  "name": "handshake-i18n",
+  "version": "0.0.1",
+  "main": "i18n.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "i18n-prepare": "babel-node . prepare",
+    "send": "babel-node . send",
+    "download": "babel-node . download",
+    "unparser": "babel-node . unparser",
+    "i18n": "yarn download && yarn unparser && git submodule foreach git pull origin develop && yarn i18n-prepare && yarn send"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/node": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "dotenv": "^6.0.0",
+    "fast-csv": "^2.4.1",
+    "lodash": "^4.17.10",
+    "request": "^2.87.0",
+    "rimraf": "^2.6.2",
+    "unzip": "^0.1.11"
+  }
+}

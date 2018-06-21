@@ -1,0 +1,75 @@
+@import './src/styles/style';
+
+.createComment {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #FFFFFF;
+  border-top: 1px solid #E5E5E5;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: rem-calc(6px 15px);
+  position: fixed;
+  bottom: rem-calc(60px);
+  width: 100%;
+  max-width: $app-width;
+  textarea {
+    flex-basis: 75%;
+    background: #F7F7F7;
+    border-radius: rem-calc(6px);
+    height: rem-calc(40px);
+    font-size: rem-calc(16px);
+    padding: 11px 15px;
+    user-select: text;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    letter-spacing: 0;
+    resize: inherit;
+    &::placeholder {
+      color: #C8C7CC;
+    }
+  }
+  .imageUpload {
+    position: relative;
+    background: var(--white);
+    border: 1px dashed var(--bleu-de-france);
+    border-radius: 5px;
+    text-align: center;
+
+    input {
+      position: absolute;
+      font-size: 60px;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      text-indent: -9999px;
+      cursor: pointer;
+      opacity: 0;
+    }
+
+    span {
+      display: block;
+    }
+  }
+
+  .preview {
+    margin: 0 auto 10px;
+    width: 100%;
+    img:first-child {
+      position: relative;
+      left: 60%;
+      top: 10px;
+    }
+    img:last-child {
+      margin: 0 auto;
+      width: 100px;
+      height: auto;
+      display: block;
+    }
+  }
+}

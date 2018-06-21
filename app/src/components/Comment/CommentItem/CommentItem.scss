@@ -1,0 +1,28 @@
+@import './src/styles/style';
+
+.commentItem {
+  margin-bottom: rem-calc(21px);
+  .userInfo {
+    margin-bottom: rem-calc(16px);
+    .userName {
+      font-size: rem-calc(18px);
+      font-weight: $medium;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: rem-calc(22px);
+      margin-left: 15px;
+    }
+  }
+  .comment {
+    font-size: rem-calc(16px);
+    color: #1E1E1E;
+    letter-spacing: 0;
+    line-height: rem-calc(25px);
+  }
+  .imageComment {
+    margin-top: rem-calc(16px);
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+}

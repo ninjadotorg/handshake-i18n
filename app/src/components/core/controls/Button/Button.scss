@@ -1,0 +1,51 @@
+// style
+@import './src/styles/style';
+$secondary : #b7b7b7;
+
+.button {
+  padding: rem-calc(9px 0);
+  font-weight: $normal;
+  font-size: rem-calc(20px);
+  color: $white;
+  letter-spacing: 0;
+  text-align: center;
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    svg {
+      display: block;
+    }
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-primary {
+  background-color: $titan-black;
+  border-color: $titan-black;
+  &:hover {
+    background-color: $titan-black;
+    border-color: $titan-black;
+    opacity: 0.8;
+  }
+}
+.btn-secondary {
+  background-color: $secondary;
+  &:hover {
+    background-color: $secondary;
+    border-color: $secondary;
+    opacity: 0.8;
+  }
+}
+
+.btn-anonymous {
+  background-color: $titan-black;
+  border-color: $titan-black;
+  &:hover {
+    background-color: $titan-black;
+    border-color: $titan-black;
+    opacity: 0.8;
+  }
+}
