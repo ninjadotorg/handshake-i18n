@@ -1,5 +1,7 @@
 # Handshake i18n
 
+A special thank to [Crowdin](https://crowdin.com/) for help us use their tool for translate everything on [handshake-app](https://github.com/ninjadotorg/handshake-app) project (https://crowdin.com/project/handshake-app) at no cost.
+
 ## Install
 
 ```
