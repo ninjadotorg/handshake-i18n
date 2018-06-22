@@ -11,7 +11,7 @@ const argv = process.argv.slice(2);
 const appPath = path.resolve('app');
 const envPath = path.resolve('.env');
 
-const name = 'ninja';
+const name = 'handshake-app';
 
 if (fs.existsSync(envPath)) {
   require('dotenv').config();
