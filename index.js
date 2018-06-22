@@ -48,30 +48,30 @@ handleDir(i18nDir);
 let i = 0;
 let mapList = {};
 
-function parseRow(row) {
+function parseRow(row, key) {
   if (typeof row === 'string') {
-    let translationKey = `%%%${i}%%%`;
+    let translationKey = `%%%${key}%%%`;
     mapList[translationKey] = row;
     i++;
     return translationKey;
   }
   if (_.isArray(row)) {
     return row.map(item => {
-      return parseRow(item);
+      return parseRow(item, key);
     });
   }
   if (typeof row === 'object') {
-    return parseObject(row);
+    return parseObject(row, key);
   }
 }
 
-function parseObject(content) {
+function parseObject(content, parentKey = '') {
   const keys = Object.keys(content);
   const newObject = Object.assign({}, content);
 
   keys.map(key => {
     let row = content[key];
-    newObject[key] = parseRow(row);
+    newObject[key] = parseRow(row, `${parentKey}.${key}`);
   });
 
   return newObject;

@@ -5,10 +5,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "i18n-prepare": "babel-node . prepare",
-    "send": "babel-node . send",
-    "download": "babel-node . download",
-    "unparser": "babel-node . unparser",
+    "i18n-prepare": "babel-node index.js prepare",
+    "send": "babel-node index.js send",
+    "download": "babel-node index.js download",
+    "unparser": "babel-node index.js unparser",
     "i18n": "yarn download && yarn unparser && git submodule foreach git pull origin develop && yarn i18n-prepare && yarn send"
   },
   "dependencies": {
