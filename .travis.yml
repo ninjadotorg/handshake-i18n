@@ -28,7 +28,7 @@ after_success:
   - cp -a ../.git.backup .git
   - cp -a ../{i18n,i18n.js} ./
   - cp ../package.import.json ./package.json
-  - git commit -m "Update import branch"
+  - git commit -am "Update import branch"
   - git push origin import
 branches:
   only:
