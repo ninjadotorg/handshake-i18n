@@ -23,11 +23,12 @@ after_success:
   - git clone https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git import
   - cd import
   - git checkout import
-  - cp .git ../.git.backup
+  - cp -a .git ../.git.backup
   - rm -rf ./*
-  - cp ../.git.backup .git
-  - cp ../{i18n,i18n.js} ./
+  - cp -a ../.git.backup .git
+  - cp -a ../{i18n,i18n.js} ./
   - cp ../package.import.json ./package.json
+  - git commit -m "Update import branch"
   - git push origin import
 branches:
   only:
