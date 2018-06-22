@@ -20,4 +20,15 @@ after_success:
   - git commit -m "Travis build and update tranlations $TRAVIS_BUILD_NUMBER [skip ci]"
   - git remote set-url origin https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git
   - git push origin
-
+  - git clone https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git import
+  - cd import
+  - git checkout import
+  - cp .git ../.git.backup
+  - rm -rf ./*
+  - cp ../.git.backup .git
+  - cp ../{i18n,i18n.js} ./
+  - cp ../package.import.json ./package.json
+  - git push origin import
+branches:
+  only:
+  - master
