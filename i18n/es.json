@@ -148,9 +148,9 @@
     "btn.cancel": "Cancel",
     "btn.close": "Close",
     "btn.accept": "Accept",
-    "FAQ_TITLE": "FAQ",
-    "FAQ_HEADER_YELLOW": "Decentralized",
-    "FAQ_HEADER": "Prediction Exchange",
+    "FAQ_TITLE": "Häufig gestellte Fragen",
+    "FAQ_HEADER_YELLOW": " ",
+    "FAQ_HEADER": "Dezentrale Vorhersage Exchange",
     "FAQ_DATA": [
         {
             "question": "Was ist Ninja PEX?",
@@ -161,27 +161,27 @@
             "answer": "Es kann Parteien direkt gegeneinander wetten, ohne den Umweg über eine zentrale Behörde oder Buchmacher. Dies macht es 100 % anonym, keine Anzeichen, keine Downloads erforderlich. Wetten-Management und die Abrechnung."
         },
         {
-            "question": "Do I need Ether? Does it support other cryptocurrencies?",
-            "answer": "It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
+            "question": "Benötige ich Äther? Unterstützt es andere kryptowährungen?",
+            "answer": "Ja. Ninja akzeptiert nur ETH für jetzt, aber Unterstützung wird sehr bald für andere Währungen hinzugefügt werden."
         },
         {
-            "question": "How do I start with Ninja?",
+            "question": "Wie starte ich mit Ninja?",
             "answer": [
                 {
-                    "title": "Get Ether:",
-                    "content": " You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
+                    "title": "Äther zu bekommen:",
+                    "content": " Sie können entweder direkt in PEX ETH mit Ihren Kreditkarten oder von beliebten Münze Börsen wie Coinbase oder Binance kaufen."
                 },
                 {
-                    "title": "Top up your PEX Wallet:",
-                    "content": "You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
+                    "title": "Füllen Sie Ihre Brieftasche PEX:",
+                    "content": "Übertragen Sie die ETH in den PEX-Wallet. PEX Brieftasche ist völlig dezentral, der private Schlüssel wird auf Ihrem Telefon gehalten, nur Sie können übertragen und empfangen ETH."
                 },
                 {
-                    "title": "Place a bet:",
-                    "content": "Pick the market you want to bet (i.e. Brazil - Spain), the outcomes (i.e. Brazil wins) and the site (i.e. support or bet against the outcome)\nEnter the stake you want to bet (i.e. 1 ETH) and the odds (i.e. 1/ 2.25)\nThe PEX Matching Engine will then find another order that bets against the odds you set."
+                    "title": "Platzieren Sie eine Wette:",
+                    "content": "Wählen Sie den Markt, die Sie möchten Wette (d.h. Brasilien - Spanien), die Ergebnisse (z. B. Brasilien gewinnt) und der Website (d.h. Unterstützung oder Wette gegen das Ergebnis)\nGeben Sie den Einsatz Sie wollen Wette (d. h. 1 ETH) und die Quoten (d. h. 1 / 2,25)\nDie BEX-Matching-Engine finden dann einen weiteren Auftrag, der gegen die Quoten Wetten, die Sie festlegen."
                 },
                 {
-                    "title": "Wait for the report:",
-                    "content": "if you win, your winnings will be automatically transferred from the escrow smart contract to your account."
+                    "title": "Warten auf den Bericht:",
+                    "content": "Wenn Sie gewinnen, Ihre Gewinne werden werden automatisch vom smart Escrow-Vertrag auf Ihr Konto überwiesen."
                 }
             ]
         },

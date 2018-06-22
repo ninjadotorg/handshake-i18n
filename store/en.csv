@@ -156,7 +156,7 @@
 %%%.FAQ_DATA.1.question%%%,"What’s special about PEX? Why should i bet on one?"
 %%%.FAQ_DATA.1.answer%%%,"It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
 %%%.FAQ_DATA.2.question%%%,"Do I need Ether? Does it support other cryptocurrencies?"
-%%%.FAQ_DATA.2.answer%%%,"It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
+%%%.FAQ_DATA.2.answer%%%,"Yes. Ninja only accepts ETH for now, but support will be added for other currencies very soon."
 %%%.FAQ_DATA.3.question%%%,"How do I start with Ninja?"
 %%%.FAQ_DATA.3.answer.0.title%%%,"Get Ether:"
 %%%.FAQ_DATA.3.answer.0.content%%%," You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
