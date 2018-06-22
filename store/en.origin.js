@@ -402,6 +402,68 @@
             }
         }
     },
+    "wallet": {
+        "top_banner": {
+            "message": "%%%.wallet.top_banner.message%%%",
+            "button": "%%%.wallet.top_banner.button%%%"
+        },
+        "refers_dashboard": {
+            "header": "%%%.wallet.refers_dashboard.header%%%"
+        },
+        "refers": {
+            "header": "%%%.wallet.refers.header%%%",
+            "error": {
+                "submit_telegram": "%%%.wallet.refers.error.submit_telegram%%%",
+                "submit_twitter": "%%%.wallet.refers.error.submit_twitter%%%",
+                "confirm_code": "%%%.wallet.refers.error.confirm_code%%%",
+                "verify_code": "%%%.wallet.refers.error.verify_code%%%",
+                "get_token": "%%%.wallet.refers.error.get_token%%%"
+            },
+            "success": {
+                "submit_telegram": "%%%.wallet.refers.success.submit_telegram%%%",
+                "submit_twitter": "%%%.wallet.refers.success.submit_twitter%%%",
+                "confirm_code": "%%%.wallet.refers.success.confirm_code%%%",
+                "verify_code": "%%%.wallet.refers.success.verify_code%%%",
+                "get_token": "%%%.wallet.refers.success.get_token%%%",
+                "copy_link": "%%%.wallet.refers.success.copy_link%%%"
+            },
+            "button": {
+                "verified": "%%%.wallet.refers.button.verified%%%",
+                "verify": "%%%.wallet.refers.button.verify%%%",
+                "confirm": "%%%.wallet.refers.button.confirm%%%",
+                "reset_email": "%%%.wallet.refers.button.reset_email%%%",
+                "get_token": "%%%.wallet.refers.button.get_token%%%"
+            },
+            "text": {
+                "title": "%%%.wallet.refers.text.title%%%",
+                "telegram": "%%%.wallet.refers.text.telegram%%%",
+                "telegram2": "%%%.wallet.refers.text.telegram2%%%",
+                "twitter": "%%%.wallet.refers.text.twitter%%%",
+                "twitter2": "%%%.wallet.refers.text.twitter2%%%",
+                "referral_link": "%%%.wallet.refers.text.referral_link%%%"
+            },
+            "placeholder": {
+                "telegram_username": "%%%.wallet.refers.placeholder.telegram_username%%%",
+                "twitter_username": "%%%.wallet.refers.placeholder.twitter_username%%%",
+                "email": "%%%.wallet.refers.placeholder.email%%%",
+                "email2": "%%%.wallet.refers.placeholder.email2%%%"
+            }
+        },
+        "action": {
+            "remove": {
+                "header": "%%%.wallet.action.remove.header%%%",
+                "message": "%%%.wallet.action.remove.message%%%",
+                "button_yes": "%%%.wallet.action.remove.button_yes%%%",
+                "button_cancel": "%%%.wallet.action.remove.button_cancel%%%"
+            },
+            "transfer": {
+                "header": "%%%.wallet.action.transfer.header%%%",
+                "to_address": {
+                    "placeholder": "%%%.wallet.action.transfer.to_address.placeholder%%%"
+                }
+            }
+        }
+    },
     "WHITE_PAPER_H1": "%%%.WHITE_PAPER_H1%%%",
     "WHITE_PAPER_SUBTITLE_1": "%%%.WHITE_PAPER_SUBTITLE_1%%%",
     "WHITE_PAPER_SUBTITLE_2": "%%%.WHITE_PAPER_SUBTITLE_2%%%",
