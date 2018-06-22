@@ -162,7 +162,7 @@
         },
         {
             "question": "Benötige ich Äther? Unterstützt es andere kryptowährungen?",
-            "answer": "Ja. Ninja akzeptiert nur ETH für jetzt, aber Unterstützung wird sehr bald für andere Währungen hinzugefügt werden."
+            "answer": "Yes. Ninja only accepts ETH for now, but support will be added for other currencies very soon."
         },
         {
             "question": "Wie starte ich mit Ninja?",
@@ -186,12 +186,12 @@
             ]
         },
         {
-            "question": "What’s special about PEX? Why should i bet on one?",
-            "answer": "Yes! When creating your own bet, you’ll enter the event you’re interested in and the outcome you want to bet on. Then, simply enter your stake and the odds you want. Then the PEX Engine will automatically find and match you with anyone that has an interest in the same event, and who accepts your odds."
+            "question": "einstellen kann ich meine eigenen bevorzugten Chancen? Wie?",
+            "answer": "Ja! Wenn Sie Ihren eigenen Einsatz zu erstellen, geben Sie das Ereignis, das, dem Sie interessiert sind, und die Ergebnisse, die, der Sie wetten möchten. Dann geben Sie einfach Ihren Einsatz und die Chancen, die Sie wollen. Dann die PEX-Engine automatisch finden und passen Sie mit jemand, hat ein Interesse an der gleichen Veranstaltung, und wer übernimmt Ihre Gewinnchancen."
         },
         {
-            "question": "How do you police unsavory/illegal bets?",
-            "answer": "We are currently building a system of checks and balances to flag up inappropriate behaviour in the dojo."
+            "question": "wie Polizei Sie unangenehme/illegale Wetten?",
+            "answer": "Wir bauen derzeit ein System der Checks and Balances, unangemessenes Verhalten im Dojo zu kennzeichnen."
         },
         {
             "question": "How does the system know the result of bets between people? Who acts as arbitrator and verifies one outcome vs. another at conclusion of contract?",
