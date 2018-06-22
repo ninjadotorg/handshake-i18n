@@ -1,5 +1,4 @@
 {
-    "HELLO": "%%%.HELLO%%%",
     "buy": "%%%.buy%%%",
     "sell": "%%%.sell%%%",
     "amount": "%%%.amount%%%",
