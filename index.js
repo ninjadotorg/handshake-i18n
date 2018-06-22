@@ -56,8 +56,8 @@ function parseRow(row, key) {
     return translationKey;
   }
   if (_.isArray(row)) {
-    return row.map(item => {
-      return parseRow(item, key);
+    return row.map((item, index) => {
+      return parseRow(item, `${key}.${index}`);
     });
   }
   if (typeof row === 'object') {

@@ -153,81 +153,81 @@
     "FAQ_HEADER": "%%%.FAQ_HEADER%%%",
     "FAQ_DATA": [
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.0.question%%%",
+            "answer": "%%%.FAQ_DATA.0.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.1.question%%%",
+            "answer": "%%%.FAQ_DATA.1.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.2.question%%%",
+            "answer": "%%%.FAQ_DATA.2.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
+            "question": "%%%.FAQ_DATA.3.question%%%",
             "answer": [
                 {
-                    "title": "%%%.FAQ_DATA.answer.title%%%",
-                    "content": "%%%.FAQ_DATA.answer.content%%%"
+                    "title": "%%%.FAQ_DATA.3.answer.0.title%%%",
+                    "content": "%%%.FAQ_DATA.3.answer.0.content%%%"
                 },
                 {
-                    "title": "%%%.FAQ_DATA.answer.title%%%",
-                    "content": "%%%.FAQ_DATA.answer.content%%%"
+                    "title": "%%%.FAQ_DATA.3.answer.1.title%%%",
+                    "content": "%%%.FAQ_DATA.3.answer.1.content%%%"
                 },
                 {
-                    "title": "%%%.FAQ_DATA.answer.title%%%",
-                    "content": "%%%.FAQ_DATA.answer.content%%%"
+                    "title": "%%%.FAQ_DATA.3.answer.2.title%%%",
+                    "content": "%%%.FAQ_DATA.3.answer.2.content%%%"
                 },
                 {
-                    "title": "%%%.FAQ_DATA.answer.title%%%",
-                    "content": "%%%.FAQ_DATA.answer.content%%%"
+                    "title": "%%%.FAQ_DATA.3.answer.3.title%%%",
+                    "content": "%%%.FAQ_DATA.3.answer.3.content%%%"
                 }
             ]
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.4.question%%%",
+            "answer": "%%%.FAQ_DATA.4.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.5.question%%%",
+            "answer": "%%%.FAQ_DATA.5.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.6.question%%%",
+            "answer": "%%%.FAQ_DATA.6.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.7.question%%%",
+            "answer": "%%%.FAQ_DATA.7.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.8.question%%%",
+            "answer": "%%%.FAQ_DATA.8.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.9.question%%%",
+            "answer": "%%%.FAQ_DATA.9.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.10.question%%%",
+            "answer": "%%%.FAQ_DATA.10.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.11.question%%%",
+            "answer": "%%%.FAQ_DATA.11.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.12.question%%%",
+            "answer": "%%%.FAQ_DATA.12.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.13.question%%%",
+            "answer": "%%%.FAQ_DATA.13.answer%%%"
         },
         {
-            "question": "%%%.FAQ_DATA.question%%%",
-            "answer": "%%%.FAQ_DATA.answer%%%"
+            "question": "%%%.FAQ_DATA.14.question%%%",
+            "answer": "%%%.FAQ_DATA.14.answer%%%"
         }
     ],
     "MOT_TITLE": "%%%.MOT_TITLE%%%",
@@ -237,78 +237,78 @@
     "MOT_CONTENT_3": "%%%.MOT_CONTENT_3%%%",
     "MOT_LIST_CONTENT": [
         {
-            "mainContent": "%%%.MOT_LIST_CONTENT.mainContent%%%",
-            "placeHolderLink": "%%%.MOT_LIST_CONTENT.placeHolderLink%%%",
-            "link": "%%%.MOT_LIST_CONTENT.link%%%"
+            "mainContent": "%%%.MOT_LIST_CONTENT.0.mainContent%%%",
+            "placeHolderLink": "%%%.MOT_LIST_CONTENT.0.placeHolderLink%%%",
+            "link": "%%%.MOT_LIST_CONTENT.0.link%%%"
         },
         {
-            "mainContent": "%%%.MOT_LIST_CONTENT.mainContent%%%",
-            "placeHolderLink": "%%%.MOT_LIST_CONTENT.placeHolderLink%%%",
-            "link": "%%%.MOT_LIST_CONTENT.link%%%"
+            "mainContent": "%%%.MOT_LIST_CONTENT.1.mainContent%%%",
+            "placeHolderLink": "%%%.MOT_LIST_CONTENT.1.placeHolderLink%%%",
+            "link": "%%%.MOT_LIST_CONTENT.1.link%%%"
         },
         {
-            "mainContent": "%%%.MOT_LIST_CONTENT.mainContent%%%",
-            "placeHolderLink": "%%%.MOT_LIST_CONTENT.placeHolderLink%%%",
-            "link": "%%%.MOT_LIST_CONTENT.link%%%"
+            "mainContent": "%%%.MOT_LIST_CONTENT.2.mainContent%%%",
+            "placeHolderLink": "%%%.MOT_LIST_CONTENT.2.placeHolderLink%%%",
+            "link": "%%%.MOT_LIST_CONTENT.2.link%%%"
         }
     ],
     "COIN_EXCHANGE_LP_FAQ_TITLE": "%%%.COIN_EXCHANGE_LP_FAQ_TITLE%%%",
     "COIN_EXCHANGE_LP_FAQ": [
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.0.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.0.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.1.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.1.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.2.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.2.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.3.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.3.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.4.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.4.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.5.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.5.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.6.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.6.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.7.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.7.answer%%%"
         },
         {
-            "question": "%%%.COIN_EXCHANGE_LP_FAQ.question%%%",
-            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.answer%%%"
+            "question": "%%%.COIN_EXCHANGE_LP_FAQ.8.question%%%",
+            "answer": "%%%.COIN_EXCHANGE_LP_FAQ.8.answer%%%"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
         "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.title%%%",
         "info": [
             {
-                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.title%%%",
-                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.description%%%"
+                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.0.title%%%",
+                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.0.description%%%"
             },
             {
-                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.title%%%",
-                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.description%%%"
+                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.1.title%%%",
+                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.1.description%%%"
             },
             {
-                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.title%%%",
-                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.description%%%"
+                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.2.title%%%",
+                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.2.description%%%"
             },
             {
-                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.title%%%",
-                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.description%%%"
+                "title": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.3.title%%%",
+                "description": "%%%.COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE.info.3.description%%%"
             }
         ]
     },
@@ -408,13 +408,13 @@
     "WHITE_PAPER_INTRO": "%%%.WHITE_PAPER_INTRO%%%",
     "WHITE_PAPER_INTRO_1": "%%%.WHITE_PAPER_INTRO_1%%%",
     "WHITE_PAPER_INTRO_2": [
-        "%%%.WHITE_PAPER_INTRO_2%%%",
-        "%%%.WHITE_PAPER_INTRO_2%%%",
-        "%%%.WHITE_PAPER_INTRO_2%%%",
-        "%%%.WHITE_PAPER_INTRO_2%%%",
-        "%%%.WHITE_PAPER_INTRO_2%%%",
-        "%%%.WHITE_PAPER_INTRO_2%%%",
-        "%%%.WHITE_PAPER_INTRO_2%%%"
+        "%%%.WHITE_PAPER_INTRO_2.0%%%",
+        "%%%.WHITE_PAPER_INTRO_2.1%%%",
+        "%%%.WHITE_PAPER_INTRO_2.2%%%",
+        "%%%.WHITE_PAPER_INTRO_2.3%%%",
+        "%%%.WHITE_PAPER_INTRO_2.4%%%",
+        "%%%.WHITE_PAPER_INTRO_2.5%%%",
+        "%%%.WHITE_PAPER_INTRO_2.6%%%"
     ],
     "WHITE_PAPER_INTRO_3": "%%%.WHITE_PAPER_INTRO_3%%%",
     "WHITE_PAPER_INTRO_4_HIGH_LIGHT": "%%%.WHITE_PAPER_INTRO_4_HIGH_LIGHT%%%",
@@ -425,10 +425,10 @@
     "WHITE_PAPER_PEX": "%%%.WHITE_PAPER_PEX%%%",
     "WHITE_PAPER_PEX_1": "%%%.WHITE_PAPER_PEX_1%%%",
     "WHITE_PAPER_PEX_2": [
-        "%%%.WHITE_PAPER_PEX_2%%%",
-        "%%%.WHITE_PAPER_PEX_2%%%",
-        "%%%.WHITE_PAPER_PEX_2%%%",
-        "%%%.WHITE_PAPER_PEX_2%%%"
+        "%%%.WHITE_PAPER_PEX_2.0%%%",
+        "%%%.WHITE_PAPER_PEX_2.1%%%",
+        "%%%.WHITE_PAPER_PEX_2.2%%%",
+        "%%%.WHITE_PAPER_PEX_2.3%%%"
     ],
     "WHITE_PAPER_PEX_3": "%%%.WHITE_PAPER_PEX_3%%%",
     "WHITE_PAPER_OUTCOME": "%%%.WHITE_PAPER_OUTCOME%%%",
@@ -473,9 +473,9 @@
     "WHITE_PAPER_ARCHITECTURE_4_2": "%%%.WHITE_PAPER_ARCHITECTURE_4_2%%%",
     "WHITE_PAPER_ARCHITECTURE_4_3": "%%%.WHITE_PAPER_ARCHITECTURE_4_3%%%",
     "WHITE_PAPER_ARCHITECTURE_4_4": [
-        "%%%.WHITE_PAPER_ARCHITECTURE_4_4%%%",
-        "%%%.WHITE_PAPER_ARCHITECTURE_4_4%%%",
-        "%%%.WHITE_PAPER_ARCHITECTURE_4_4%%%"
+        "%%%.WHITE_PAPER_ARCHITECTURE_4_4.0%%%",
+        "%%%.WHITE_PAPER_ARCHITECTURE_4_4.1%%%",
+        "%%%.WHITE_PAPER_ARCHITECTURE_4_4.2%%%"
     ],
     "WHITE_PAPER_ARCHITECTURE_5_HL": "%%%.WHITE_PAPER_ARCHITECTURE_5_HL%%%",
     "WHITE_PAPER_ARCHITECTURE_5": "%%%.WHITE_PAPER_ARCHITECTURE_5%%%",
