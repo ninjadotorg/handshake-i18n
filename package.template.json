@@ -1,6 +1,6 @@
 {
   "name": "handshake-i18n",
-  "version": "${version}",
+  "version": "0.0.${version}",
   "main": "i18n.js",
   "license": "MIT",
   "private": true,
