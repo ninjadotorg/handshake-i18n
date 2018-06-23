@@ -157,9 +157,10 @@ function unparser() {
       unzip.Extract({ path: unzipDir })
       .on('close', function () {
         const languages = Object.keys(parsedName);
-        let languageFile = fs.readFileSync(path.resolve(storeDir, 'en.origin.js'), 'utf8');
 
         languages.map(language => {
+          let languageFile = fs.readFileSync(path.resolve(storeDir, 'en.origin.js'), 'utf8');
+
           const translatedFile = fs.readFileSync(
             path.resolve(downloadDir, 'unzip', language, 'en.csv'),
             'utf8',
