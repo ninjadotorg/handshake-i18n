@@ -168,7 +168,7 @@ function unparser() {
             .fromString(translatedFile)
             .on('data', (data) => {
               languageFile = languageFile.replace(
-                data[0], data[1] ? data[1].replace(/\n/g, '\\n') : ''
+                data[0], data[1] ? data[1].replace(/\n/g, '\\n').replace(/\"/g, '\\\"') : ''
               );
             })
             .on('end', () => {
