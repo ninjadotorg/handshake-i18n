@@ -148,7 +148,7 @@
     "btn.cancel": "Cancel",
     "btn.close": "Close",
     "btn.accept": "Accept",
-    "FAQ_TITLE": "FAQ",
+    "FAQ_TITLE": "Вопросы и ответы",
     "FAQ_HEADER_YELLOW": "Decentralized",
     "FAQ_HEADER": "Prediction Exchange",
     "FAQ_DATA": [
@@ -402,8 +402,8 @@
             }
         },
         "feed": {
-            "profileTitle": "The face behind the mask",
-            "profileDescription": "You, glorious you",
+            "profileTitle": "Лицо за маской",
+            "profileDescription": "Вы, славный вы",
             "shopTitle": "Your station",
             "shopDescription": "Open for business",
             "noDataMessage": "Start a mission."
@@ -475,7 +475,7 @@
         "emptyMessage": "Trade secrets here. All communication is encrypted and no one is listening.",
         "notFoundUser": "The Ninja you are looking for is not here. Perhaps you have their name wrong.",
         "lastMessageContent": "You lost the key to this secret message.",
-        "searchPlaceHolder": "Enter a ninja’s name or alias."
+        "searchPlaceHolder": "Введите имя или псевдоним ниндзя."
     },
     "WHITE_PAPER_H1": "Anonymous Peer-to-Peer Prediction Exchange on Ethereum",
     "WHITE_PAPER_SUBTITLE_1": "Hello! We are Roc, Bakunawa, Hakawai and Grootslang from the Ninja team. We are building an electronic prediction exchange on the blockchain. Here’s why we did it, and how it works!",
