@@ -252,7 +252,7 @@
             "link": "https://t.me/ninja_org"
         }
     ],
-    "COIN_EXCHANGE_LP_FAQ_TITLE": "Have any questions?",
+    "COIN_EXCHANGE_LP_FAQ_TITLE": "Preguntas más frecuentes?",
     "COIN_EXCHANGE_LP_FAQ": [
         {
             "question": "What ID do I need as a seller or a buyer?",
@@ -477,15 +477,15 @@
         "lastMessageContent": "You lost the key to this secret message.",
         "searchPlaceHolder": "Enter a ninja’s name or alias."
     },
-    "WHITE_PAPER_H1": "Anonymous Peer-to-Peer Prediction Exchange on Ethereum",
-    "WHITE_PAPER_SUBTITLE_1": "Hello! We are Roc, Bakunawa, Hakawai and Grootslang from the Ninja team. We are building an electronic prediction exchange on the blockchain. Here’s why we did it, and how it works!",
-    "WHITE_PAPER_SUBTITLE_2": "Join the conversation at",
-    "WHITE_PAPER_INTRO": "Introduction",
-    "WHITE_PAPER_INTRO_1": "Online betting is run almost exclusively by bookmakers that serve as trusted third parties. As is typically the case, the users suffer from this “centralized trusted thirty party problem”:",
+    "WHITE_PAPER_H1": "Predicción de Peer-to-Peer anónimo intercambio de Etereum",
+    "WHITE_PAPER_SUBTITLE_1": "¡Hola! Somos Roc, Bakunawa, Hakawai y Grootslang desde el equipo de Ninja. Estamos construyendo un intercambio electrónico de predicción en la blockchain. Aquí es por qué lo hicimos, y cómo funciona!",
+    "WHITE_PAPER_SUBTITLE_2": "Únete a la conversación en",
+    "WHITE_PAPER_INTRO": "Introducción",
+    "WHITE_PAPER_INTRO_1": "Apuestas en línea está dirigida casi exclusivamente por corredores de apuestas que sirven como terceras partes de confianza. Como suele ser el caso, los usuarios sufren de este \"problema del treinta partido confianza centralizada\":",
     "WHITE_PAPER_INTRO_2": [
-        "Bookmakers set the odds that always favor them (they always win)",
-        "Bookmakers enjoy a hefty 5% — 30% margin on every bet",
-        "Bets are reversible, and winnings are uncertain",
+        "Casas de apuestas establece las probabilidades que siempre favorecen a los (ellos siempre ganan)",
+        "Casas de apuestas disfrutan un importante 5% — margen de 30% en cada apuesta",
+        "Las apuestas son reversibles, y las ganancias son inciertas",
         "Completely anonymity is not possible",
         "Fraud is unavoidable, and accepted for being so",
         "Single point of failure — what if the bookmaker disappears?",
