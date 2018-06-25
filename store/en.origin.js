@@ -400,6 +400,13 @@
                     }
                 }
             }
+        },
+        "feed": {
+            "profileTitle": "%%%.me.feed.profileTitle%%%",
+            "profileDescription": "%%%.me.feed.profileDescription%%%",
+            "shopTitle": "%%%.me.feed.shopTitle%%%",
+            "shopDescription": "%%%.me.feed.shopDescription%%%",
+            "noDataMessage": "%%%.me.feed.noDataMessage%%%"
         }
     },
     "wallet": {
@@ -463,6 +470,12 @@
                 }
             }
         }
+    },
+    "chat": {
+        "emptyMessage": "%%%.chat.emptyMessage%%%",
+        "notFoundUser": "%%%.chat.notFoundUser%%%",
+        "lastMessageContent": "%%%.chat.lastMessageContent%%%",
+        "searchPlaceHolder": "%%%.chat.searchPlaceHolder%%%"
     },
     "WHITE_PAPER_H1": "%%%.WHITE_PAPER_H1%%%",
     "WHITE_PAPER_SUBTITLE_1": "%%%.WHITE_PAPER_SUBTITLE_1%%%",
