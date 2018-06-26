@@ -148,6 +148,7 @@
     "btn.cancel": "%%%.btn.cancel%%%",
     "btn.close": "%%%.btn.close%%%",
     "btn.accept": "%%%.btn.accept%%%",
+    "product_info": "%%%.product_info%%%",
     "FAQ_TITLE": "%%%.FAQ_TITLE%%%",
     "FAQ_HEADER_YELLOW": "%%%.FAQ_HEADER_YELLOW%%%",
     "FAQ_HEADER": "%%%.FAQ_HEADER%%%",
@@ -409,6 +410,10 @@
             "noDataMessage": "%%%.me.feed.noDataMessage%%%"
         }
     },
+    "discover": {
+        "noDataMessageCash": "%%%.discover.noDataMessageCash%%%",
+        "noDataMessageSwap": "%%%.discover.noDataMessageSwap%%%"
+    },
     "wallet": {
         "top_banner": {
             "message": "%%%.wallet.top_banner.message%%%",
@@ -542,6 +547,12 @@
                 }
             }
         }
+    },
+    "chat": {
+        "emptyMessage": "%%%.chat.emptyMessage%%%",
+        "notFoundUser": "%%%.chat.notFoundUser%%%",
+        "lastMessageContent": "%%%.chat.lastMessageContent%%%",
+        "searchPlaceHolder": "%%%.chat.searchPlaceHolder%%%"
     },
     "WHITE_PAPER_H1": "%%%.WHITE_PAPER_H1%%%",
     "WHITE_PAPER_SUBTITLE_1": "%%%.WHITE_PAPER_SUBTITLE_1%%%",

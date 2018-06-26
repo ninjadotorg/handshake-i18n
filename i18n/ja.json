@@ -149,85 +149,85 @@
     "btn.close": "Close",
     "btn.accept": "Accept",
     "FAQ_TITLE": "FAQ",
-    "FAQ_HEADER_YELLOW": "Decentralized",
+    "FAQ_HEADER_YELLOW": "予測 Exchange を分散",
     "FAQ_HEADER": "Prediction Exchange",
     "FAQ_DATA": [
         {
-            "question": "What is Ninja PEX?",
-            "answer": "Ninja is an anonymous peer-to-peer decentralized prediction exchange running on top of the Ethereum blockchain."
+            "question": "忍者 PEX ってなに",
+            "answer": "忍者は、Ethereum blockchain 上で実行される匿名のピア ツー ピア分散予測交換です。"
         },
         {
-            "question": "What’s special about PEX? Why should i bet on one?",
-            "answer": "It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
+            "question": "PEX について特別なは? なぜ私は 1 つに賭ける必要があります?",
+            "answer": "中央官庁やブック メーカーを経由せず直接賭ける互いに当事者をことができます。これは 100% 匿名、兆候ダウンロードが必要になりません。賭け金の管理や賞金の決済によって実行されますまとめて blockchain のネットワークは、すべての単一点障害からユーザーを保護します。独自の予測市場を作成することも。"
         },
         {
-            "question": "Do I need Ether? Does it support other cryptocurrencies?",
-            "answer": "Yes. Ninja only accepts ETH for now, but support will be added for other currencies very soon."
+            "question": "エーテルは必要ですか。それが他の cryptocurrencies を支えるか。",
+            "answer": "うん。忍者はのみ今のところ、ETH を受け付けますが、他の通貨のサポートが非常にすぐに追加されます。"
         },
         {
-            "question": "How do I start with Ninja?",
+            "question": "忍者の始まる.",
             "answer": [
                 {
-                    "title": "Get Ether:",
+                    "title": "エーテルを得る。",
                     "content": " You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
                 },
                 {
-                    "title": "Top up your PEX Wallet:",
-                    "content": "You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
+                    "title": "PEX 財布をトップします。",
+                    "content": "PEX 財布に ETH を転送します。PEX の財布は完全に分散、あなたの携帯電話に秘密キーを保管、あなただけ転送、ETH を送受信することができます。"
                 },
                 {
-                    "title": "Place a bet:",
-                    "content": "Pick the market you want to bet (i.e. Brazil - Spain), the outcomes (i.e. Brazil wins) and the site (i.e. support or bet against the outcome)\nEnter the stake you want to bet (i.e. 1 ETH) and the odds (i.e. 1/ 2.25)\nThe PEX Matching Engine will then find another order that bets against the odds you set."
+                    "title": "ベットを配置します。",
+                    "content": "ピックするベット (すなわちブラジル - スペイン)、結果 (すなわちブラジル wins) とサイト (サポートまたは結果に対して賭け) 市場\n ベット (すなわち 1 ETH) とオッズの場合出資を入力 (つまり 1/2.25\n' +\n BEX マッチング エンジンは、ベットを設定する予想に反して別の順序を見つけます。"
                 },
                 {
-                    "title": "Wait for the report:",
-                    "content": "if you win, your winnings will be automatically transferred from the escrow smart contract to your account."
+                    "title": "レポートを待つ:",
+                    "content": "あなたのアカウントに、エスクロー スマート契約からはあなたの賞金自動的に転送されますあなたが勝った場合。"
                 }
             ]
         },
         {
-            "question": "What’s special about PEX? Why should i bet on one?",
-            "answer": "Yes! When creating your own bet, you’ll enter the event you’re interested in and the outcome you want to bet on. Then, simply enter your stake and the odds you want. Then the PEX Engine will automatically find and match you with anyone that has an interest in the same event, and who accepts your odds."
+            "question": "私は自分の最寄りののオッズを設定できますか。どのようにですか?",
+            "answer": "うん！自分の賭けを作成するには、興味を持っているイベントとの賭けを結果を入力します。その後、単にあなたの株式と場合のオッズを入力します。[PEX エンジン自動的に検索し、誰もが同じイベントに興味を持っている、あなたの勝算を受け入れる人を一致させます。"
         },
         {
-            "question": "How do you police unsavory/illegal bets?",
-            "answer": "We are currently building a system of checks and balances to flag up inappropriate behaviour in the dojo."
+            "question": "どのように不快な/違法賭けを警察か。",
+            "answer": "我々 は現在と道場で不適切な行動をフラグする均衡のシステムを構築しています。"
         },
         {
-            "question": "How does the system know the result of bets between people? Who acts as arbitrator and verifies one outcome vs. another at conclusion of contract?",
-            "answer": "Ninja will soon have a completely decentralized solution for verifying the outcome and incentivizing truth telling (a DAO of reporters!). In the meantime, as we will launch just in time for the FIFA world cup, our team will use a public source (livescore.com) and act as the reporter."
+            "question": "システムは、どのように人々 の間の賭の結果を知っていますか人は仲裁人として機能し、別契約の締結での対 1 つの結果を確認しますか。",
+            "answer": "忍者はすぐ結果を確認して病名告知 (記者の DAO!) の報奨のため完全に分散型ソリューションがあります。一方で、FIFA ワールド カップのための時間だけで、起動すると、我々 のチームがパブリック ソース (livescore.com) を使用、記者を務めます。"
         },
         {
-            "question": "Where is the coin held?",
-            "answer": "No one holds the funds. All the funds are kept safe in escrow until a resolution is reached."
+            "question": "コインははどこで開催されますか。",
+            "answer": "誰が資金を保持しています。すべての資金は、解像度に達するまで条件付け捺印証書安全な保存されます。"
         },
         {
-            "question": "Why should I bet on blockchain instead of using traditional methods?",
-            "answer": "A decentralized prediction exchange will provide you the freedom to create your own odds and bet directly with anyone, offer you 100% ninja anonymity and guaranteed payouts."
+            "question": "従来の方法を使用する代わりに blockchain に賭けるなぜとする必要がありますか。",
+            "answer": "分散予測交換は誰とでも直接、独自のオッズと賭けを作成するための自由は 100% 忍者の匿名性を提供し、支払いを保証を提供します。"
         },
         {
-            "question": "How about privacy and anonymity?",
-            "answer": "Ninja requires no downloads, and no sign ups. That means no passwords, no phone numbers and no emails. 100% anonymity."
+            "question": "方法についてプライバシーと匿名性ですか。",
+            "answer": "忍者には、ダウンロード不要とないサインアップが必要です。つまり、パスワード、電話番号がなく、メールを送信しません。100% 年の匿名。"
         },
         {
-            "question": "Do I need to pay any fees?",
-            "answer": "There are two main types of fees: creator fees (for the ninja that creates the bet) and the network fee (a percentage of the creator fee, that goes towards maintaining the platform)."
+            "question": "料金を支払う必要がありますか。",
+            "answer": "手数料の 2 つの主なタイプがある: (ベットを作成する忍者) の作成者料とネットワーク料 (プラットフォームを維持することの方に行くされる創作者手数料の割合)。"
         },
         {
-            "question": "What do I need to do when the outcome is finalized?",
-            "answer": "Nothing. If you win, your winnings will be automatically transferred to your account. If you lose, it will be someone else’s account."
+            "question": "どのような結果を確定するしたいですか。",
+            "answer": "何もない。あなたが勝った場合、あなたの賞金はあなたのアカウントに自動的に転送されます。紛失した場合、それは誰か他の人のアカウントになります。"
         },
         {
-            "question": "Where can I find a match to bet on?",
-            "answer": "On the homepage, you’ll be able to browse ongoing bets and markets. If you can’t find any you like, create your own!"
+            "question": "'どこに賭ける一致を検索できますか。",
+            "answer": "ホームページにおいて、継続的なベットと市場を参照することができます。あなたのように見つけることができない場合は、あなた自身を作成!"
         },
         {
-            "question": "Other than sports, can I bet on anything else? How does it work?",
-            "answer": "Very soon, Ninja will apply to everything under the sun. The only limitation will be your creativity. You can easily create any market on any future event, be it sports, politics, science, markets, climate… you name it."
+            "question": "ホームページにおいて、継続的なベットと市場を参照することができます。あなたのように見つけることができない場合は、あなた自身を作成!",
+            "answer": "非常に早く、忍者は、太陽の下ですべてに適用されます。唯一の制限はあなたの創造性になります。簡単に任意の将来のイベントを任意の市場を作成できます、スポーツのこと、政治、科学、市場、気候."
         },
         {
-            "question": "What’s gonna happen to the Handshake mobile app?",
-            "answer": "We will be integrating Handshake (and your favourite features like promises, IOUs, contract upload, etc.) into the Ninja mobile website."
+            "question": "はハンドシェイクのモバイル アプリに起こるつもりですか。",
+            "answer": "我々 は忍者携帯サイトにハンドシェイク (と約束、IOUs、契約アップロード等のようなあなたのお気に入りの機能) を統合するでしょう。"
         }
     ],
     "MOT_TITLE": "何か匿名の交流",
@@ -543,18 +543,18 @@
             }
         }
     },
-    "WHITE_PAPER_H1": "Anonymous Peer-to-Peer Prediction Exchange on Ethereum",
-    "WHITE_PAPER_SUBTITLE_1": "Hello! We are Roc, Bakunawa, Hakawai and Grootslang from the Ninja team. We are building an electronic prediction exchange on the blockchain. Here’s why we did it, and how it works!",
-    "WHITE_PAPER_SUBTITLE_2": "Join the conversation at",
-    "WHITE_PAPER_INTRO": "Introduction",
-    "WHITE_PAPER_INTRO_1": "Online betting is run almost exclusively by bookmakers that serve as trusted third parties. As is typically the case, the users suffer from this “centralized trusted thirty party problem”:",
+    "WHITE_PAPER_H1": "Ethereum 匿名のピア ツー ピア予測交換",
+    "WHITE_PAPER_SUBTITLE_1": "こんにちは！Roc、バクナワ、Hakawai、グローツラング忍者チームからです。我々 は、blockchain の電子予測交換を構築しています。ここでは私たちがなぜ、それとどのように動作!",
+    "WHITE_PAPER_SUBTITLE_2": "会話に参加",
+    "WHITE_PAPER_INTRO": "導入",
+    "WHITE_PAPER_INTRO_1": "オンライン賭博は、信頼できる第三者としてブック メーカーによってほとんど専ら実行されます。場合は通常、ユーザーは、この「一元的な信頼できる 30 パーティー問題」によって苦しみます。",
     "WHITE_PAPER_INTRO_2": [
-        "Bookmakers set the odds that always favor them (they always win)",
-        "Bookmakers enjoy a hefty 5% — 30% margin on every bet",
-        "Bets are reversible, and winnings are uncertain",
-        "Completely anonymity is not possible",
-        "Fraud is unavoidable, and accepted for being so",
-        "Single point of failure — what if the bookmaker disappears?",
+        "ブック メーカー (彼らは常に勝つ) それらを好む常にオッズを設定します。",
+        "ブック メーカーは、高額の 5% をお楽しみください。 - すべての賭の 30% のマージン",
+        "ベットは可逆的で、賞金があります。",
+        "完全に匿名性は不可能",
+        "詐欺はやむを得ないと受け入れたそうであります。",
+        "単一障害点 - ブック メーカーが消える場合はどうですか?",
         "Betting is considered gambling — disproportionately risky, largely due to the centralized party’s lack of transparency"
     ],
     "WHITE_PAPER_INTRO_3": "These problems multiply by 10 when it comes to betting offline, so it is little wonder that users are increasingly taking the lesser of two evils.",
