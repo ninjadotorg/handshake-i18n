@@ -85,7 +85,7 @@ function prepare() {
     let csvFileData = '';
 
     Object.keys(mapList).map(key => {
-      csvFileData = `${csvFileData}\r\n${key},"${mapList[key].replace('"', '\\"')}"`;
+      csvFileData = `${csvFileData}\r\n${key},"${mapList[key].replace(/"/g, '\\"')}"`;
     });
 
     fs.writeFileSync(path.resolve(storeDir, 'en.csv'), csvFileData, 'utf8');
