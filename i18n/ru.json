@@ -457,10 +457,10 @@
             "header": "3 Shuriken Airdrop hoops",
             "title": "Ваша супер секси реферальная ссылка. Вы получите 20 shurikens за каждого нового ниндзя.",
             "text": {
-                "copy_link": "Referral link copied to clipboard.",
-                "note": "Do not change your alias or this link will be unvalid",
+                "copy_link": "Реферальная ссылка скопирована в буфер обмена.",
+                "note": "Не изменяйте свой псевдоним или эта ссылка будет неуважительной",
                 "number_ninjas": "You brought {0} ninjas to the dojo.",
-                "number_total": "Total reward: {0} SHURI"
+                "number_total": "Общая награда: {0} SHURI"
             }
         },
         "action": {
@@ -478,67 +478,67 @@
                     "placeholder": "Уточнить получателя..."
                 },
                 "error": "Insufficient balance: ",
-                "button": "Transfer"
+                "button": "Перевод"
             },
             "copy": {
-                "title": "Copy address to clipboard",
-                "message": "Copy address to clipboard",
-                "success": "Copied to clipboard"
+                "title": "Копировать адрес в буфер обмена",
+                "message": "Копировать адрес в буфер обмена",
+                "success": "Скопировано в буфер обмена"
             },
             "default": {
-                "title": "Set as default {0} wallet "
+                "title": "Установить по умолчанию {0} кошелек "
             },
             "cancel": {
                 "title": "Отмена"
             },
             "restore": {
                 "title": "Восстановить кошельки",
-                "message": "Your Wallet restore success",
-                "error": "Invalid wallets"
+                "message": "Ваш кошелек восстановлен",
+                "error": "Недействительные кошельки"
             },
             "import": {
-                "title": "Add new / Import"
+                "title": "Добавить / Импортировать"
             },
             "backup": {
-                "title": "Backup wallets"
+                "title": "Резервные кошельки"
             },
             "protect": {
-                "title": "Secure this wallet",
+                "title": "Защитите этот кошелек",
                 "text": {
-                    "step1_msg1": "This passphrase will allow you to recover your funds if your phone is ever lost or stolen.",
-                    "step1_msg2": "Please make sure nobody has access to your passphrase. You can use a password manager or write it down and hide it under your mattress.",
-                    "step1_label": "I understand that if I lose my passphrase, I lose access to my account.",
-                    "step2_msg1": "Record these words carefully. Don't email it or screenshot it.",
-                    "step3_msg1": "Tap to put these words in the correct order."
+                    "step1_msg1": "Эта кодовая фраза позволит вам восстановить свои средства, если ваш телефон когда-либо потерян или украден.",
+                    "step1_msg2": "Убедитесь, что у вас нет доступа к вашей кодовой фразе. Вы можете использовать менеджер паролей или записать его и спрятать под матрасом.",
+                    "step1_label": "Я понимаю, что если я потеряю кодовую фразу, я потеряю доступ к своей учетной записи.",
+                    "step2_msg1": "Запишите эти слова внимательно. Не отправляйте его по электронной почте или не скриншот.",
+                    "step3_msg1": "Нажмите, чтобы поместить эти слова в правильном порядке."
                 },
                 "button": {
-                    "continue": "Continue",
-                    "verify": "Verify your passsphrase",
-                    "copy_clipboard": "Copy to clipboard",
-                    "ok": "OK"
+                    "continue": "Продолжать",
+                    "verify": "Проверьте свою парольную фразу",
+                    "copy_clipboard": "Скопировать в буфер обмена",
+                    "ok": "ОК"
                 },
                 "error": {
-                    "confirm": "These words are in the wrong order. Please try again."
+                    "confirm": "Эти слова находятся в неправильном порядке. Пожалуйста, попробуйте еще раз."
                 },
-                "success": "Your wallet has been secured!"
+                "success": "Ваш кошелек обеспечен!"
             },
             "receive": {
-                "title": "Receive coins"
+                "title": "Получать монеты"
             },
             "scan_qrcode": {
-                "header": "Scan QR code"
+                "header": "Сканировать QR-код"
             },
             "history": {
-                "title": "View transaction history",
-                "header": "Transaction details",
+                "title": "Просмотр истории транзакций",
+                "header": "Детали транзакции",
                 "label": {
-                    "failed": "failed",
-                    "unconfirmed": "Unconfirmed",
-                    "balance": "Balance",
-                    "transactions": "Transactions",
-                    "status": "Status",
-                    "confirmations": "confirmations",
-                    "success": "success"
+                    "failed": "не смогли",
+                    "unconfirmed": "Неподтвержденный",
+                    "balance": "Баланс",
+                    "transactions": "Операции",
+                    "status": "Положение дел",
+                    "confirmations": "подтверждения",
+                    "success": "успех"
                 }
             }
         }
