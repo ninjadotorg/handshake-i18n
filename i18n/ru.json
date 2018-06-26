@@ -35,9 +35,9 @@
     "cancelShakedfferSuccessMessage": "You have cancelled your order ",
     "withdrawShakedfferSuccessMessage": "Your offer has been withdrawn.",
     "buyUsingCreditCardSuccessMessge": "Your order using your credit card has gone through.",
-    "notEnoughCoinInWallet": "You don't have enough coin right now. Please top up your wallet.",
+    "notEnoughCoinInWallet": "У вас недостаточно монет сейчас. Пожалуйста, пополните кошелек.",
     "createOfferStoreConfirm": "Do you want to set up an offer to {intentMsg}?",
-    "notEnoughCoinInWalletStores": "You don't have enough coin right now. Please top up your wallet.",
+    "notEnoughCoinInWalletStores": "У вас недостаточно монет сейчас. Пожалуйста, пополните кошелек.",
     "addOfferItemSuccessMassage": "Success! Your order is now listed on Ninja",
     "deleteOfferItemSuccessMassage": "You have successfully deleted your order.",
     "shakeOfferItemSuccessMassage": "You have successfully shaked on Ninja",
@@ -411,71 +411,137 @@
     },
     "wallet": {
         "top_banner": {
-            "message": "Shuriken Airdrop (limited)",
-            "button": "Click here"
-        },
-        "refers_dashboard": {
-            "header": "3 Shuriken Airdrop hoops"
+            "message": "Shuriken Airdrop (ограничено)",
+            "button": "Нажмите здесь"
         },
         "refers": {
             "header": "3 Shuriken Airdrop hoops",
             "error": {
-                "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
-                "submit_twitter": "You haven't followed us yet. Please try again.",
-                "confirm_code": "Verification code is wrong. Please try again!",
-                "verify_code": "Can't send verify email",
-                "get_token": "Referral incomplete. Please try again."
+                "submit_telegram": "Не смогли найти вас в Telegram. Пожалуйста, выйдите из группы и попробуйте снова.",
+                "submit_twitter": "Вы еще не присоединились к нам. Пожалуйста, попробуйте снова.",
+                "confirm_code": "Код верификации неверен. Пожалуйста, попробуйте снова!",
+                "verify_code": "Не можем отправить email для верификации",
+                "get_token": "Реферальная реферальной программы не закончен. Пожалуйста, попробуйте снова."
             },
             "success": {
-                "submit_telegram": "Welcome to our telegram group!",
-                "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Your email has been verified.",
-                "verify_code": "Verification code has been sent to your email.",
-                "get_token": "Success! 80 shurikens have been added to your wallet.",
-                "copy_link": "Referral link copied to clipboard."
+                "submit_telegram": "Добро пожаловать в нашу группу в telegram!",
+                "submit_twitter": "Спасибо за то, что подписаны на нас в Twitter.",
+                "confirm_code": "Ваш email подтвержден.",
+                "verify_code": "Код подтверждения отправлен на ваш email. Пожалуйста, проверьте.",
+                "get_token": "успех! 80 shurikens было добавлено в ваш кошелек.",
+                "copy_link": "Реферальная ссылка скопирована в буфер обмена."
             },
             "button": {
-                "verified": "Verified",
-                "verify": "Verify",
-                "confirm": "Confirm",
-                "reset_email": "Reset email",
-                "get_token": "Just give me tokens"
+                "verified": "Верифицировано",
+                "verify": "Верифицировать",
+                "confirm": "Подтвердить",
+                "reset_email": "Ввести email заново",
+                "get_token": "Просто дайте мне токены"
             },
             "text": {
-                "title": "80 shiny Shurikens (SHURI).",
-                "telegram": "Insult us on telegram",
-                "telegram2": "Be creative. There’s a leaderboard.",
+                "title": "80 блестящих Shurikens (SHURI).",
+                "telegram": "Пожаловаться на нас в Telegram.",
+                "telegram2": "Leave your best joke for a chance to win more Shuri.",
                 "twitter": "Twitter",
-                "twitter2": "Our social media guy says we need followers on ",
-                "referral_link": "This is your super sexy referral link. You get 20 shurikens for every new ninja."
+                "twitter2": "Наш ответственный за соцмедиа говорит, что нам нужны подписчики в Twitter. Это ",
+                "referral_link": "Ваша супер секси реферальная ссылка. Вы получите 20 shurikens за каждого нового ниндзя."
             },
             "placeholder": {
                 "telegram_username": "Это навсегда удалит ваш кошелек",
-                "twitter_username": "Your twitter username",
-                "email": "Verification code",
-                "email2": "Your favourite fake email"
+                "twitter_username": "Ваше имя в Twitter",
+                "email": "Код подтверждения",
+                "email2": "Ваш любимый фейковый email"
+            }
+        },
+        "refers_dashboard": {
+            "header": "3 Shuriken Airdrop hoops",
+            "title": "Ваша супер секси реферальная ссылка. Вы получите 20 shurikens за каждого нового ниндзя.",
+            "text": {
+                "copy_link": "Referral link copied to clipboard.",
+                "note": "Do not change your alias or this link will be unvalid",
+                "number_ninjas": "You brought {0} ninjas to the dojo.",
+                "number_total": "Total reward: {0} SHURI"
             }
         },
         "action": {
             "remove": {
-                "header": "Are you sure?",
+                "title": "Удалить",
+                "header": "Вы уверены?",
                 "message": "Это навсегда удалит ваш кошелек.",
-                "button_yes": "Yes, remove",
-                "button_cancel": "Cancel"
+                "button_yes": "Да, удалить",
+                "button_cancel": "Отменить"
             },
             "transfer": {
-                "header": "Transfer coins",
+                "title": "Перевести монеты",
+                "header": "Перевести монеты",
                 "to_address": {
-                    "placeholder": "Specify receiving..."
+                    "placeholder": "Уточнить получателя..."
+                },
+                "error": "Insufficient balance: ",
+                "button": "Transfer"
+            },
+            "copy": {
+                "title": "Copy address to clipboard",
+                "message": "Copy address to clipboard",
+                "success": "Copied to clipboard"
+            },
+            "default": {
+                "title": "Set as default {0} wallet "
+            },
+            "cancel": {
+                "title": "Отмена"
+            },
+            "restore": {
+                "title": "Восстановить кошельки",
+                "message": "Your Wallet restore success",
+                "error": "Invalid wallets"
+            },
+            "import": {
+                "title": "Add new / Import"
+            },
+            "backup": {
+                "title": "Backup wallets"
+            },
+            "protect": {
+                "title": "Secure this wallet",
+                "text": {
+                    "step1_msg1": "This passphrase will allow you to recover your funds if your phone is ever lost or stolen.",
+                    "step1_msg2": "Please make sure nobody has access to your passphrase. You can use a password manager or write it down and hide it under your mattress.",
+                    "step1_label": "I understand that if I lose my passphrase, I lose access to my account.",
+                    "step2_msg1": "Record these words carefully. Don't email it or screenshot it.",
+                    "step3_msg1": "Tap to put these words in the correct order."
+                },
+                "button": {
+                    "continue": "Continue",
+                    "verify": "Verify your passsphrase",
+                    "copy_clipboard": "Copy to clipboard",
+                    "ok": "OK"
+                },
+                "error": {
+                    "confirm": "These words are in the wrong order. Please try again."
+                },
+                "success": "Your wallet has been secured!"
+            },
+            "receive": {
+                "title": "Receive coins"
+            },
+            "scan_qrcode": {
+                "header": "Scan QR code"
+            },
+            "history": {
+                "title": "View transaction history",
+                "header": "Transaction details",
+                "label": {
+                    "failed": "failed",
+                    "unconfirmed": "Unconfirmed",
+                    "balance": "Balance",
+                    "transactions": "Transactions",
+                    "status": "Status",
+                    "confirmations": "confirmations",
+                    "success": "success"
                 }
             }
         }
-    },
-    "chat": {
-        "emptyMessage": "Торгуйте анонимно. Все общение зашифровано и никто не подслушивает.",
-        "notFoundUser": "The Ninja you are looking for is not here. Perhaps you have their name wrong?",
-        "lastMessageContent": "Вы потеряли ключ к этому секретному сообщению.",
-        "searchPlaceHolder": "Введите имя или псевдоним ниндзя."
     },
     "WHITE_PAPER_H1": "Анонимная децентрализованная биржа прогнозов на Ethereum",
     "WHITE_PAPER_SUBTITLE_1": "Привет! Мы представляем команду проекта Ниндзя (Ninja): Рок, Бакунава, Хакаваи и Грутсленг. Мы создаем электронную биржу на блокчейне, на которой можно делать ставки. Ниже информация, почему мы это делаем и как это работает!",
