@@ -85,7 +85,7 @@ function prepare() {
     let csvFileData = '';
 
     Object.keys(mapList).map(key => {
-      csvFileData = `${csvFileData}\r\n${key},"${mapList[key].replace(/"/g, '\\"')}"`;
+      csvFileData = `${csvFileData}\r\n${key},"${mapList[key].replace(/"/g, '""')}"`;
     });
 
     fs.writeFileSync(path.resolve(storeDir, 'en.csv'), csvFileData, 'utf8');
@@ -169,7 +169,12 @@ function unparser() {
             .fromString(translatedFile)
             .on('data', (data) => {
               languageFile = languageFile.replace(
-                data[0], data[1] ? data[1].replace(/\\\'/g, "\\\\'").replace(/\n/g, '\\n').replace(/\"/g, '\\\"') : ''
+                data[0], data[1] ? data[1]
+                  .replace(/\\\'/g, "\\\\'")
+                  .replace(/\n/g, '\\n')
+                  .replace(/\"/g, '\\\"')
+                  .replace(/""/g, '"')
+                : ''
               );
             })
             .on('end', () => {
