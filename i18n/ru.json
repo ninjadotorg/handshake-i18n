@@ -1,4 +1,10 @@
 {
+    "app": {
+        "name": "Ninja",
+        "fullname": "Ninja: Anonymous Peer-to-Peer Prediction Exchange",
+        "description": "Anonymous Peer-to-Peer Prediction Exchange",
+        "loading": "Loading..."
+    },
     "buy": "Buy",
     "sell": "Sell",
     "amount": "amount",
@@ -540,7 +546,7 @@
                 "title": "Просмотр истории транзакций",
                 "header": "Детали транзакции",
                 "label": {
-                    "failed": "не смогли",
+                    "failed": "Failed",
                     "unconfirmed": "Неподтвержденный",
                     "balance": "Баланс",
                     "transactions": "Операции",
