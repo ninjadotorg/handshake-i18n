@@ -148,6 +148,7 @@
     "btn.cancel": "Cancel",
     "btn.close": "Close",
     "btn.accept": "Accept",
+    "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
     "FAQ_TITLE": "FAQ",
     "FAQ_HEADER_YELLOW": "Decentralized",
     "FAQ_HEADER": "Prediction Exchange",
@@ -409,6 +410,10 @@
             "noDataMessage": "Start a mission."
         }
     },
+    "discover": {
+        "noDataMessageCash": "No stations near you yet. Be the first.",
+        "noDataMessageSwap": "No vendors near you yet. Be the first"
+    },
     "wallet": {
         "top_banner": {
             "message": "Shuriken Airdrop (limited)",
@@ -542,6 +547,12 @@
                 }
             }
         }
+    },
+    "chat": {
+        "emptyMessage": "Trade secrets here. All communication is encrypted and no one is listening.",
+        "notFoundUser": "The Ninja you are looking for is not here. Perhaps you have their name wrong?",
+        "lastMessageContent": "You lost the key to this secret message.",
+        "searchPlaceHolder": "Enter a ninja’s name or alias."
     },
     "WHITE_PAPER_H1": "Anonymous Peer-to-Peer Prediction Exchange on Ethereum",
     "WHITE_PAPER_SUBTITLE_1": "Hello! We are Roc, Bakunawa, Hakawai and Grootslang from the Ninja team. We are building an electronic prediction exchange on the blockchain. Here’s why we did it, and how it works!",

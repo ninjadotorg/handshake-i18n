@@ -148,6 +148,7 @@
     "btn.cancel": "Cancel",
     "btn.close": "Close",
     "btn.accept": "Accept",
+    "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
     "FAQ_TITLE": "Вопросы и ответы",
     "FAQ_HEADER_YELLOW": "Decentralized",
     "FAQ_HEADER": "Prediction Exchange",
@@ -409,6 +410,10 @@
             "noDataMessage": "Начать миссию."
         }
     },
+    "discover": {
+        "noDataMessageCash": "No stations near you yet. Be the first.",
+        "noDataMessageSwap": "No vendors near you yet. Be the first"
+    },
     "wallet": {
         "top_banner": {
             "message": "Shuriken Airdrop (ограничено)",
@@ -542,6 +547,12 @@
                 }
             }
         }
+    },
+    "chat": {
+        "emptyMessage": "Торгуйте анонимно. Все общение зашифровано и никто не подслушивает.",
+        "notFoundUser": "The Ninja you are looking for is not here. Perhaps you have their name wrong?",
+        "lastMessageContent": "Вы потеряли ключ к этому секретному сообщению.",
+        "searchPlaceHolder": "Введите имя или псевдоним ниндзя."
     },
     "WHITE_PAPER_H1": "Анонимная децентрализованная биржа прогнозов на Ethereum",
     "WHITE_PAPER_SUBTITLE_1": "Привет! Мы представляем команду проекта Ниндзя (Ninja): Рок, Бакунава, Хакаваи и Грутсленг. Мы создаем электронную биржу на блокчейне, на которой можно делать ставки. Ниже информация, почему мы это делаем и как это работает!",
