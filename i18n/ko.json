@@ -232,23 +232,23 @@
     ],
     "MOT_TITLE": "아무것도의 익명 교환\"입니다",
     "MOT_CONTENT_0": "'닌자 네트워크는 액세스할 수 모바일을 통해'",
-    "MOT_CONTENT_1": "Open",
-    "MOT_CONTENT_2": "on your mobile browser to gain anonymous entry.",
-    "MOT_CONTENT_3": "No download needed. No sign up required.",
+    "MOT_CONTENT_1": "익명 항목을 얻을 귀하의 모바일 브라우저에서",
+    "MOT_CONTENT_2": "를 엽니다.",
+    "MOT_CONTENT_3": "필요 없습니다 다운로드 합니다. 흔적이 필요합니다.",
     "MOT_LIST_CONTENT": [
         {
-            "mainContent": "Read the",
-            "placeHolderLink": "whitepaper",
+            "mainContent": "기술",
+            "placeHolderLink": "백서",
             "link": "https://medium.com/@ninjadotorg/shakeninja-bex-1c938f18b3e8"
         },
         {
-            "mainContent": "We answered your",
-            "placeHolderLink": "FAQ",
+            "mainContent": "우리는 당신의",
+            "placeHolderLink": "질문",
             "link": "/faq"
         },
         {
-            "mainContent": "Join the dojo on",
-            "placeHolderLink": "Telegram",
+            "mainContent": "에 미꾸라지를 가입",
+            "placeHolderLink": "전보",
             "link": "https://t.me/ninja_org"
         }
     ],

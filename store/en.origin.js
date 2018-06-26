@@ -414,9 +414,6 @@
             "message": "%%%.wallet.top_banner.message%%%",
             "button": "%%%.wallet.top_banner.button%%%"
         },
-        "refers_dashboard": {
-            "header": "%%%.wallet.refers_dashboard.header%%%"
-        },
         "refers": {
             "header": "%%%.wallet.refers.header%%%",
             "error": {
@@ -456,26 +453,95 @@
                 "email2": "%%%.wallet.refers.placeholder.email2%%%"
             }
         },
+        "refers_dashboard": {
+            "header": "%%%.wallet.refers_dashboard.header%%%",
+            "title": "%%%.wallet.refers_dashboard.title%%%",
+            "text": {
+                "copy_link": "%%%.wallet.refers_dashboard.text.copy_link%%%",
+                "note": "%%%.wallet.refers_dashboard.text.note%%%",
+                "number_ninjas": "%%%.wallet.refers_dashboard.text.number_ninjas%%%",
+                "number_total": "%%%.wallet.refers_dashboard.text.number_total%%%"
+            }
+        },
         "action": {
             "remove": {
+                "title": "%%%.wallet.action.remove.title%%%",
                 "header": "%%%.wallet.action.remove.header%%%",
                 "message": "%%%.wallet.action.remove.message%%%",
                 "button_yes": "%%%.wallet.action.remove.button_yes%%%",
                 "button_cancel": "%%%.wallet.action.remove.button_cancel%%%"
             },
             "transfer": {
+                "title": "%%%.wallet.action.transfer.title%%%",
                 "header": "%%%.wallet.action.transfer.header%%%",
                 "to_address": {
                     "placeholder": "%%%.wallet.action.transfer.to_address.placeholder%%%"
+                },
+                "error": "%%%.wallet.action.transfer.error%%%",
+                "button": "%%%.wallet.action.transfer.button%%%"
+            },
+            "copy": {
+                "title": "%%%.wallet.action.copy.title%%%",
+                "message": "%%%.wallet.action.copy.message%%%",
+                "success": "%%%.wallet.action.copy.success%%%"
+            },
+            "default": {
+                "title": "%%%.wallet.action.default.title%%%"
+            },
+            "cancel": {
+                "title": "%%%.wallet.action.cancel.title%%%"
+            },
+            "restore": {
+                "title": "%%%.wallet.action.restore.title%%%",
+                "message": "%%%.wallet.action.restore.message%%%",
+                "error": "%%%.wallet.action.restore.error%%%"
+            },
+            "import": {
+                "title": "%%%.wallet.action.import.title%%%"
+            },
+            "backup": {
+                "title": "%%%.wallet.action.backup.title%%%"
+            },
+            "protect": {
+                "title": "%%%.wallet.action.protect.title%%%",
+                "text": {
+                    "step1_msg1": "%%%.wallet.action.protect.text.step1_msg1%%%",
+                    "step1_msg2": "%%%.wallet.action.protect.text.step1_msg2%%%",
+                    "step1_label": "%%%.wallet.action.protect.text.step1_label%%%",
+                    "step2_msg1": "%%%.wallet.action.protect.text.step2_msg1%%%",
+                    "step3_msg1": "%%%.wallet.action.protect.text.step3_msg1%%%"
+                },
+                "button": {
+                    "continue": "%%%.wallet.action.protect.button.continue%%%",
+                    "verify": "%%%.wallet.action.protect.button.verify%%%",
+                    "copy_clipboard": "%%%.wallet.action.protect.button.copy_clipboard%%%",
+                    "ok": "%%%.wallet.action.protect.button.ok%%%"
+                },
+                "error": {
+                    "confirm": "%%%.wallet.action.protect.error.confirm%%%"
+                },
+                "success": "%%%.wallet.action.protect.success%%%"
+            },
+            "receive": {
+                "title": "%%%.wallet.action.receive.title%%%"
+            },
+            "scan_qrcode": {
+                "header": "%%%.wallet.action.scan_qrcode.header%%%"
+            },
+            "history": {
+                "title": "%%%.wallet.action.history.title%%%",
+                "header": "%%%.wallet.action.history.header%%%",
+                "label": {
+                    "failed": "%%%.wallet.action.history.label.failed%%%",
+                    "unconfirmed": "%%%.wallet.action.history.label.unconfirmed%%%",
+                    "balance": "%%%.wallet.action.history.label.balance%%%",
+                    "transactions": "%%%.wallet.action.history.label.transactions%%%",
+                    "status": "%%%.wallet.action.history.label.status%%%",
+                    "confirmations": "%%%.wallet.action.history.label.confirmations%%%",
+                    "success": "%%%.wallet.action.history.label.success%%%"
                 }
             }
         }
-    },
-    "chat": {
-        "emptyMessage": "%%%.chat.emptyMessage%%%",
-        "notFoundUser": "%%%.chat.notFoundUser%%%",
-        "lastMessageContent": "%%%.chat.lastMessageContent%%%",
-        "searchPlaceHolder": "%%%.chat.searchPlaceHolder%%%"
     },
     "WHITE_PAPER_H1": "%%%.WHITE_PAPER_H1%%%",
     "WHITE_PAPER_SUBTITLE_1": "%%%.WHITE_PAPER_SUBTITLE_1%%%",

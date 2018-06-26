@@ -404,9 +404,9 @@
         "feed": {
             "profileTitle": "Лицо за маской",
             "profileDescription": "Вы, славный вы",
-            "shopTitle": "Your station",
-            "shopDescription": "Open for business",
-            "noDataMessage": "Start a mission."
+            "shopTitle": "Ваша станция",
+            "shopDescription": "Открыть для бизнеса",
+            "noDataMessage": "Начать миссию."
         }
     },
     "wallet": {
@@ -450,7 +450,7 @@
                 "referral_link": "This is your super sexy referral link. You get 20 shurikens for every new ninja."
             },
             "placeholder": {
-                "telegram_username": "Your telegram alias",
+                "telegram_username": "Это навсегда удалит ваш кошелек",
                 "twitter_username": "Your twitter username",
                 "email": "Verification code",
                 "email2": "Your favourite fake email"
@@ -459,7 +459,7 @@
         "action": {
             "remove": {
                 "header": "Are you sure?",
-                "message": "This will permanently delete your wallet.",
+                "message": "Это навсегда удалит ваш кошелек.",
                 "button_yes": "Yes, remove",
                 "button_cancel": "Cancel"
             },
@@ -472,9 +472,9 @@
         }
     },
     "chat": {
-        "emptyMessage": "Trade secrets here. All communication is encrypted and no one is listening.",
+        "emptyMessage": "Торгуйте анонимно. Все общение зашифровано и никто не подслушивает.",
         "notFoundUser": "The Ninja you are looking for is not here. Perhaps you have their name wrong?",
-        "lastMessageContent": "You lost the key to this secret message.",
+        "lastMessageContent": "Вы потеряли ключ к этому секретному сообщению.",
         "searchPlaceHolder": "Введите имя или псевдоним ниндзя."
     },
     "WHITE_PAPER_H1": "Анонимная децентрализованная биржа прогнозов на Ethereum",
