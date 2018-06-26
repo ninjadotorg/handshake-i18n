@@ -1,4 +1,8 @@
 
+%%%.app.name%%%,"Ninja"
+%%%.app.fullname%%%,"Ninja: Anonymous Peer-to-Peer Prediction Exchange"
+%%%.app.description%%%,"Anonymous Peer-to-Peer Prediction Exchange"
+%%%.app.loading%%%,"Loading..."
 %%%.buy%%%,"Buy"
 %%%.sell%%%,"Sell"
 %%%.amount%%%,"amount"
@@ -360,7 +364,7 @@ The PEX Matching Engine will then find another order that bets against the odds 
 %%%.wallet.action.scan_qrcode.header%%%,"Scan QR code"
 %%%.wallet.action.history.title%%%,"View transaction history"
 %%%.wallet.action.history.header%%%,"Transaction details"
-%%%.wallet.action.history.label.failed%%%,"failed"
+%%%.wallet.action.history.label.failed%%%,"Failed"
 %%%.wallet.action.history.label.unconfirmed%%%,"Unconfirmed"
 %%%.wallet.action.history.label.balance%%%,"Balance"
 %%%.wallet.action.history.label.transactions%%%,"Transactions"

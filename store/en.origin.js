@@ -1,4 +1,10 @@
 {
+    "app": {
+        "name": "%%%.app.name%%%",
+        "fullname": "%%%.app.fullname%%%",
+        "description": "%%%.app.description%%%",
+        "loading": "%%%.app.loading%%%"
+    },
     "buy": "%%%.buy%%%",
     "sell": "%%%.sell%%%",
     "amount": "%%%.amount%%%",
