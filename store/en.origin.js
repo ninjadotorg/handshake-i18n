@@ -3,7 +3,13 @@
         "name": "%%%.app.name%%%",
         "fullname": "%%%.app.fullname%%%",
         "description": "%%%.app.description%%%",
-        "loading": "%%%.app.loading%%%"
+        "loading": "%%%.app.loading%%%",
+        "navigation": {
+            "me": "%%%.app.navigation.me%%%",
+            "exchanges": "%%%.app.navigation.exchanges%%%",
+            "whisper": "%%%.app.navigation.whisper%%%",
+            "wallet": "%%%.app.navigation.wallet%%%"
+        }
     },
     "buy": "%%%.buy%%%",
     "sell": "%%%.sell%%%",
@@ -458,13 +464,19 @@
                 "telegram2": "%%%.wallet.refers.text.telegram2%%%",
                 "twitter": "%%%.wallet.refers.text.twitter%%%",
                 "twitter2": "%%%.wallet.refers.text.twitter2%%%",
-                "referral_link": "%%%.wallet.refers.text.referral_link%%%"
+                "referral_link": "%%%.wallet.refers.text.referral_link%%%",
+                "menu_amount": "%%%.wallet.refers.text.menu_amount%%%",
+                "menu_total": "%%%.wallet.refers.text.menu_total%%%"
             },
             "placeholder": {
                 "telegram_username": "%%%.wallet.refers.placeholder.telegram_username%%%",
                 "twitter_username": "%%%.wallet.refers.placeholder.twitter_username%%%",
                 "email": "%%%.wallet.refers.placeholder.email%%%",
                 "email2": "%%%.wallet.refers.placeholder.email2%%%"
+            },
+            "label": {
+                "menu": "%%%.wallet.refers.label.menu%%%",
+                "menu_description": "%%%.wallet.refers.label.menu_description%%%"
             }
         },
         "refers_dashboard": {
@@ -491,8 +503,25 @@
                 "to_address": {
                     "placeholder": "%%%.wallet.action.transfer.to_address.placeholder%%%"
                 },
+                "label": {
+                    "from_wallet": "%%%.wallet.action.transfer.label.from_wallet%%%",
+                    "to_address": "%%%.wallet.action.transfer.label.to_address%%%",
+                    "amount": "%%%.wallet.action.transfer.label.amount%%%",
+                    "usd": "%%%.wallet.action.transfer.label.usd%%%",
+                    "wallet_balance": "%%%.wallet.action.transfer.label.wallet_balance%%%"
+                },
+                "placeholder": {
+                    "to_address": "%%%.wallet.action.transfer.placeholder.to_address%%%",
+                    "select_wallet": "%%%.wallet.action.transfer.placeholder.select_wallet%%%"
+                },
+                "text": {
+                    "confirm_transfer": "%%%.wallet.action.transfer.text.confirm_transfer%%%"
+                },
                 "error": "%%%.wallet.action.transfer.error%%%",
-                "button": "%%%.wallet.action.transfer.button%%%"
+                "button": {
+                    "transfer": "%%%.wallet.action.transfer.button.transfer%%%",
+                    "confirm": "%%%.wallet.action.transfer.button.confirm%%%"
+                }
             },
             "copy": {
                 "title": "%%%.wallet.action.copy.title%%%",
