@@ -147,6 +147,8 @@
     "ex.error.302": "%%%.ex.error.302%%%",
     "ex.error.303": "%%%.ex.error.303%%%",
     "ex.error.309": "%%%.ex.error.309%%%",
+    "ex.error.319": "%%%.ex.error.319%%%",
+    "ex.error.320": "%%%.ex.error.320%%%",
     "ex.error.default": "%%%.ex.error.default%%%",
     "ex.earlyBird.label.1": "%%%.ex.earlyBird.label.1%%%",
     "ex.earlyBird.label.2": "%%%.ex.earlyBird.label.2%%%",
@@ -155,6 +157,7 @@
     "error.requiredOne": "%%%.error.requiredOne%%%",
     "error.greaterThan": "%%%.error.greaterThan%%%",
     "error.lessThan": "%%%.error.lessThan%%%",
+    "error.mustBeANumber": "%%%.error.mustBeANumber%%%",
     "btn.initiate": "%%%.btn.initiate%%%",
     "btn.shake": "%%%.btn.shake%%%",
     "btn.reject": "%%%.btn.reject%%%",
@@ -464,9 +467,11 @@
                 "telegram2": "%%%.wallet.refers.text.telegram2%%%",
                 "twitter": "%%%.wallet.refers.text.twitter%%%",
                 "twitter2": "%%%.wallet.refers.text.twitter2%%%",
+                "ninja_name": "%%%.wallet.refers.text.ninja_name%%%",
                 "referral_link": "%%%.wallet.refers.text.referral_link%%%",
                 "menu_amount": "%%%.wallet.refers.text.menu_amount%%%",
-                "menu_total": "%%%.wallet.refers.text.menu_total%%%"
+                "menu_total": "%%%.wallet.refers.text.menu_total%%%",
+                "profile_link": "%%%.wallet.refers.text.profile_link%%%"
             },
             "placeholder": {
                 "telegram_username": "%%%.wallet.refers.placeholder.telegram_username%%%",
