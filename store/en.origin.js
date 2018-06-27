@@ -119,6 +119,20 @@
     "ex.exchange.status.rejected": "%%%.ex.exchange.status.rejected%%%",
     "ex.exchange.status.cancelling": "%%%.ex.exchange.status.cancelling%%%",
     "ex.exchange.status.cancelled": "%%%.ex.exchange.status.cancelled%%%",
+    "ex.exchange.explanation.created": "%%%.ex.exchange.explanation.created%%%",
+    "ex.exchange.explanation.active": "%%%.ex.exchange.explanation.active%%%",
+    "ex.exchange.explanation.closing": "%%%.ex.exchange.explanation.closing%%%",
+    "ex.exchange.explanation.closed": "%%%.ex.exchange.explanation.closed%%%",
+    "ex.exchange.explanation.shaking": "%%%.ex.exchange.explanation.shaking%%%",
+    "ex.exchange.explanation.shake": "%%%.ex.exchange.explanation.shake%%%",
+    "ex.exchange.explanation.completing": "%%%.ex.exchange.explanation.completing%%%",
+    "ex.exchange.explanation.completed": "%%%.ex.exchange.explanation.completed%%%",
+    "ex.exchange.explanation.pre_shaking": "%%%.ex.exchange.explanation.pre_shaking%%%",
+    "ex.exchange.explanation.pre_shake": "%%%.ex.exchange.explanation.pre_shake%%%",
+    "ex.exchange.explanation.rejecting": "%%%.ex.exchange.explanation.rejecting%%%",
+    "ex.exchange.explanation.rejected": "%%%.ex.exchange.explanation.rejected%%%",
+    "ex.exchange.explanation.cancelling": "%%%.ex.exchange.explanation.cancelling%%%",
+    "ex.exchange.explanation.cancelled": "%%%.ex.exchange.explanation.cancelled%%%",
     "ex.cc.status.processing": "%%%.ex.cc.status.processing%%%",
     "ex.cc.status.success": "%%%.ex.cc.status.success%%%",
     "ex.cc.status.cancelled": "%%%.ex.cc.status.cancelled%%%",
@@ -166,6 +180,7 @@
     "btn.cancel": "%%%.btn.cancel%%%",
     "btn.close": "%%%.btn.close%%%",
     "btn.accept": "%%%.btn.accept%%%",
+    "btn.delete": "%%%.btn.delete%%%",
     "product_info": "%%%.product_info%%%",
     "FAQ_TITLE": "%%%.FAQ_TITLE%%%",
     "FAQ_HEADER_YELLOW": "%%%.FAQ_HEADER_YELLOW%%%",
@@ -513,7 +528,8 @@
                     "to_address": "%%%.wallet.action.transfer.label.to_address%%%",
                     "amount": "%%%.wallet.action.transfer.label.amount%%%",
                     "usd": "%%%.wallet.action.transfer.label.usd%%%",
-                    "wallet_balance": "%%%.wallet.action.transfer.label.wallet_balance%%%"
+                    "wallet_balance": "%%%.wallet.action.transfer.label.wallet_balance%%%",
+                    "scan_qrcode": "%%%.wallet.action.transfer.label.scan_qrcode%%%"
                 },
                 "placeholder": {
                     "to_address": "%%%.wallet.action.transfer.placeholder.to_address%%%",
@@ -589,6 +605,26 @@
                     "success": "%%%.wallet.action.history.label.success%%%"
                 }
             }
+        }
+    },
+    "bitcoin": {
+        "error": {
+            "invalid_address": "%%%.bitcoin.error.invalid_address%%%",
+            "invalid_address2": "%%%.bitcoin.error.invalid_address2%%%",
+            "insufficient": "%%%.bitcoin.error.insufficient%%%"
+        },
+        "success": {
+            "transaction": "%%%.bitcoin.success.transaction%%%"
+        }
+    },
+    "ethereum": {
+        "error": {
+            "invalid_address": "%%%.ethereum.error.invalid_address%%%",
+            "invalid_address2": "%%%.ethereum.error.invalid_address2%%%",
+            "insufficient": "%%%.ethereum.error.insufficient%%%"
+        },
+        "success": {
+            "transaction": "%%%.ethereum.success.transaction%%%"
         }
     },
     "chat": {
