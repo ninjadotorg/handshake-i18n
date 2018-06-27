@@ -165,44 +165,44 @@
     "btn.accept": "Accept",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
     "FAQ_TITLE": "FAQ",
-    "FAQ_HEADER_YELLOW": "Decentralized",
+    "FAQ_HEADER_YELLOW": "Décentralisé de prédiction change",
     "FAQ_HEADER": "Prediction Exchange",
     "FAQ_DATA": [
         {
-            "question": "What is Ninja PEX?",
-            "answer": "Ninja is an anonymous peer-to-peer decentralized prediction exchange running on top of the Ethereum blockchain."
+            "question": "Quel est le Ninja PEX ?",
+            "answer": "Ninja est un échange anonyme-to-peer décentralisé prédiction en cours d’exécution sur le dessus de l’Ethereum blockchain."
         },
         {
-            "question": "What’s special about PEX? Why should i bet on one?",
-            "answer": "It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
+            "question": "Ce qui est spécial au sujet de PEX ? Pourquoi devrais je parie sur un ?",
+            "answer": "Il permet aux parties de parier directement contre l’autre sans passer par une autorité centrale ou le bookmaker. Cela rend 100 % anonyme, pas de signes place aucun téléchargement requis. La gestion de Paris et au règlement des gains sont effectués collectivement par le réseau blockchain, protection des utilisateurs contre n’importe quel point de défaillance unique. Vous pouvez également créer vos propres marchés de prédiction."
         },
         {
-            "question": "Do I need Ether? Does it support other cryptocurrencies?",
-            "answer": "Yes. Ninja only accepts ETH for now, but support will be added for other currencies very soon."
+            "question": "Ai-je besoin d’éther ? Supporte-t-il les autres cryptocurrencies ?",
+            "answer": "Oui. Ninja accepte uniquement les ETH pour l’instant, mais le support sera ajouté pour les autres monnaies très bientôt."
         },
         {
-            "question": "How do I start with Ninja?",
+            "question": "Comment puis-je commencer avec Ninja ?",
             "answer": [
                 {
-                    "title": "Get Ether:",
-                    "content": " You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
+                    "title": "Obtenez l’éther :",
+                    "content": " Vous pouvez soit acheter ETH directement en PEX avec vos cartes de crédit ou d’échanges de pièces populaires tels que Coinbase ou Binance."
                 },
                 {
-                    "title": "Top up your PEX Wallet:",
-                    "content": "You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
+                    "title": "Recharger votre porte-monnaie PEX :",
+                    "content": "Transférer l’ETH dans le portefeuille PEX. Portefeuille de PEX est complètement décentralisé, la clé privée est tenue sur votre téléphone, que vous pouvez transférer et recevoir ETH."
                 },
                 {
-                    "title": "Place a bet:",
-                    "content": "Pick the market you want to bet (i.e. Brazil - Spain), the outcomes (i.e. Brazil wins) and the site (i.e. support or bet against the outcome)\nEnter the stake you want to bet (i.e. 1 ETH) and the odds (i.e. 1/ 2.25)\nThe PEX Matching Engine will then find another order that bets against the odds you set."
+                    "title": "Placer un pari :",
+                    "content": "Choix du marché vous voulez parier (p. ex. Brésil - Espagne), les résultats (c.-à-d. les victoires Brésil) et le site (c\\'est-à-dire le support ou le pari contre l’issue)\n Entrer dans le jeu vous voulez à pari (c.-à-d. 1 ETH) et les cotes (c.-à-d. 1 / 2,25)\n Le moteur de Matching BEX trouverez alors une autre ordonnance qui parie contre vents et marées que vous définir."
                 },
                 {
-                    "title": "Wait for the report:",
-                    "content": "if you win, your winnings will be automatically transferred from the escrow smart contract to your account."
+                    "title": "Attendre le rapport :",
+                    "content": "si vous gagnez, vos gains seront automatiquement transférées du contrat escrow intelligente à votre compte."
                 }
             ]
         },
         {
-            "question": "What’s special about PEX? Why should i bet on one?",
+            "question": "Puis-je créer mes propres cotes de préférés ? Comment ?",
             "answer": "Yes! When creating your own bet, you’ll enter the event you’re interested in and the outcome you want to bet on. Then, simply enter your stake and the odds you want. Then the PEX Engine will automatically find and match you with anyone that has an interest in the same event, and who accepts your odds."
         },
         {
