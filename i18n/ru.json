@@ -3,7 +3,13 @@
         "name": "Ninja",
         "fullname": "Ninja: Anonymous Peer-to-Peer Prediction Exchange",
         "description": "Anonymous Peer-to-Peer Prediction Exchange",
-        "loading": "Loading..."
+        "loading": "Loading...",
+        "navigation": {
+            "me": "Me",
+            "exchanges": "Exchanges",
+            "whisper": "Whisper",
+            "wallet": "Wallet"
+        }
     },
     "buy": "Buy",
     "sell": "Sell",
@@ -458,13 +464,19 @@
                 "telegram2": "Leave your best joke for a chance to win more Shuri.",
                 "twitter": "Twitter",
                 "twitter2": "Наш ответственный за соцмедиа говорит, что нам нужны подписчики в Twitter. Это ",
-                "referral_link": "Ваша супер секси реферальная ссылка. Вы получите 20 shurikens за каждого нового ниндзя."
+                "referral_link": "Ваша супер секси реферальная ссылка. Вы получите 20 shurikens за каждого нового ниндзя.",
+                "menu_amount": "Shurikens straight into your pocket, when new ninjas bet through your referral link.",
+                "menu_total": "ninja{0} you've brought in."
             },
             "placeholder": {
                 "telegram_username": "Это навсегда удалит ваш кошелек",
                 "twitter_username": "Ваше имя в Twitter",
                 "email": "Код подтверждения",
                 "email2": "Ваш любимый фейковый email"
+            },
+            "label": {
+                "menu": "Your clan",
+                "menu_description": "Track your referrals and rewards here."
             }
         },
         "refers_dashboard": {
@@ -491,8 +503,25 @@
                 "to_address": {
                     "placeholder": "Уточнить получателя..."
                 },
+                "label": {
+                    "from_wallet": "From wallet",
+                    "to_address": "To wallet address",
+                    "amount": "Amount",
+                    "usd": "USD",
+                    "wallet_balance": "Wallet balance"
+                },
+                "placeholder": {
+                    "to_address": "Wallet address...",
+                    "select_wallet": "Select a wallet"
+                },
+                "text": {
+                    "confirm_transfer": "Are you sure you want to transfer out "
+                },
                 "error": "Insufficient balance: ",
-                "button": "Перевод"
+                "button": {
+                    "transfer": "Transfer",
+                    "confirm": "Confirm"
+                }
             },
             "copy": {
                 "title": "Копировать адрес в буфер обмена",
