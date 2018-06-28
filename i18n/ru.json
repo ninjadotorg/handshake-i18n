@@ -368,47 +368,47 @@
     "me": {
         "profile": {
             "username": {
-                "exist": "Alias has existed!",
-                "success": "Your alias is recorded",
-                "required": "Alias has required!"
+                "exist": "Такое имя уже существует!",
+                "success": "Ваше имя записано",
+                "required": "Требуется имя!"
             },
             "verify": {
                 "alert": {
                     "send": {
-                        "phone": "We sent the secret code to your phone.",
-                        "email": "We sent a verification code to your email."
+                        "phone": "Мы отправили секретный код на ваш телефон.",
+                        "email": "Мы отправили код подтверждения на ваш email."
                     },
                     "notValid": {
                         "server": {
-                            "phone": "That’s not a real number. Try harder.",
-                            "email": "That’s not a real email. Try harder."
+                            "phone": "Такой телефон не существует. Попробуйте еще.",
+                            "email": "Такой email не существует. Попробуйте еще."
                         },
                         "client": {
-                            "phone": "A valid phone number would work better.",
-                            "email": "A valid email would work better."
+                            "phone": "Существуйющий номер работал бы лучше.",
+                            "email": "Существуйющий email работал бы лучше."
                         }
                     },
                     "require": {
-                        "phone": "Please enter your verify code.",
-                        "email": "Please enter your verify code."
+                        "phone": "Пожалуйста, введите код подтверждения.",
+                        "email": "Пожалуйста, введите код подтверждения."
                     },
                     "success": {
-                        "phone": "Phone number securely saved.",
-                        "email": "Your email has been verified."
+                        "phone": "Номер телефона надежно сохранен.",
+                        "email": "Ваш email подтвержден."
                     },
                     "cannot": {
-                        "phone": "Can't verify your phone, please check your code",
-                        "email": "Can't verify your email, please check your code."
+                        "phone": "Не можем подтвердить ваш телефон, пожалуйста, проверьте код",
+                        "email": "Не можем подтвердить ваш email, пожалуйста, проверьте код."
                     }
                 }
             },
             "text": {
-                "verified": "Verified",
+                "verified": "Подтверждено",
                 "username": {
-                    "label": "Alias",
-                    "desc1": "What do they call you?",
+                    "label": "Имя пользователя",
+                    "desc1": "Как вас зовут?",
                     "button": {
-                        "submit": "Save"
+                        "submit": "Сохранить"
                     }
                 },
                 "phone": {
