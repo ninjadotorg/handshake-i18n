@@ -557,16 +557,32 @@
             },
             "restore": {
                 "title": "%%%.wallet.action.restore.title%%%",
-                "message": "%%%.wallet.action.restore.message%%%",
-                "error": "%%%.wallet.action.restore.error%%%"
+                "error": "%%%.wallet.action.restore.error%%%",
+                "header": "%%%.wallet.action.restore.header%%%",
+                "success": {
+                    "restore": "%%%.wallet.action.restore.success.restore%%%"
+                },
+                "button": {
+                    "restore": "%%%.wallet.action.restore.button.restore%%%"
+                },
+                "description": "%%%.wallet.action.restore.description%%%"
             },
             "import": {
                 "title": "%%%.wallet.action.import.title%%%"
             },
             "backup": {
-                "title": "%%%.wallet.action.backup.title%%%"
+                "title": "%%%.wallet.action.backup.title%%%",
+                "header": "%%%.wallet.action.backup.header%%%",
+                "description": "%%%.wallet.action.backup.description%%%",
+                "success": {
+                    "copied": "%%%.wallet.action.backup.success.copied%%%"
+                },
+                "button": {
+                    "copy": "%%%.wallet.action.backup.button.copy%%%"
+                }
             },
             "protect": {
+                "header": "%%%.wallet.action.protect.header%%%",
                 "title": "%%%.wallet.action.protect.title%%%",
                 "text": {
                     "step1_msg1": "%%%.wallet.action.protect.text.step1_msg1%%%",
@@ -587,10 +603,49 @@
                 "success": "%%%.wallet.action.protect.success%%%"
             },
             "receive": {
-                "title": "%%%.wallet.action.receive.title%%%"
+                "title": "%%%.wallet.action.receive.title%%%",
+                "header": "%%%.wallet.action.receive.header%%%",
+                "header2": "%%%.wallet.action.receive.header2%%%",
+                "message": "%%%.wallet.action.receive.message%%%",
+                "label": {
+                    "address": "%%%.wallet.action.receive.label.address%%%",
+                    "amount": "%%%.wallet.action.receive.label.amount%%%"
+                },
+                "placeholder": {
+                    "amount": "%%%.wallet.action.receive.placeholder.amount%%%"
+                },
+                "button": {
+                    "share": "%%%.wallet.action.receive.button.share%%%",
+                    "request_amount": "%%%.wallet.action.receive.button.request_amount%%%",
+                    "done": "%%%.wallet.action.receive.button.done%%%"
+                },
+                "success": {
+                    "share": "%%%.wallet.action.receive.success.share%%%"
+                }
+            },
+            "create": {
+                "header": "%%%.wallet.action.create.header%%%",
+                "label": {
+                    "select_coints": "%%%.wallet.action.create.label.select_coints%%%",
+                    "wallet_key": "%%%.wallet.action.create.label.wallet_key%%%",
+                    "main_net": "%%%.wallet.action.create.label.main_net%%%",
+                    "test_net": "%%%.wallet.action.create.label.test_net%%%"
+                },
+                "placeholder": {
+                    "wallet_key": "%%%.wallet.action.create.placeholder.wallet_key%%%",
+                    "phrase": "%%%.wallet.action.create.placeholder.phrase%%%"
+                },
+                "button": {
+                    "create": "%%%.wallet.action.create.button.create%%%",
+                    "add_new": "%%%.wallet.action.create.button.add_new%%%",
+                    "request_free_eth": "%%%.wallet.action.create.button.request_free_eth%%%"
+                }
             },
             "scan_qrcode": {
                 "header": "%%%.wallet.action.scan_qrcode.header%%%"
+            },
+            "transaction": {
+                "header": "%%%.wallet.action.transaction.header%%%"
             },
             "history": {
                 "title": "%%%.wallet.action.history.title%%%",
