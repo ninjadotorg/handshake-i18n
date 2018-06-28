@@ -184,48 +184,48 @@
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
     "FAQ_TITLE": "常见问题",
     "FAQ_HEADER_YELLOW": "分散式预测交换",
-    "FAQ_HEADER": "Prediction Exchange",
+    "FAQ_HEADER": "分散式预测交换",
     "FAQ_DATA": [
         {
-            "question": "What is Ninja PEX?",
-            "answer": "Ninja is an anonymous peer-to-peer decentralized prediction exchange running on top of the Ethereum blockchain."
+            "question": "什么是忍者 PEX？",
+            "answer": "忍者是一个匿名的对等分散预测交换运行在虚灵议会 blockchain 顶部"
         },
         {
-            "question": "What’s special about PEX? Why should i bet on one?",
-            "answer": "It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
+            "question": "PEX 有什么特别之处在？我为什么要赌一把？",
+            "answer": "它允许各方直接下注, 而不经过中央主管机构或庄家。这使得它100% 匿名, 没有任何迹象显示不需要下载。投注的管理和奖金的结算由 blockchain 网络集体进行, 保护用户免受任何单一故障点的侵害。您还可以创建自己的预测市场。"
         },
         {
-            "question": "Do I need Ether? Does it support other cryptocurrencies?",
-            "answer": "Yes. Ninja only accepts ETH for now, but support will be added for other currencies very soon."
+            "question": "'我需要以太吗？它支持其他 cryptocurrencies 吗？",
+            "answer": "是的。忍者只接受了现在, 但支持将增加其他货币很快。"
         },
         {
-            "question": "How do I start with Ninja?",
+            "question": "如何从忍者开始？",
             "answer": [
                 {
-                    "title": "Get Ether:",
-                    "content": " You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
+                    "title": "获取醚:",
+                    "content": " 您可以购买直接在 PEX 与您的信用卡或像 Coinbase 或 Binance 的流行硬币交易所。"
                 },
                 {
-                    "title": "Top up your PEX Wallet:",
-                    "content": "You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
+                    "title": "把你的 PEX 钱包顶起来:",
+                    "content": "把 PEX 的钱包转给他PEX 钱包是完全分散的, 私钥是持有在您的手机上, 只有您可以转让和接收的瑞士联邦。"
                 },
                 {
-                    "title": "Place a bet:",
-                    "content": "Pick the market you want to bet (i.e. Brazil - Spain), the outcomes (i.e. Brazil wins) and the site (i.e. support or bet against the outcome)\nEnter the stake you want to bet (i.e. 1 ETH) and the odds (i.e. 1/ 2.25)\nThe PEX Matching Engine will then find another order that bets against the odds you set."
+                    "title": "下注:",
+                    "content": "选择你想赌的市场 (即巴西-西班牙), 结果 (即巴西获胜) 和网站 (即支持或押注结果)\n 输入你要押注的赌注 (即 1) 和赔率 (即 1/2.25)\n 然后, 贝克斯匹配引擎将找到另一项命令, 对您设置的赔率进行下注。"
                 },
                 {
-                    "title": "Wait for the report:",
-                    "content": "if you win, your winnings will be automatically transferred from the escrow smart contract to your account."
+                    "title": "等待报告:",
+                    "content": "如果你赢了, 你的奖金将自动从代管智能合同转移到您的帐户。"
                 }
             ]
         },
         {
-            "question": "What’s special about PEX? Why should i bet on one?",
-            "answer": "Yes! When creating your own bet, you’ll enter the event you’re interested in and the outcome you want to bet on. Then, simply enter your stake and the odds you want. Then the PEX Engine will automatically find and match you with anyone that has an interest in the same event, and who accepts your odds."
+            "question": "我可以设定自己的首选赔率吗？怎样？",
+            "answer": "是的！在创建自己的赌注时, 您将输入您感兴趣的事件以及要押注的结果。然后, 只需输入你的股份和你想要的赔率。然后, PEX 引擎将自动找到并匹配您与任何有兴趣在同一事件, 谁接受你的赔率。"
         },
         {
-            "question": "How do you police unsavory/illegal bets?",
-            "answer": "We are currently building a system of checks and balances to flag up inappropriate behaviour in the dojo."
+            "question": "你如何进行警察的不体面/非法投注？",
+            "answer": "我们目前正在建立一个制衡系统, 以在 dojo 中标记不适当的行为。"
         },
         {
             "question": "How does the system know the result of bets between people? Who acts as arbitrator and verifies one outcome vs. another at conclusion of contract?",
