@@ -368,9 +368,9 @@
     "me": {
         "profile": {
             "username": {
-                "exist": "Alias has existed!",
-                "success": "Your alias is recorded",
-                "required": "Alias has required!"
+                "exist": "Alias already exists",
+                "success": "Your alias has been recorded",
+                "required": "Alias required. ?"
             },
             "verify": {
                 "alert": {
@@ -453,7 +453,7 @@
             "button": "Click here"
         },
         "refers": {
-            "header": "3 Shuriken Airdrop hoops",
+            "header": "Shuriken Airdrop Mission",
             "error": {
                 "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
                 "submit_twitter": "You haven't followed us yet. Please try again.",
@@ -500,7 +500,7 @@
             }
         },
         "refers_dashboard": {
-            "header": "3 Shuriken Airdrop hoops",
+            "header": "Shuriken Airdrop Mission",
             "title": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
             "text": {
                 "copy_link": "Referral link copied to clipboard.",
@@ -538,7 +538,7 @@
                 "text": {
                     "confirm_transfer": "Are you sure you want to transfer out "
                 },
-                "error": "Insufficient balance: ",
+                "error": "You don't have enough coin right now. Please top up.",
                 "button": {
                     "transfer": "Transfer",
                     "confirm": "Confirm"

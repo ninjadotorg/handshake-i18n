@@ -368,9 +368,9 @@
     "me": {
         "profile": {
             "username": {
-                "exist": "Такое имя уже существует!",
-                "success": "Ваше имя записано",
-                "required": "Требуется имя!"
+                "exist": "Alias already exists",
+                "success": "Your alias has been recorded",
+                "required": "Alias required. ?"
             },
             "verify": {
                 "alert": {
@@ -412,25 +412,25 @@
                     }
                 },
                 "phone": {
-                    "label": "Phone Number",
-                    "desc1": "To send you free ETH sometimes, we’ll need your phone number to verify that you are not a robot. This is optional.",
-                    "desc2": "We only send humans rewards.",
-                    "desc3": "Please verify your phone number.",
-                    "desc4": "Enter the secret code sent to your phone.",
+                    "label": "Номер телефона",
+                    "desc1": "Чтобы отправить вам ETH бесплатно, нам необходим ваш номер телефона, чтобы подтвердить, что вы не робот. Это необязательно.",
+                    "desc2": "Мы вознаграждаем только людей.",
+                    "desc3": "Пожалуйста, верифицируйте ваш номер телефона.",
+                    "desc4": "Введите секретный код, который был отправлен на ваш телефон.",
                     "button": {
-                        "send": "Send",
-                        "submit": "Verify your number"
+                        "send": "Отправить",
+                        "submit": "Подтвердите ваш номер"
                     }
                 },
                 "email": {
-                    "label": "Email Verification",
-                    "desc1": "You may prefer to receive updates and notifications via email. This is also optional.",
-                    "desc2": "Prefer to receive notifications and updates via email?",
-                    "desc3": "Enter your email",
-                    "desc4": "Enter the secret code sent to your email.",
+                    "label": "Верификация email",
+                    "desc1": "Возможно, вы захотите получать уведомления об обновлениях по email. Это необязательно.",
+                    "desc2": "Хотите получать уведомления об обновлениях по email?",
+                    "desc3": "Введите ваш email",
+                    "desc4": "Введите секретный код, который был отправлен на ваш email.",
                     "button": {
-                        "send": "Send",
-                        "submit": "Verify your email"
+                        "send": "Отправить",
+                        "submit": "Подтвердите ваш email"
                     }
                 }
             }
@@ -453,7 +453,7 @@
             "button": "Нажмите здесь"
         },
         "refers": {
-            "header": "3 Shuriken Airdrop hoops",
+            "header": "Миссия Shuriken Airdrop",
             "error": {
                 "submit_telegram": "Не смогли найти вас в Telegram. Пожалуйста, выйдите из группы и попробуйте снова.",
                 "submit_twitter": "Вы еще не присоединились к нам. Пожалуйста, попробуйте снова.",
@@ -500,12 +500,12 @@
             }
         },
         "refers_dashboard": {
-            "header": "3 Shuriken Airdrop hoops",
+            "header": "Миссия Shuriken Airdrop",
             "title": "Ваша супер секси реферальная ссылка. Вы получите 20 shurikens за каждого нового ниндзя.",
             "text": {
                 "copy_link": "Реферальная ссылка скопирована в буфер обмена.",
                 "note": "Не изменяйте свой псевдоним или эта ссылка будет неуважительной",
-                "number_ninjas": "You brought {0} ninjas to the dojo.",
+                "number_ninjas": "Вы привели {0} ниндзя в додзё.",
                 "number_total": "Общая награда: {0} SHURI"
             }
         },
@@ -538,7 +538,7 @@
                 "text": {
                     "confirm_transfer": "Are you sure you want to transfer out "
                 },
-                "error": "Insufficient balance: ",
+                "error": "У вас недостаточно монет сейчас. Пожалуйста, пополните кошелек.",
                 "button": {
                     "transfer": "Transfer",
                     "confirm": "Confirm"
