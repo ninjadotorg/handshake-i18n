@@ -557,16 +557,32 @@
             },
             "restore": {
                 "title": "Восстановить кошельки",
-                "message": "Ваш кошелек восстановлен",
-                "error": "Недействительные кошельки"
+                "error": "Недействительные кошельки",
+                "header": "Restore wallets",
+                "success": {
+                    "restore": "Your Wallet restore success"
+                },
+                "button": {
+                    "restore": "Restore now"
+                },
+                "description": "Please enter your top secret recovery data to restore your wallet."
             },
             "import": {
                 "title": "Добавить / Импортировать"
             },
             "backup": {
-                "title": "Резервные кошельки"
+                "title": "Резервные кошельки",
+                "header": "Backup wallets",
+                "description": "This data is the only way to restore your wallets. Keep it secret, keep it safe.",
+                "success": {
+                    "copied": "Recovery data copied to clipboard."
+                },
+                "button": {
+                    "copy": "Copy it somewhere safe"
+                }
             },
             "protect": {
+                "header": "Secure this wallet",
                 "title": "Защитите этот кошелек",
                 "text": {
                     "step1_msg1": "Эта кодовая фраза позволит вам восстановить свои средства, если ваш телефон когда-либо потерян или украден.",
@@ -587,14 +603,53 @@
                 "success": "Ваш кошелек обеспечен!"
             },
             "receive": {
-                "title": "Получать монеты"
+                "title": "Получать монеты",
+                "header": "Wallet address",
+                "header2": "Custom Amount",
+                "message": "Share your public wallet address to receive",
+                "label": {
+                    "address": "Address",
+                    "amount": "Amount"
+                },
+                "placeholder": {
+                    "amount": "Specify amount ..."
+                },
+                "button": {
+                    "share": "Copy to share",
+                    "request_amount": "Request Specific amount ➔",
+                    "done": "Done"
+                },
+                "success": {
+                    "share": "Wallet address copied to clipboard."
+                }
+            },
+            "create": {
+                "header": "Create new wallet",
+                "label": {
+                    "select_coints": "Select coins",
+                    "wallet_key": "Wallet key",
+                    "main_net": "Mainnet wallets",
+                    "test_net": "Testnet wallets"
+                },
+                "placeholder": {
+                    "wallet_key": "Wallet key",
+                    "phrase": "Type your 12 secret recovery words."
+                },
+                "button": {
+                    "create": "Create wallet",
+                    "add_new": "+ Add new",
+                    "request_free_eth": "Request free ETH"
+                }
             },
             "scan_qrcode": {
                 "header": "Сканировать QR-код"
             },
+            "transaction": {
+                "header": "Transaction details"
+            },
             "history": {
                 "title": "Просмотр истории транзакций",
-                "header": "Детали транзакции",
+                "header": "Transaction history",
                 "label": {
                     "failed": "Failed",
                     "unconfirmed": "Неподтвержденный",
