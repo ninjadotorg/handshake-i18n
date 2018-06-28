@@ -38,7 +38,7 @@
     "completeOfferConfirm": "Finish shaking?",
     "withdrawOfferConfirm": "Are you sure you want to withdraw?",
     "cancelOfferConfirm": "Cancel this order?",
-    "closeOfferConfirm": "Are you sure you want to delete your station?",
+    "closeOfferConfirm": "Do you want to delete your offer?",
     "acceptOfferConfirm": "Accept the order?",
     "createOfferSuccessMessage": "Success! You have created an offer on Ninja.",
     "shakeOfferSuccessMessage": "Success! A ninja has shaked on your order.",
