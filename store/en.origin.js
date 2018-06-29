@@ -35,6 +35,7 @@
     "createOfferConfirm": "%%%.createOfferConfirm%%%",
     "handshakeOfferConfirm": "%%%.handshakeOfferConfirm%%%",
     "rejectOfferConfirm": "%%%.rejectOfferConfirm%%%",
+    "rejectOfferConfirmForShop": "%%%.rejectOfferConfirmForShop%%%",
     "completeOfferConfirm": "%%%.completeOfferConfirm%%%",
     "withdrawOfferConfirm": "%%%.withdrawOfferConfirm%%%",
     "cancelOfferConfirm": "%%%.cancelOfferConfirm%%%",
@@ -609,10 +610,12 @@
                 "message": "%%%.wallet.action.receive.message%%%",
                 "label": {
                     "address": "%%%.wallet.action.receive.label.address%%%",
-                    "amount": "%%%.wallet.action.receive.label.amount%%%"
+                    "amount": "%%%.wallet.action.receive.label.amount%%%",
+                    "usd": "%%%.wallet.action.receive.label.usd%%%"
                 },
                 "placeholder": {
-                    "amount": "%%%.wallet.action.receive.placeholder.amount%%%"
+                    "amount": "%%%.wallet.action.receive.placeholder.amount%%%",
+                    "choose_wallet": "%%%.wallet.action.receive.placeholder.choose_wallet%%%"
                 },
                 "button": {
                     "share": "%%%.wallet.action.receive.button.share%%%",
