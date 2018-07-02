@@ -634,6 +634,10 @@
                     "main_net": "%%%.wallet.action.create.label.main_net%%%",
                     "test_net": "%%%.wallet.action.create.label.test_net%%%"
                 },
+                "text": {
+                    "random": "%%%.wallet.action.create.text.random%%%",
+                    "specify_phrase": "%%%.wallet.action.create.text.specify_phrase%%%"
+                },
                 "placeholder": {
                     "wallet_key": "%%%.wallet.action.create.placeholder.wallet_key%%%",
                     "phrase": "%%%.wallet.action.create.placeholder.phrase%%%"
@@ -642,6 +646,10 @@
                     "create": "%%%.wallet.action.create.button.create%%%",
                     "add_new": "%%%.wallet.action.create.button.add_new%%%",
                     "request_free_eth": "%%%.wallet.action.create.button.request_free_eth%%%"
+                },
+                "error": {
+                    "recovery_words_invalid": "%%%.wallet.action.create.error.recovery_words_invalid%%%",
+                    "random": "%%%.wallet.action.create.error.random%%%"
                 }
             },
             "scan_qrcode": {
