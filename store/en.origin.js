@@ -571,6 +571,12 @@
             "import": {
                 "title": "%%%.wallet.action.import.title%%%"
             },
+            "add_token": {
+                "title": "%%%.wallet.action.add_token.title%%%"
+            },
+            "add_collectible": {
+                "title": "%%%.wallet.action.add_collectible.title%%%"
+            },
             "backup": {
                 "title": "%%%.wallet.action.backup.title%%%",
                 "header": "%%%.wallet.action.backup.header%%%",
@@ -632,7 +638,10 @@
                     "select_coints": "%%%.wallet.action.create.label.select_coints%%%",
                     "wallet_key": "%%%.wallet.action.create.label.wallet_key%%%",
                     "main_net": "%%%.wallet.action.create.label.main_net%%%",
-                    "test_net": "%%%.wallet.action.create.label.test_net%%%"
+                    "test_net": "%%%.wallet.action.create.label.test_net%%%",
+                    "header_coins": "%%%.wallet.action.create.label.header_coins%%%",
+                    "header_tokens": "%%%.wallet.action.create.label.header_tokens%%%",
+                    "header_collectibles": "%%%.wallet.action.create.label.header_collectibles%%%"
                 },
                 "text": {
                     "random": "%%%.wallet.action.create.text.random%%%",
