@@ -569,7 +569,13 @@
                 "description": "Please enter your top secret recovery data to restore your wallet."
             },
             "import": {
-                "title": "Добавить / Импортировать"
+                "title": "Add new / Import coin"
+            },
+            "add_token": {
+                "title": "Add custom token"
+            },
+            "add_collectible": {
+                "title": "Add collectible"
             },
             "backup": {
                 "title": "Резервные кошельки",
@@ -632,7 +638,10 @@
                     "select_coints": "Select coins",
                     "wallet_key": "Wallet key",
                     "main_net": "Mainnet wallets",
-                    "test_net": "Testnet wallets"
+                    "test_net": "Testnet wallets",
+                    "header_coins": "Coins",
+                    "header_tokens": "Tokens",
+                    "header_collectibles": "Collectibles"
                 },
                 "text": {
                     "random": "Random",
