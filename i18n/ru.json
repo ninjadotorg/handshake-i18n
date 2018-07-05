@@ -443,6 +443,7 @@
             "profileDescription": "Вы, славный вы",
             "shopTitle": "Ваша станция",
             "shopDescription": "Открыть для бизнеса",
+            "shopNoDataDescription": "None yet. Set one up?",
             "noDataMessage": "Начать миссию."
         }
     },
