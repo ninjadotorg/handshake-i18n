@@ -168,6 +168,8 @@
     "ex.earlyBird.label.1": "%%%.ex.earlyBird.label.1%%%",
     "ex.earlyBird.label.2": "%%%.ex.earlyBird.label.2%%%",
     "ex.earlyBird.btn": "%%%.ex.earlyBird.btn%%%",
+    "ex.seo.title": "%%%.ex.seo.title%%%",
+    "ex.seo.meta.description": "%%%.ex.seo.meta.description%%%",
     "error.required": "%%%.error.required%%%",
     "error.requiredOne": "%%%.error.requiredOne%%%",
     "error.greaterThan": "%%%.error.greaterThan%%%",
