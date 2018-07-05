@@ -443,6 +443,7 @@
             "profileDescription": "%%%.me.feed.profileDescription%%%",
             "shopTitle": "%%%.me.feed.shopTitle%%%",
             "shopDescription": "%%%.me.feed.shopDescription%%%",
+            "shopNoDataDescription": "%%%.me.feed.shopNoDataDescription%%%",
             "noDataMessage": "%%%.me.feed.noDataMessage%%%"
         }
     },
