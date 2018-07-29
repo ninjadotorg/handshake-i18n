@@ -1,23 +1,23 @@
 {
     "app": {
-        "name": "Ninja",
-        "fullname": "Ninja: Anonymous Peer-to-Peer Prediction Exchange",
-        "description": "Anonymous Peer-to-Peer Prediction Exchange",
-        "loading": "Loading...",
+        "name": "忍着",
+        "fullname": "忍着：匿名对等预测交换",
+        "description": "匿名对等预测交换",
+        "loading": "加载中",
         "navigation": {
-            "me": "Me",
-            "exchanges": "Exchanges",
-            "whisper": "Whisper",
-            "wallet": "Wallet"
+            "me": "我",
+            "exchanges": "交易平台",
+            "whisper": "私信",
+            "wallet": "钱包"
         }
     },
-    "buy": "Buy",
-    "sell": "Sell",
-    "amount": "amount",
+    "buy": "买入",
+    "sell": "卖出",
+    "amount": "金额",
     "askUsingCreditCard": "for {total} {fiatCurrency} using card?",
-    "change": "Change",
-    "ccNumber": "Number",
-    "ccExpire": "Expiry",
+    "change": "变更",
+    "ccNumber": "数量",
+    "ccExpire": "到期",
     "ccCVC": "CVC",
     "overCCLimit": "You have reached your credit card limit! You have already used {currency}{amount} in the dojo today. ",
     "required": "Required",
