@@ -1,7 +1,7 @@
 {
     "app": {
-        "name": "忍着",
-        "fullname": "忍着：匿名对等预测交换",
+        "name": "忍者",
+        "fullname": "忍者：匿名对等预测交换",
         "description": "匿名对等预测交换",
         "loading": "加载中",
         "navigation": {
@@ -474,66 +474,66 @@
             "header": "Shuriken Airdrop Mission",
             "error": {
                 "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
-                "submit_twitter": "You haven't followed us yet. Please try again.",
-                "confirm_code": "Verification code is wrong. Please try again!",
-                "verify_code": "Can't send verify email",
-                "get_token": "Referral incomplete. Please try again."
+                "submit_twitter": "还未关注我们。请重试！",
+                "confirm_code": "验证码错误。请重试!",
+                "verify_code": "无法发送验证电子邮件",
+                "get_token": "直推信息不完整。请重试。"
             },
             "success": {
-                "submit_telegram": "Welcome to our telegram group!",
-                "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Your email has been verified.",
-                "verify_code": "Verification code has been sent to your email.",
-                "get_token": "Success! 80 shurikens have been added to your wallet.",
-                "copy_link": "Referral link copied to clipboard."
+                "submit_telegram": "欢迎加入我们的电报团队!",
+                "submit_twitter": "谢谢您在 Twitter 上关注我们。",
+                "confirm_code": "您的电子邮件已验证。",
+                "verify_code": "验证码已发送到您的电子邮件。",
+                "get_token": "成功！80个shuriken币已添加到您的钱包。",
+                "copy_link": "邀请链接已复制到剪贴板"
             },
             "button": {
-                "verified": "Verified",
-                "verify": "Verify",
-                "confirm": "Confirm",
-                "reset_email": "Reset email",
-                "get_token": "Just give me tokens"
+                "verified": "已验证",
+                "verify": "验证",
+                "confirm": "确认",
+                "reset_email": "重置电子邮件",
+                "get_token": "只接受代币"
             },
             "text": {
                 "title": "80 shiny Shurikens (SHURI).",
                 "telegram": "Say hello on telegram.",
                 "telegram2": "Leave your best joke for a chance to win more Shuri.",
-                "twitter": "Twitter",
+                "twitter": "推特",
                 "twitter2": "Our social media guy says we need followers on ",
                 "ninja_name": "Receive your randomly generated ninja name.",
                 "referral_link": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
                 "menu_amount": "Shurikens straight into your pocket, when new ninjas bet through your referral link.",
                 "menu_total": "ninja{0} you've brought in.",
-                "profile_link": "Share to get 20 free tokens."
+                "profile_link": "分享可得到20个免费代币"
             },
             "placeholder": {
                 "telegram_username": "Your telegram alias",
-                "twitter_username": "Your twitter username",
-                "email": "Verification code",
+                "twitter_username": "您的 twitter 用户名",
+                "email": "获取验证码",
                 "email2": "Your favourite fake email"
             },
             "label": {
-                "menu": "Your clan",
-                "menu_description": "Track your referrals and rewards here."
+                "menu": "你的团队",
+                "menu_description": "查看你的推荐和奖励。"
             }
         },
         "refers_dashboard": {
             "header": "Shuriken Airdrop Mission",
             "title": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
             "text": {
-                "copy_link": "Referral link copied to clipboard.",
-                "note": "Do not change your alias or this link will be unvalid",
-                "number_ninjas": "You brought {0} ninjas to the dojo.",
-                "number_total": "Total reward: {0} SHURI"
+                "copy_link": "邀请链接已复制到剪贴板",
+                "note": "不要更改您的昵称, 否则此链接将失效",
+                "number_ninjas": "您带来了{0}个忍者到道场。",
+                "number_total": "总共奖励: {0} 个首里城币"
             }
         },
         "action": {
             "remove": {
-                "title": "Remove",
-                "header": "Are you sure?",
-                "message": "This will permanently delete your wallet.",
-                "button_yes": "Yes, remove",
-                "button_cancel": "Cancel"
+                "title": "移除",
+                "header": "是否确定？",
+                "message": "这将永久删除您的钱包。",
+                "button_yes": "是，移除",
+                "button_cancel": "取 消"
             },
             "transfer": {
                 "title": "转币",
@@ -547,23 +547,23 @@
                     "amount": "金额",
                     "usd": "美元",
                     "wallet_balance": "钱包余额",
-                    "scan_qrcode": "Scan QR code"
+                    "scan_qrcode": "扫描二维码"
                 },
                 "placeholder": {
-                    "to_address": "Wallet address...",
-                    "select_wallet": "Select a wallet"
+                    "to_address": "钱包地址",
+                    "select_wallet": "选择钱包"
                 },
                 "text": {
-                    "confirm_transfer": "Are you sure you want to transfer out "
+                    "confirm_transfer": "是否确认转账？"
                 },
-                "error": "You don't have enough coin right now.",
+                "error": "你没有足够的代币！",
                 "button": {
-                    "transfer": "Transfer",
-                    "confirm": "Confirm"
+                    "transfer": "转账",
+                    "confirm": "确认"
                 }
             },
             "copy": {
-                "title": "Copy address to clipboard",
+                "title": "复制地址到剪贴板",
                 "message": "复制地址到剪贴板",
                 "success": "已复制到剪贴板"
             },
@@ -611,7 +611,7 @@
                 "text": {
                     "step1_msg1": "如果您的手机丢失或被盗, 可以通过此口令短语恢复您的资金账户。",
                     "step1_msg2": "请确保没有其他人可以得到您的密码。您可以使用密码管理器或将其写下来藏在您的床垫下。",
-                    "step1_label": "I understand that if I lose my passphrase, I lose access to my account.",
+                    "step1_label": "我知道, 如果我丢失了我的密码, 我将无法登陆我的帐户。",
                     "step2_msg1": "请认真记录这些单词。安全起见，请不要用电子邮件或屏幕截图。",
                     "step3_msg1": "点击将这些单词按正确的顺序排列。"
                 },
