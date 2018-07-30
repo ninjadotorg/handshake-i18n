@@ -307,34 +307,34 @@
     "COIN_EXCHANGE_LP_FAQ": [
         {
             "question": "What ID do I need as a seller or a buyer?",
-            "answer": "We do not need ID verification. If you verify your phone number, you will have the chance to get 1 free ETH to make transactions on Shake Ninja"
+            "answer": "我们不需要身份验证。如果您验证了您的电话号码, 你在Shake Ninja平台将有机会得到1次免费交易"
         },
         {
-            "question": "Are credit cards accepted?",
-            "answer": "Yes. We accept Visa, Mastercard, Amex and Discover"
+            "question": "可接受信用卡付款吗？",
+            "answer": "是的。我们接受Visa, Mastercard, Amex 和 Discover信用卡支付"
         },
         {
-            "question": "What currencies can people exchange?",
-            "answer": "We accept all types of currencies"
+            "question": "用户可以用什么货币进行交易？",
+            "answer": "我们接受所有币种交易"
         },
         {
-            "question": "Is there a system to track the trading history?",
-            "answer": "Yes. We count the successful and failed transactions with clear report for each seller and buyer"
+            "question": "是否有追踪交易记录的系统？",
+            "answer": "是的。我们为每位买家和买家提供所有的的成功和失败的交易明细报告"
         },
         {
-            "question": "Is there any country restricted for this platform?",
-            "answer": "We are available for all countries"
+            "question": "这个平台有什么国家限制吗？",
+            "answer": "我们的平台适用于所有国家的用户"
         },
         {
-            "question": "Is there decentralized exchange?",
-            "answer": "Yes. Therefore the transaction is 100% safe and secured"
+            "question": "这个平台支持去中心化交易吗？",
+            "answer": "是的。因此, 交易是100% 安全和保密的"
         },
         {
             "question": "我可以使用 paypal 吗？",
-            "answer": "We are not available on Paypal at the moment"
+            "answer": "我们现在不支持Paypal支付"
         },
         {
-            "question": "Will the funds be held in Escrow?",
+            "question": "基金会在Escrow基金会代管吗？",
             "answer": "Yes, in either Escrow on smart contract or ethereum blockchain"
         },
         {
