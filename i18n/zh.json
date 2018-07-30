@@ -610,7 +610,7 @@
                 "title": "保证这个钱包的安全",
                 "text": {
                     "step1_msg1": "如果您的手机丢失或被盗, 可以通过此口令短语恢复您的资金账户。",
-                    "step1_msg2": "Please make sure nobody has access to your passphrase. You can use a password manager or write it down and hide it under your mattress.",
+                    "step1_msg2": "请确保没有其他人可以得到您的密码。您可以使用密码管理器或将其写下来藏在您的床垫下。",
                     "step1_label": "I understand that if I lose my passphrase, I lose access to my account.",
                     "step2_msg1": "请认真记录这些单词。安全起见，请不要用电子邮件或屏幕截图。",
                     "step3_msg1": "点击将这些单词按正确的顺序排列。"
