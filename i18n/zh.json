@@ -68,7 +68,7 @@
     "ex.create.label.amountSell": "I want to sell",
     "ex.create.label.marketPrice": "Current market price",
     "ex.create.label.premiumBuy": "My price",
-    "ex.create.label.premiumSell": "My price",
+    "ex.create.label.premiumSell": "我的价格",
     "ex.create.label.premiumSellExplanation": "Market price ± percentage",
     "ex.create.label.nameStation": "Station name",
     "ex.create.label.phone": "Phone",
@@ -119,7 +119,7 @@
     "ex.exchange.status.rejecting": "Processing",
     "ex.exchange.status.rejected": "Rejected",
     "ex.exchange.status.cancelling": "Processing",
-    "ex.exchange.status.cancelled": "Cancelled",
+    "ex.exchange.status.cancelled": "已取消",
     "ex.exchange.explanation.created": "This may take a few minutes. Good things come to those who wait.",
     "ex.exchange.explanation.active": "You can now discover your station in Cash.",
     "ex.exchange.explanation.closing": "Please wait a few minutes.",
@@ -174,7 +174,7 @@
     "error.requiredOne": "You need to fill in one of these!",
     "error.greaterThan": "Must be greater than {min}",
     "error.lessThan": "Must be less than {max}",
-    "error.mustBeANumber": "Must be a number",
+    "error.mustBeANumber": "必须为数字",
     "btn.initiate": "Initiate",
     "btn.shake": "Shake",
     "btn.reject": "Reject",
@@ -289,7 +289,7 @@
     "MOT_LIST_CONTENT": [
         {
             "mainContent": "阅读",
-            "placeHolderLink": "白皮",
+            "placeHolderLink": "白皮书",
             "link": "https://medium.com/@ninjadotorg/shakeninja-bex-1c938f18b3e8"
         },
         {
@@ -298,7 +298,7 @@
             "link": "/faq"
         },
         {
-            "mainContent": "通过",
+            "mainContent": "加入dojo",
             "placeHolderLink": "Telegram",
             "link": "https://t.me/ninja_org"
         }
@@ -343,22 +343,22 @@
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
-        "title": "Trade Easy. Stay Safe",
+        "title": "简单而安全的交易",
         "info": [
             {
-                "title": "1. Post your trade",
+                "title": "发布交易",
                 "description": "Select the coin you want to buy/sell along with your desired price"
             },
             {
-                "title": "2. Choose your shop",
+                "title": "选择您的店铺",
                 "description": "Search and choose the most suitable shop in your location"
             },
             {
-                "title": "3. Fulfill your exchange",
+                "title": "实现兑换交易",
                 "description": "Meet up at the shop and exchange cash to coin or coin to cash"
             },
             {
-                "title": "4. Secure your payment",
+                "title": "确保你的付款安全",
                 "description": "Process has been secured 100% by smart contract"
             }
         ]
@@ -455,15 +455,15 @@
         "feed": {
             "profileTitle": "The face behind the mask",
             "profileDescription": "You, glorious you",
-            "shopTitle": "Your station",
-            "shopDescription": "Open for business",
+            "shopTitle": "您的工作站",
+            "shopDescription": "开始营业",
             "shopNoDataDescription": "None yet. Set one up?",
-            "noDataMessage": "Start a mission."
+            "noDataMessage": "启动任务"
         }
     },
     "discover": {
         "noDataMessageCash": "No stations near you yet. Be the first.",
-        "noDataMessageSwap": "No vendors near you yet. Be the first"
+        "noDataMessageSwap": "您附近还没有商家。成为第一个商家。"
     },
     "wallet": {
         "top_banner": {
@@ -536,17 +536,17 @@
                 "button_cancel": "Cancel"
             },
             "transfer": {
-                "title": "Transfer coins",
-                "header": "Transfer coins",
+                "title": "转币",
+                "header": "转币",
                 "to_address": {
-                    "placeholder": "Specify receiving..."
+                    "placeholder": "点对点接收"
                 },
                 "label": {
-                    "from_wallet": "From wallet",
-                    "to_address": "To wallet address",
-                    "amount": "Amount",
-                    "usd": "USD",
-                    "wallet_balance": "Wallet balance",
+                    "from_wallet": "从钱包支付",
+                    "to_address": "转到钱包地址：",
+                    "amount": "金额",
+                    "usd": "美元",
+                    "wallet_balance": "钱包余额",
                     "scan_qrcode": "Scan QR code"
                 },
                 "placeholder": {
@@ -665,65 +665,65 @@
                     "specify_phrase": "Specify recovery Phrase"
                 },
                 "placeholder": {
-                    "wallet_key": "Wallet key",
-                    "phrase": "Type your 12 secret recovery words."
+                    "wallet_key": "钱包密钥",
+                    "phrase": "输入您的12个单词密码"
                 },
                 "button": {
-                    "create": "Create wallet",
-                    "add_new": "+ Add new",
-                    "request_free_eth": "Request free ETH"
+                    "create": "创建钱包",
+                    "add_new": "+新建",
+                    "request_free_eth": "申请免费以太坊代币"
                 },
                 "error": {
-                    "recovery_words_invalid": "Cannot create wallet. Recovery words are invalid.",
-                    "random": "Cannot create wallet. Please reload and try again"
+                    "recovery_words_invalid": "无法创建钱包，请清除无效字符并使用有效的字符。",
+                    "random": "无法创建钱包，请重新加载并重试。"
                 }
             },
             "scan_qrcode": {
-                "header": "Scan QR code"
+                "header": "扫描二维码"
             },
             "transaction": {
-                "header": "Transaction details"
+                "header": "交易详情"
             },
             "history": {
-                "title": "View transaction history",
-                "header": "Transaction history",
+                "title": "查看交易记录",
+                "header": "交易记录",
                 "label": {
-                    "failed": "Failed",
-                    "unconfirmed": "Unconfirmed",
-                    "balance": "Balance",
-                    "transactions": "Transactions",
-                    "status": "Status",
-                    "confirmations": "confirmations",
-                    "success": "success"
+                    "failed": "失败",
+                    "unconfirmed": "未确认",
+                    "balance": "余额",
+                    "transactions": "交易",
+                    "status": "订单状态",
+                    "confirmations": "确认",
+                    "success": "操作成功"
                 }
             }
         }
     },
     "bitcoin": {
         "error": {
-            "invalid_address": "You can only send tokens to Bitcoin address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer."
+            "invalid_address": "您只能将代币发送到比特币钱包地址",
+            "invalid_address2": "请输入有效的接收地址",
+            "insufficient": "您没有足够的币进行交易"
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易将在30秒内显示在区块链平台"
         }
     },
     "ethereum": {
         "error": {
-            "invalid_address": "You can only send tokens to Ethereum address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer."
+            "invalid_address": "您只能将代币转入以太坊钱包地址",
+            "invalid_address2": "请输入有效的代币接收地址",
+            "insufficient": "您没有足够的代币来完成交易"
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易将在30秒内显示在区块链平台"
         }
     },
     "chat": {
-        "emptyMessage": "Trade secrets here. All communication is encrypted and no one is listening.",
-        "notFoundUser": "The Ninja you are looking for is not here. Perhaps you have their name wrong?",
-        "lastMessageContent": "You lost the key to this secret message.",
-        "searchPlaceHolder": "Enter a ninja’s name or alias."
+        "emptyMessage": "此平台交易绝安全。所有通讯都经过加密，没有人能偷听。",
+        "notFoundUser": "你要找的忍者不在这里。也许你把他们的名字弄错了？",
+        "lastMessageContent": "你丢失了秘钥。",
+        "searchPlaceHolder": "输入忍者的名称或别名"
     },
     "WHITE_PAPER_H1": "虚灵议会上的匿名对等预测交换",
     "WHITE_PAPER_SUBTITLE_1": "你好！我们是中华民国, Bakunawa, Hakawai 和 Grootslang 的忍者队。我们正在建立一个电子预测交换 blockchain。这就是为什么我们这样做, 以及它是如何工作的!",
@@ -809,7 +809,7 @@
     "WHITE_PAPER_PRIVACY_1_HL": "无下载",
     "WHITE_PAPER_PRIVACY_1": "PEX 不是一个移动应用程序。它可以在移动网络上自由访问。虽然本地移动应用程序有时具有更好的 UI/UX, 但它们必须由集中式应用程序存储 (如 Android 播放商店或苹果应用程序商店) 来托管。在我们看来, 一个更有吸引力的 UI 不是一个可接受的折衷隐私。",
     "WHITE_PAPER_PRIVACY_2_HL": "无标志 ups",
-    "WHITE_PAPER_PRIVACY_2_1": "The need for a password, email or phone number is obsolete.",
+    "WHITE_PAPER_PRIVACY_2_1": "不再需要密码、电子邮件或电话号码。",
     "WHITE_PAPER_PRIVACY_2_2": "PEX 没有收集您的个人信息。您可以使用完全隐私的 PEX。当您首次打开 PEX 时, 将在后台静默创建一个公共/私有 keypair, 并将其存储在本地的手机上。公钥作为匿名用户名, 私钥是您的密码。PEX 不能访问您的私钥 - 只有您这样做.",
     "WHITE_PAPER_PRIVACY_2_3": "请注意, 在配置文件设置中, 我们提供了用户输入其电子邮件地址的选项。其目的不是为了收集您的电子邮件, 而是为了更好的体验, 特别是在与付款相关的用例中。这是完全可选的。",
     "WHITE_PAPER_PRIVACY_2_4": "还请注意, 有一个选项可以在设置中备份私钥。我们强烈建议这样做。",
