@@ -176,19 +176,19 @@
     "error.lessThan": "Must be less than {max}",
     "error.mustBeANumber": "必须为数字",
     "btn.initiate": "Initiate",
-    "btn.shake": "Shake",
-    "btn.reject": "Reject",
-    "btn.complete": "Complete",
-    "btn.withdraw": "Withdraw",
-    "btn.cancel": "Cancel",
-    "btn.close": "Close",
-    "btn.accept": "Accept",
-    "btn.delete": "Delete",
-    "ex.landing.menu.about": "ABOUT",
-    "ex.landing.menu.blog": "BLOG",
-    "ex.landing.menu.faq": "FAQ",
-    "ex.landing.menu.contact": "CONTACT",
-    "ex.landing.intro.label.1": "We are available on mobile only",
+    "btn.shake": "成交",
+    "btn.reject": "拒绝",
+    "btn.complete": "完成",
+    "btn.withdraw": "提现",
+    "btn.cancel": "取消",
+    "btn.close": "关闭",
+    "btn.accept": "接受",
+    "btn.delete": "删除",
+    "ex.landing.menu.about": "关于",
+    "ex.landing.menu.blog": "博客",
+    "ex.landing.menu.faq": "常见问题",
+    "ex.landing.menu.contact": "联系",
+    "ex.landing.intro.label.1": "我们只能在手机上使用",
     "ex.landing.intro.label.2": "Switch to your phone now to start making money with us!",
     "ex.landing.description.label.1": "Set up a station <br/>& make some money",
     "ex.landing.description.label.2": "Ninja Cash is a decentralized peer to peer (P2P) cryptocurrency exchange that allows users to trade ETH and BTC for cash. You can join us anonymously: no signup, no ID verification, no fraud<br/><a href=\"https://docs.google.com/document/d/1Ou7qY-NXNenr0Mj_Qzn_4-BUXWIvJyWsHNXkca9Teek/edit\" class=\"btn-read-more\">Read more</a> about us here",
@@ -196,8 +196,8 @@
     "ex.landing.features.label.2": "Secured with blockchain technology",
     "ex.landing.features.label.3": "No KYC information",
     "ex.landing.features.label.4": "Trade with other Ninjas in your area",
-    "ex.landing.tryTelegram.label": "Try out the platform for FREE by joining the conversation on Telegram",
-    "ex.landing.tryTelegram.btn": "Join Telegram",
+    "ex.landing.tryTelegram.label": "试用平台Telegram可免费加入",
+    "ex.landing.tryTelegram.btn": "加入 Telegram",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
     "FAQ_TITLE": "常见问题",
     "FAQ_HEADER_YELLOW": "分散式预测交换",
@@ -330,7 +330,7 @@
             "answer": "Yes. Therefore the transaction is 100% safe and secured"
         },
         {
-            "question": "Can I use paypal?",
+            "question": "我可以使用 paypal 吗？",
             "answer": "We are not available on Paypal at the moment"
         },
         {
@@ -385,9 +385,9 @@
     "me": {
         "profile": {
             "username": {
-                "exist": "Alias already exists",
-                "success": "Your alias has been recorded",
-                "required": "Alias required. ?"
+                "exist": "昵称已存在",
+                "success": "您的昵称已被记录",
+                "required": "需要昵称？"
             },
             "verify": {
                 "alert": {
@@ -406,12 +406,12 @@
                         }
                     },
                     "require": {
-                        "phone": "Please enter your verify code.",
-                        "email": "Please enter your verify code."
+                        "phone": "请输入验证代码",
+                        "email": "请输入验证代码"
                     },
                     "success": {
                         "phone": "Phone number securely saved.",
-                        "email": "Your email has been verified."
+                        "email": "您的电子邮件已验证。"
                     },
                     "cannot": {
                         "phone": "Can't verify your phone, please check your code",
@@ -420,34 +420,34 @@
                 }
             },
             "text": {
-                "verified": "Verified",
+                "verified": "已验证",
                 "username": {
-                    "label": "Alias",
+                    "label": "昵称",
                     "desc1": "What do they call you?",
                     "button": {
-                        "submit": "Save"
+                        "submit": "保存"
                     }
                 },
                 "phone": {
-                    "label": "Phone Number",
+                    "label": "电话号码",
                     "desc1": "To send you free ETH sometimes, we’ll need your phone number to verify that you are not a robot. This is optional.",
                     "desc2": "We only send humans rewards.",
                     "desc3": "Please verify your phone number.",
                     "desc4": "Enter the secret code sent to your phone.",
                     "button": {
-                        "send": "Send",
-                        "submit": "Verify your number"
+                        "send": "发送​​",
+                        "submit": "验证手机号码"
                     }
                 },
                 "email": {
-                    "label": "Email Verification",
+                    "label": "电子邮件验证",
                     "desc1": "You may prefer to receive updates and notifications via email. This is also optional.",
                     "desc2": "Prefer to receive notifications and updates via email?",
-                    "desc3": "Enter your email",
+                    "desc3": "输入您的电子邮件",
                     "desc4": "Enter the secret code sent to your email.",
                     "button": {
-                        "send": "Send",
-                        "submit": "Verify your email"
+                        "send": "发送​​",
+                        "submit": "验证你的邮箱"
                     }
                 }
             }
@@ -468,19 +468,19 @@
     "wallet": {
         "top_banner": {
             "message": "Shuriken Airdrop (limited)",
-            "button": "Click here"
+            "button": "点击这里"
         },
         "refers": {
             "header": "Shuriken Airdrop Mission",
             "error": {
-                "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
+                "submit_telegram": "在Telegram上找不到你。请退出并重试。",
                 "submit_twitter": "还未关注我们。请重试！",
                 "confirm_code": "验证码错误。请重试!",
                 "verify_code": "无法发送验证电子邮件",
                 "get_token": "直推信息不完整。请重试。"
             },
             "success": {
-                "submit_telegram": "欢迎加入我们的电报团队!",
+                "submit_telegram": "欢迎加入Telegram!",
                 "submit_twitter": "谢谢您在 Twitter 上关注我们。",
                 "confirm_code": "您的电子邮件已验证。",
                 "verify_code": "验证码已发送到您的电子邮件。",
@@ -503,11 +503,11 @@
                 "ninja_name": "Receive your randomly generated ninja name.",
                 "referral_link": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
                 "menu_amount": "Shurikens straight into your pocket, when new ninjas bet through your referral link.",
-                "menu_total": "ninja{0} you've brought in.",
+                "menu_total": "你带来了{0} 个忍者",
                 "profile_link": "分享可得到20个免费代币"
             },
             "placeholder": {
-                "telegram_username": "Your telegram alias",
+                "telegram_username": "您的 Telegram 昵称",
                 "twitter_username": "您的 twitter 用户名",
                 "email": "获取验证码",
                 "email2": "Your favourite fake email"
@@ -723,7 +723,7 @@
         "emptyMessage": "此平台交易绝安全。所有通讯都经过加密，没有人能偷听。",
         "notFoundUser": "你要找的忍者不在这里。也许你把他们的名字弄错了？",
         "lastMessageContent": "你丢失了秘钥。",
-        "searchPlaceHolder": "输入忍者的名称或别名"
+        "searchPlaceHolder": "输入忍者的名称或昵称"
     },
     "WHITE_PAPER_H1": "虚灵议会上的匿名对等预测交换",
     "WHITE_PAPER_SUBTITLE_1": "你好！我们是中华民国, Bakunawa, Hakawai 和 Grootslang 的忍者队。我们正在建立一个电子预测交换 blockchain。这就是为什么我们这样做, 以及它是如何工作的!",
