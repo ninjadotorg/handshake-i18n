@@ -166,36 +166,36 @@
     "ex.error.320": "Программа early bird закончилась, пожалуйста внесите деньги, чтобы торговать с нами.",
     "ex.error.default": "Ой! Что-то пошло не так.",
     "ex.earlyBird.label.1": "Добро пожаловать в нашу <br/> программу EARLY BIRD!",
-    "ex.earlyBird.label.2": "Create your station with <br /><span class=\"intro-amount\">{freeETH} ETH</span> free now!",
+    "ex.earlyBird.label.2": "Создайте вашу станцию с ETH <br /><span class=\"intro-amount\">{freeETH}</span> бесплатно прямо сейчас!",
     "ex.earlyBird.btn": "Откройте станцию",
-    "ex.seo.title": "Ninja Cash: Buy/Sell Crypto with Cash",
-    "ex.seo.meta.description": "The easiest way to trade with low fee. No signup or ID verification. Find out how to make money with your crypto with us now",
-    "error.required": "Required",
-    "error.requiredOne": "You need to fill in one of these!",
-    "error.greaterThan": "Must be greater than {min}",
-    "error.lessThan": "Must be less than {max}",
-    "error.mustBeANumber": "Must be a number",
-    "btn.initiate": "Initiate",
-    "btn.shake": "Shake",
-    "btn.reject": "Reject",
-    "btn.complete": "Complete",
-    "btn.withdraw": "Withdraw",
-    "btn.cancel": "Cancel",
-    "btn.close": "Close",
-    "btn.accept": "Accept",
-    "btn.delete": "Delete",
-    "ex.landing.menu.about": "ABOUT",
-    "ex.landing.menu.blog": "BLOG",
+    "ex.seo.title": "Ninja Cash: Купить/Продать криптовалюту за деньги",
+    "ex.seo.meta.description": "Самый легкий способ торговать с низкой комиссией. Без регистрации и проверки документов. Узнай как зарабатывать на вашей криптовалюте с нами",
+    "error.required": "Требуется",
+    "error.requiredOne": "Вам нужно заполнить это!",
+    "error.greaterThan": "Должно быть больше {min}",
+    "error.lessThan": "Должно быть меньше, чем {max}",
+    "error.mustBeANumber": "Введите числовое значение",
+    "btn.initiate": "Начать",
+    "btn.shake": "Встряхните",
+    "btn.reject": "Отменить",
+    "btn.complete": "Готово",
+    "btn.withdraw": "Вывести",
+    "btn.cancel": "Отмена",
+    "btn.close": "Закрыть",
+    "btn.accept": "Принять",
+    "btn.delete": "Удалить",
+    "ex.landing.menu.about": "О нас",
+    "ex.landing.menu.blog": "БЛОГ",
     "ex.landing.menu.faq": "FAQ",
-    "ex.landing.menu.contact": "CONTACT",
-    "ex.landing.intro.label.1": "We are available on mobile only",
-    "ex.landing.intro.label.2": "Switch to your phone now to start making money with us!",
-    "ex.landing.description.label.1": "Set up a station <br/>& make some money",
-    "ex.landing.description.label.2": "Ninja Cash is a decentralized peer to peer (P2P) cryptocurrency exchange that allows users to trade ETH and BTC for cash. You can join us anonymously: no signup, no ID verification, no fraud<br/><a href=\"https://docs.google.com/document/d/1Ou7qY-NXNenr0Mj_Qzn_4-BUXWIvJyWsHNXkca9Teek/edit\" class=\"btn-read-more\">Read more</a> about us here",
-    "ex.landing.features.label.1": "Your market. Your rates",
-    "ex.landing.features.label.2": "Secured with blockchain technology",
-    "ex.landing.features.label.3": "No KYC information",
-    "ex.landing.features.label.4": "Trade with other Ninjas in your area",
+    "ex.landing.menu.contact": "КОНТАКТЫ",
+    "ex.landing.intro.label.1": "Мы доступны только на мобильной версии",
+    "ex.landing.intro.label.2": "Переключитесь на свой телефон, чтобы начать зарабатывать с нами!",
+    "ex.landing.description.label.1": "Установите станцию <br/>& заработайте денег",
+    "ex.landing.description.label.2": "Ninja Cash является децентрализованной (P2P) биржей, которая позволяет пользователям торговать ETH и BTC за деньги. Вы можете присоединиться к нам анонимно: без регистрации, без проверки документов, без мошенничества<br/><a href=\"https://docs.google.com/document/d/1Ou7qY-NXNenr0Mj_Qzn_4-BUXWIvJyWsHNXkca9Teek/edit\" class=\"btn-read-more\">читать больше</a> о нас здесь",
+    "ex.landing.features.label.1": "Ваш рынок. Ваши ставки",
+    "ex.landing.features.label.2": "Безопасная сделка на технологии блокчейн",
+    "ex.landing.features.label.3": "Без KYC",
+    "ex.landing.features.label.4": "Торгуйте с другими ниндзя в вашем районе",
     "ex.landing.tryTelegram.label": "Try out the platform for FREE by joining the conversation on Telegram",
     "ex.landing.tryTelegram.btn": "Присоединиться К Telegram",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
@@ -655,40 +655,40 @@
                     "select_coints": "Select coins",
                     "wallet_key": "Wallet key",
                     "main_net": "Mainnet wallets",
-                    "test_net": "Testnet wallets",
-                    "header_coins": "Cryptocurrencies",
-                    "header_tokens": "ERC20 Tokens",
-                    "header_collectibles": "ERC721 Collectibles"
+                    "test_net": "Testnet кошельки",
+                    "header_coins": "Криптовалюты",
+                    "header_tokens": "ERC20 токены",
+                    "header_collectibles": "ERC721 предметы коллекционирования"
                 },
                 "text": {
-                    "random": "Random",
-                    "specify_phrase": "Specify recovery Phrase"
+                    "random": "Случайный",
+                    "specify_phrase": "Укажите кодовую фразу"
                 },
                 "placeholder": {
-                    "wallet_key": "Wallet key",
-                    "phrase": "Type your 12 secret recovery words."
+                    "wallet_key": "Ключ кошелька",
+                    "phrase": "Введите ваши 12 секретных слов."
                 },
                 "button": {
-                    "create": "Create wallet",
-                    "add_new": "+ Add new",
-                    "request_free_eth": "Request free ETH"
+                    "create": "Создать кошелек",
+                    "add_new": "+ Добавить новый",
+                    "request_free_eth": "Запросить бесплатный ETH"
                 },
                 "error": {
-                    "recovery_words_invalid": "Cannot create wallet. Recovery words are invalid.",
-                    "random": "Cannot create wallet. Please reload and try again"
+                    "recovery_words_invalid": "Не удается создать кошелек. Кодовые слова являются недопустимыми.",
+                    "random": "Не удается создать кошелек. Пожалуйста, перезагрузите и попробуйте снова"
                 }
             },
             "scan_qrcode": {
                 "header": "Сканировать QR-код"
             },
             "transaction": {
-                "header": "Transaction details"
+                "header": "Детали транзакции"
             },
             "history": {
                 "title": "Просмотр истории транзакций",
-                "header": "Transaction history",
+                "header": "История транзакций",
                 "label": {
-                    "failed": "Failed",
+                    "failed": "Ошибка",
                     "unconfirmed": "Неподтвержденный",
                     "balance": "Баланс",
                     "transactions": "Операции",
@@ -701,22 +701,22 @@
     },
     "bitcoin": {
         "error": {
-            "invalid_address": "You can only send tokens to Bitcoin address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer."
+            "invalid_address": "Вы можете отправить токены только на Bitcoin адрес",
+            "invalid_address2": "Пожалуйста, введите действительный адрес приема.",
+            "insufficient": "У вас недостаточно монет, чтобы сделать перевод."
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "Ваша сделка будет обрабатываться на blockchain около 30 секунд."
         }
     },
     "ethereum": {
         "error": {
-            "invalid_address": "You can only send tokens to Ethereum address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer."
+            "invalid_address": "Вы можете отправить токены только на Ethereum адрес",
+            "invalid_address2": "Пожалуйста, введите действительный адрес приема.",
+            "insufficient": "У вас недостаточно монет, чтобы сделать перевод."
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "Ваша сделка будет обрабатываться на blockchain около 30 секунд."
         }
     },
     "chat": {
