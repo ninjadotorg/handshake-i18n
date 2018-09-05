@@ -3,22 +3,22 @@
         "name": "Ниндзя",
         "fullname": "Ninja: Anonymous Peer-to-Peer Prediction Exchange",
         "description": "Anonymous Peer-to-Peer Prediction Exchange",
-        "loading": "Loading...",
+        "loading": "Загружается…",
         "navigation": {
             "me": "Я",
-            "exchanges": "Exchanges",
-            "whisper": "Whisper",
+            "exchanges": "Обмены",
+            "whisper": "Шепот",
             "wallet": "Кошелёк"
         }
     },
     "buy": "Купить",
     "sell": "Продать",
-    "amount": "amount",
+    "amount": "Сумма",
     "askUsingCreditCard": "for {total} {fiatCurrency} using card?",
     "change": "Change",
-    "ccNumber": "Number",
+    "ccNumber": "Номер",
     "ccExpire": "Expiry",
-    "ccCVC": "CVC",
+    "ccCVC": "CVC-код",
     "overCCLimit": "You have reached your credit card limit! You have already used {currency}{amount} in the dojo today. ",
     "required": "Required",
     "ccExpireTemplate": "MM/YY",
@@ -38,7 +38,7 @@
     "rejectOfferConfirmForShop": "Do you want to Reject this handshake?",
     "completeOfferConfirm": "Finish shaking?",
     "withdrawOfferConfirm": "Are you sure you want to withdraw?",
-    "cancelOfferConfirm": "Cancel this order?",
+    "cancelOfferConfirm": "Отменить этот заказ?",
     "closeOfferConfirm": "Do you want to delete your offer?",
     "acceptOfferConfirm": "Accept the order?",
     "createOfferSuccessMessage": "Success! You have created an offer on Ninja.",
@@ -55,7 +55,7 @@
     "deleteOfferItemSuccessMassage": "You have successfully deleted your order.",
     "shakeOfferItemSuccessMassage": "You have successfully shaked on Ninja",
     "acceptOfferItemSuccessMassage": "Good news! Your order has been accepted.",
-    "cancelOfferItemSuccessMassage": "Your order has been cancelled!",
+    "cancelOfferItemSuccessMassage": "Ваш заказ отменён!",
     "rejectOfferItemSuccessMassage": "You rejected a fellow ninja's order.",
     "completeOfferItemSuccessMassage": "Good news! Your order has been completed.",
     "offerStoresAlreadyCreated": "Oops! You already created an order on Ninja.",
@@ -67,25 +67,25 @@
     "ex.create.label.amountBuy": "I want to buy",
     "ex.create.label.amountSell": "I want to sell",
     "ex.create.label.marketPrice": "Current market price",
-    "ex.create.label.premiumBuy": "My price",
-    "ex.create.label.premiumSell": "My price",
-    "ex.create.label.premiumSellExplanation": "Market price ± percentage",
-    "ex.create.label.nameStation": "Station name",
-    "ex.create.label.phone": "Phone",
-    "ex.create.label.address": "Meet-up place",
-    "ex.create.label.beASeller": "Be a seller",
-    "ex.create.label.beABuyer": "You can also be a buyer",
-    "ex.create.label.stationInfo": "Station information",
-    "ex.createLocal.label.iWantTo": "I want to",
-    "ex.createLocal.label.something": "What is it called?",
+    "ex.create.label.premiumBuy": "Моя цена",
+    "ex.create.label.premiumSell": "Моя цена",
+    "ex.create.label.premiumSellExplanation": "Рыночная цена ± процент",
+    "ex.create.label.nameStation": "Название станцию",
+    "ex.create.label.phone": "Телефон",
+    "ex.create.label.address": "Место встречи",
+    "ex.create.label.beASeller": "Быть продавцом",
+    "ex.create.label.beABuyer": "Вы также можете быть покупателя",
+    "ex.create.label.stationInfo": "Информация станции",
+    "ex.createLocal.label.iWantTo": "Я Хочу",
+    "ex.createLocal.label.something": "Как оно называется?",
     "ex.createLocal.placeholder.anyItem": "any item or service",
-    "ex.createLocal.label.coin": "Coin",
-    "ex.createLocal.label.amount": "Amount",
-    "ex.createLocal.label.phone": "Phone",
-    "ex.createLocal.label.address": "Meet-up place",
-    "ex.createLocal.label.uploadImage": "Upload an image of your product",
-    "ex.discover.label.priceBuy": "BUY",
-    "ex.discover.label.priceSell": "SELL",
+    "ex.createLocal.label.coin": "Монета",
+    "ex.createLocal.label.amount": "Сумма",
+    "ex.createLocal.label.phone": "Телефон",
+    "ex.createLocal.label.address": "Место встречи",
+    "ex.createLocal.label.uploadImage": "Загрузить изображение вашего продукта",
+    "ex.discover.label.priceBuy": "КУПИТЬ",
+    "ex.discover.label.priceSell": "ПРОДАТЬ",
     "ex.discover.label.reviews": "({reviewCount})",
     "ex.discover.banner.text": "Got coins? Turn them into a money-making machine.",
     "ex.discover.banner.btnText": "BECOME A LOCAL EXCHANGE",
@@ -197,7 +197,7 @@
     "ex.landing.features.label.3": "No KYC information",
     "ex.landing.features.label.4": "Trade with other Ninjas in your area",
     "ex.landing.tryTelegram.label": "Try out the platform for FREE by joining the conversation on Telegram",
-    "ex.landing.tryTelegram.btn": "Join Telegram",
+    "ex.landing.tryTelegram.btn": "Присоединиться К Telegram",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
     "FAQ_TITLE": "Вопросы и ответы",
     "FAQ_HEADER_YELLOW": "Decentralized",
@@ -513,7 +513,7 @@
                 "email2": "Ваш любимый фейковый email"
             },
             "label": {
-                "menu": "Your clan",
+                "menu": "Ваш клан",
                 "menu_description": "Track your referrals and rewards here."
             }
         },
@@ -547,19 +547,19 @@
                     "amount": "Amount",
                     "usd": "USD",
                     "wallet_balance": "Wallet balance",
-                    "scan_qrcode": "Scan QR code"
+                    "scan_qrcode": "Сканировать QR-код"
                 },
                 "placeholder": {
                     "to_address": "Wallet address...",
-                    "select_wallet": "Select a wallet"
+                    "select_wallet": "Выберите кошелёк"
                 },
                 "text": {
                     "confirm_transfer": "Are you sure you want to transfer out "
                 },
-                "error": "You don't have enough coin right now.",
+                "error": "У вас недостаточно монет сейчас. ",
                 "button": {
-                    "transfer": "Transfer",
-                    "confirm": "Confirm"
+                    "transfer": "Перевод ",
+                    "confirm": "Подтвердить"
                 }
             },
             "copy": {
@@ -576,7 +576,7 @@
             "restore": {
                 "title": "Восстановить кошельки",
                 "error": "Недействительные кошельки",
-                "header": "Restore wallets",
+                "header": "Восстановить кошельки",
                 "success": {
                     "restore": "Your Wallet restore success"
                 },
