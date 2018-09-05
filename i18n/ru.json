@@ -1,18 +1,18 @@
 {
     "app": {
-        "name": "Ninja",
+        "name": "Ниндзя",
         "fullname": "Ninja: Anonymous Peer-to-Peer Prediction Exchange",
         "description": "Anonymous Peer-to-Peer Prediction Exchange",
         "loading": "Loading...",
         "navigation": {
-            "me": "Me",
+            "me": "Я",
             "exchanges": "Exchanges",
             "whisper": "Whisper",
-            "wallet": "Wallet"
+            "wallet": "Кошелёк"
         }
     },
-    "buy": "Buy",
-    "sell": "Sell",
+    "buy": "Купить",
+    "sell": "Продать",
     "amount": "amount",
     "askUsingCreditCard": "for {total} {fiatCurrency} using card?",
     "change": "Change",
