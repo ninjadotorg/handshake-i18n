@@ -87,14 +87,14 @@
     "ex.discover.label.priceBuy": "КУПИТЬ",
     "ex.discover.label.priceSell": "ПРОДАТЬ",
     "ex.discover.label.reviews": "({reviewCount})",
-    "ex.discover.banner.text": "Got coins? Turn them into a money-making machine.",
+    "ex.discover.banner.text": "Есть монеты? Поверните их в машину для производства денег.",
     "ex.discover.banner.btnText": "Стать локальной валютой",
     "ex.discover.shakeDetail.label.amount": "Сумма",
     "ex.discover.shakeDetail.label.total": "Всего",
     "ex.discover.shakeDetail.label.maximum": "Максимум",
     "ex.me.label.with": "С",
-    "ex.me.label.from": "From",
-    "ex.me.label.about": "About",
+    "ex.me.label.from": "Из",
+    "ex.me.label.about": "О нас",
     "ex.btn.confirm": "Подтвердить",
     "ex.btn.OK": "ОК",
     "ex.btn.notNow": "Не сейчас",
@@ -102,12 +102,12 @@
     "ex.label.sell": "Продать",
     "ex.label.bought": "Купил(а)",
     "ex.label.sold": "Продал(а)",
-    "ex.label.buying": "Buying",
-    "ex.label.selling": "Selling",
+    "ex.label.buying": "Покупка",
+    "ex.label.selling": "Продажа",
     "ex.label.buyer": "Покупатель",
     "ex.label.seller": "Продавец",
-    "ex.exchange.status.created": "Setting up your station",
-    "ex.exchange.status.active": "Station listed",
+    "ex.exchange.status.created": "Настройка вашей станции",
+    "ex.exchange.status.active": "Список станций",
     "ex.exchange.status.closing": "Удаление вашей станции",
     "ex.exchange.status.closed": "Удаленный",
     "ex.exchange.status.shaking": "Обработка",
@@ -124,28 +124,28 @@
     "ex.exchange.explanation.active": "Теперь вы можете открыть вашу станцию Наличными.",
     "ex.exchange.explanation.closing": "Пожалуйста, подождите несколько минут.",
     "ex.exchange.explanation.closed": "",
-    "ex.exchange.explanation.shaking": "Accepting the other party's offer...",
+    "ex.exchange.explanation.shaking": "Принятие предложения другой стороны...",
     "ex.exchange.explanation.shake": "Принято. Вы будете получать монеты в течение нескольких минут.",
     "ex.exchange.explanation.completing": "Принято. Вы будете получать монеты в течение нескольких минут.",
     "ex.exchange.explanation.completed": "",
-    "ex.exchange.explanation.pre_shaking": "Waiting for the other party to accept your offer.",
-    "ex.exchange.explanation.pre_shake": "Waiting for the other party to accept your offer.",
-    "ex.exchange.explanation.rejecting": "Rejecting the offer. Please wait a few minutes.",
+    "ex.exchange.explanation.pre_shaking": "Ожидание подтверждения вашего оффера другой стороной.",
+    "ex.exchange.explanation.pre_shake": "Ожидание подтверждения вашего оффера другой стороной.",
+    "ex.exchange.explanation.rejecting": "Отклоняем предложение. Пожалуйста, подождите несколько минут.",
     "ex.exchange.explanation.rejected": "",
-    "ex.exchange.explanation.cancelling": "Cancelling your offer. Please wait a few minutes.",
+    "ex.exchange.explanation.cancelling": "Отменяем ваше предложение. Пожалуйста, подождите несколько минут.",
     "ex.exchange.explanation.cancelled": "",
-    "ex.cc.status.processing": "Processing",
+    "ex.cc.status.processing": "Обработка",
     "ex.cc.status.success": "Готово",
-    "ex.cc.status.cancelled": "Failed",
-    "ex.shop.status.created": "Verifying...",
-    "ex.shop.status.active": "Active",
-    "ex.shop.status.closing": "Pending...",
-    "ex.shop.status.closed": "Closed",
-    "ex.shop.shake.status.pre_shaking": "Requesting",
-    "ex.shop.shake.status.pre_shake": "Requested",
-    "ex.shop.shake.status.shaking": "Requesting",
-    "ex.shop.shake.status.shake": "Requested",
-    "ex.shop.shake.status.rejecting": "Rejecting",
+    "ex.cc.status.cancelled": "Ошибка",
+    "ex.shop.status.created": "Проверка...",
+    "ex.shop.status.active": "Активно",
+    "ex.shop.status.closing": "В ожидании",
+    "ex.shop.status.closed": "Закрыта",
+    "ex.shop.shake.status.pre_shaking": "Запрашивающий",
+    "ex.shop.shake.status.pre_shake": "Запрошенный",
+    "ex.shop.shake.status.shaking": "Запрашивающий",
+    "ex.shop.shake.status.shake": "Запрошенный",
+    "ex.shop.shake.status.rejecting": "Отказ",
     "ex.shop.shake.status.rejected": "Отклонено",
     "ex.shop.shake.status.completing": "Завершение...",
     "ex.shop.shake.status.completed": "Готово",
@@ -196,12 +196,12 @@
     "ex.landing.features.label.2": "Безопасная сделка на технологии блокчейн",
     "ex.landing.features.label.3": "Без KYC",
     "ex.landing.features.label.4": "Торгуйте с другими ниндзя в вашем районе",
-    "ex.landing.tryTelegram.label": "Try out the platform for FREE by joining the conversation on Telegram",
+    "ex.landing.tryTelegram.label": "Попробуйте платформу бесплатно, присоединившись к чату в Телеграмм",
     "ex.landing.tryTelegram.btn": "Присоединиться К Telegram",
-    "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
+    "product_info": "Ниндзя является открытым, децентрализованным программным обеспечением, которое никогда не заморозит ваши средства. Выбирая Ниндзя, пользователь принимает полную ответственность за свое поведение и обязуется соблюдать их правила. Ниндзя не несет ответственность за правовой, денежный или психологический ущерб, который Выможете причинить. Никогда не вкладывайте больше, чем вы готовы потерять. Играйте безопасно!",
     "FAQ_TITLE": "Вопросы и ответы",
-    "FAQ_HEADER_YELLOW": "Decentralized",
-    "FAQ_HEADER": "Prediction Exchange",
+    "FAQ_HEADER_YELLOW": "Децентрализованные",
+    "FAQ_HEADER": "Ставка",
     "FAQ_DATA": [
         {
             "question": "Что такое PEX Ниндзя?",
@@ -385,9 +385,9 @@
     "me": {
         "profile": {
             "username": {
-                "exist": "Alias already exists",
-                "success": "Your alias has been recorded",
-                "required": "Alias required. ?"
+                "exist": "Псевдоним уже существует",
+                "success": "Ваш псевдоним записан",
+                "required": "Псевдоним требуется. ?"
             },
             "verify": {
                 "alert": {
@@ -457,13 +457,13 @@
             "profileDescription": "Вы, славный вы",
             "shopTitle": "Ваша станция",
             "shopDescription": "Открыть для бизнеса",
-            "shopNoDataDescription": "None yet. Set one up?",
+            "shopNoDataDescription": "Еще ни одного. Установить один?",
             "noDataMessage": "Начать миссию."
         }
     },
     "discover": {
-        "noDataMessageCash": "No stations near you yet. Be the first.",
-        "noDataMessageSwap": "No vendors near you yet. Be the first"
+        "noDataMessageCash": "Пока нет станций возле вас. Будь первым.",
+        "noDataMessageSwap": "Пока нет поставщиков. Будь первым"
     },
     "wallet": {
         "top_banner": {
@@ -497,14 +497,14 @@
             "text": {
                 "title": "80 блестящих Shurikens (SHURI).",
                 "telegram": "Пожаловаться на нас в Telegram.",
-                "telegram2": "Leave your best joke for a chance to win more Shuri.",
+                "telegram2": "Оставь свою лучшую шутку за шанс выиграть больше Шури.",
                 "twitter": "Twitter",
                 "twitter2": "Наш ответственный за соцмедиа говорит, что нам нужны подписчики в Twitter. Это ",
-                "ninja_name": "Receive your randomly generated ninja name.",
+                "ninja_name": "Получите произвольно сгенерированное имя ниндзя.",
                 "referral_link": "Ваша супер секси реферальная ссылка. Вы получите 20 shurikens за каждого нового ниндзя.",
-                "menu_amount": "Shurikens straight into your pocket, when new ninjas bet through your referral link.",
-                "menu_total": "ninja{0} you've brought in.",
-                "profile_link": "Share to get 20 free tokens."
+                "menu_amount": "Шурикен прямо будет в твой карман, когда новые ниндзя делают ставку через вашу реферальную ссылку.",
+                "menu_total": "ninja{0} купленный вами.",
+                "profile_link": "Отправить, чтобы получить 20 бесплатных билета."
             },
             "placeholder": {
                 "telegram_username": "Это навсегда удалит ваш кошелек",
@@ -514,7 +514,7 @@
             },
             "label": {
                 "menu": "Ваш клан",
-                "menu_description": "Track your referrals and rewards here."
+                "menu_description": "Отслеживайте своих рефералов и вознаграждений здесь."
             }
         },
         "refers_dashboard": {
@@ -542,11 +542,11 @@
                     "placeholder": "Уточнить получателя..."
                 },
                 "label": {
-                    "from_wallet": "From wallet",
-                    "to_address": "To wallet address",
-                    "amount": "Amount",
+                    "from_wallet": "Из кошелек",
+                    "to_address": "На адрес кошелька",
+                    "amount": "Сумма",
                     "usd": "USD",
-                    "wallet_balance": "Wallet balance",
+                    "wallet_balance": "Баланс кошелька",
                     "scan_qrcode": "Сканировать QR-код"
                 },
                 "placeholder": {
@@ -554,7 +554,7 @@
                     "select_wallet": "Выберите кошелёк"
                 },
                 "text": {
-                    "confirm_transfer": "Are you sure you want to transfer out "
+                    "confirm_transfer": "Вы уверены, что хотите сделать перевод?"
                 },
                 "error": "У вас недостаточно монет сейчас. ",
                 "button": {
@@ -578,21 +578,21 @@
                 "error": "Недействительные кошельки",
                 "header": "Восстановить кошельки",
                 "success": {
-                    "restore": "Your Wallet restore success"
+                    "restore": "Успех восстановления кошелька"
                 },
                 "button": {
-                    "restore": "Restore now"
+                    "restore": "Восстановить сейчас"
                 },
-                "description": "Please enter your top secret recovery data to restore your wallet."
+                "description": "Пожалуйста, введите свои секретные данные восстановления, чтобы восстановить свой кошелек."
             },
             "import": {
-                "title": "Add new / Import coin"
+                "title": "Добавить новый / импорт монета"
             },
             "add_token": {
-                "title": "Add custom token"
+                "title": "Добавить пользовательский токен"
             },
             "add_collectible": {
-                "title": "Add collectible"
+                "title": "Добавить коллекцию"
             },
             "backup": {
                 "title": "Резервные кошельки",
@@ -602,7 +602,7 @@
                     "copied": "Данные восстановления скопированы в буфер обмена."
                 },
                 "button": {
-                    "copy": "Copy it somewhere safe"
+                    "copy": "Скопируйте его куда-нибудь безопасности"
                 }
             },
             "protect": {
@@ -629,7 +629,7 @@
             "receive": {
                 "title": "Получать монеты",
                 "header": "Адрес кошелька",
-                "header2": "Custom Amount",
+                "header2": "Пользовательская сумма",
                 "message": "Поделитесь своим адресом общественного Кошелька, чтобы получить",
                 "label": {
                     "address": "Адрес",
@@ -637,24 +637,24 @@
                     "usd": "USD"
                 },
                 "placeholder": {
-                    "amount": "Specify amount ...",
-                    "choose_wallet": "Choose a wallet ..."
+                    "amount": "Укажите суммы",
+                    "choose_wallet": "Выберите кошелек..."
                 },
                 "button": {
-                    "share": "Copy to share",
-                    "request_amount": "Request Specific amount ➔",
-                    "done": "Done"
+                    "share": "Копировать и поделиться",
+                    "request_amount": "Запросить определенную сумму ➔",
+                    "done": "Готово"
                 },
                 "success": {
-                    "share": "Wallet address copied to clipboard."
+                    "share": "Адрес кошелька скопирован в буфер обмена."
                 }
             },
             "create": {
                 "header": "Создать новый кошелёк",
                 "label": {
                     "select_coints": "Выберите монету",
-                    "wallet_key": "Wallet key",
-                    "main_net": "Mainnet wallets",
+                    "wallet_key": "Ключ кошелька",
+                    "main_net": "Mainnet кошельки",
                     "test_net": "Testnet кошельки",
                     "header_coins": "Криптовалюты",
                     "header_tokens": "ERC20 токены",
