@@ -596,10 +596,10 @@
             },
             "backup": {
                 "title": "Резервные кошельки",
-                "header": "Backup wallets",
-                "description": "This data is the only way to restore your wallets. Keep it secret, keep it safe.",
+                "header": "Резервные кошельки",
+                "description": "Эти данные является единственным способом восстановить ваши кошельки. Держите его в секрете и храните его в безопасности.",
                 "success": {
-                    "copied": "Recovery data copied to clipboard."
+                    "copied": "Данные восстановления скопированы в буфер обмена."
                 },
                 "button": {
                     "copy": "Copy it somewhere safe"
@@ -650,7 +650,7 @@
                 }
             },
             "create": {
-                "header": "Create new wallet",
+                "header": "Создать новый кошелёк",
                 "label": {
                     "select_coints": "Выберите монету",
                     "wallet_key": "Wallet key",
