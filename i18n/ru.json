@@ -109,11 +109,11 @@
     "ex.exchange.status.created": "Setting up your station",
     "ex.exchange.status.active": "Station listed",
     "ex.exchange.status.closing": "Deleting your station",
-    "ex.exchange.status.closed": "Deleted",
-    "ex.exchange.status.shaking": "Processing",
-    "ex.exchange.status.shake": "Processing",
-    "ex.exchange.status.completing": "Processing",
-    "ex.exchange.status.completed": "Success",
+    "ex.exchange.status.closed": "Удаленный",
+    "ex.exchange.status.shaking": "Обработка",
+    "ex.exchange.status.shake": "Обработка",
+    "ex.exchange.status.completing": "Обработка",
+    "ex.exchange.status.completed": "Успешно",
     "ex.exchange.status.pre_shaking": "Processing",
     "ex.exchange.status.pre_shake": "Processing",
     "ex.exchange.status.rejecting": "Processing",
@@ -122,7 +122,7 @@
     "ex.exchange.status.cancelled": "Cancelled",
     "ex.exchange.explanation.created": "This may take a few minutes. Good things come to those who wait.",
     "ex.exchange.explanation.active": "You can now discover your station in Cash.",
-    "ex.exchange.explanation.closing": "Please wait a few minutes.",
+    "ex.exchange.explanation.closing": "Пожалуйста, подождите несколько минут.",
     "ex.exchange.explanation.closed": "",
     "ex.exchange.explanation.shaking": "Accepting the other party's offer...",
     "ex.exchange.explanation.shake": "Accepted. You will receive coin in a few minutes.",
@@ -630,10 +630,10 @@
                 "title": "Получать монеты",
                 "header": "Wallet address",
                 "header2": "Custom Amount",
-                "message": "Share your public wallet address to receive",
+                "message": "Поделитесь своим адресом общественного Кошелька, чтобы получить",
                 "label": {
-                    "address": "Address",
-                    "amount": "Amount",
+                    "address": "Адрес",
+                    "amount": "Сумма",
                     "usd": "USD"
                 },
                 "placeholder": {
@@ -652,7 +652,7 @@
             "create": {
                 "header": "Create new wallet",
                 "label": {
-                    "select_coints": "Select coins",
+                    "select_coints": "Выберите монету",
                     "wallet_key": "Wallet key",
                     "main_net": "Mainnet wallets",
                     "test_net": "Testnet кошельки",
