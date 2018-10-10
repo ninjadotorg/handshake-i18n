@@ -3,3 +3,4 @@ dist
 .env
 store/download
 .DS_Store
+yarn-error.log

@@ -35,7 +35,7 @@ if (!argv.length) exit('Please give me some command');
 
 const sourcePath = path.resolve(appPath, 'src', 'locals', 'en.js');
 const copiedDir = path.resolve('dist');
-const copiedPath =  path.resolve(copiedDir, 'en.js');
+const copiedPath = path.resolve(copiedDir, 'en.js');
 const storeDir = path.resolve('store');
 const downloadDir = path.resolve(storeDir, 'download');
 const i18nDir = path.resolve('i18n');
@@ -95,9 +95,9 @@ function prepare() {
       'utf8'
     );
     exit('done!');
-  } catch(e) {
-    console.log(e);
-    exit('have something wrong with origin English file');
+  } catch (e) {
+    console.error(e);
+    exit('have something wrong with origin English file', 1);
   }
 }
 
@@ -110,7 +110,7 @@ function send() {
   request.post({
     url: `https://api.crowdin.com/api/project/${name}/update-file?key=${process.env.CROWDIN_API}`,
     formData: data,
-  }, function(err, response, body) {
+  }, function (err, response, body) {
     if (err) {
       console.log(err);
       exit('upload failed');
@@ -125,7 +125,7 @@ function download() {
   // const currentDownloadDir = path.resolve(downloadDir, `D.${Date.now()}`);
   request.get({
     url: `https://api.crowdin.com/api/project/${name}/export?key=${process.env.CROWDIN_API}`
-  }, function(err, response, body) {
+  }, function (err, response, body) {
     if (err) {
       console.log(err);
       exit('create download failed');
@@ -155,43 +155,43 @@ function unparser() {
   fs.createReadStream(zipFile)
     .pipe(
       unzip.Extract({ path: unzipDir })
-      .on('close', function () {
-        const languages = Object.keys(parsedName);
+        .on('close', function () {
+          const languages = Object.keys(parsedName);
 
-        languages.map(language => {
-          let languageFile = fs.readFileSync(path.resolve(storeDir, 'en.origin.js'), 'utf8');
+          languages.map(language => {
+            let languageFile = fs.readFileSync(path.resolve(storeDir, 'en.origin.js'), 'utf8');
 
-          const translatedFile = fs.readFileSync(
-            path.resolve(downloadDir, 'unzip', language, 'en.csv'),
-            'utf8',
-          );
-          csv
-            .fromString(translatedFile)
-            .on('data', (data) => {
-              languageFile = languageFile.replace(
-                data[0], data[1] ? data[1]
-                  .replace(/\\\'/g, "\\\\'")
-                  .replace(/\n/g, '\\n')
-                  .replace(/\"/g, '\\\"')
-                  .replace(/""/g, '"')
-                : ''
-              );
-            })
-            .on('end', () => {
-              fs.writeFileSync(
-                path.resolve(i18nDir, `${parsedName[language]}.json`),
-                languageFile,
-                'utf8',
-              );
-            });
-        });
-      })
+            const translatedFile = fs.readFileSync(
+              path.resolve(downloadDir, 'unzip', language, 'en.csv'),
+              'utf8',
+            );
+            csv
+              .fromString(translatedFile)
+              .on('data', (data) => {
+                languageFile = languageFile.replace(
+                  data[0], data[1] ? data[1]
+                    .replace(/\\\'/g, "\\\\'")
+                    .replace(/\n/g, '\\n')
+                    .replace(/\"/g, '\\\"')
+                    .replace(/""/g, '"')
+                    : ''
+                );
+              })
+              .on('end', () => {
+                fs.writeFileSync(
+                  path.resolve(i18nDir, `${parsedName[language]}.json`),
+                  languageFile,
+                  'utf8',
+                );
+              });
+          });
+        })
     );
 }
 
 const command = argv[0];
 
-switch(command) {
+switch (command) {
   case 'prepare':
     prepare();
     break;
