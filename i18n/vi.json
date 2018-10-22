@@ -1228,7 +1228,7 @@
                 },
                 "label": {
                     "from_wallet": "From wallet",
-                    "to_address": "To wallet address",
+                    "to_address": "Đến địa chỉ",
                     "to_address2": "",
                     "amount": "Amount",
                     "usd": "USD",
