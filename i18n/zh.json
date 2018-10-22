@@ -8,7 +8,13 @@
             "me": "我",
             "exchanges": "已兑换",
             "whisper": "私信",
-            "wallet": "钱包"
+            "wallet": "钱包",
+            "setting": "",
+            "atm": "",
+            "bet": "",
+            "credit": "",
+            "shop": "",
+            "ninjaCoin": ""
         }
     },
     "buy": "买入",
@@ -42,6 +48,7 @@
     "closeOfferConfirm": "确定要删除此报价吗?",
     "acceptOfferConfirm": "接受此订单？",
     "createOfferSuccessMessage": "成功！你已在Ninja上成功出价！",
+    "updateOfferSuccessMessage": "",
     "shakeOfferSuccessMessage": "成功！一位忍者已经匹配您的订单",
     "closeOfferSuccessMessage": "交易成功！您的订单已经关闭。",
     "completeShakedfferSuccessMessage": "您在Ninja平台已交易成功",
@@ -49,7 +56,10 @@
     "withdrawShakedfferSuccessMessage": "您的出价已经被撤销",
     "buyUsingCreditCardSuccessMessge": "Your order using your credit card has gone through.",
     "notEnoughCoinInWallet": "You don't have enough coin right now. Please top up your wallet.",
+    "notEnoughCoinInWalletDeposit": "",
+    "threeDSecureNotSupported": "",
     "createOfferStoreConfirm": "Do you want to set up an offer to {intentMsg}?",
+    "updateOfferStoreConfirm": "",
     "notEnoughCoinInWalletStores": "You don't have enough coin right now. Please top up your wallet.",
     "addOfferItemSuccessMassage": "Success! Your order is now listed on Ninja",
     "deleteOfferItemSuccessMassage": "You have successfully deleted your order.",
@@ -65,16 +75,24 @@
     "movingCoinToEscrow": "Moving your coin to escrow. This may take a few minutes.",
     "movingCoinFromEscrow": "Moving your coin from escrow. This may take a few minutes.",
     "ex.create.label.amountBuy": "我想买",
+    "ex.create.label.amountBuy.update": "",
     "ex.create.label.amountSell": "我想卖",
+    "ex.create.label.amountSell.update": "",
+    "ex.create.label.sell.currentBalance": "",
+    "ex.create.label.buy.currentBalance": "",
     "ex.create.label.marketPrice": "当前市场价",
     "ex.create.label.premiumBuy": "我的价格",
     "ex.create.label.premiumSell": "我的价格",
     "ex.create.label.premiumSellExplanation": "市场价 ± 百分比手续费",
     "ex.create.label.nameStation": "店铺名称",
+    "ex.create.label.stationCurrency": "",
+    "ex.create.placeholder.stationCurrency": "",
     "ex.create.label.phone": "手机号码",
     "ex.create.label.address": "会面地点",
     "ex.create.label.beASeller": "成为卖家",
+    "ex.create.label.beASeller.update": "",
     "ex.create.label.beABuyer": "你也可以成为买家",
+    "ex.create.label.beABuyer.update": "",
     "ex.create.label.stationInfo": "店铺信息",
     "ex.createLocal.label.iWantTo": "我想…",
     "ex.createLocal.label.something": "它叫什么？",
@@ -88,7 +106,9 @@
     "ex.discover.label.priceSell": "出售",
     "ex.discover.label.reviews": "({检查数量})",
     "ex.discover.banner.text": "想得到代币？把它们变成赚钱的机器。",
+    "ex.credit.banner.text": "",
     "ex.discover.banner.btnText": "变成本地交易",
+    "ex.credit.banner.btnText": "",
     "ex.discover.shakeDetail.label.amount": "金额",
     "ex.discover.shakeDetail.label.total": "总额",
     "ex.discover.shakeDetail.label.maximum": "最大值：",
@@ -98,14 +118,22 @@
     "ex.btn.confirm": "确认",
     "ex.btn.OK": "OK",
     "ex.btn.notNow": "暂不",
+    "ex.btn.topup.now": "",
+    "ex.btn.create.atm": "",
+    "ex.btn.update.atm": "",
     "ex.label.buy": "买入",
     "ex.label.sell": "卖出",
     "ex.label.bought": "已购买",
     "ex.label.sold": "已销售",
     "ex.label.buying": "买入",
     "ex.label.selling": "销售中...",
+    "ex.label.receiving": "",
     "ex.label.buyer": "买家",
     "ex.label.seller": "商家：",
+    "ex.label.sale": "",
+    "ex.label.purchase": "",
+    "ex.label.cost": "",
+    "ex.label.amount": "",
     "ex.exchange.status.created": "设置您的店铺",
     "ex.exchange.status.active": "店铺列表",
     "ex.exchange.status.closing": "删除你的店铺",
@@ -120,20 +148,20 @@
     "ex.exchange.status.rejected": "已拒绝",
     "ex.exchange.status.cancelling": "正在处理中",
     "ex.exchange.status.cancelled": "已取消",
-    "ex.exchange.explanation.created": "请稍等几分钟。好事情总是青睐那些耐心等待的人。",
-    "ex.exchange.explanation.active": "You can now discover your station in Cash.",
-    "ex.exchange.explanation.closing": "请稍等几分钟。",
-    "ex.exchange.explanation.closed": "",
-    "ex.exchange.explanation.shaking": "接受另一个玩家的报价...",
-    "ex.exchange.explanation.shake": "Accepted. You will receive coin in a few minutes.",
-    "ex.exchange.explanation.completing": "Accepted. You will receive coin in a few minutes.",
-    "ex.exchange.explanation.completed": "",
-    "ex.exchange.explanation.pre_shaking": "Waiting for the other party to accept your offer.",
-    "ex.exchange.explanation.pre_shake": "等待对方接受你的报价",
-    "ex.exchange.explanation.rejecting": "拒绝报价。请稍候几分钟。",
-    "ex.exchange.explanation.rejected": "",
-    "ex.exchange.explanation.cancelling": "取消你的报价。请稍候几分钟。",
-    "ex.exchange.explanation.cancelled": "",
+    "ex.shop.explanation.created": "",
+    "ex.shop.explanation.active": "",
+    "ex.shop.explanation.closing": "",
+    "ex.shop.explanation.closed": "",
+    "ex.shop.explanation.shaking": "",
+    "ex.shop.explanation.shake": "",
+    "ex.shop.explanation.completing": "",
+    "ex.shop.explanation.completed": "",
+    "ex.shop.explanation.pre_shaking": "",
+    "ex.shop.explanation.pre_shake": "",
+    "ex.shop.explanation.rejecting": "",
+    "ex.shop.explanation.rejected": "",
+    "ex.shop.explanation.cancelling": "",
+    "ex.shop.explanation.cancelled": "",
     "ex.cc.status.processing": "正在处理中",
     "ex.cc.status.success": "已完成",
     "ex.cc.status.cancelled": "已失败",
@@ -151,6 +179,24 @@
     "ex.shop.shake.status.completed": "已完成",
     "ex.shop.shake.status.cancelling": "正在取消",
     "ex.shop.shake.status.cancelled": "已取消",
+    "ex.shop.shake.buyer.seller": "",
+    "ex.shop.shake.label.information": "",
+    "ex.shop.shake.label.phone": "",
+    "ex.shop.shake.label.reviews": "",
+    "ex.shop.shake.label.reviews.count": "",
+    "ex.shop.shake.label.cash.inventory": "",
+    "ex.shop.shake.label.coin.inventory": "",
+    "ex.shop.shake.label.days": "",
+    "ex.shop.shake.message.using.which.address": "",
+    "ex.shop.shake.button.using.scan.address": "",
+    "ex.shop.shake.button.using.default.address": "",
+    "ex.shop.shake.button.using.scan.rescan": "",
+    "ex.shop.dashboard.label.transaction.successfull.failed": "",
+    "ex.shop.dashboard.label.transaction.pending": "",
+    "ex.shop.dashboard.label.revenue": "",
+    "ex.shop.dashboard.label.transaction.total": "",
+    "ex.shop.dashboard.button.updateInventory": "",
+    "ex.shop.dashboard.label.trial": "",
     "ex.error.systemError": "对不起Ninja用户，网络出问题啦，马上回来",
     "ex.error.312": "哦不！你取消了你的订单。4小时内你将无法再次订货。实在抱歉",
     "ex.error.313": "You already have a listing! To change your rates, please cancel your current listing.",
@@ -161,20 +207,28 @@
     "ex.error.301": "你已经是ningja会员了",
     "ex.error.302": "对不起，此ninja用户不存在。",
     "ex.error.303": "看起来你已经达到了你的信用卡限额。",
+    "ex.error.304": "",
     "ex.error.309": "You already have a listing! To change your rates, please cancel your current listing.",
     "ex.error.319": "只需键入0.5ETH。",
     "ex.error.320": "早起鸟计划已经结束, 请用现金与我们交易。",
+    "ex.error.322": "",
+    "ex.error.323": "",
+    "ex.error.324": "",
+    "ex.error.325": "",
+    "ex.error.326": "",
+    "ex.error.327": "",
     "ex.error.default": "糟糕！网络出问题啦！",
     "ex.earlyBird.label.1": "欢迎来到我们的 <br/> 早起鸟计划!",
     "ex.earlyBird.label.2": "免费创建代币商店，操作方法： <br /><span class=\"intro-amount\">{freeETH} ETH</span> ",
     "ex.earlyBird.btn": "开代币商店",
-    "ex.seo.title": "Ninja Cash: Buy/Sell Crypto with Cash",
-    "ex.seo.meta.description": "The easiest way to trade with low fee. No signup or ID verification. Find out how to make money with your crypto with us now",
     "error.required": "必填",
     "error.requiredOne": "您需选填一项！",
     "error.greaterThan": "必须大于 {最小值}。",
     "error.lessThan": "必须小于 {最大值}",
+    "error.greaterThan.equal": "",
+    "error.lessThan.equal": "",
     "error.mustBeANumber": "必须为数字",
+    "error.mustBeAPositiveInteger": "",
     "btn.initiate": "启动",
     "btn.shake": "成交",
     "btn.reject": "拒绝",
@@ -184,6 +238,7 @@
     "btn.close": "关闭",
     "btn.accept": "接受",
     "btn.delete": "删除",
+    "btn.update": "",
     "ex.landing.menu.about": "关于",
     "ex.landing.menu.blog": "博客",
     "ex.landing.menu.faq": "常见问题",
@@ -198,7 +253,75 @@
     "ex.landing.features.label.4": "Trade with other Ninjas in your area",
     "ex.landing.tryTelegram.label": "试用平台Telegram可免费加入",
     "ex.landing.tryTelegram.btn": "加入 Telegram",
+    "ex.about.label.about": "",
+    "ex.about.description": "",
+    "ex.about.label.connectWith": "",
+    "ex.about.label.website": "",
+    "ex.about.label.telegram": "",
+    "ex.about.label.medium": "",
+    "ex.about.label.github": "",
+    "ex.about.label.twitter": "",
+    "ex.discover.label.sortby": "",
+    "ex.sort.distance": "",
+    "ex.sort.price": "",
+    "ex.sort.rating": "",
+    "ex.sort.price.buy.btc": "",
+    "ex.sort.price.sell.btc": "",
+    "ex.sort.price.buy.eth": "",
+    "ex.sort.price.sell.eth": "",
+    "ex.discover.label.open.atm": "",
+    "ex.discover.label.manage.atm": "",
+    "ex.discover.label.dashboard": "",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
+    "cc.label.1": "",
+    "cc.label.2": "",
+    "cc.label.3": "",
+    "cc.btn.buyNow": "",
+    "cc.btn.payNow": "",
+    "cc.label.basic": "",
+    "cc.label.pro": "",
+    "cc.label.plus": "",
+    "cc.label.cardNo": "",
+    "cc.label.cvv": "",
+    "cc.label.expiration": "",
+    "cc.label.saveCard": "",
+    "cc.label.saving": "",
+    "cc.label.email": "",
+    "cc.label.email.hint": "",
+    "cc.label.receive.address": "",
+    "escrow.label.depositCoin": "",
+    "escrow.label.iWantTo": "",
+    "escrow.label.price": "",
+    "escrow.label.percentage": "",
+    "escrow.label.howToCalculatePrice": "",
+    "escrow.label.yourSellingPrice": "",
+    "escrow.label.sellingPriceCaption": "",
+    "escrow.btn.depositNow": "",
+    "escrow.btn.depositSuccessMessage": "",
+    "escrow.label.wallet.setDefaultWallet": "",
+    "dashboard.heading": "",
+    "dashboard.label.overview": "",
+    "dashboard.label.transaction": "",
+    "dashboard.label.manageAssets": "",
+    "dashboard.btn.deactivate": "",
+    "dashboard.btn.reactivate": "",
+    "dashboard.btn.depositing": "",
+    "dashboard.btn.topUpByCC": "",
+    "dashboard.btn.scanQRCode": "",
+    "dashboard.btn.depositEscrow": "",
+    "dashboard.btn.withdrawEscrow": "",
+    "dashboard.label.amountSold": "",
+    "dashboard.label.amountLeft": "",
+    "dashboard.label.currentPrice": "",
+    "dashboard.label.revenue": "",
+    "dashboard.label.yourBalance": "",
+    "dashboard.label.or": "",
+    "dashboard.label.deposit.description1": "",
+    "dashboard.label.deposit.description2": "",
+    "askLocationPermission.label.1": "",
+    "askLocationPermission.label.2": "",
+    "askLocationPermission.btn.dontAllow": "",
+    "askLocationPermission.btn.allow": "",
     "FAQ_TITLE": "常见问题",
     "FAQ_HEADER_YELLOW": "分散式预测交换",
     "FAQ_HEADER": "分散式预测交换",
@@ -281,8 +404,161 @@
             "answer": "我们将整合握手 (和您最喜欢的功能, 如承诺, 欠条, 合同上传等) 到忍者移动网站。"
         }
     ],
+    "landing_page.btn.joinOurTeam": "",
+    "landing_page.btn.goToLandingPage": "",
+    "landing_page.header.product": "",
+    "landing_page.subHeader.product": "",
+    "landing_page.detail.thanksForSubscribing": "",
+    "landing_page.detail.email_placeholder": "",
+    "landing_page.recruiting.intro.label": "",
+    "landing_page.recruiting.intro.btn": "",
+    "landing_page.recruiting.label.noJobs": "",
+    "landing_page.recruiting.label.getTheWordOut": "",
+    "landing_page.recruiting.label.backToListing": "",
+    "landing_page.recruiting.button.applyNow": "",
+    "landing_page.recruiting.button.referFriend": "",
+    "landing_page.recruiting.applyNow.title": "",
+    "landing_page.recruiting.applyNow.label.uploadDocs": "",
+    "landing_page.recruiting.applyNow.label.weAccept": "",
+    "landing_page.recruiting.applyNow.label.or": "",
+    "landing_page.recruiting.applyNow.label.submit": "",
+    "landing_page.recruiting.applyNow.label.connectToLinkedIn": "",
+    "landing_page.recruiting.applyNow.label.thankYou": "",
+    "landing_page.recruiting.applyNow.label.weReview": "",
+    "landing_page.recruiting.referFriend.title": "",
+    "landing_page.recruiting.referFriend.label.yourPhone": "",
+    "landing_page.recruiting.referFriend.label.yourEmail": "",
+    "landing_page.recruiting.referFriend.label.jobPosition": "",
+    "landing_page.recruiting.referFriend.placeholder.phone": "",
+    "landing_page.recruiting.referFriend.placeholder.email": "",
+    "landing_page.recruiting.referFriend.placeholder.saySomething": "",
+    "landing_page.recruiting.referFriend.label.uploadCV": "",
+    "landing_page.recruiting.referFriend.label.thankYou": "",
+    "landing_page.recruiting.referFriend.label.weReview": "",
+    "landing_page.products.cash.title": "",
+    "landing_page.products.cash.subTitle": "",
+    "landing_page.products.prediction.title": "",
+    "landing_page.products.prediction.subTitle": "",
+    "landing_page.products.wallet.title": "",
+    "landing_page.products.wallet.subTitle": "",
+    "landing_page.products.hivepay-offline.title": "",
+    "landing_page.products.hivepay-offline.subTitle": "",
+    "landing_page.products.hivepay-online.title": "",
+    "landing_page.products.hivepay-online.subTitle": "",
+    "landing_page.products.dad.title": "",
+    "landing_page.products.dad.subTitle": "",
+    "landing_page.products.whisper.title": "",
+    "landing_page.products.whisper.subTitle": "",
+    "landing_page.products.fund.title": "",
+    "landing_page.products.fund.subTitle": "",
+    "landing_page.header.research": "",
+    "landing_page.subHeader.research": "",
+    "landing_page.researches.uncommons.title": "",
+    "landing_page.researches.uncommons.subTitle": "",
+    "landing_page.researches.internetCash.title": "",
+    "landing_page.researches.internetCash.subTitle": "",
+    "landing_page.label.footer": "",
+    "landing_page.label.joinTelegram": "",
+    "landing_page.label.whitepaper": "",
+    "landing_page.label.btnSubmitEmail": "",
+    "landing_page.cash.breadcrumb": "",
+    "landing_page.cash.heading": "",
+    "landing_page.cash.subHeading": "",
+    "landing_page.cash.textEmail": "",
+    "landing_page.cash.label.sendLinkToEmail": "",
+    "landing_page.cash.btnSubmitEmail": "",
+    "landing_page.cash.joinTelegram": "",
+    "landing_page.cash.whitepaper": "",
+    "landing_page.cash.youtubeVideoId": "",
+    "landing_page.cash.btnBecomeAtm": "",
+    "landing_page.cash-for-business.breadcrumb": "",
+    "landing_page.cash-for-business.heading": "",
+    "landing_page.cash-for-business.subHeading": "",
+    "landing_page.cash-for-business.textEmail": "",
+    "landing_page.cash-for-business.label.sendLinkToEmail": "",
+    "landing_page.cash-for-business.btnSubmitEmail": "",
+    "landing_page.cash-for-business.joinTelegram": "",
+    "landing_page.cash-for-business.whitepaper": "",
+    "landing_page.cash-for-business.youtubeVideoId": "",
+    "landing_page.prediction.breadcrumb": "",
+    "landing_page.prediction.heading": "",
+    "landing_page.prediction.subHeading": "",
+    "landing_page.prediction.textEmail": "",
+    "landing_page.prediction.label.sendLinkToEmail": "",
+    "landing_page.prediction.btnSubmitEmail": "",
+    "landing_page.prediction.joinTelegram": "",
+    "landing_page.prediction.whitepaper": "",
+    "landing_page.prediction.disclaim": "",
+    "landing_page.prediction.btnJoinTelegram": "",
+    "landing_page.wallet.breadcrumb": "",
+    "landing_page.wallet.heading": "",
+    "landing_page.wallet.subHeading": "",
+    "landing_page.wallet.textEmail": "",
+    "landing_page.wallet.label.sendLinkToEmail": "",
+    "landing_page.wallet.btnSubmitEmail": "",
+    "landing_page.wallet.youtubeVideoId": "",
+    "landing_page.wallet.btnJoinTelegram": "",
+    "landing_page.pay-for-stores.breadcrumb": "",
+    "landing_page.pay-for-stores.heading": "",
+    "landing_page.pay-for-stores.subHeading": "",
+    "landing_page.pay-for-stores.textEmail": "",
+    "landing_page.pay-for-stores.btnJoinTelegram": "",
+    "landing_page.pay-for-devs.breadcrumb": "",
+    "landing_page.pay-for-devs.heading": "",
+    "landing_page.pay-for-devs.subHeading": "",
+    "landing_page.pay-for-devs.textEmail": "",
+    "landing_page.internet-cash.breadcrumb": "",
+    "landing_page.internet-cash.heading": "",
+    "landing_page.internet-cash.subHeading": "",
+    "landing_page.internet-cash.textEmail": "",
+    "landing_page.dad.breadcrumb": "",
+    "landing_page.dad.heading": "",
+    "landing_page.dad.subHeading": "",
+    "landing_page.dad.textEmail": "",
+    "landing_page.dad.btnJoinTelegram": "",
+    "landing_page.uncommons.breadcrumb": "",
+    "landing_page.uncommons.heading": "",
+    "landing_page.uncommons.subHeading": "",
+    "landing_page.uncommons.textEmail": "",
+    "landing_page.uncommons.btnSubmitEmail": "",
+    "landing_page.whisper.breadcrumb": "",
+    "landing_page.whisper.heading": "",
+    "landing_page.whisper.subHeading": "",
+    "landing_page.whisper.textEmail": "",
+    "landing_page.whisper.label.sendLinkToEmail": "",
+    "landing_page.whisper.btnSubmitEmail": "",
+    "landing_page.whisper.btnJoinTelegram": "",
+    "landing_page.become_atm.heading": "",
+    "landing_page.become_atm.subHeading": [
+        "",
+        ""
+    ],
+    "landing_page.become_atm.email.desc": "",
+    "landing_page.become_atm.email.label": "",
+    "landing_page.become_atm.email.placeholder": "",
+    "landing_page.become_atm.email.submitBtnLabel": "",
+    "landing_page.become_atm.email.peopleRegistered": "",
+    "landing_page.become_atm.youtubeId": "",
+    "landing_page.become_atm.footer": "",
+    "landing_page.become_atm.modal.title": "",
+    "landing_page.become_atm.modal.content": "",
+    "landing_page.become_atm.modal.subContent": "",
+    "landing_page.become_atm.modal.metadata": "",
+    "landing_page.become_atm.categories": [
+        {
+            "label": "",
+            "desc": ""
+        },
+        {
+            "label": "",
+            "desc": ""
+        },
+        {
+            "label": "",
+            "desc": ""
+        }
+    ],
     "MOT_TITLE": "匿名交换任何东西",
-    "MOT_CONTENT_0": "忍者网络只能通过移动访问",
     "MOT_CONTENT_1": "在移动浏览器上打开",
     "MOT_CONTENT_2": "以获取匿名输入。",
     "MOT_CONTENT_3": "不需要下载。不需要注册。",
@@ -304,42 +580,206 @@
         }
     ],
     "COIN_EXCHANGE_LP_FAQ_TITLE": "Have any questions?",
-    "COIN_EXCHANGE_LP_FAQ": [
+    "landing_page.cash.faq": [
         {
-            "question": "What ID do I need as a seller or a buyer?",
-            "answer": "我们不需要身份验证。如果您验证了您的电话号码, 你在Shake Ninja平台将有机会得到1次免费交易"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "可接受信用卡付款吗？",
-            "answer": "是的。我们接受Visa, Mastercard, Amex 和 Discover信用卡支付"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "用户可以用什么货币进行交易？",
-            "answer": "我们接受所有币种交易"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "是否有追踪交易记录的系统？",
-            "answer": "是的。我们为每位买家和买家提供所有的的成功和失败的交易明细报告"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "这个平台有什么国家限制吗？",
-            "answer": "我们的平台适用于所有国家的用户"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "这个平台支持去中心化交易吗？",
-            "answer": "是的。因此, 交易是100% 安全和保密的"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "我可以使用 paypal 吗？",
-            "answer": "我们现在不支持Paypal支付"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "基金会在Escrow基金会代管吗？",
-            "answer": "是的, 基金既可以通过Escrow智能合同代管又可以通过以太坊区块链代管"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "如果涉及实际现金, 且交易时间滞后, 智能合同将如何执行？",
-            "answer": "After receiving the physical cash, the seller will click on the accept button, the coin will be automatically transferred to the buyer. The process takes about 10 minutes to 20 minutes"
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.cash-for-business.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.prediction.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.wallet.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.dad.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -403,6 +843,14 @@
                         "client": {
                             "phone": "A valid phone number would work better.",
                             "email": "A valid email would work better."
+                        },
+                        "idVerification": {
+                            "invalidFullName": "",
+                            "invalidIDNumber": "",
+                            "invalidDocument": "",
+                            "invalidFrontImage": "",
+                            "invalidBackImage": "",
+                            "invalidSelfieImage": ""
                         }
                     },
                     "require": {
@@ -411,11 +859,13 @@
                     },
                     "success": {
                         "phone": "Phone number securely saved.",
-                        "email": "您的电子邮件已验证。"
+                        "email": "您的电子邮件已验证。",
+                        "idVerification": ""
                     },
                     "cannot": {
                         "phone": "无法验证的您手机号码，请检查验证码是否输入正确",
-                        "email": "无法验证的您的电子邮件，请检查验证码是否输入正确"
+                        "email": "无法验证的您的电子邮件，请检查验证码是否输入正确",
+                        "idVerification": ""
                     }
                 }
             },
@@ -449,6 +899,23 @@
                         "send": "发送​​",
                         "submit": "验证你的邮箱"
                     }
+                },
+                "id_verification": {
+                    "label": "",
+                    "desc1": "",
+                    "desc2": "",
+                    "desc3": "",
+                    "desc4": "",
+                    "desc5": "",
+                    "desc6": "",
+                    "desc7": "",
+                    "desc8": "",
+                    "desc9": "",
+                    "uploading": "",
+                    "button": {
+                        "upload": "",
+                        "submit": ""
+                    }
                 }
             }
         },
@@ -458,12 +925,168 @@
             "shopTitle": "您的工作站",
             "shopDescription": "开始营业",
             "shopNoDataDescription": "None yet. Set one up?",
-            "noDataMessage": "启动任务"
+            "noDataMessage": "启动任务",
+            "filterBy": "",
+            "cash": {
+                "predition": "",
+                "cash": "",
+                "stationExplain": "",
+                "stationCreateSuggest": "",
+                "restoreStation": "",
+                "backupStation": "",
+                "transactions": "",
+                "dashboard": "",
+                "buyMoreCoin": ""
+            }
+        },
+        "credit": {
+            "overview": {
+                "askToDeactive": "",
+                "messageDeactiveSuccess": ""
+            },
+            "transaction": {
+                "amount": "",
+                "processing": "",
+                "deposit": {
+                    "title": "",
+                    "percentage": ""
+                },
+                "withdraw": {
+                    "title": "",
+                    "toAccount": ""
+                },
+                "transaction": {
+                    "title": "",
+                    "selling": "",
+                    "receiving": "",
+                    "fee": ""
+                },
+                "instant": {
+                    "title": "",
+                    "buying": "",
+                    "cost": ""
+                }
+            },
+            "withdraw": {
+                "title": "",
+                "yourBalance": "",
+                "yourPapalName": "",
+                "amount": "",
+                "buttonTitle": "",
+                "description": "",
+                "askToWithdraw": "",
+                "validate": {
+                    "amountMustLargerThan0": "",
+                    "amountMustLessThanBalance": ""
+                }
+            },
+            "withdrawSuccess": {
+                "description": "",
+                "descriptionTransfer": "",
+                "buttonTitle": ""
+            },
+            "deposit": {
+                "title": ""
+            }
         }
     },
     "discover": {
         "noDataMessageCash": "您附近还没有商家。成为第一个商家。",
-        "noDataMessageSwap": "您附近还没有商家。成为第一个商家。"
+        "noDataMessageSwap": "您附近还没有商家。成为第一个商家。",
+        "feed": {
+            "cash": {
+                "menu": {
+                    "actionDescription": ""
+                },
+                "marker": {
+                    "label": {
+                        "price": "",
+                        "maxVolume": "",
+                        "tradeNow": "",
+                        "tel": "",
+                        "workingHours": "",
+                        "address": ""
+                    }
+                }
+            }
+        }
+    },
+    "create": {
+        "cod_form": {
+            "cod": "",
+            "buy_btn": "",
+            "your_address": "",
+            "your_phone": "",
+            "time": ""
+        },
+        "cash": {
+            "credit": {
+                "title": ""
+            }
+        },
+        "transfer": {},
+        "atm": {
+            "title": "",
+            "tab": {
+                "storeInfo": "",
+                "transaction": ""
+            },
+            "text": {
+                "nameTitle": "",
+                "nameHint": "",
+                "open": "",
+                "closed": "",
+                "phone": "",
+                "addressTitle": "",
+                "addressHint": "",
+                "bankInfo": "",
+                "ccInfo": "",
+                "statusTitle": "",
+                "personalAtm": "",
+                "storeAtm": "",
+                "confirmCreateAtm": "",
+                "confirmUpdateAtm": "",
+                "createdAtmSuccess": "",
+                "updatedAtmSuccess": "",
+                "no_history": ""
+            },
+            "confirm_button": {
+                "desc": "",
+                "confirm": "",
+                "cancel": ""
+            },
+            "button": {
+                "create": "",
+                "update": ""
+            },
+            "days": {
+                "monday": "",
+                "tuesday": "",
+                "wednesday": "",
+                "thursday": "",
+                "friday": "",
+                "saturday": "",
+                "sunday": ""
+            },
+            "transactions": {
+                "amount": "",
+                "needToTransfer": "",
+                "status": "",
+                "to_wallet": "",
+                "statusValues": {
+                    "processing": "",
+                    "success": "",
+                    "transferring": "",
+                    "cancelled": "",
+                    "fiat_transfering": "",
+                    "transfer_failed": ""
+                },
+                "messageTransfer": "",
+                "transferNow": "",
+                "cancel_order": "",
+                "review_order": ""
+            }
+        }
     },
     "wallet": {
         "top_banner": {
@@ -515,6 +1138,13 @@
             "label": {
                 "menu": "你的团队",
                 "menu_description": "查看你的推荐和奖励。"
+            },
+            "table": {
+                "header": {
+                    "user": "",
+                    "date": "",
+                    "referalValue": ""
+                }
             }
         },
         "refers_dashboard": {
@@ -528,6 +1158,61 @@
             }
         },
         "action": {
+            "payment": {
+                "button": {
+                    "checkout": ""
+                },
+                "label": {
+                    "from_wallet": "",
+                    "to_address": "",
+                    "wallet_balance": "",
+                    "email": "",
+                    "shop_id": "",
+                    "confirm_url": "",
+                    "shop_name": "",
+                    "note": "",
+                    "crypto_currency": ""
+                },
+                "placeholder": {
+                    "to_address": "",
+                    "select_wallet": ""
+                },
+                "error": {
+                    "insufficient": ""
+                },
+                "menu": {
+                    "developer_docs": "",
+                    "payment_buttons": "",
+                    "help": ""
+                }
+            },
+            "preferecens": {
+                "list_item": {
+                    "wallet_name": "",
+                    "hide_balance": "",
+                    "backup_wallet": "",
+                    "export_private_key": "",
+                    "delete_wallet": ""
+                },
+                "update_name": {
+                    "title": "",
+                    "label": "",
+                    "button": {
+                        "save": ""
+                    }
+                }
+            },
+            "redeem": {
+                "title": "",
+                "your_code": "",
+                "giftcard": "",
+                "value": "",
+                "agree_text": "",
+                "button_redeem": "",
+                "button_check": "",
+                "swipe_button_redeem": "",
+                "find_code": ""
+            },
             "remove": {
                 "title": "移除",
                 "header": "是否确定？",
@@ -544,10 +1229,14 @@
                 "label": {
                     "from_wallet": "从钱包支付",
                     "to_address": "转到钱包地址：",
+                    "to_address2": "",
                     "amount": "金额",
                     "usd": "美元",
                     "wallet_balance": "钱包余额",
-                    "scan_qrcode": "扫描二维码"
+                    "scan_qrcode": "扫描二维码",
+                    "gas_limit": "",
+                    "data": "",
+                    "feel_level": ""
                 },
                 "placeholder": {
                     "to_address": "钱包地址",
@@ -585,6 +1274,37 @@
                 },
                 "description": "请输入您的绝密恢复数据, 以恢复您的钱包。"
             },
+            "export_private_key": {
+                "title": "",
+                "desc": ""
+            },
+            "setting": {
+                "title": "",
+                "error": "",
+                "header": "",
+                "success": {
+                    "restore": "",
+                    "save_alternative_currency": "",
+                    "save_crypto_address": ""
+                },
+                "label": {
+                    "alternative_currency": "",
+                    "select_alternative_currency": "",
+                    "crypto_address": "",
+                    "select_crypto_address": "",
+                    "short_address": "",
+                    "shortest_address": "",
+                    "hide_address": "",
+                    "passcode": "",
+                    "push_notifications": "",
+                    "community": "",
+                    "wallet_account": ""
+                },
+                "button": {
+                    "restore": ""
+                },
+                "description": ""
+            },
             "import": {
                 "title": "添加新的代币/导入代币"
             },
@@ -613,7 +1333,9 @@
                     "step1_msg2": "请确保没有其他人可以得到您的密码。您可以使用密码管理器或将其写下来藏在您的床垫下。",
                     "step1_label": "我知道, 如果我丢失了我的密码, 我将无法登陆我的帐户。",
                     "step2_msg1": "请认真记录这些单词。安全起见，请不要用电子邮件或屏幕截图。",
-                    "step3_msg1": "点击将这些单词按正确的顺序排列。"
+                    "step3_msg1": "点击将这些单词按正确的顺序排列。",
+                    "need_secure": "",
+                    "need_backup": ""
                 },
                 "button": {
                     "continue": "继续",
@@ -631,6 +1353,7 @@
                 "header": "钱包地址",
                 "header2": "手动输入金额",
                 "message": "共享您的公共钱包地址以接收",
+                "title2": "",
                 "label": {
                     "address": "地址",
                     "amount": "金额",
@@ -640,10 +1363,15 @@
                     "amount": "指定金额",
                     "choose_wallet": "选择一个钱包..。"
                 },
+                "link": {
+                    "copy_address": "",
+                    "download_qrcode": ""
+                },
                 "button": {
                     "share": "复制并共享",
                     "request_amount": "要求特定金额",
-                    "done": "完成"
+                    "done": "完成",
+                    "text": ""
                 },
                 "success": {
                     "share": "钱包地址已复制到剪贴板中。"
@@ -671,6 +1399,7 @@
                 "button": {
                     "create": "创建钱包",
                     "add_new": "+新建",
+                    "done": "",
                     "request_free_eth": "申请免费以太坊代币"
                 },
                 "error": {
@@ -688,13 +1417,32 @@
                 "title": "查看交易记录",
                 "header": "交易记录",
                 "label": {
+                    "balance_hidden": "",
                     "failed": "失败",
+                    "pending": "",
                     "unconfirmed": "未确认",
                     "balance": "余额",
                     "transactions": "交易",
                     "status": "订单状态",
                     "confirmations": "确认",
-                    "success": "操作成功"
+                    "success": "操作成功",
+                    "error": "",
+                    "detail_etherscan": "",
+                    "detail_blockchaininfo": "",
+                    "view_all_etherscan": "",
+                    "self": "",
+                    "sent": "",
+                    "received": "",
+                    "create": "",
+                    "transfer": "",
+                    "from": "",
+                    "to": "",
+                    "internal_transactions": "",
+                    "no_trans": "",
+                    "no_internal_trans": "",
+                    "coming_soon": "",
+                    "send": "",
+                    "receive": ""
                 }
             }
         }
@@ -709,14 +1457,36 @@
             "transaction": "您的交易将在30秒内显示在区块链平台"
         }
     },
+    "bitcoin_cash": {
+        "error": {
+            "invalid_address": "",
+            "invalid_address2": "",
+            "insufficient": ""
+        },
+        "success": {
+            "transaction": ""
+        }
+    },
     "ethereum": {
         "error": {
             "invalid_address": "您只能将代币转入以太坊钱包地址",
             "invalid_address2": "请输入有效的代币接收地址",
-            "insufficient": "您没有足够的代币来完成交易"
+            "insufficient": "您没有足够的代币来完成交易",
+            "insufficient_gas": ""
         },
         "success": {
             "transaction": "您的交易将在30秒内显示在区块链平台"
+        }
+    },
+    "ripple": {
+        "error": {
+            "invalid_address": "",
+            "invalid_address2": "",
+            "insufficient": "",
+            "insufficient_gas": ""
+        },
+        "success": {
+            "transaction": ""
         }
     },
     "chat": {
@@ -831,5 +1601,107 @@
     "WHITE_PAPER_SUMMARY_3": "PEX开源于",
     "WHITE_PAPER_SUMMARY_4": "与我们建立 PEX。加入",
     "WHITE_PAPER_END": "And it actually works",
-    "WHITE_PAPER_END_1": "Hey, thanks for reading. Ninja will go live on the testnet on 5 June! We’re excited to hear your thoughts."
+    "WHITE_PAPER_END_1": "Hey, thanks for reading. Ninja will go live on the testnet on 5 June! We’re excited to hear your thoughts.",
+    "atm_cash_transfer": {
+        "to_wallet_address": "",
+        "copy_address_or_scan_qr": "",
+        "we_will_send_coin_to_this_address_desc": "",
+        "amount": "",
+        "transfer": "",
+        "scan_qr_code": "",
+        "invalid_address_valid": "",
+        "success_msg": "",
+        "title": ""
+    },
+    "atm_cash_transfer_info": {
+        "payment_detail": "",
+        "order_will_expire_in": "",
+        "expired": "",
+        "customer_amount": "",
+        "amount": "",
+        "account_name": "",
+        "account_number": "",
+        "bank_name": "",
+        "bank_id": "",
+        "reference_code": "",
+        "important": "",
+        "notice_desc": "",
+        "upload_btn": "",
+        "done_btn": "",
+        "copied": "",
+        "title": "",
+        "amount_info": ""
+    },
+    "buy_coin": {
+        "label": {
+            "header": {
+                "buy_crypto": "",
+                "with_ninja_coin": ""
+            },
+            "description": "",
+            "common_packages": "",
+            "payment_methods": {
+                "bank": "",
+                "cod": "",
+                "cod_info": ""
+            },
+            "verify": {
+                "notYet": {
+                    "title": "",
+                    "action": ""
+                },
+                "rejected": {
+                    "title": "",
+                    "action": ""
+                },
+                "processing": {
+                    "title": "",
+                    "action": ""
+                },
+                "verified": {
+                    "need_selfie_verifiy": ""
+                }
+            },
+            "success": ""
+        },
+        "buy_package_without_wallet_address_notice": ""
+    },
+    "bank_info": {
+        "transfer_detail_text": "",
+        "account_name": "",
+        "account_number": "",
+        "bank_id": "",
+        "bank_name": ""
+    },
+    "buy_coin_transaction": {
+        "code": "",
+        "statusValues": {
+            "pending": "",
+            "processing": "",
+            "success": "",
+            "transferring": "",
+            "cancelled": "",
+            "fiat_transferring": "",
+            "transfer_failed": "",
+            "expired": "",
+            "rejected": ""
+        }
+    },
+    "buy_coin_transaction.text.no_history": "",
+    "wallet_selector": {
+        "your_wallet": "",
+        "wallet_dont_match_error": ""
+    },
+    "buy_coin_confirm_popup.msg": "",
+    "buy_coin_confirm_popup.confirm_text": "",
+    "buy_coin_confirm_popup.cancel_text": "",
+    "buy_coin.verify.need_selfie_verifiy": "",
+    "buy_coin.verify.need_selfie_verifiy_action": "",
+    "review": {
+        "title": "",
+        "label": {
+            "description": "",
+            "submitButtonTitle": ""
+        }
+    }
 }

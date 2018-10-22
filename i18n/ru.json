@@ -8,7 +8,13 @@
             "me": "Я",
             "exchanges": "Обмены",
             "whisper": "Шепот",
-            "wallet": "Кошелёк"
+            "wallet": "Кошелёк",
+            "setting": "",
+            "atm": "",
+            "bet": "",
+            "credit": "",
+            "shop": "",
+            "ninjaCoin": ""
         }
     },
     "buy": "Купить",
@@ -42,6 +48,7 @@
     "closeOfferConfirm": "Вы хотите удалить ваше предложение?",
     "acceptOfferConfirm": "Принять заказ?",
     "createOfferSuccessMessage": "Успех! Вы создали предложение на ниндзя.",
+    "updateOfferSuccessMessage": "",
     "shakeOfferSuccessMessage": "Успех! Ниндзя встряхнул в вашем заказе.",
     "closeOfferSuccessMessage": "Успех! Ваш заказ теперь закрыт.",
     "completeShakedfferSuccessMessage": "Вы успешно вошли в систему",
@@ -49,7 +56,10 @@
     "withdrawShakedfferSuccessMessage": "Ваше предложение было выведено.",
     "buyUsingCreditCardSuccessMessge": "Ваш заказ с помощью кредитной карты прошел успешно.",
     "notEnoughCoinInWallet": "У вас недостаточно монет сейчас. Пожалуйста, пополните кошелек.",
+    "notEnoughCoinInWalletDeposit": "",
+    "threeDSecureNotSupported": "",
     "createOfferStoreConfirm": "Вы хотите создать предложение для {intentMsg}?",
+    "updateOfferStoreConfirm": "",
     "notEnoughCoinInWalletStores": "У вас недостаточно монет сейчас. Пожалуйста, пополните кошелек.",
     "addOfferItemSuccessMassage": "Успех! Ваш заказ сейчас вывешен на Ниндзя",
     "deleteOfferItemSuccessMassage": "Ваш заказ успешно удален.",
@@ -65,16 +75,24 @@
     "movingCoinToEscrow": "Депонируем вашу монету. Это может занять несколько минут.",
     "movingCoinFromEscrow": "Перемещаем вашу монету из депонирования. Это может занять несколько минут.",
     "ex.create.label.amountBuy": "Я хочу купить",
+    "ex.create.label.amountBuy.update": "",
     "ex.create.label.amountSell": "Я хочу продать",
+    "ex.create.label.amountSell.update": "",
+    "ex.create.label.sell.currentBalance": "",
+    "ex.create.label.buy.currentBalance": "",
     "ex.create.label.marketPrice": "Текущая рыночная цена",
     "ex.create.label.premiumBuy": "Моя цена",
     "ex.create.label.premiumSell": "Моя цена",
     "ex.create.label.premiumSellExplanation": "Рыночная цена ± процент",
     "ex.create.label.nameStation": "Название станцию",
+    "ex.create.label.stationCurrency": "",
+    "ex.create.placeholder.stationCurrency": "",
     "ex.create.label.phone": "Телефон",
     "ex.create.label.address": "Место встречи",
     "ex.create.label.beASeller": "Быть продавцом",
+    "ex.create.label.beASeller.update": "",
     "ex.create.label.beABuyer": "Вы также можете быть покупателя",
+    "ex.create.label.beABuyer.update": "",
     "ex.create.label.stationInfo": "Информация станции",
     "ex.createLocal.label.iWantTo": "Я Хочу",
     "ex.createLocal.label.something": "Как оно называется?",
@@ -88,7 +106,9 @@
     "ex.discover.label.priceSell": "ПРОДАТЬ",
     "ex.discover.label.reviews": "({reviewCount})",
     "ex.discover.banner.text": "Есть монеты? Поверните их в машину для производства денег.",
+    "ex.credit.banner.text": "",
     "ex.discover.banner.btnText": "Стать локальной валютой",
+    "ex.credit.banner.btnText": "",
     "ex.discover.shakeDetail.label.amount": "Сумма",
     "ex.discover.shakeDetail.label.total": "Всего",
     "ex.discover.shakeDetail.label.maximum": "Максимум",
@@ -98,14 +118,22 @@
     "ex.btn.confirm": "Подтвердить",
     "ex.btn.OK": "ОК",
     "ex.btn.notNow": "Не сейчас",
+    "ex.btn.topup.now": "",
+    "ex.btn.create.atm": "",
+    "ex.btn.update.atm": "",
     "ex.label.buy": "Купить",
     "ex.label.sell": "Продать",
     "ex.label.bought": "Купил(а)",
     "ex.label.sold": "Продал(а)",
     "ex.label.buying": "Покупка",
     "ex.label.selling": "Продажа",
+    "ex.label.receiving": "",
     "ex.label.buyer": "Покупатель",
     "ex.label.seller": "Продавец",
+    "ex.label.sale": "",
+    "ex.label.purchase": "",
+    "ex.label.cost": "",
+    "ex.label.amount": "",
     "ex.exchange.status.created": "Настройка вашей станции",
     "ex.exchange.status.active": "Список станций",
     "ex.exchange.status.closing": "Удаление вашей станции",
@@ -120,20 +148,20 @@
     "ex.exchange.status.rejected": "Отвергнутый",
     "ex.exchange.status.cancelling": "Обработка",
     "ex.exchange.status.cancelled": "Отмененный",
-    "ex.exchange.explanation.created": "Это может занять несколько минут. Хорошие вещи приходят к тем, кто ждет.",
-    "ex.exchange.explanation.active": "Теперь вы можете открыть вашу станцию Наличными.",
-    "ex.exchange.explanation.closing": "Пожалуйста, подождите несколько минут.",
-    "ex.exchange.explanation.closed": "",
-    "ex.exchange.explanation.shaking": "Принятие предложения другой стороны...",
-    "ex.exchange.explanation.shake": "Принято. Вы будете получать монеты в течение нескольких минут.",
-    "ex.exchange.explanation.completing": "Принято. Вы будете получать монеты в течение нескольких минут.",
-    "ex.exchange.explanation.completed": "",
-    "ex.exchange.explanation.pre_shaking": "Ожидание подтверждения вашего оффера другой стороной.",
-    "ex.exchange.explanation.pre_shake": "Ожидание подтверждения вашего оффера другой стороной.",
-    "ex.exchange.explanation.rejecting": "Отклоняем предложение. Пожалуйста, подождите несколько минут.",
-    "ex.exchange.explanation.rejected": "",
-    "ex.exchange.explanation.cancelling": "Отменяем ваше предложение. Пожалуйста, подождите несколько минут.",
-    "ex.exchange.explanation.cancelled": "",
+    "ex.shop.explanation.created": "",
+    "ex.shop.explanation.active": "",
+    "ex.shop.explanation.closing": "",
+    "ex.shop.explanation.closed": "",
+    "ex.shop.explanation.shaking": "",
+    "ex.shop.explanation.shake": "",
+    "ex.shop.explanation.completing": "",
+    "ex.shop.explanation.completed": "",
+    "ex.shop.explanation.pre_shaking": "",
+    "ex.shop.explanation.pre_shake": "",
+    "ex.shop.explanation.rejecting": "",
+    "ex.shop.explanation.rejected": "",
+    "ex.shop.explanation.cancelling": "",
+    "ex.shop.explanation.cancelled": "",
     "ex.cc.status.processing": "Обработка",
     "ex.cc.status.success": "Готово",
     "ex.cc.status.cancelled": "Ошибка",
@@ -151,6 +179,24 @@
     "ex.shop.shake.status.completed": "Готово",
     "ex.shop.shake.status.cancelling": "Отмена",
     "ex.shop.shake.status.cancelled": "Отменено",
+    "ex.shop.shake.buyer.seller": "",
+    "ex.shop.shake.label.information": "",
+    "ex.shop.shake.label.phone": "",
+    "ex.shop.shake.label.reviews": "",
+    "ex.shop.shake.label.reviews.count": "",
+    "ex.shop.shake.label.cash.inventory": "",
+    "ex.shop.shake.label.coin.inventory": "",
+    "ex.shop.shake.label.days": "",
+    "ex.shop.shake.message.using.which.address": "",
+    "ex.shop.shake.button.using.scan.address": "",
+    "ex.shop.shake.button.using.default.address": "",
+    "ex.shop.shake.button.using.scan.rescan": "",
+    "ex.shop.dashboard.label.transaction.successfull.failed": "",
+    "ex.shop.dashboard.label.transaction.pending": "",
+    "ex.shop.dashboard.label.revenue": "",
+    "ex.shop.dashboard.label.transaction.total": "",
+    "ex.shop.dashboard.button.updateInventory": "",
+    "ex.shop.dashboard.label.trial": "",
     "ex.error.systemError": "Извините ниндзя. Что-то пошло не так. Скоро вернемся.",
     "ex.error.312": "О, нет! Вы отменили ваше предложение. Вы не сможете делать заказы в течение 4 часов. Извините",
     "ex.error.313": "У вас уже есть опубликованные предложения! Чтобы изменить ваши ставки, пожалуйста, отмените свои текуще.",
@@ -161,20 +207,28 @@
     "ex.error.301": "Ты уже ниндзя.",
     "ex.error.302": "Извините, этот ниндзя не существует.",
     "ex.error.303": "Похоже, что вы достигли лимит кредитной карты.",
+    "ex.error.304": "",
     "ex.error.309": "У вас уже есть опубликованные предложения! Чтобы изменить ваши ставки, пожалуйста, отмените свои текуще.",
     "ex.error.319": "Пожалуйста, введите только 0,5 ETH.",
     "ex.error.320": "Программа early bird закончилась, пожалуйста внесите деньги, чтобы торговать с нами.",
+    "ex.error.322": "",
+    "ex.error.323": "",
+    "ex.error.324": "",
+    "ex.error.325": "",
+    "ex.error.326": "",
+    "ex.error.327": "",
     "ex.error.default": "Ой! Что-то пошло не так.",
     "ex.earlyBird.label.1": "Добро пожаловать в нашу <br/> программу EARLY BIRD!",
     "ex.earlyBird.label.2": "Создайте вашу станцию с ETH <br /><span class=\"intro-amount\">{freeETH}</span> бесплатно прямо сейчас!",
     "ex.earlyBird.btn": "Откройте станцию",
-    "ex.seo.title": "Ninja Cash: Купить/Продать криптовалюту за деньги",
-    "ex.seo.meta.description": "Самый легкий способ торговать с низкой комиссией. Без регистрации и проверки документов. Узнай как зарабатывать на вашей криптовалюте с нами",
     "error.required": "Требуется",
     "error.requiredOne": "Вам нужно заполнить это!",
     "error.greaterThan": "Должно быть больше {min}",
     "error.lessThan": "Должно быть меньше, чем {max}",
+    "error.greaterThan.equal": "",
+    "error.lessThan.equal": "",
     "error.mustBeANumber": "Введите числовое значение",
+    "error.mustBeAPositiveInteger": "",
     "btn.initiate": "Начать",
     "btn.shake": "Встряхните",
     "btn.reject": "Отменить",
@@ -184,6 +238,7 @@
     "btn.close": "Закрыть",
     "btn.accept": "Принять",
     "btn.delete": "Удалить",
+    "btn.update": "",
     "ex.landing.menu.about": "О нас",
     "ex.landing.menu.blog": "БЛОГ",
     "ex.landing.menu.faq": "FAQ",
@@ -198,7 +253,75 @@
     "ex.landing.features.label.4": "Торгуйте с другими ниндзя в вашем районе",
     "ex.landing.tryTelegram.label": "Попробуйте платформу бесплатно, присоединившись к чату в Телеграмм",
     "ex.landing.tryTelegram.btn": "Присоединиться К Telegram",
+    "ex.about.label.about": "",
+    "ex.about.description": "",
+    "ex.about.label.connectWith": "",
+    "ex.about.label.website": "",
+    "ex.about.label.telegram": "",
+    "ex.about.label.medium": "",
+    "ex.about.label.github": "",
+    "ex.about.label.twitter": "",
+    "ex.discover.label.sortby": "",
+    "ex.sort.distance": "",
+    "ex.sort.price": "",
+    "ex.sort.rating": "",
+    "ex.sort.price.buy.btc": "",
+    "ex.sort.price.sell.btc": "",
+    "ex.sort.price.buy.eth": "",
+    "ex.sort.price.sell.eth": "",
+    "ex.discover.label.open.atm": "",
+    "ex.discover.label.manage.atm": "",
+    "ex.discover.label.dashboard": "",
     "product_info": "Ниндзя является открытым, децентрализованным программным обеспечением, которое никогда не заморозит ваши средства. Выбирая Ниндзя, пользователь принимает полную ответственность за свое поведение и обязуется соблюдать их правила. Ниндзя не несет ответственность за правовой, денежный или психологический ущерб, который Выможете причинить. Никогда не вкладывайте больше, чем вы готовы потерять. Играйте безопасно!",
+    "cc.label.1": "",
+    "cc.label.2": "",
+    "cc.label.3": "",
+    "cc.btn.buyNow": "",
+    "cc.btn.payNow": "",
+    "cc.label.basic": "",
+    "cc.label.pro": "",
+    "cc.label.plus": "",
+    "cc.label.cardNo": "",
+    "cc.label.cvv": "",
+    "cc.label.expiration": "",
+    "cc.label.saveCard": "",
+    "cc.label.saving": "",
+    "cc.label.email": "",
+    "cc.label.email.hint": "",
+    "cc.label.receive.address": "",
+    "escrow.label.depositCoin": "",
+    "escrow.label.iWantTo": "",
+    "escrow.label.price": "",
+    "escrow.label.percentage": "",
+    "escrow.label.howToCalculatePrice": "",
+    "escrow.label.yourSellingPrice": "",
+    "escrow.label.sellingPriceCaption": "",
+    "escrow.btn.depositNow": "",
+    "escrow.btn.depositSuccessMessage": "",
+    "escrow.label.wallet.setDefaultWallet": "",
+    "dashboard.heading": "",
+    "dashboard.label.overview": "",
+    "dashboard.label.transaction": "",
+    "dashboard.label.manageAssets": "",
+    "dashboard.btn.deactivate": "",
+    "dashboard.btn.reactivate": "",
+    "dashboard.btn.depositing": "",
+    "dashboard.btn.topUpByCC": "",
+    "dashboard.btn.scanQRCode": "",
+    "dashboard.btn.depositEscrow": "",
+    "dashboard.btn.withdrawEscrow": "",
+    "dashboard.label.amountSold": "",
+    "dashboard.label.amountLeft": "",
+    "dashboard.label.currentPrice": "",
+    "dashboard.label.revenue": "",
+    "dashboard.label.yourBalance": "",
+    "dashboard.label.or": "",
+    "dashboard.label.deposit.description1": "",
+    "dashboard.label.deposit.description2": "",
+    "askLocationPermission.label.1": "",
+    "askLocationPermission.label.2": "",
+    "askLocationPermission.btn.dontAllow": "",
+    "askLocationPermission.btn.allow": "",
     "FAQ_TITLE": "Вопросы и ответы",
     "FAQ_HEADER_YELLOW": "Децентрализованные",
     "FAQ_HEADER": "Ставка",
@@ -281,8 +404,161 @@
             "answer": "Мы будет интеграция рукопожатие (и ваши любимые функции, такие как обещания, долговые расписки, загрузить контракт и т. д.) в ниндзя мобильный веб-сайт."
         }
     ],
+    "landing_page.btn.joinOurTeam": "",
+    "landing_page.btn.goToLandingPage": "",
+    "landing_page.header.product": "",
+    "landing_page.subHeader.product": "",
+    "landing_page.detail.thanksForSubscribing": "",
+    "landing_page.detail.email_placeholder": "",
+    "landing_page.recruiting.intro.label": "",
+    "landing_page.recruiting.intro.btn": "",
+    "landing_page.recruiting.label.noJobs": "",
+    "landing_page.recruiting.label.getTheWordOut": "",
+    "landing_page.recruiting.label.backToListing": "",
+    "landing_page.recruiting.button.applyNow": "",
+    "landing_page.recruiting.button.referFriend": "",
+    "landing_page.recruiting.applyNow.title": "",
+    "landing_page.recruiting.applyNow.label.uploadDocs": "",
+    "landing_page.recruiting.applyNow.label.weAccept": "",
+    "landing_page.recruiting.applyNow.label.or": "",
+    "landing_page.recruiting.applyNow.label.submit": "",
+    "landing_page.recruiting.applyNow.label.connectToLinkedIn": "",
+    "landing_page.recruiting.applyNow.label.thankYou": "",
+    "landing_page.recruiting.applyNow.label.weReview": "",
+    "landing_page.recruiting.referFriend.title": "",
+    "landing_page.recruiting.referFriend.label.yourPhone": "",
+    "landing_page.recruiting.referFriend.label.yourEmail": "",
+    "landing_page.recruiting.referFriend.label.jobPosition": "",
+    "landing_page.recruiting.referFriend.placeholder.phone": "",
+    "landing_page.recruiting.referFriend.placeholder.email": "",
+    "landing_page.recruiting.referFriend.placeholder.saySomething": "",
+    "landing_page.recruiting.referFriend.label.uploadCV": "",
+    "landing_page.recruiting.referFriend.label.thankYou": "",
+    "landing_page.recruiting.referFriend.label.weReview": "",
+    "landing_page.products.cash.title": "",
+    "landing_page.products.cash.subTitle": "",
+    "landing_page.products.prediction.title": "",
+    "landing_page.products.prediction.subTitle": "",
+    "landing_page.products.wallet.title": "",
+    "landing_page.products.wallet.subTitle": "",
+    "landing_page.products.hivepay-offline.title": "",
+    "landing_page.products.hivepay-offline.subTitle": "",
+    "landing_page.products.hivepay-online.title": "",
+    "landing_page.products.hivepay-online.subTitle": "",
+    "landing_page.products.dad.title": "",
+    "landing_page.products.dad.subTitle": "",
+    "landing_page.products.whisper.title": "",
+    "landing_page.products.whisper.subTitle": "",
+    "landing_page.products.fund.title": "",
+    "landing_page.products.fund.subTitle": "",
+    "landing_page.header.research": "",
+    "landing_page.subHeader.research": "",
+    "landing_page.researches.uncommons.title": "",
+    "landing_page.researches.uncommons.subTitle": "",
+    "landing_page.researches.internetCash.title": "",
+    "landing_page.researches.internetCash.subTitle": "",
+    "landing_page.label.footer": "",
+    "landing_page.label.joinTelegram": "",
+    "landing_page.label.whitepaper": "",
+    "landing_page.label.btnSubmitEmail": "",
+    "landing_page.cash.breadcrumb": "",
+    "landing_page.cash.heading": "",
+    "landing_page.cash.subHeading": "",
+    "landing_page.cash.textEmail": "",
+    "landing_page.cash.label.sendLinkToEmail": "",
+    "landing_page.cash.btnSubmitEmail": "",
+    "landing_page.cash.joinTelegram": "",
+    "landing_page.cash.whitepaper": "",
+    "landing_page.cash.youtubeVideoId": "",
+    "landing_page.cash.btnBecomeAtm": "",
+    "landing_page.cash-for-business.breadcrumb": "",
+    "landing_page.cash-for-business.heading": "",
+    "landing_page.cash-for-business.subHeading": "",
+    "landing_page.cash-for-business.textEmail": "",
+    "landing_page.cash-for-business.label.sendLinkToEmail": "",
+    "landing_page.cash-for-business.btnSubmitEmail": "",
+    "landing_page.cash-for-business.joinTelegram": "",
+    "landing_page.cash-for-business.whitepaper": "",
+    "landing_page.cash-for-business.youtubeVideoId": "",
+    "landing_page.prediction.breadcrumb": "",
+    "landing_page.prediction.heading": "",
+    "landing_page.prediction.subHeading": "",
+    "landing_page.prediction.textEmail": "",
+    "landing_page.prediction.label.sendLinkToEmail": "",
+    "landing_page.prediction.btnSubmitEmail": "",
+    "landing_page.prediction.joinTelegram": "",
+    "landing_page.prediction.whitepaper": "",
+    "landing_page.prediction.disclaim": "",
+    "landing_page.prediction.btnJoinTelegram": "",
+    "landing_page.wallet.breadcrumb": "",
+    "landing_page.wallet.heading": "",
+    "landing_page.wallet.subHeading": "",
+    "landing_page.wallet.textEmail": "",
+    "landing_page.wallet.label.sendLinkToEmail": "",
+    "landing_page.wallet.btnSubmitEmail": "",
+    "landing_page.wallet.youtubeVideoId": "",
+    "landing_page.wallet.btnJoinTelegram": "",
+    "landing_page.pay-for-stores.breadcrumb": "",
+    "landing_page.pay-for-stores.heading": "",
+    "landing_page.pay-for-stores.subHeading": "",
+    "landing_page.pay-for-stores.textEmail": "",
+    "landing_page.pay-for-stores.btnJoinTelegram": "",
+    "landing_page.pay-for-devs.breadcrumb": "",
+    "landing_page.pay-for-devs.heading": "",
+    "landing_page.pay-for-devs.subHeading": "",
+    "landing_page.pay-for-devs.textEmail": "",
+    "landing_page.internet-cash.breadcrumb": "",
+    "landing_page.internet-cash.heading": "",
+    "landing_page.internet-cash.subHeading": "",
+    "landing_page.internet-cash.textEmail": "",
+    "landing_page.dad.breadcrumb": "",
+    "landing_page.dad.heading": "",
+    "landing_page.dad.subHeading": "",
+    "landing_page.dad.textEmail": "",
+    "landing_page.dad.btnJoinTelegram": "",
+    "landing_page.uncommons.breadcrumb": "",
+    "landing_page.uncommons.heading": "",
+    "landing_page.uncommons.subHeading": "",
+    "landing_page.uncommons.textEmail": "",
+    "landing_page.uncommons.btnSubmitEmail": "",
+    "landing_page.whisper.breadcrumb": "",
+    "landing_page.whisper.heading": "",
+    "landing_page.whisper.subHeading": "",
+    "landing_page.whisper.textEmail": "",
+    "landing_page.whisper.label.sendLinkToEmail": "",
+    "landing_page.whisper.btnSubmitEmail": "",
+    "landing_page.whisper.btnJoinTelegram": "",
+    "landing_page.become_atm.heading": "",
+    "landing_page.become_atm.subHeading": [
+        "",
+        ""
+    ],
+    "landing_page.become_atm.email.desc": "",
+    "landing_page.become_atm.email.label": "",
+    "landing_page.become_atm.email.placeholder": "",
+    "landing_page.become_atm.email.submitBtnLabel": "",
+    "landing_page.become_atm.email.peopleRegistered": "",
+    "landing_page.become_atm.youtubeId": "",
+    "landing_page.become_atm.footer": "",
+    "landing_page.become_atm.modal.title": "",
+    "landing_page.become_atm.modal.content": "",
+    "landing_page.become_atm.modal.subContent": "",
+    "landing_page.become_atm.modal.metadata": "",
+    "landing_page.become_atm.categories": [
+        {
+            "label": "",
+            "desc": ""
+        },
+        {
+            "label": "",
+            "desc": ""
+        },
+        {
+            "label": "",
+            "desc": ""
+        }
+    ],
     "MOT_TITLE": "Анонимный обмен ничего",
-    "MOT_CONTENT_0": "Ниндзя сеть доступна только через мобильный.",
     "MOT_CONTENT_1": "Откройте",
     "MOT_CONTENT_2": "в вашем мобильном браузере, чтобы получить анонимный вход.",
     "MOT_CONTENT_3": "Не нужно загружать. Не Зарегистрируйся требуется.",
@@ -304,42 +580,206 @@
         }
     ],
     "COIN_EXCHANGE_LP_FAQ_TITLE": "Есть вопросы?",
-    "COIN_EXCHANGE_LP_FAQ": [
+    "landing_page.cash.faq": [
         {
-            "question": "Какая идентификация нужна для продавцов или покупателей?",
-            "answer": "Нам не нужна верификация личности"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Принимаются ли кредитные карты?",
-            "answer": "Да. Мы принимаем Visa, Mastercard, Amex и Discover"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Какие валюты принимаются для обмена?",
-            "answer": "Мы принимаем все валюты"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Есть ли система отслеживания истории торговли?",
-            "answer": "Да. Мы прослеживаем успешные и неудачные транзакции с четким отчетом для каждого продавца и покупателя"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Имеет ли какая-либо страна ограничения на использование платформы?",
-            "answer": "Мы доступны для всех стран"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Есть ли децентрализованный обмен?",
-            "answer": "Да, поэтому транзакция на 100% безопасна и надежна"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Могу ли я использовать Paypal?",
-            "answer": "Мы не доступны в Paypal на данный момент"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Будут ли средства храниться в Эскроу?",
-            "answer": "Да, либо на депонированном счете, либо на смарт контракте в блокчейне эфириума"
+            "question": "",
+            "answer": ""
         },
         {
-            "question": "Как будет выполняться смарт контракт, когда задействованы физические деньги и вероятны ли задержки транзакций?",
-            "answer": "Получив физическую наличность, продавец нажимает кнопку «принять», монета будет автоматически переведена покупателю. Процесс занимает от 10 до 20 минут"
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.cash-for-business.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.prediction.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.wallet.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "landing_page.dad.faq": [
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
+        },
+        {
+            "question": "",
+            "answer": ""
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -403,6 +843,14 @@
                         "client": {
                             "phone": "Существуйющий номер работал бы лучше.",
                             "email": "Существуйющий email работал бы лучше."
+                        },
+                        "idVerification": {
+                            "invalidFullName": "",
+                            "invalidIDNumber": "",
+                            "invalidDocument": "",
+                            "invalidFrontImage": "",
+                            "invalidBackImage": "",
+                            "invalidSelfieImage": ""
                         }
                     },
                     "require": {
@@ -411,11 +859,13 @@
                     },
                     "success": {
                         "phone": "Номер телефона надежно сохранен.",
-                        "email": "Ваш email подтвержден."
+                        "email": "Ваш email подтвержден.",
+                        "idVerification": ""
                     },
                     "cannot": {
                         "phone": "Не можем подтвердить ваш телефон, пожалуйста, проверьте код",
-                        "email": "Не можем подтвердить ваш email, пожалуйста, проверьте код."
+                        "email": "Не можем подтвердить ваш email, пожалуйста, проверьте код.",
+                        "idVerification": ""
                     }
                 }
             },
@@ -449,6 +899,23 @@
                         "send": "Отправить",
                         "submit": "Подтвердите ваш email"
                     }
+                },
+                "id_verification": {
+                    "label": "",
+                    "desc1": "",
+                    "desc2": "",
+                    "desc3": "",
+                    "desc4": "",
+                    "desc5": "",
+                    "desc6": "",
+                    "desc7": "",
+                    "desc8": "",
+                    "desc9": "",
+                    "uploading": "",
+                    "button": {
+                        "upload": "",
+                        "submit": ""
+                    }
                 }
             }
         },
@@ -458,12 +925,168 @@
             "shopTitle": "Ваша станция",
             "shopDescription": "Открыть для бизнеса",
             "shopNoDataDescription": "Еще ни одного. Установить один?",
-            "noDataMessage": "Начать миссию."
+            "noDataMessage": "Начать миссию.",
+            "filterBy": "",
+            "cash": {
+                "predition": "",
+                "cash": "",
+                "stationExplain": "",
+                "stationCreateSuggest": "",
+                "restoreStation": "",
+                "backupStation": "",
+                "transactions": "",
+                "dashboard": "",
+                "buyMoreCoin": ""
+            }
+        },
+        "credit": {
+            "overview": {
+                "askToDeactive": "",
+                "messageDeactiveSuccess": ""
+            },
+            "transaction": {
+                "amount": "",
+                "processing": "",
+                "deposit": {
+                    "title": "",
+                    "percentage": ""
+                },
+                "withdraw": {
+                    "title": "",
+                    "toAccount": ""
+                },
+                "transaction": {
+                    "title": "",
+                    "selling": "",
+                    "receiving": "",
+                    "fee": ""
+                },
+                "instant": {
+                    "title": "",
+                    "buying": "",
+                    "cost": ""
+                }
+            },
+            "withdraw": {
+                "title": "",
+                "yourBalance": "",
+                "yourPapalName": "",
+                "amount": "",
+                "buttonTitle": "",
+                "description": "",
+                "askToWithdraw": "",
+                "validate": {
+                    "amountMustLargerThan0": "",
+                    "amountMustLessThanBalance": ""
+                }
+            },
+            "withdrawSuccess": {
+                "description": "",
+                "descriptionTransfer": "",
+                "buttonTitle": ""
+            },
+            "deposit": {
+                "title": ""
+            }
         }
     },
     "discover": {
         "noDataMessageCash": "Пока нет станций возле вас. Будь первым.",
-        "noDataMessageSwap": "Пока нет поставщиков. Будь первым"
+        "noDataMessageSwap": "Пока нет поставщиков. Будь первым",
+        "feed": {
+            "cash": {
+                "menu": {
+                    "actionDescription": ""
+                },
+                "marker": {
+                    "label": {
+                        "price": "",
+                        "maxVolume": "",
+                        "tradeNow": "",
+                        "tel": "",
+                        "workingHours": "",
+                        "address": ""
+                    }
+                }
+            }
+        }
+    },
+    "create": {
+        "cod_form": {
+            "cod": "",
+            "buy_btn": "",
+            "your_address": "",
+            "your_phone": "",
+            "time": ""
+        },
+        "cash": {
+            "credit": {
+                "title": ""
+            }
+        },
+        "transfer": {},
+        "atm": {
+            "title": "",
+            "tab": {
+                "storeInfo": "",
+                "transaction": ""
+            },
+            "text": {
+                "nameTitle": "",
+                "nameHint": "",
+                "open": "",
+                "closed": "",
+                "phone": "",
+                "addressTitle": "",
+                "addressHint": "",
+                "bankInfo": "",
+                "ccInfo": "",
+                "statusTitle": "",
+                "personalAtm": "",
+                "storeAtm": "",
+                "confirmCreateAtm": "",
+                "confirmUpdateAtm": "",
+                "createdAtmSuccess": "",
+                "updatedAtmSuccess": "",
+                "no_history": ""
+            },
+            "confirm_button": {
+                "desc": "",
+                "confirm": "",
+                "cancel": ""
+            },
+            "button": {
+                "create": "",
+                "update": ""
+            },
+            "days": {
+                "monday": "",
+                "tuesday": "",
+                "wednesday": "",
+                "thursday": "",
+                "friday": "",
+                "saturday": "",
+                "sunday": ""
+            },
+            "transactions": {
+                "amount": "",
+                "needToTransfer": "",
+                "status": "",
+                "to_wallet": "",
+                "statusValues": {
+                    "processing": "",
+                    "success": "",
+                    "transferring": "",
+                    "cancelled": "",
+                    "fiat_transfering": "",
+                    "transfer_failed": ""
+                },
+                "messageTransfer": "",
+                "transferNow": "",
+                "cancel_order": "",
+                "review_order": ""
+            }
+        }
     },
     "wallet": {
         "top_banner": {
@@ -515,6 +1138,13 @@
             "label": {
                 "menu": "Ваш клан",
                 "menu_description": "Отслеживайте своих рефералов и вознаграждений здесь."
+            },
+            "table": {
+                "header": {
+                    "user": "",
+                    "date": "",
+                    "referalValue": ""
+                }
             }
         },
         "refers_dashboard": {
@@ -528,6 +1158,61 @@
             }
         },
         "action": {
+            "payment": {
+                "button": {
+                    "checkout": ""
+                },
+                "label": {
+                    "from_wallet": "",
+                    "to_address": "",
+                    "wallet_balance": "",
+                    "email": "",
+                    "shop_id": "",
+                    "confirm_url": "",
+                    "shop_name": "",
+                    "note": "",
+                    "crypto_currency": ""
+                },
+                "placeholder": {
+                    "to_address": "",
+                    "select_wallet": ""
+                },
+                "error": {
+                    "insufficient": ""
+                },
+                "menu": {
+                    "developer_docs": "",
+                    "payment_buttons": "",
+                    "help": ""
+                }
+            },
+            "preferecens": {
+                "list_item": {
+                    "wallet_name": "",
+                    "hide_balance": "",
+                    "backup_wallet": "",
+                    "export_private_key": "",
+                    "delete_wallet": ""
+                },
+                "update_name": {
+                    "title": "",
+                    "label": "",
+                    "button": {
+                        "save": ""
+                    }
+                }
+            },
+            "redeem": {
+                "title": "",
+                "your_code": "",
+                "giftcard": "",
+                "value": "",
+                "agree_text": "",
+                "button_redeem": "",
+                "button_check": "",
+                "swipe_button_redeem": "",
+                "find_code": ""
+            },
             "remove": {
                 "title": "Удалить",
                 "header": "Вы уверены?",
@@ -544,10 +1229,14 @@
                 "label": {
                     "from_wallet": "Из кошелек",
                     "to_address": "На адрес кошелька",
+                    "to_address2": "",
                     "amount": "Сумма",
                     "usd": "USD",
                     "wallet_balance": "Баланс кошелька",
-                    "scan_qrcode": "Сканировать QR-код"
+                    "scan_qrcode": "Сканировать QR-код",
+                    "gas_limit": "",
+                    "data": "",
+                    "feel_level": ""
                 },
                 "placeholder": {
                     "to_address": "Адрес кошелька...",
@@ -585,6 +1274,37 @@
                 },
                 "description": "Пожалуйста, введите свои секретные данные восстановления, чтобы восстановить свой кошелек."
             },
+            "export_private_key": {
+                "title": "",
+                "desc": ""
+            },
+            "setting": {
+                "title": "",
+                "error": "",
+                "header": "",
+                "success": {
+                    "restore": "",
+                    "save_alternative_currency": "",
+                    "save_crypto_address": ""
+                },
+                "label": {
+                    "alternative_currency": "",
+                    "select_alternative_currency": "",
+                    "crypto_address": "",
+                    "select_crypto_address": "",
+                    "short_address": "",
+                    "shortest_address": "",
+                    "hide_address": "",
+                    "passcode": "",
+                    "push_notifications": "",
+                    "community": "",
+                    "wallet_account": ""
+                },
+                "button": {
+                    "restore": ""
+                },
+                "description": ""
+            },
             "import": {
                 "title": "Добавить новый / импорт монета"
             },
@@ -613,7 +1333,9 @@
                     "step1_msg2": "Убедитесь, что у вас нет доступа к вашей кодовой фразе. Вы можете использовать менеджер паролей или записать его и спрятать под матрасом.",
                     "step1_label": "Я понимаю, что если я потеряю кодовую фразу, я потеряю доступ к своей учетной записи.",
                     "step2_msg1": "Запишите эти слова внимательно. Не отправляйте его по электронной почте или не скриншот.",
-                    "step3_msg1": "Нажмите, чтобы поместить эти слова в правильном порядке."
+                    "step3_msg1": "Нажмите, чтобы поместить эти слова в правильном порядке.",
+                    "need_secure": "",
+                    "need_backup": ""
                 },
                 "button": {
                     "continue": "Продолжать",
@@ -631,6 +1353,7 @@
                 "header": "Адрес кошелька",
                 "header2": "Пользовательская сумма",
                 "message": "Поделитесь своим адресом общественного Кошелька, чтобы получить",
+                "title2": "",
                 "label": {
                     "address": "Адрес",
                     "amount": "Сумма",
@@ -640,10 +1363,15 @@
                     "amount": "Укажите суммы",
                     "choose_wallet": "Выберите кошелек..."
                 },
+                "link": {
+                    "copy_address": "",
+                    "download_qrcode": ""
+                },
                 "button": {
                     "share": "Копировать и поделиться",
                     "request_amount": "Запросить определенную сумму ➔",
-                    "done": "Готово"
+                    "done": "Готово",
+                    "text": ""
                 },
                 "success": {
                     "share": "Адрес кошелька скопирован в буфер обмена."
@@ -671,6 +1399,7 @@
                 "button": {
                     "create": "Создать кошелек",
                     "add_new": "+ Добавить новый",
+                    "done": "",
                     "request_free_eth": "Запросить бесплатный ETH"
                 },
                 "error": {
@@ -688,13 +1417,32 @@
                 "title": "Просмотр истории транзакций",
                 "header": "История транзакций",
                 "label": {
+                    "balance_hidden": "",
                     "failed": "Ошибка",
+                    "pending": "",
                     "unconfirmed": "Неподтвержденный",
                     "balance": "Баланс",
                     "transactions": "Операции",
                     "status": "Положение дел",
                     "confirmations": "подтверждения",
-                    "success": "успех"
+                    "success": "успех",
+                    "error": "",
+                    "detail_etherscan": "",
+                    "detail_blockchaininfo": "",
+                    "view_all_etherscan": "",
+                    "self": "",
+                    "sent": "",
+                    "received": "",
+                    "create": "",
+                    "transfer": "",
+                    "from": "",
+                    "to": "",
+                    "internal_transactions": "",
+                    "no_trans": "",
+                    "no_internal_trans": "",
+                    "coming_soon": "",
+                    "send": "",
+                    "receive": ""
                 }
             }
         }
@@ -709,14 +1457,36 @@
             "transaction": "Ваша сделка будет обрабатываться на blockchain около 30 секунд."
         }
     },
+    "bitcoin_cash": {
+        "error": {
+            "invalid_address": "",
+            "invalid_address2": "",
+            "insufficient": ""
+        },
+        "success": {
+            "transaction": ""
+        }
+    },
     "ethereum": {
         "error": {
             "invalid_address": "Вы можете отправить токены только на Ethereum адрес",
             "invalid_address2": "Пожалуйста, введите действительный адрес приема.",
-            "insufficient": "У вас недостаточно монет, чтобы сделать перевод."
+            "insufficient": "У вас недостаточно монет, чтобы сделать перевод.",
+            "insufficient_gas": ""
         },
         "success": {
             "transaction": "Ваша сделка будет обрабатываться на blockchain около 30 секунд."
+        }
+    },
+    "ripple": {
+        "error": {
+            "invalid_address": "",
+            "invalid_address2": "",
+            "insufficient": "",
+            "insufficient_gas": ""
+        },
+        "success": {
+            "transaction": ""
         }
     },
     "chat": {
@@ -831,5 +1601,107 @@
     "WHITE_PAPER_SUMMARY_3": "PEX – это открытый код, который можно найти на",
     "WHITE_PAPER_SUMMARY_4": "Создавайте PEX вместе с нами. Присоединяйтесь к чату",
     "WHITE_PAPER_END": "Платформа работает",
-    "WHITE_PAPER_END_1": "Благодарим вас за то, что прочитали. Ниндзя будет запущена в тестовом режиме 5 июня! Нам очень хочется услышать ваши мысли."
+    "WHITE_PAPER_END_1": "Благодарим вас за то, что прочитали. Ниндзя будет запущена в тестовом режиме 5 июня! Нам очень хочется услышать ваши мысли.",
+    "atm_cash_transfer": {
+        "to_wallet_address": "",
+        "copy_address_or_scan_qr": "",
+        "we_will_send_coin_to_this_address_desc": "",
+        "amount": "",
+        "transfer": "",
+        "scan_qr_code": "",
+        "invalid_address_valid": "",
+        "success_msg": "",
+        "title": ""
+    },
+    "atm_cash_transfer_info": {
+        "payment_detail": "",
+        "order_will_expire_in": "",
+        "expired": "",
+        "customer_amount": "",
+        "amount": "",
+        "account_name": "",
+        "account_number": "",
+        "bank_name": "",
+        "bank_id": "",
+        "reference_code": "",
+        "important": "",
+        "notice_desc": "",
+        "upload_btn": "",
+        "done_btn": "",
+        "copied": "",
+        "title": "",
+        "amount_info": ""
+    },
+    "buy_coin": {
+        "label": {
+            "header": {
+                "buy_crypto": "",
+                "with_ninja_coin": ""
+            },
+            "description": "",
+            "common_packages": "",
+            "payment_methods": {
+                "bank": "",
+                "cod": "",
+                "cod_info": ""
+            },
+            "verify": {
+                "notYet": {
+                    "title": "",
+                    "action": ""
+                },
+                "rejected": {
+                    "title": "",
+                    "action": ""
+                },
+                "processing": {
+                    "title": "",
+                    "action": ""
+                },
+                "verified": {
+                    "need_selfie_verifiy": ""
+                }
+            },
+            "success": ""
+        },
+        "buy_package_without_wallet_address_notice": ""
+    },
+    "bank_info": {
+        "transfer_detail_text": "",
+        "account_name": "",
+        "account_number": "",
+        "bank_id": "",
+        "bank_name": ""
+    },
+    "buy_coin_transaction": {
+        "code": "",
+        "statusValues": {
+            "pending": "",
+            "processing": "",
+            "success": "",
+            "transferring": "",
+            "cancelled": "",
+            "fiat_transferring": "",
+            "transfer_failed": "",
+            "expired": "",
+            "rejected": ""
+        }
+    },
+    "buy_coin_transaction.text.no_history": "",
+    "wallet_selector": {
+        "your_wallet": "",
+        "wallet_dont_match_error": ""
+    },
+    "buy_coin_confirm_popup.msg": "",
+    "buy_coin_confirm_popup.confirm_text": "",
+    "buy_coin_confirm_popup.cancel_text": "",
+    "buy_coin.verify.need_selfie_verifiy": "",
+    "buy_coin.verify.need_selfie_verifiy_action": "",
+    "review": {
+        "title": "",
+        "label": {
+            "description": "",
+            "submitButtonTitle": ""
+        }
+    }
 }
