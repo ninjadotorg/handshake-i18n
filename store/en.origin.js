@@ -850,6 +850,7 @@
                             "invalidDocument": "%%%.me.profile.verify.alert.notValid.idVerification.invalidDocument%%%",
                             "invalidFrontImage": "%%%.me.profile.verify.alert.notValid.idVerification.invalidFrontImage%%%",
                             "invalidBackImage": "%%%.me.profile.verify.alert.notValid.idVerification.invalidBackImage%%%",
+                            "invalidEmail": "%%%.me.profile.verify.alert.notValid.idVerification.invalidEmail%%%",
                             "invalidSelfieImage": "%%%.me.profile.verify.alert.notValid.idVerification.invalidSelfieImage%%%"
                         }
                     },
@@ -865,7 +866,8 @@
                     "cannot": {
                         "phone": "%%%.me.profile.verify.alert.cannot.phone%%%",
                         "email": "%%%.me.profile.verify.alert.cannot.email%%%",
-                        "idVerification": "%%%.me.profile.verify.alert.cannot.idVerification%%%"
+                        "idVerification": "%%%.me.profile.verify.alert.cannot.idVerification%%%",
+                        "idVerification2": "%%%.me.profile.verify.alert.cannot.idVerification2%%%"
                     }
                 }
             },
@@ -911,6 +913,7 @@
                     "desc7": "%%%.me.profile.text.id_verification.desc7%%%",
                     "desc8": "%%%.me.profile.text.id_verification.desc8%%%",
                     "desc9": "%%%.me.profile.text.id_verification.desc9%%%",
+                    "desc10": "%%%.me.profile.text.id_verification.desc10%%%",
                     "uploading": "%%%.me.profile.text.id_verification.uploading%%%",
                     "button": {
                         "upload": "%%%.me.profile.text.id_verification.button.upload%%%",
