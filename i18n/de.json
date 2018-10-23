@@ -9,12 +9,12 @@
             "exchanges": "Exchanges",
             "whisper": "Whisper",
             "wallet": "Wallet",
-            "setting": "",
-            "atm": "",
-            "bet": "",
-            "credit": "",
-            "shop": "",
-            "ninjaCoin": ""
+            "setting": "Me",
+            "atm": "ATM",
+            "bet": "Bet",
+            "credit": "CC",
+            "shop": "Shop",
+            "ninjaCoin": "Coin"
         }
     },
     "buy": "Buy",
@@ -25,7 +25,7 @@
     "ccNumber": "Number",
     "ccExpire": "Expiry",
     "ccCVC": "CVC",
-    "overCCLimit": "You have reached your credit card limit! You have already used {currency}{amount} in the dojo today. ",
+    "overCCLimit": "You have reached your credit card limit({currency}{limit} per day)! You have already used {currency}{amount} today.",
     "required": "Required",
     "ccExpireTemplate": "MM/YY",
     "securityCode": "325",
@@ -35,20 +35,20 @@
     "offerHandShakeExchangeContentMe": "{offerType} {something} for {amount} {currency}",
     "offerHandShakeContentMeDone": "{offerType} {amount} {currency} for {total} {currency_symbol} ({payment_method})",
     "offerHandShakeExchangeContentMeDone": "{offerType} {something} for {amount} {currency}",
-    "instantOfferHandShakeContent": "You{just}{offerType} {amount} {currency} for {total} {currency_symbol} on your card - fee {fee}%",
+    "instantOfferHandShakeContent": "You{just}{offerType} {amount} {currency} for {total} {currency_symbol} on your card",
     "offerDistanceContent": "{distance} away",
     "transactonOfferInfo": "Successful ({success}) / Failed ({failed})",
     "createOfferConfirm": "You are about to {type} {something} by {amount} {currency}",
     "handshakeOfferConfirm": "You are about to {type} {something} for {amount} {currency}",
-    "rejectOfferConfirm": "Do you want to Reject this handshake? You will not be able to make transactions for 4 hours.",
-    "rejectOfferConfirmForShop": "Do you want to Reject this handshake?",
-    "completeOfferConfirm": "Finish shaking?",
+    "rejectOfferConfirm": "Do you want to Reject this order? You will not be able to make transactions for 4 hours.",
+    "rejectOfferConfirmForShop": "Do you want to Reject this order?",
+    "completeOfferConfirm": "Complete the transaction? Your buyer will receive coin in a few minutes.",
     "withdrawOfferConfirm": "Are you sure you want to withdraw?",
     "cancelOfferConfirm": "Cancel this order?",
     "closeOfferConfirm": "Do you want to delete your offer?",
-    "acceptOfferConfirm": "Accept the order?",
+    "acceptOfferConfirm": "Accept to continue transaction?",
     "createOfferSuccessMessage": "Success! You have created an offer on Ninja.",
-    "updateOfferSuccessMessage": "",
+    "updateOfferSuccessMessage": "Success! You have updated the offer on Ninja.",
     "shakeOfferSuccessMessage": "Success! A ninja has shaked on your order.",
     "closeOfferSuccessMessage": "Success! Your order is now closed.",
     "completeShakedfferSuccessMessage": "You have successfully shaked on Ninja",
@@ -56,11 +56,11 @@
     "withdrawShakedfferSuccessMessage": "Your offer has been withdrawn.",
     "buyUsingCreditCardSuccessMessge": "Your order using your credit card has gone through.",
     "notEnoughCoinInWallet": "You don't have enough coin right now. Please top up your wallet.",
-    "notEnoughCoinInWalletDeposit": "",
-    "threeDSecureNotSupported": "",
+    "notEnoughCoinInWalletDeposit": "Not enough coin. Your maximum amount is {amount} {currency}. Please try again",
+    "threeDSecureNotSupported": "Not supported this card",
     "createOfferStoreConfirm": "Do you want to set up an offer to {intentMsg}?",
-    "updateOfferStoreConfirm": "",
-    "notEnoughCoinInWalletStores": "You don't have enough coin right now. Please top up your wallet.",
+    "updateOfferStoreConfirm": "Update your ATM?",
+    "notEnoughCoinInWalletStores": "You don't have enough coin right now. Do you want to top up your wallet?",
     "addOfferItemSuccessMassage": "Success! Your order is now listed on Ninja",
     "deleteOfferItemSuccessMassage": "You have successfully deleted your order.",
     "shakeOfferItemSuccessMassage": "You have successfully shaked on Ninja",
@@ -75,25 +75,25 @@
     "movingCoinToEscrow": "Moving your coin to escrow. This may take a few minutes.",
     "movingCoinFromEscrow": "Moving your coin from escrow. This may take a few minutes.",
     "ex.create.label.amountBuy": "I want to buy",
-    "ex.create.label.amountBuy.update": "",
-    "ex.create.label.amountSell": "I want to sell",
-    "ex.create.label.amountSell.update": "",
-    "ex.create.label.sell.currentBalance": "",
-    "ex.create.label.buy.currentBalance": "",
+    "ex.create.label.amountBuy.update": "New limit per purchase",
+    "ex.create.label.amountSell": "Maximum per sale",
+    "ex.create.label.amountSell.update": "New limit per sale",
+    "ex.create.label.sell.currentBalance": "Current limit per sale",
+    "ex.create.label.buy.currentBalance": "Current limit per purchase",
     "ex.create.label.marketPrice": "Current market price",
     "ex.create.label.premiumBuy": "My price",
     "ex.create.label.premiumSell": "My price",
     "ex.create.label.premiumSellExplanation": "Market price ± percentage",
-    "ex.create.label.nameStation": "Station name",
-    "ex.create.label.stationCurrency": "",
-    "ex.create.placeholder.stationCurrency": "",
+    "ex.create.label.nameStation": "ATM name",
+    "ex.create.label.stationCurrency": "ATM currency",
+    "ex.create.placeholder.stationCurrency": "Select a currency",
     "ex.create.label.phone": "Phone",
     "ex.create.label.address": "Meet-up place",
     "ex.create.label.beASeller": "Be a seller",
-    "ex.create.label.beASeller.update": "",
+    "ex.create.label.beASeller.update": "Update selling info",
     "ex.create.label.beABuyer": "You can also be a buyer",
-    "ex.create.label.beABuyer.update": "",
-    "ex.create.label.stationInfo": "Station information",
+    "ex.create.label.beABuyer.update": "Update buying info",
+    "ex.create.label.stationInfo": "ATM information",
     "ex.createLocal.label.iWantTo": "I want to",
     "ex.createLocal.label.something": "What is it called?",
     "ex.createLocal.placeholder.anyItem": "any item or service",
@@ -106,9 +106,9 @@
     "ex.discover.label.priceSell": "SELL",
     "ex.discover.label.reviews": "({reviewCount})",
     "ex.discover.banner.text": "Got coins? Turn them into a money-making machine.",
-    "ex.credit.banner.text": "",
-    "ex.discover.banner.btnText": "BECOME A LOCAL EXCHANGE",
-    "ex.credit.banner.btnText": "",
+    "ex.credit.banner.text": "Sell crypto quickly online. 100% secure. Set your own rates",
+    "ex.discover.banner.btnText": "BECOME AN ATM",
+    "ex.credit.banner.btnText": "SELL CRYPTO NOW",
     "ex.discover.shakeDetail.label.amount": "Amount",
     "ex.discover.shakeDetail.label.total": "Total",
     "ex.discover.shakeDetail.label.maximum": "Maximum:",
@@ -118,25 +118,25 @@
     "ex.btn.confirm": "Confirm",
     "ex.btn.OK": "OK",
     "ex.btn.notNow": "Not now",
-    "ex.btn.topup.now": "",
-    "ex.btn.create.atm": "",
-    "ex.btn.update.atm": "",
+    "ex.btn.topup.now": "Top up now ",
+    "ex.btn.create.atm": "Create my ATM first ",
+    "ex.btn.update.atm": "Update my ATM first ",
     "ex.label.buy": "Buy",
     "ex.label.sell": "Sell",
     "ex.label.bought": "Bought",
     "ex.label.sold": "Sold",
     "ex.label.buying": "Buying",
     "ex.label.selling": "Selling",
-    "ex.label.receiving": "",
-    "ex.label.buyer": "buyer",
-    "ex.label.seller": "seller",
-    "ex.label.sale": "",
-    "ex.label.purchase": "",
-    "ex.label.cost": "",
-    "ex.label.amount": "",
-    "ex.exchange.status.created": "Setting up your station",
-    "ex.exchange.status.active": "Station listed",
-    "ex.exchange.status.closing": "Deleting your station",
+    "ex.label.receiving": "Receiving",
+    "ex.label.buyer": "Buyer",
+    "ex.label.seller": "Seller",
+    "ex.label.sale": "Sale",
+    "ex.label.purchase": "Purchase",
+    "ex.label.cost": "Cost",
+    "ex.label.amount": "Amount",
+    "ex.exchange.status.created": "Verifying",
+    "ex.exchange.status.active": "Active",
+    "ex.exchange.status.closing": "Processing",
     "ex.exchange.status.closed": "Deleted",
     "ex.exchange.status.shaking": "Processing",
     "ex.exchange.status.shake": "Processing",
@@ -148,55 +148,55 @@
     "ex.exchange.status.rejected": "Rejected",
     "ex.exchange.status.cancelling": "Processing",
     "ex.exchange.status.cancelled": "Cancelled",
-    "ex.shop.explanation.created": "",
-    "ex.shop.explanation.active": "",
-    "ex.shop.explanation.closing": "",
+    "ex.shop.explanation.created": "This may take a few minutes. Good things come to those who wait.",
+    "ex.shop.explanation.active": "Your ATM is now visible on the map!",
+    "ex.shop.explanation.closing": "Please wait a few minutes.",
     "ex.shop.explanation.closed": "",
-    "ex.shop.explanation.shaking": "",
-    "ex.shop.explanation.shake": "",
-    "ex.shop.explanation.completing": "",
+    "ex.shop.explanation.shaking": "Accepting the other party's offer...",
+    "ex.shop.explanation.shake": "Accepted. You will receive coin in a few minutes.",
+    "ex.shop.explanation.completing": "Accepted. You will receive coin in a few minutes.",
     "ex.shop.explanation.completed": "",
-    "ex.shop.explanation.pre_shaking": "",
-    "ex.shop.explanation.pre_shake": "",
-    "ex.shop.explanation.rejecting": "",
+    "ex.shop.explanation.pre_shaking": "Be patient - it can take a couple of minutes for your coin to be sent to escrow.",
+    "ex.shop.explanation.pre_shake": "Waiting for the ATM to accept your offer.",
+    "ex.shop.explanation.rejecting": "Rejecting the offer. Please wait a few minutes.",
     "ex.shop.explanation.rejected": "",
-    "ex.shop.explanation.cancelling": "",
+    "ex.shop.explanation.cancelling": "Cancelling your offer. Please wait a few minutes.",
     "ex.shop.explanation.cancelled": "",
     "ex.cc.status.processing": "Processing",
     "ex.cc.status.success": "Done",
     "ex.cc.status.cancelled": "Failed",
-    "ex.shop.status.created": "Verifying...",
-    "ex.shop.status.active": "Active",
-    "ex.shop.status.closing": "Pending...",
-    "ex.shop.status.closed": "Closed",
-    "ex.shop.shake.status.pre_shaking": "Requesting",
-    "ex.shop.shake.status.pre_shake": "Requested",
-    "ex.shop.shake.status.shaking": "Requesting",
-    "ex.shop.shake.status.shake": "Requested",
-    "ex.shop.shake.status.rejecting": "Rejecting",
+    "ex.shop.status.created": "Setting up your ATM",
+    "ex.shop.status.active": "ATM listed",
+    "ex.shop.status.closing": "Deleting your ATM",
+    "ex.shop.status.closed": "Deleted",
+    "ex.shop.shake.status.pre_shaking": "Processing",
+    "ex.shop.shake.status.pre_shake": "Processing",
+    "ex.shop.shake.status.shaking": "Processing",
+    "ex.shop.shake.status.shake": "Processing",
+    "ex.shop.shake.status.rejecting": "Processing",
     "ex.shop.shake.status.rejected": "Rejected",
-    "ex.shop.shake.status.completing": "Completing...",
-    "ex.shop.shake.status.completed": "Done",
-    "ex.shop.shake.status.cancelling": "Cancelling",
+    "ex.shop.shake.status.completing": "Processing",
+    "ex.shop.shake.status.completed": "Success",
+    "ex.shop.shake.status.cancelling": "Processing",
     "ex.shop.shake.status.cancelled": "Cancelled",
-    "ex.shop.shake.buyer.seller": "",
-    "ex.shop.shake.label.information": "",
-    "ex.shop.shake.label.phone": "",
-    "ex.shop.shake.label.reviews": "",
-    "ex.shop.shake.label.reviews.count": "",
-    "ex.shop.shake.label.cash.inventory": "",
-    "ex.shop.shake.label.coin.inventory": "",
-    "ex.shop.shake.label.days": "",
-    "ex.shop.shake.message.using.which.address": "",
-    "ex.shop.shake.button.using.scan.address": "",
-    "ex.shop.shake.button.using.default.address": "",
-    "ex.shop.shake.button.using.scan.rescan": "",
-    "ex.shop.dashboard.label.transaction.successfull.failed": "",
-    "ex.shop.dashboard.label.transaction.pending": "",
-    "ex.shop.dashboard.label.revenue": "",
-    "ex.shop.dashboard.label.transaction.total": "",
-    "ex.shop.dashboard.button.updateInventory": "",
-    "ex.shop.dashboard.label.trial": "",
+    "ex.shop.shake.buyer.seller": "{buyerSeller} order",
+    "ex.shop.shake.label.information": "Information",
+    "ex.shop.shake.label.phone": "Phone",
+    "ex.shop.shake.label.reviews": "Reviews",
+    "ex.shop.shake.label.reviews.count": "({reviewCount} reviews)",
+    "ex.shop.shake.label.cash.inventory": "Cash",
+    "ex.shop.shake.label.coin.inventory": "Coin",
+    "ex.shop.shake.label.days": "days",
+    "ex.shop.shake.message.using.which.address": "Using this scanned address [{scanAddress}]?",
+    "ex.shop.shake.button.using.scan.address": "Use scanned address",
+    "ex.shop.shake.button.using.default.address": "Use Ninja address",
+    "ex.shop.shake.button.using.scan.rescan": "Rescan address",
+    "ex.shop.dashboard.label.transaction.successfull.failed": "Transactions successful/failed",
+    "ex.shop.dashboard.label.transaction.pending": "Transactions pending",
+    "ex.shop.dashboard.label.revenue": "Bought/sold revenue",
+    "ex.shop.dashboard.label.transaction.total": "Total bought/sold",
+    "ex.shop.dashboard.button.updateInventory": "Update your ATM",
+    "ex.shop.dashboard.label.trial": "Trial",
     "ex.error.systemError": "Sorry Ninja. Something went wrong. Come back soon.",
     "ex.error.312": "Oh no! You cancelled your offer. You will not be able to make orders for 4 hours. Sorry",
     "ex.error.313": "You already have a listing! To change your rates, please cancel your current listing.",
@@ -207,28 +207,28 @@
     "ex.error.301": "You are already a ninja.",
     "ex.error.302": "Sorry, that ninja does not exist.",
     "ex.error.303": "It looks like you have reached your credit card limit.",
-    "ex.error.304": "",
+    "ex.error.304": "Credit card is invalid",
     "ex.error.309": "You already have a listing! To change your rates, please cancel your current listing.",
     "ex.error.319": "Please type 0.5 ETH only.",
     "ex.error.320": "The early bird program has ended, please cash in to trade with us.",
-    "ex.error.322": "",
-    "ex.error.323": "",
-    "ex.error.324": "",
-    "ex.error.325": "",
-    "ex.error.326": "",
-    "ex.error.327": "",
+    "ex.error.322": "Your information is incorrect. Please input again",
+    "ex.error.323": "Exceeding global credit limit. Please try again tomorrow.",
+    "ex.error.324": "Credit exists",
+    "ex.error.325": "Credit price changed",
+    "ex.error.326": "We don’t have enough coin for your request! Please try with smaller amount.",
+    "ex.error.327": "Credit item status is invalid",
     "ex.error.default": "Oops! Something went wrong.",
     "ex.earlyBird.label.1": "WELCOME TO OUR <br/> EARLY BIRD PROGRAM!",
-    "ex.earlyBird.label.2": "Create your station with <br /><span class=\"intro-amount\">{freeETH} ETH</span> free now!",
-    "ex.earlyBird.btn": "Open Station",
+    "ex.earlyBird.label.2": "Create your ATM with <br /><span class=\"intro-amount\">{freeETH} ETH</span> free now!",
+    "ex.earlyBird.btn": "Open ATM",
     "error.required": "Required",
     "error.requiredOne": "You need to fill in one of these!",
     "error.greaterThan": "Must be greater than {min}",
     "error.lessThan": "Must be less than {max}",
-    "error.greaterThan.equal": "",
-    "error.lessThan.equal": "",
+    "error.greaterThan.equal": "Must be equal or greater than {min}",
+    "error.lessThan.equal": "Must be less than or equal {max}",
     "error.mustBeANumber": "Must be a number",
-    "error.mustBeAPositiveInteger": "",
+    "error.mustBeAPositiveInteger": "Must be a integer number greater or equal 0",
     "btn.initiate": "Initiate",
     "btn.shake": "Shake",
     "btn.reject": "Reject",
@@ -238,90 +238,90 @@
     "btn.close": "Close",
     "btn.accept": "Accept",
     "btn.delete": "Delete",
-    "btn.update": "",
+    "btn.update": "Update",
     "ex.landing.menu.about": "ABOUT",
     "ex.landing.menu.blog": "BLOG",
     "ex.landing.menu.faq": "FAQ",
     "ex.landing.menu.contact": "CONTACT",
     "ex.landing.intro.label.1": "We are available on mobile only",
     "ex.landing.intro.label.2": "Switch to your phone now to start making money with us!",
-    "ex.landing.description.label.1": "Set up a station <br/>& make some money",
-    "ex.landing.description.label.2": "Ninja Cash is a decentralized peer to peer (P2P) cryptocurrency exchange that allows users to trade ETH and BTC for cash. You can join us anonymously: no signup, no ID verification, no fraud<br/><a href=\"https://docs.google.com/document/d/1Ou7qY-NXNenr0Mj_Qzn_4-BUXWIvJyWsHNXkca9Teek/edit\" class=\"btn-read-more\">Read more</a> about us here",
+    "ex.landing.description.label.1": "Set up an ATM <br/>& make some money",
+    "ex.landing.description.label.2": "Ninja Cash is a decentralized peer to peer (P2P) cryptocurrency exchange that allows users to trade ETH and BTC for cash. You can join us anonymously: no signup, no ID verification, no fraud<br/><a href=\"/about-ninja-cash\" class=\"btn-read-more\">Read more</a> about us here",
     "ex.landing.features.label.1": "Your market. Your rates",
     "ex.landing.features.label.2": "Secured with blockchain technology",
     "ex.landing.features.label.3": "No KYC information",
     "ex.landing.features.label.4": "Trade with other Ninjas in your area",
     "ex.landing.tryTelegram.label": "Try out the platform for FREE by joining the conversation on Telegram",
     "ex.landing.tryTelegram.btn": "Join Telegram",
-    "ex.about.label.about": "",
-    "ex.about.description": "",
-    "ex.about.label.connectWith": "",
-    "ex.about.label.website": "",
-    "ex.about.label.telegram": "",
-    "ex.about.label.medium": "",
-    "ex.about.label.github": "",
-    "ex.about.label.twitter": "",
-    "ex.discover.label.sortby": "",
-    "ex.sort.distance": "",
-    "ex.sort.price": "",
-    "ex.sort.rating": "",
-    "ex.sort.price.buy.btc": "",
-    "ex.sort.price.sell.btc": "",
-    "ex.sort.price.buy.eth": "",
-    "ex.sort.price.sell.eth": "",
-    "ex.discover.label.open.atm": "",
-    "ex.discover.label.manage.atm": "",
-    "ex.discover.label.dashboard": "",
+    "ex.about.label.about": "About",
+    "ex.about.description": "Ninja Cash is a peer to peer decentralized cryptocurrency exchange - where you remain anonymous. We got rid of extensive KYC practices, and then we put it on the blockchain. We welcome into our dojo anyone interested in disruption, games of stealth, and decentralized tech.<br/><br/>Ninjas create blockchain powered solutions that are both practical and playful, and apply them to industries plagued by rampant fraud, greedy middlemen and pointless bureaucracy.<br/><br/>Our team of ninjas is based in California, United States.",
+    "ex.about.label.connectWith": "Connect with the team",
+    "ex.about.label.website": "Website",
+    "ex.about.label.telegram": "Telegram",
+    "ex.about.label.medium": "Medium",
+    "ex.about.label.github": "Github",
+    "ex.about.label.twitter": "Twitter",
+    "ex.discover.label.sortby": "Sort by:",
+    "ex.sort.distance": "Distance",
+    "ex.sort.price": "Best Price",
+    "ex.sort.rating": "Rating",
+    "ex.sort.price.buy.btc": "Buy BTC",
+    "ex.sort.price.sell.btc": "Sell BTC",
+    "ex.sort.price.buy.eth": "Buy ETH",
+    "ex.sort.price.sell.eth": "Sell ETH",
+    "ex.discover.label.open.atm": "Open your ATM",
+    "ex.discover.label.manage.atm": "My ATM",
+    "ex.discover.label.dashboard": "New Order",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
-    "cc.label.1": "",
-    "cc.label.2": "",
-    "cc.label.3": "",
-    "cc.btn.buyNow": "",
-    "cc.btn.payNow": "",
-    "cc.label.basic": "",
-    "cc.label.pro": "",
-    "cc.label.plus": "",
-    "cc.label.cardNo": "",
-    "cc.label.cvv": "",
-    "cc.label.expiration": "",
-    "cc.label.saveCard": "",
-    "cc.label.saving": "",
-    "cc.label.email": "",
-    "cc.label.email.hint": "",
-    "cc.label.receive.address": "",
-    "escrow.label.depositCoin": "",
-    "escrow.label.iWantTo": "",
-    "escrow.label.price": "",
-    "escrow.label.percentage": "",
-    "escrow.label.howToCalculatePrice": "",
-    "escrow.label.yourSellingPrice": "",
-    "escrow.label.sellingPriceCaption": "",
-    "escrow.btn.depositNow": "",
-    "escrow.btn.depositSuccessMessage": "",
-    "escrow.label.wallet.setDefaultWallet": "",
-    "dashboard.heading": "",
-    "dashboard.label.overview": "",
-    "dashboard.label.transaction": "",
-    "dashboard.label.manageAssets": "",
-    "dashboard.btn.deactivate": "",
-    "dashboard.btn.reactivate": "",
-    "dashboard.btn.depositing": "",
-    "dashboard.btn.topUpByCC": "",
-    "dashboard.btn.scanQRCode": "",
-    "dashboard.btn.depositEscrow": "",
-    "dashboard.btn.withdrawEscrow": "",
-    "dashboard.label.amountSold": "",
-    "dashboard.label.amountLeft": "",
-    "dashboard.label.currentPrice": "",
-    "dashboard.label.revenue": "",
-    "dashboard.label.yourBalance": "",
-    "dashboard.label.or": "",
-    "dashboard.label.deposit.description1": "",
-    "dashboard.label.deposit.description2": "",
-    "askLocationPermission.label.1": "",
-    "askLocationPermission.label.2": "",
-    "askLocationPermission.btn.dontAllow": "",
-    "askLocationPermission.btn.allow": "",
+    "cc.label.1": "Buy crypto with credit card",
+    "cc.label.2": "Ninja has some of the best prices around",
+    "cc.label.3": "Common packages:",
+    "cc.btn.buyNow": "Buy now",
+    "cc.btn.payNow": "Pay now",
+    "cc.label.basic": "Basic",
+    "cc.label.pro": "Pro",
+    "cc.label.plus": "Plus",
+    "cc.label.cardNo": "Card number",
+    "cc.label.cvv": "CVV",
+    "cc.label.expiration": "Expiration date",
+    "cc.label.saveCard": "Save my card for future top-up",
+    "cc.label.saving": "You save {percentage}%",
+    "cc.label.email": "Email",
+    "cc.label.email.hint": "For receipt",
+    "cc.label.receive.address": "RECEIVING ADDRESS",
+    "escrow.label.depositCoin": "Sell crypto safely online",
+    "escrow.label.iWantTo": "Deposit the amount of crypto you want to sell. Enter your desired commission as a percentage of the selling price",
+    "escrow.label.price": "Price",
+    "escrow.label.percentage": "Percentage",
+    "escrow.label.howToCalculatePrice": "How do I calculate my percentage?",
+    "escrow.label.yourSellingPrice": "Your selling price",
+    "escrow.label.sellingPriceCaption": "= Market price + your percentage",
+    "escrow.btn.depositNow": "Deposit now",
+    "escrow.btn.depositSuccessMessage": "Succesful!",
+    "escrow.label.wallet.setDefaultWallet": "You must set default wallet {currency}",
+    "dashboard.heading": "Dashboard",
+    "dashboard.label.overview": "Overview",
+    "dashboard.label.transaction": "Transaction",
+    "dashboard.label.manageAssets": "Manage assets",
+    "dashboard.btn.deactivate": "Pause",
+    "dashboard.btn.reactivate": "Activate",
+    "dashboard.btn.depositing": "Depositing...",
+    "dashboard.btn.topUpByCC": "Top up ATM with credit card",
+    "dashboard.btn.scanQRCode": "Scan QR code",
+    "dashboard.btn.depositEscrow": "Deposit to Escrow",
+    "dashboard.btn.withdrawEscrow": "Withdraw",
+    "dashboard.label.amountSold": "Crypto sold",
+    "dashboard.label.amountLeft": "Crypto remaining",
+    "dashboard.label.currentPrice": "Your price ({currency}/{fiatCurrency})",
+    "dashboard.label.revenue": "Revenue (USD)",
+    "dashboard.label.yourBalance": "Your balance (USD)",
+    "dashboard.label.or": "or",
+    "dashboard.label.deposit.description1": "Need even more security? Use Escrow. ",
+    "dashboard.label.deposit.description2": "Fraud-proof. 100% secured. Safety guaranteed.",
+    "askLocationPermission.label.1": "We would like to access your location to find nearest ATMs around you!",
+    "askLocationPermission.label.2": "<span>Please click <strong>\"Allow\"</strong> to start trading now!</span>",
+    "askLocationPermission.btn.dontAllow": "Don't Allow",
+    "askLocationPermission.btn.allow": "Allow",
     "FAQ_TITLE": "Häufig gestellte Fragen",
     "FAQ_HEADER_YELLOW": " ",
     "FAQ_HEADER": "Dezentrale Vorhersage Exchange",
@@ -404,158 +404,158 @@
             "answer": "Wir werden Handshake (und Ihre Lieblings-Features wie Versprechungen, Schuldscheine, Vertrag Upload, etc.) die Ninja-mobile-Website integriert."
         }
     ],
-    "landing_page.btn.joinOurTeam": "",
-    "landing_page.btn.goToLandingPage": "",
-    "landing_page.header.product": "",
-    "landing_page.subHeader.product": "",
-    "landing_page.detail.thanksForSubscribing": "",
-    "landing_page.detail.email_placeholder": "",
-    "landing_page.recruiting.intro.label": "",
-    "landing_page.recruiting.intro.btn": "",
-    "landing_page.recruiting.label.noJobs": "",
-    "landing_page.recruiting.label.getTheWordOut": "",
-    "landing_page.recruiting.label.backToListing": "",
-    "landing_page.recruiting.button.applyNow": "",
-    "landing_page.recruiting.button.referFriend": "",
-    "landing_page.recruiting.applyNow.title": "",
-    "landing_page.recruiting.applyNow.label.uploadDocs": "",
-    "landing_page.recruiting.applyNow.label.weAccept": "",
-    "landing_page.recruiting.applyNow.label.or": "",
-    "landing_page.recruiting.applyNow.label.submit": "",
-    "landing_page.recruiting.applyNow.label.connectToLinkedIn": "",
-    "landing_page.recruiting.applyNow.label.thankYou": "",
-    "landing_page.recruiting.applyNow.label.weReview": "",
-    "landing_page.recruiting.referFriend.title": "",
-    "landing_page.recruiting.referFriend.label.yourPhone": "",
-    "landing_page.recruiting.referFriend.label.yourEmail": "",
-    "landing_page.recruiting.referFriend.label.jobPosition": "",
-    "landing_page.recruiting.referFriend.placeholder.phone": "",
-    "landing_page.recruiting.referFriend.placeholder.email": "",
-    "landing_page.recruiting.referFriend.placeholder.saySomething": "",
-    "landing_page.recruiting.referFriend.label.uploadCV": "",
-    "landing_page.recruiting.referFriend.label.thankYou": "",
-    "landing_page.recruiting.referFriend.label.weReview": "",
-    "landing_page.products.cash.title": "",
-    "landing_page.products.cash.subTitle": "",
-    "landing_page.products.prediction.title": "",
-    "landing_page.products.prediction.subTitle": "",
-    "landing_page.products.wallet.title": "",
-    "landing_page.products.wallet.subTitle": "",
-    "landing_page.products.hivepay-offline.title": "",
-    "landing_page.products.hivepay-offline.subTitle": "",
-    "landing_page.products.hivepay-online.title": "",
-    "landing_page.products.hivepay-online.subTitle": "",
-    "landing_page.products.dad.title": "",
-    "landing_page.products.dad.subTitle": "",
-    "landing_page.products.whisper.title": "",
-    "landing_page.products.whisper.subTitle": "",
-    "landing_page.products.fund.title": "",
-    "landing_page.products.fund.subTitle": "",
-    "landing_page.header.research": "",
-    "landing_page.subHeader.research": "",
-    "landing_page.researches.uncommons.title": "",
-    "landing_page.researches.uncommons.subTitle": "",
-    "landing_page.researches.internetCash.title": "",
-    "landing_page.researches.internetCash.subTitle": "",
-    "landing_page.label.footer": "",
-    "landing_page.label.joinTelegram": "",
-    "landing_page.label.whitepaper": "",
-    "landing_page.label.btnSubmitEmail": "",
-    "landing_page.cash.breadcrumb": "",
-    "landing_page.cash.heading": "",
-    "landing_page.cash.subHeading": "",
-    "landing_page.cash.textEmail": "",
-    "landing_page.cash.label.sendLinkToEmail": "",
-    "landing_page.cash.btnSubmitEmail": "",
-    "landing_page.cash.joinTelegram": "",
-    "landing_page.cash.whitepaper": "",
-    "landing_page.cash.youtubeVideoId": "",
-    "landing_page.cash.btnBecomeAtm": "",
-    "landing_page.cash-for-business.breadcrumb": "",
-    "landing_page.cash-for-business.heading": "",
-    "landing_page.cash-for-business.subHeading": "",
-    "landing_page.cash-for-business.textEmail": "",
-    "landing_page.cash-for-business.label.sendLinkToEmail": "",
-    "landing_page.cash-for-business.btnSubmitEmail": "",
-    "landing_page.cash-for-business.joinTelegram": "",
-    "landing_page.cash-for-business.whitepaper": "",
-    "landing_page.cash-for-business.youtubeVideoId": "",
-    "landing_page.prediction.breadcrumb": "",
-    "landing_page.prediction.heading": "",
-    "landing_page.prediction.subHeading": "",
-    "landing_page.prediction.textEmail": "",
-    "landing_page.prediction.label.sendLinkToEmail": "",
-    "landing_page.prediction.btnSubmitEmail": "",
-    "landing_page.prediction.joinTelegram": "",
-    "landing_page.prediction.whitepaper": "",
-    "landing_page.prediction.disclaim": "",
-    "landing_page.prediction.btnJoinTelegram": "",
-    "landing_page.wallet.breadcrumb": "",
-    "landing_page.wallet.heading": "",
-    "landing_page.wallet.subHeading": "",
-    "landing_page.wallet.textEmail": "",
-    "landing_page.wallet.label.sendLinkToEmail": "",
-    "landing_page.wallet.btnSubmitEmail": "",
+    "landing_page.btn.joinOurTeam": "Join our team",
+    "landing_page.btn.goToLandingPage": "Go to landing page",
+    "landing_page.header.product": "PRODUCT",
+    "landing_page.subHeader.product": "Ninja builds applications and protocols for the new decentralized Internet.",
+    "landing_page.detail.thanksForSubscribing": "Thank you for subscribing!",
+    "landing_page.detail.email_placeholder": "Enter your email address",
+    "landing_page.recruiting.intro.label": "<h1 class=\"mt-2\"><strong>Hey Ninja</strong></h1><div class=\"intro-text-2\">Come join the dojo.</div><span class=\"intro-text-3\">We build decentralized apps, protocols and moonshot ideas for the new wild west world web.  Reinvent the Internet with us.</span>",
+    "landing_page.recruiting.intro.btn": "Become a Ninja",
+    "landing_page.recruiting.label.noJobs": "No jobs available",
+    "landing_page.recruiting.label.getTheWordOut": "Get the word out. Earn ETH.",
+    "landing_page.recruiting.label.backToListing": "Back to listing",
+    "landing_page.recruiting.button.applyNow": "Apply now",
+    "landing_page.recruiting.button.referFriend": "Refer a friend",
+    "landing_page.recruiting.applyNow.title": "Import your profile",
+    "landing_page.recruiting.applyNow.label.uploadDocs": "Upload document",
+    "landing_page.recruiting.applyNow.label.weAccept": "We accept .doc, .pdf and .png files, up to 2 MB.",
+    "landing_page.recruiting.applyNow.label.or": "Or",
+    "landing_page.recruiting.applyNow.label.submit": "Submit",
+    "landing_page.recruiting.applyNow.label.connectToLinkedIn": "Connect with Ninja LinkedIn",
+    "landing_page.recruiting.applyNow.label.thankYou": "Thank you for your application!",
+    "landing_page.recruiting.applyNow.label.weReview": "We'll review your application and contact you for an interview within 3 days if your skills are qualified.",
+    "landing_page.recruiting.referFriend.title": "Refer a friend",
+    "landing_page.recruiting.referFriend.label.yourPhone": "Your phone",
+    "landing_page.recruiting.referFriend.label.yourEmail": "Your email",
+    "landing_page.recruiting.referFriend.label.jobPosition": "Choose applied job",
+    "landing_page.recruiting.referFriend.placeholder.phone": "Enter your phone",
+    "landing_page.recruiting.referFriend.placeholder.email": "Enter your email",
+    "landing_page.recruiting.referFriend.placeholder.saySomething": "Say something about your friend (optional)...",
+    "landing_page.recruiting.referFriend.label.uploadCV": "Upload your friend's CV",
+    "landing_page.recruiting.referFriend.label.thankYou": "Thank you for referral!",
+    "landing_page.recruiting.referFriend.label.weReview": "We'll review your friend's CV and contact him/her for an interview within 3 days if your skills are qualified.",
+    "landing_page.products.cash.title": "Cash",
+    "landing_page.products.cash.subTitle": "Buy crypto with cash. Secure, anonymous, easy.",
+    "landing_page.products.prediction.title": "Prediction",
+    "landing_page.products.prediction.subTitle": "Bet on anything against anyone, anywhere. Guaranteed payout. Your odds. 100% anonymous.",
+    "landing_page.products.wallet.title": "Wallet",
+    "landing_page.products.wallet.subTitle": "A decentralized cryptocurrency wallet. No downloads. No sign ups.",
+    "landing_page.products.hivepay-offline.title": "Pay for stores",
+    "landing_page.products.hivepay-offline.subTitle": "Seamlessly integrate cryptocurrency payments into your offline business.",
+    "landing_page.products.hivepay-online.title": "Pay for devs",
+    "landing_page.products.hivepay-online.subTitle": "Connect your e-commerce business with a truly borderless payment network.",
+    "landing_page.products.dad.title": "Decentralized Autonomous Dataset",
+    "landing_page.products.dad.subTitle": "Building decentralized datasets to advance AI.",
+    "landing_page.products.whisper.title": "Whisper",
+    "landing_page.products.whisper.subTitle": "The new mailbox for the new internet.",
+    "landing_page.products.fund.title": "Ninja fund",
+    "landing_page.products.fund.subTitle": "Ninja Fund is a smart-contract secured investment platform. Connecting skilled traders and savvy investors to intelligently grow cryptocurrencies.",
+    "landing_page.header.research": "RESEARCH",
+    "landing_page.subHeader.research": "Ninja conducts fundamental research toward the creation of the new internet.",
+    "landing_page.researches.uncommons.title": "Uncommons",
+    "landing_page.researches.uncommons.subTitle": "The people's blockchain.",
+    "landing_page.researches.internetCash.title": "Internet Cash",
+    "landing_page.researches.internetCash.subTitle": "The Internet deserves to have its own native currency.",
+    "landing_page.label.footer": "Building blockchain powered apps, tools and solutions for the new wild west world web.<br />Join the dojo: <a href=\"https://t.me/ninja_org\" class=\"landing-link\">t.me/ninja_org</a><br />Contact us: <a href=\"mailto:support@ninja.org\" class=\"landing-link\" target=\"_top\">support@ninja.org</a>",
+    "landing_page.label.joinTelegram": "Join the dojo on <a href=\"https://t.me/ninja_org\" class=\"landing-link\">Telegram</a>",
+    "landing_page.label.whitepaper": "Jump in for <a href=\"https://medium.com/@ninjadotorg/shakeninja-bex-1c938f18b3e8\" class=\"landing-link\">Whitepaper</a>",
+    "landing_page.label.btnSubmitEmail": "Go",
+    "landing_page.cash.breadcrumb": "Atm",
+    "landing_page.cash.heading": "Buy crypto with cash. Secure, anonymous, easy.",
+    "landing_page.cash.subHeading": "<ul>\n      <li>No signup, no need for ID verification</li>\n      <li>Blockchain secured and fraud proof</li>\n      <li>Make person to person transactions with our ATM ninjas</li>\n    </ul>",
+    "landing_page.cash.textEmail": "Open <a href=\"https://ninja.org/atm\">ninja.org/atm</a> on your mobile browser to find an ATM near you!",
+    "landing_page.cash.label.sendLinkToEmail": "Send link to your email:",
+    "landing_page.cash.btnSubmitEmail": "Go",
+    "landing_page.cash.joinTelegram": "Join the dojo on <a href=\"https://t.me/ninjacash\" class=\"landing-link\">Telegram</a>",
+    "landing_page.cash.whitepaper": "Read more about <a href=\"https://medium.com/@ninja_org/introducing-ninja-cash-b0d51a9f4e1b\" class=\"landing-link\">Cash</a>",
+    "landing_page.cash.youtubeVideoId": "9L1IltkvU9g",
+    "landing_page.cash.btnBecomeAtm": "Become a Ninja ATM",
+    "landing_page.cash-for-business.breadcrumb": "CRYPTO ATM",
+    "landing_page.cash-for-business.heading": "Earn money effortlessly",
+    "landing_page.cash-for-business.subHeading": "Set up a virtual crypto ATM to make passive income with zero investment",
+    "landing_page.cash-for-business.textEmail": "To start trading, please open <a href=\"https://ninja.org/atm\">ninja.org/atm</a> on your mobile browser.",
+    "landing_page.cash-for-business.label.sendLinkToEmail": "Leave your email here for a quick guide to install an ATM for FREE!",
+    "landing_page.cash-for-business.btnSubmitEmail": "Go",
+    "landing_page.cash-for-business.joinTelegram": "Join the dojo on <a href=\"https://t.me/ninjacash\" class=\"landing-link\">Telegram</a>",
+    "landing_page.cash-for-business.whitepaper": "Read more about <a href=\"https://medium.com/@ninja_org/introducing-ninja-cash-b0d51a9f4e1b\" class=\"landing-link\">Cash</a>",
+    "landing_page.cash-for-business.youtubeVideoId": "bNRK6HMTmzA",
+    "landing_page.prediction.breadcrumb": "Prediction",
+    "landing_page.prediction.heading": "Bet on anything against anyone, anywhere. Guaranteed payout. Your odds. 100% anonymous.",
+    "landing_page.prediction.subHeading": "You create the bets, set the odds, and play directly with other parties. Bet with blockchain technology to bypass the bookies and the books - take down the house and make your own luck.",
+    "landing_page.prediction.textEmail": "To play, please open <a href=\"https://ninja.org/prediction\">ninja.org/prediction</a> on your mobile browser.",
+    "landing_page.prediction.label.sendLinkToEmail": "For updates, direct from the dojo:",
+    "landing_page.prediction.btnSubmitEmail": "Go",
+    "landing_page.prediction.joinTelegram": "Join the dojo on <a href=\"https://t.me/ninja_org\" class=\"landing-link\">Telegram</a>",
+    "landing_page.prediction.whitepaper": "Read our <a href=\"https://medium.com/@ninja_org/shakeninja-bex-1c938f18b3e8\" class=\"landing-link\">whitepaper</a> | Find us on <a href=\"https://github.com/ninjadotorg\" class=\"landing-link\">Github</a>",
+    "landing_page.prediction.disclaim": "Ninja is open-source, decentralized software that never holds user data, or user funds. As such, Ninja does not have the power to alter or restrict any actions made on the platform and so cannot be responsible for policing it. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never stake more than you are willing to lose. Play safe!.",
+    "landing_page.prediction.btnJoinTelegram": "Join the dojo on Telegram",
+    "landing_page.wallet.breadcrumb": "Wallet",
+    "landing_page.wallet.heading": "A decentralized cryptocurrency wallet. No downloads. No sign ups.",
+    "landing_page.wallet.subHeading": "A decentralized cryptocurrency wallet and payment gateway that will allow both businesses and users to easily store and use multiple cryptocurrencies for payments.",
+    "landing_page.wallet.textEmail": "To create your wallet, please open <a href=\"https://ninja.org/wallet\">ninja.org/wallet</a> on your mobile browser.",
+    "landing_page.wallet.label.sendLinkToEmail": "Send link to your email:",
+    "landing_page.wallet.btnSubmitEmail": "Go",
     "landing_page.wallet.youtubeVideoId": "",
-    "landing_page.wallet.btnJoinTelegram": "",
-    "landing_page.pay-for-stores.breadcrumb": "",
-    "landing_page.pay-for-stores.heading": "",
-    "landing_page.pay-for-stores.subHeading": "",
-    "landing_page.pay-for-stores.textEmail": "",
-    "landing_page.pay-for-stores.btnJoinTelegram": "",
-    "landing_page.pay-for-devs.breadcrumb": "",
-    "landing_page.pay-for-devs.heading": "",
-    "landing_page.pay-for-devs.subHeading": "",
-    "landing_page.pay-for-devs.textEmail": "",
-    "landing_page.internet-cash.breadcrumb": "",
-    "landing_page.internet-cash.heading": "",
-    "landing_page.internet-cash.subHeading": "",
-    "landing_page.internet-cash.textEmail": "",
-    "landing_page.dad.breadcrumb": "",
-    "landing_page.dad.heading": "",
-    "landing_page.dad.subHeading": "",
-    "landing_page.dad.textEmail": "",
-    "landing_page.dad.btnJoinTelegram": "",
-    "landing_page.uncommons.breadcrumb": "",
-    "landing_page.uncommons.heading": "",
-    "landing_page.uncommons.subHeading": "",
-    "landing_page.uncommons.textEmail": "",
-    "landing_page.uncommons.btnSubmitEmail": "",
-    "landing_page.whisper.breadcrumb": "",
-    "landing_page.whisper.heading": "",
-    "landing_page.whisper.subHeading": "",
-    "landing_page.whisper.textEmail": "",
-    "landing_page.whisper.label.sendLinkToEmail": "",
-    "landing_page.whisper.btnSubmitEmail": "",
-    "landing_page.whisper.btnJoinTelegram": "",
-    "landing_page.become_atm.heading": "",
+    "landing_page.wallet.btnJoinTelegram": "Join the dojo on Telegram",
+    "landing_page.pay-for-stores.breadcrumb": "Pay For Stores",
+    "landing_page.pay-for-stores.heading": "Seamlessly integrate cryptocurrency payments into your offline business.",
+    "landing_page.pay-for-stores.subHeading": "Allow your offline customers to pay for goods and services in cryptocurrency, just by scanning a QR code. Give the millions of people who own crypto somewhere to spend it.",
+    "landing_page.pay-for-stores.textEmail": "Be the first to hear when we launch",
+    "landing_page.pay-for-stores.btnJoinTelegram": "Join the dojo on Telegram",
+    "landing_page.pay-for-devs.breadcrumb": "Pay For Devs",
+    "landing_page.pay-for-devs.heading": "Connect your e-commerce business with a truly borderless payment network.",
+    "landing_page.pay-for-devs.subHeading": "Millions of people are looking to spend their cryptocurrency in a secure, convenient way. Bring the currency of the future into your online store today and stop relying on the sluggish banking industry. No wait times, no bank charges, no card fees.",
+    "landing_page.pay-for-devs.textEmail": "Be the first to hear when we launch",
+    "landing_page.internet-cash.breadcrumb": "Internet Cash",
+    "landing_page.internet-cash.heading": "The Internet deserves to have its own native currency.",
+    "landing_page.internet-cash.subHeading": "While Bitcoin emerges as a powerful currency, it fails to be the everyday currency.  Bitcoin will never be the currency that you can use to pay for coffee or buy a t-shirt.  This project aims to build a new kind of cryptocurrency that behaves like cash in everyday life.",
+    "landing_page.internet-cash.textEmail": "Be the first to know when we launch",
+    "landing_page.dad.breadcrumb": "Decentralized Autonomous Dataset",
+    "landing_page.dad.heading": "Building decentralized datasets to advance AI.",
+    "landing_page.dad.subHeading": "Today, data is controlled by a handful of corporations. The people who need data to develop AI can't access it. The people who created the data see no rewards. DAD will solve both problems.",
+    "landing_page.dad.textEmail": "Be the first to hear when we launch",
+    "landing_page.dad.btnJoinTelegram": "Join the dojo on Telegram",
+    "landing_page.uncommons.breadcrumb": "Uncommons",
+    "landing_page.uncommons.heading": "The people's blockchain.",
+    "landing_page.uncommons.subHeading": "No token tricks, no gas fees and no exclusive parties. Help build a blockchain where anyone can develop, use and explore for free. The new internet should belong to you.",
+    "landing_page.uncommons.textEmail": "Be an uncommoner.",
+    "landing_page.uncommons.btnSubmitEmail": "Show me how",
+    "landing_page.whisper.breadcrumb": "Whisper",
+    "landing_page.whisper.heading": "The new mailbox for the new internet.",
+    "landing_page.whisper.subHeading": "An alternative messaging system in this era of surveillance. End-to-end encrypted, anonymous conversations between you and your world. No downloads, sign ups, or subscriptions. Now you can control who's listening.",
+    "landing_page.whisper.textEmail": "To start chatting, please open <a href=\"https://ninja.org/whisper\">ninja.org/whisper</a> on your mobile browser.",
+    "landing_page.whisper.label.sendLinkToEmail": "Send link to your email:",
+    "landing_page.whisper.btnSubmitEmail": "Go",
+    "landing_page.whisper.btnJoinTelegram": "Join the dojo on Telegram",
+    "landing_page.become_atm.heading": "Earn Passive Income with Ninja ATM",
     "landing_page.become_atm.subHeading": [
-        "",
-        ""
+        "Ninja ATM is a tool to sell coin for cash",
+        "Become our ATM for FREE to generate new source of income with no initial investment"
     ],
-    "landing_page.become_atm.email.desc": "",
-    "landing_page.become_atm.email.label": "",
-    "landing_page.become_atm.email.placeholder": "",
-    "landing_page.become_atm.email.submitBtnLabel": "",
-    "landing_page.become_atm.email.peopleRegistered": "",
-    "landing_page.become_atm.youtubeId": "",
-    "landing_page.become_atm.footer": "",
-    "landing_page.become_atm.modal.title": "",
-    "landing_page.become_atm.modal.content": "",
-    "landing_page.become_atm.modal.subContent": "",
-    "landing_page.become_atm.modal.metadata": "",
+    "landing_page.become_atm.email.desc": "Sounds good? Leave your email here for a quick guide to install an ATM for FREE!",
+    "landing_page.become_atm.email.label": "I want to earn more:",
+    "landing_page.become_atm.email.placeholder": "Enter your email address",
+    "landing_page.become_atm.email.submitBtnLabel": "Earn!",
+    "landing_page.become_atm.email.peopleRegistered": "people have registered",
+    "landing_page.become_atm.youtubeId": "bNRK6HMTmzA",
+    "landing_page.become_atm.footer": "You know It All! Let's start making some Money",
+    "landing_page.become_atm.modal.title": "Im making passive income with Ninja ATM. Try now!",
+    "landing_page.become_atm.modal.content": "SHARE with your friends NOW to win 25 USD!",
+    "landing_page.become_atm.modal.subContent": "Share more, earn more",
+    "landing_page.become_atm.modal.metadata": "Ninja ATM is a new way for you to earn at least 500 USD/month with zero investment",
     "landing_page.become_atm.categories": [
         {
-            "label": "",
-            "desc": ""
+            "label": "Easy Profit",
+            "desc": "Make passive income of at least 500USD/month"
         },
         {
-            "label": "",
-            "desc": ""
+            "label": "No Investment",
+            "desc": "Everything will be done through your smartphone. No registration fee. No hidden cost"
         },
         {
-            "label": "",
-            "desc": ""
+            "label": "Flexible working hours",
+            "desc": "Decide your own working hours. Have the freedom and flexbility to work anytime, anywhere"
         }
     ],
     "MOT_TITLE": "Der anonyme Austausch von etwas",
@@ -579,207 +579,207 @@
             "link": "https://t.me/ninja_org"
         }
     ],
-    "COIN_EXCHANGE_LP_FAQ_TITLE": "Häufig gestellte Fragen?",
+    "COIN_EXCHANGE_LP_FAQ_TITLE": "Frequently asked questions",
     "landing_page.cash.faq": [
         {
-            "question": "",
-            "answer": ""
+            "question": "What’s the difference between Ninja ATM and other crypto ATMs?",
+            "answer": "Ninja ATM is a tool to help people who want to buy crypto purchase it easily and anonymously. You don’t need a debit or credit card, and you don’t need to pay any transaction fees."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Do I need an account to use a Ninja ATM?",
+            "answer": "Nope, there’s no prior registration needed! We don’t have a compulsory KYC process."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Where is Ninja ATM available?",
+            "answer": "All over the world! Check out ninja.org/atm on your mobile or tablet to find your nearest ATM."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Will I be truly anonymous on Ninja ATM?",
+            "answer": "Yes, your entire transaction history is anonymous. We don’t ask for any personal information when you buy crypto with Ninja ATMs."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Is Ninja ATM safe?",
+            "answer": "100%. All of the transactions made through Ninja ATM are secured by smart contracts written on the Ethereum blockchain."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Which currencies can I use with Ninja ATMs?",
+            "answer": "Ninja Cash is global, so you buy crypto in the local currency, or in USD if you and the ATM owner prefer."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Are there any fees?",
+            "answer": "None at all!"
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How long does it takes to complete a transaction?",
+            "answer": "Transactions usually take a few minutes to go through. It may take slightly longer if the blockchain is experiencing unusually high traffic."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How do I keep my Ninja wallet safe?",
+            "answer": "Make sure to secure and backup your wallet. We suggest that instead of keeping the passwords in your phone, you make a hard copy and keep this hidden in a safe place."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Who do I contact if I have a problem or a question?",
+            "answer": "<span>You can chat to us on Telegram <a href=\"https://t.me/ninja_org\" className=\"landing-link\">t.me/ninja_org</a> or email <a href=\"mailto:support@ninja.org\" className=\"landing-link\" target=\"_top\">support@ninja.org</a></span>"
         }
     ],
     "landing_page.cash-for-business.faq": [
         {
-            "question": "",
-            "answer": ""
+            "question": "What is Ninja ATM?",
+            "answer": "Ninja ATM is a tool for people to buy crypto with cash easily and anonymously."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How does it work?",
+            "answer": "By becoming an Ninja ATM,  you will set up a virtual ATM to sell crypto and earn profits from the sale commission."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How do I set up my Ninja ATM?",
+            "answer": "You can find detailed step-by-step instruction here."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Is it safe?",
+            "answer": "Yes! Because you only buy crypto from us when there’s a customer, you’re always in control of your money."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Are there any fees?",
+            "answer": "None at all!"
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Who can I contact if I need help?",
+            "answer": "<span>You can contact us on through Telegram <a href=\"https://t.me/ninja_org\" className=\"landing-link\">t.me/ninja_org</a> or email <a href=\"mailto:support@ninja.org\" className=\"landing-link\" target=\"_top\">support@ninja.org</a></span>"
         }
     ],
     "landing_page.prediction.faq": [
         {
-            "question": "",
-            "answer": ""
+            "question": "What is Ninja PEX?",
+            "answer": "Ninja is an anonymous peer-to-peer decentralized prediction exchange running on top of the Ethereum blockchain."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "What’s special about PEX? Why should i bet on one?",
+            "answer": "It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Do I need Ether? Does it support other cryptocurrencies?",
+            "answer": "Yes. Ninja only accepts ETH for now, but support will be added for other currencies very soon."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How do I start with Ninja?",
+            "answer": "\n        <div>\n          <div>– Get Ether:</div>\n          <div>You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance.</div>\n          <br />\n          <div>– Top up your PEX Wallet: </div>\n          <div>Transfer the ETH into the PEX Wallet. PEX Wallet is completely decentralized, the private key is held on your phone, only you can transfer and receive ETH.</div>\n          <br />\n          <div>– Place a bet: </div>\n          <div>Pick the market you want to bet (i.e. Brazil - Spain), the outcomes (i.e. Brazil wins) and the site (i.e. support or bet against the outcome)</div>\n          <div>Enter the stake you want to bet (i.e. 1 ETH) and the odds (i.e. 1/ 2.25)</div>\n          <div>The BEX Matching Engine will then find another order that bets against the odds you set.</div>\n          <br />\n          <div>– Wait for the report: if you win, your winnings will be automatically transferred from the escrow smart contract to your account.</div>\n        </div>\n      "
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Can I set my own preferred odds? How?",
+            "answer": "Yes! When creating your own bet, you’ll enter the event you’re interested in and the outcome you want to bet on. Then, simply enter your stake and the odds you want. Then the PEX Engine will automatically find and match you with anyone that has an interest in the same event, and who accepts your odds."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How do you police unsavory/illegal bets?",
+            "answer": "We are currently building a system of checks and balances to flag up inappropriate behaviour in the dojo."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How does the system know the result of bets between people? Who acts as arbitrator and verifies one outcome vs. another at conclusion of contract?",
+            "answer": "Ninja will soon have a completely decentralized solution for verifying the outcome and incentivizing truth telling (a DAO of reporters!). In the meantime, as we will launch just in time for the FIFA world cup, our team will use a public source (livescore.com) and act as the reporter."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Where is the coin held?",
+            "answer": "No one holds the funds. All the funds are kept safe in escrow until a resolution is reached."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Why should I bet on blockchain instead of using traditional methods?",
+            "answer": "A decentralized prediction exchange will provide you the freedom to create your own odds and bet directly with anyone, offer you 100% ninja anonymity and guaranteed payouts."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How about privacy and anonymity?",
+            "answer": "Ninja requires no downloads, and no sign ups. That means no passwords, no phone numbers and no emails. 100% anonymity."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Do I need to pay any fees?",
+            "answer": "There are two main types of fees: creator fees (for the ninja that creates the bet) and the network fee (a percentage of the creator fee, that goes towards maintaining the platform)."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "What do I need to do when the outcome is finalized?",
+            "answer": "Nothing. If you win, your winnings will be automatically transferred to your account. If you lose, it will be someone else’s account."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Where can I find a match to bet on?",
+            "answer": "On the homepage, you’ll be able to browse ongoing bets and markets. If you can’t find any you like, create your own!"
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Other than sports, can I bet on anything else? How does it work?",
+            "answer": "Very soon, Ninja will apply to everything under the sun. The only limitation will be your creativity. You can easily create any market on any future event, be it sports, politics, science, markets, climate… you name it."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "What’s gonna happen to the Handshake mobile app?",
+            "answer": "We will be integrating Handshake (and your favourite features like promises, IOUs, contract upload, etc.) into the Ninja mobile website."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How do I start earning ETH/Bitcoin?/How do I put cryptocurrency in my wallet?",
+            "answer": "<span>For instructions on how to play: <Link to={URL.PEX_INSTRUCTION_URL}>http://ninja.org/pex/instructions</Link></span>"
         }
     ],
     "landing_page.wallet.faq": [
         {
-            "question": "",
-            "answer": ""
+            "question": "What is Ninja Wallet?",
+            "answer": "Ninja Wallet is a decentralized cryptocurrency wallet, that allows you to hold multiple cryptocurrencies. There are no downloads,  no sign ups and no fees."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How many cryptocurrencies can I use with Ninja Wallet?",
+            "answer": "You can use BTC, BCH, ETH, ZEC, LTC, XRP, ERC20 Tokens and ERC721 Collectables."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How much does it cost to use?",
+            "answer": "Ninja Wallet is open source and free for all users."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How do I create an account?",
+            "answer": "<span>You simply go to our website <a href=\"https://ninja.org/wallet\">www.ninja.org/wallet</a>. It will auto creates your wallet BTC, ETH etc on your device. Or you can import/restore you have.</span>"
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "What countries can I use Ninja Wallet in?",
+            "answer": "Ninja Wallet is available globally - all you need is access to a mobile device and the internet."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "What happens if I swap/lose my phone? Will I lose my wallet?",
+            "answer": "<span>We recommend all users backup their wallets as soon as they start using Ninja. We have explained how to backup your Ninja Wallet <a target=\"__blank\" href=\"https://medium.com/@ninja_org/how-to-back-up-your-ninja-wallet-its-really-quite-easy-d98a5ec1a671\">here</a>.</span>"
         }
     ],
     "landing_page.dad.faq": [
         {
-            "question": "",
-            "answer": ""
+            "question": "What is the DAD?",
+            "answer": "The DAD or the Decentralized Autonomous Dataset is a crowdsourcing initiative, with the aim to collect data and reward users through blockchain incentives. We believe that this will be a positive step towards advancing AI, breaking barriers when it comes to Big Data."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How does it work?",
+            "answer": "<span>Anyone can contribute their images to the DAD.<br />All you need to do is join the platform, upload your photos, and any tags that will help to identify what they are, location etc.<br /><br />If you see a photo and you know where it was taken, or can add more information then just tag the image.</span>"
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Can anyone buy datasets from DAD?",
+            "answer": "Yes, our datasets are available to everyone."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How are the profits distributed to the people who contribute?",
+            "answer": "10% of all profits will be kept for further development of the DAD platform. The remaining 90% of the profits will be evenly distributed to all the users that contributed to the dataset."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Can I track who has purchased my data?",
+            "answer": "The DAD is built on top of Ethereum’s blockchain, this means that all transactions are public. You will be able to track your own data, and see who has purchased the datasets."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How can I contribute data to the DAD?",
+            "answer": "All you need to do is go to our app and start contributing which every data you like, the more information (location, colour, etc) the better. We want to create decentralized datasets that are constantly growing and evolving."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How will the DAD benefit AI technology?",
+            "answer": "AI needs data. Currently, there are only a few corporations that have access to the kind of big data that is needed for AI technology to learn and grow. We aim to solve this global issue by creating decentralized autonomous datasets that anyone will have access too."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "How do I receive my payout from contributing data?",
+            "answer": "You will automatically receive payout via your ETH address."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "You don’t have the dataset I need, can you create one?",
+            "answer": "Yes, all you need to do is put in a request for a specific dataset and we will begin to curate that dataset."
         },
         {
-            "question": "",
-            "answer": ""
+            "question": "Once you have my data, do you have it forever?",
+            "answer": "Yes all of the data that you contribute will be stored on the blockchain, this means it cannot be deleted. It also means that you will continue to receive payouts on DAD as long as your data is being sold."
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -825,9 +825,9 @@
     "me": {
         "profile": {
             "username": {
-                "exist": "Alias already exists",
+                "exist": "Name already exists",
                 "success": "Your alias has been recorded",
-                "required": "Alias required. ?"
+                "required": "Name required"
             },
             "verify": {
                 "alert": {
@@ -845,12 +845,13 @@
                             "email": "A valid email would work better."
                         },
                         "idVerification": {
-                            "invalidFullName": "",
-                            "invalidIDNumber": "",
-                            "invalidDocument": "",
-                            "invalidFrontImage": "",
-                            "invalidBackImage": "",
-                            "invalidSelfieImage": ""
+                            "invalidFullName": "Please enter your full name",
+                            "invalidIDNumber": "Please enter valid document ID number",
+                            "invalidDocument": "Please choose a document type",
+                            "invalidFrontImage": "Please upload front page of your document",
+                            "invalidBackImage": "Please upload back page of your document",
+                            "invalidEmail": "Please upload email of your document",
+                            "invalidSelfieImage": "Please upload a selife photo with your document"
                         }
                     },
                     "require": {
@@ -860,19 +861,20 @@
                     "success": {
                         "phone": "Phone number securely saved.",
                         "email": "Your email has been verified.",
-                        "idVerification": ""
+                        "idVerification": "Your documents has been submitted"
                     },
                     "cannot": {
                         "phone": "Can't verify your phone, please check your code",
                         "email": "Can't verify your email, please check your code.",
-                        "idVerification": ""
+                        "idVerification": "Can't submit your documents, please try again",
+                        "idVerification2": "Can't submit your documents."
                     }
                 }
             },
             "text": {
                 "verified": "Verified",
                 "username": {
-                    "label": "Alias",
+                    "label": "Nick Name",
                     "desc1": "What do they call you?",
                     "button": {
                         "submit": "Save"
@@ -901,20 +903,21 @@
                     }
                 },
                 "id_verification": {
-                    "label": "",
-                    "desc1": "",
-                    "desc2": "",
-                    "desc3": "",
-                    "desc4": "",
-                    "desc5": "",
-                    "desc6": "",
-                    "desc7": "",
-                    "desc8": "",
-                    "desc9": "",
-                    "uploading": "",
+                    "label": "ID Verification",
+                    "desc1": "Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations",
+                    "desc2": "Name",
+                    "desc3": "Valid Document Number",
+                    "desc4": "Document type",
+                    "desc5": "Identity Card Front Side",
+                    "desc6": "Please make sure that the photo is complete and clearly visible, in JPG or PNG format. Id card must be in the valid period.",
+                    "desc7": "Identity Card Back Side",
+                    "desc8": "Identity Card Front Side With Ninja Background",
+                    "desc9": "Please make sure that the photo is complete and clearly visible, in JPG format And make sure the text in the paper exactly is  ‘Ninja.org MMDDYY’",
+                    "desc10": "Email",
+                    "uploading": "Uploading",
                     "button": {
-                        "upload": "",
-                        "submit": ""
+                        "upload": "Upload file",
+                        "submit": "Submit"
                     }
                 }
             }
@@ -922,90 +925,90 @@
         "feed": {
             "profileTitle": "The face behind the mask",
             "profileDescription": "You, glorious you",
-            "shopTitle": "Your station",
+            "shopTitle": "Your ATM",
             "shopDescription": "Open for business",
             "shopNoDataDescription": "None yet. Set one up?",
             "noDataMessage": "Start a mission.",
-            "filterBy": "",
+            "filterBy": "Filter by:",
             "cash": {
-                "predition": "",
-                "cash": "",
-                "stationExplain": "",
-                "stationCreateSuggest": "",
-                "restoreStation": "",
-                "backupStation": "",
-                "transactions": "",
-                "dashboard": "",
-                "buyMoreCoin": ""
+                "predition": "Prediction",
+                "cash": "Cash",
+                "stationExplain": "An ATM is where you can buy or sell cryptocurrency.",
+                "stationCreateSuggest": "Got crypto? Create ATM to turn it into money making machine NOW!",
+                "restoreStation": "Restore ATM",
+                "backupStation": "Backup ATM",
+                "transactions": "Transactions",
+                "dashboard": "Dashboard",
+                "buyMoreCoin": "Buy more coins now"
             }
         },
         "credit": {
             "overview": {
-                "askToDeactive": "",
-                "messageDeactiveSuccess": ""
+                "askToDeactive": "Pause your coin selling?",
+                "messageDeactiveSuccess": "Pause successfully"
             },
             "transaction": {
-                "amount": "",
-                "processing": "",
+                "amount": "Amount",
+                "processing": "Processing...",
                 "deposit": {
-                    "title": "",
-                    "percentage": ""
+                    "title": "DEPOSIT",
+                    "percentage": "Percentage"
                 },
                 "withdraw": {
-                    "title": "",
-                    "toAccount": ""
+                    "title": "WITHDRAW",
+                    "toAccount": "To Account"
                 },
                 "transaction": {
-                    "title": "",
-                    "selling": "",
-                    "receiving": "",
-                    "fee": ""
+                    "title": "SELLING ORDER",
+                    "selling": "Selling",
+                    "receiving": "Receiving",
+                    "fee": "Fee"
                 },
                 "instant": {
-                    "title": "",
-                    "buying": "",
-                    "cost": ""
+                    "title": "PURCHASE ORDER",
+                    "buying": "Buying",
+                    "cost": "Cost"
                 }
             },
             "withdraw": {
-                "title": "",
-                "yourBalance": "",
-                "yourPapalName": "",
-                "amount": "",
-                "buttonTitle": "",
-                "description": "",
-                "askToWithdraw": "",
+                "title": "Withdraw money",
+                "yourBalance": "Your balance (USD)",
+                "yourPapalName": "Your Paypal email",
+                "amount": "Amount (USD)",
+                "buttonTitle": "Withdraw to your PayPal",
+                "description": "<span>It will take within a day for us <br /> to transfer money into your account.</span>",
+                "askToWithdraw": "Do you want to withdraw?",
                 "validate": {
-                    "amountMustLargerThan0": "",
-                    "amountMustLessThanBalance": ""
+                    "amountMustLargerThan0": "Amount must larger than 0",
+                    "amountMustLessThanBalance": "Amount must not larger than your balance"
                 }
             },
             "withdrawSuccess": {
-                "description": "",
-                "descriptionTransfer": "",
-                "buttonTitle": ""
+                "description": "Withdraw successfully!",
+                "descriptionTransfer": "We will make the transfer very shortly within 24 hours",
+                "buttonTitle": "Back to your dashboard"
             },
             "deposit": {
-                "title": ""
+                "title": "Deposit"
             }
         }
     },
     "discover": {
-        "noDataMessageCash": "No stations near you yet. Be the first.",
+        "noDataMessageCash": "No ATMs near you yet. Be the first.",
         "noDataMessageSwap": "No vendors near you yet. Be the first",
         "feed": {
             "cash": {
                 "menu": {
-                    "actionDescription": ""
+                    "actionDescription": "I WANT TO"
                 },
                 "marker": {
                     "label": {
-                        "price": "",
-                        "maxVolume": "",
-                        "tradeNow": "",
-                        "tel": "",
-                        "workingHours": "",
-                        "address": ""
+                        "price": "Price",
+                        "maxVolume": "Max volume",
+                        "tradeNow": "Now",
+                        "tel": "Tel",
+                        "workingHours": "Working hours",
+                        "address": "Address"
                     }
                 }
             }
@@ -1013,78 +1016,78 @@
     },
     "create": {
         "cod_form": {
-            "cod": "",
-            "buy_btn": "",
-            "your_address": "",
-            "your_phone": "",
-            "time": ""
+            "cod": "Cash on Delivery",
+            "buy_btn": "Buy",
+            "your_address": "Meet up address",
+            "your_phone": "Phone number",
+            "time": "Time to delivery & Note"
         },
         "cash": {
             "credit": {
-                "title": ""
+                "title": "Buy coins"
             }
         },
         "transfer": {},
         "atm": {
-            "title": "",
+            "title": "Open an ATM",
             "tab": {
-                "storeInfo": "",
-                "transaction": ""
+                "storeInfo": "ATM Info",
+                "transaction": "Order History"
             },
             "text": {
-                "nameTitle": "",
-                "nameHint": "",
-                "open": "",
-                "closed": "",
-                "phone": "",
-                "addressTitle": "",
-                "addressHint": "",
-                "bankInfo": "",
-                "ccInfo": "",
-                "statusTitle": "",
-                "personalAtm": "",
-                "storeAtm": "",
-                "confirmCreateAtm": "",
-                "confirmUpdateAtm": "",
-                "createdAtmSuccess": "",
-                "updatedAtmSuccess": "",
-                "no_history": ""
+                "nameTitle": "Name",
+                "nameHint": "Store's name",
+                "open": "Open",
+                "closed": "Closed",
+                "phone": "Phone",
+                "addressTitle": "Address",
+                "addressHint": "Enter your address...",
+                "bankInfo": "Bank info",
+                "ccInfo": "CC info",
+                "statusTitle": "Status",
+                "personalAtm": "Personal ATM",
+                "storeAtm": "Store ATM",
+                "confirmCreateAtm": "Create your ATM?",
+                "confirmUpdateAtm": "Update your ATM?",
+                "createdAtmSuccess": "Success! You have created an ATM on Ninja.",
+                "updatedAtmSuccess": "Success!",
+                "no_history": "You do not have any order yet."
             },
             "confirm_button": {
-                "desc": "",
-                "confirm": "",
-                "cancel": ""
+                "desc": "Are you sure?",
+                "confirm": "Sure",
+                "cancel": "Cancel"
             },
             "button": {
-                "create": "",
-                "update": ""
+                "create": "Create my ATM",
+                "update": "Update my ATM"
             },
             "days": {
-                "monday": "",
-                "tuesday": "",
-                "wednesday": "",
-                "thursday": "",
-                "friday": "",
-                "saturday": "",
-                "sunday": ""
+                "monday": "Monday",
+                "tuesday": "Tuesday",
+                "wednesday": "Wednesday",
+                "thursday": "Thursday",
+                "friday": "Friday",
+                "saturday": "Saturday",
+                "sunday": "Sunday"
             },
             "transactions": {
-                "amount": "",
-                "needToTransfer": "",
-                "status": "",
-                "to_wallet": "",
+                "amount": "Amount",
+                "needToTransfer": "Cost",
+                "status": "Status",
+                "to_wallet": "To Wallet",
                 "statusValues": {
-                    "processing": "",
-                    "success": "",
-                    "transferring": "",
-                    "cancelled": "",
-                    "fiat_transfering": "",
-                    "transfer_failed": ""
+                    "processing": "Pending",
+                    "success": "Success",
+                    "transferring": "Sending coins...",
+                    "cancelled": "Canceled",
+                    "fiat_transfering": "Sending money...",
+                    "transfer_failed": "Failed"
                 },
-                "messageTransfer": "",
-                "transferNow": "",
-                "cancel_order": "",
-                "review_order": ""
+                "messageTransfer": "You haven't transferred yet.",
+                "transferNow": " View detail",
+                "cancel_order": "Cancel",
+                "review_order": "Review"
             }
         }
     },
@@ -1107,7 +1110,7 @@
                 "submit_twitter": "Thanks for following us on Twitter.",
                 "confirm_code": "Your email has been verified.",
                 "verify_code": "Verification code has been sent to your email.",
-                "get_token": "Success! 80 shurikens have been added to your wallet.",
+                "get_token": "Success! 60 shurikens have been added to your wallet.",
                 "copy_link": "Referral link copied to clipboard."
             },
             "button": {
@@ -1118,7 +1121,7 @@
                 "get_token": "Just give me tokens"
             },
             "text": {
-                "title": "80 shiny Shurikens (SHURI).",
+                "title": "60 shiny Shurikens (SHURI).",
                 "telegram": "Say hello on telegram.",
                 "telegram2": "Leave your best joke for a chance to win more Shuri.",
                 "twitter": "Twitter",
@@ -1141,9 +1144,9 @@
             },
             "table": {
                 "header": {
-                    "user": "",
-                    "date": "",
-                    "referalValue": ""
+                    "user": "User",
+                    "date": "Date",
+                    "referalValue": "Referal Value"
                 }
             }
         },
@@ -1160,58 +1163,58 @@
         "action": {
             "payment": {
                 "button": {
-                    "checkout": ""
+                    "checkout": "Checkout"
                 },
                 "label": {
-                    "from_wallet": "",
-                    "to_address": "",
-                    "wallet_balance": "",
-                    "email": "",
-                    "shop_id": "",
-                    "confirm_url": "",
-                    "shop_name": "",
-                    "note": "",
-                    "crypto_currency": ""
+                    "from_wallet": "From wallet",
+                    "to_address": "To address",
+                    "wallet_balance": "Wallet balance",
+                    "email": "Email",
+                    "shop_id": "Shop ID",
+                    "confirm_url": "Confirm URL",
+                    "shop_name": "Shop/App name",
+                    "note": "Note",
+                    "crypto_currency": "Crypto Currencies"
                 },
                 "placeholder": {
-                    "to_address": "",
-                    "select_wallet": ""
+                    "to_address": "Wallet address...",
+                    "select_wallet": "Select a wallet"
                 },
                 "error": {
-                    "insufficient": ""
+                    "insufficient": "You have insufficient coin to make the transfer."
                 },
                 "menu": {
-                    "developer_docs": "",
-                    "payment_buttons": "",
-                    "help": ""
+                    "developer_docs": "Developer Docs",
+                    "payment_buttons": "Payment Buttons",
+                    "help": "Help & Support"
                 }
             },
             "preferecens": {
                 "list_item": {
-                    "wallet_name": "",
-                    "hide_balance": "",
-                    "backup_wallet": "",
-                    "export_private_key": "",
-                    "delete_wallet": ""
+                    "wallet_name": "Wallet Name",
+                    "hide_balance": "Hide Balance",
+                    "backup_wallet": "Backup Wallet",
+                    "export_private_key": "Export Private Key",
+                    "delete_wallet": "Delete Wallet"
                 },
                 "update_name": {
-                    "title": "",
-                    "label": "",
+                    "title": "Wallet name",
+                    "label": "What do you call this wallet?",
                     "button": {
-                        "save": ""
+                        "save": "Save"
                     }
                 }
             },
             "redeem": {
-                "title": "",
-                "your_code": "",
-                "giftcard": "",
-                "value": "",
-                "agree_text": "",
-                "button_redeem": "",
-                "button_check": "",
-                "swipe_button_redeem": "",
-                "find_code": ""
+                "title": "Redeem to coin",
+                "your_code": "Reedem code",
+                "giftcard": "Gift card",
+                "value": "Value",
+                "agree_text": "By clicking REDEEM, you agree to Gift Card & Promotional code {0} as applicable",
+                "button_redeem": "Redeem now",
+                "button_check": "Check redeem code",
+                "swipe_button_redeem": "Swipe to redeem",
+                "find_code": "How do find claim code?"
             },
             "remove": {
                 "title": "Remove",
@@ -1229,14 +1232,14 @@
                 "label": {
                     "from_wallet": "From wallet",
                     "to_address": "To wallet address",
-                    "to_address2": "",
+                    "to_address2": "To address",
                     "amount": "Amount",
                     "usd": "USD",
                     "wallet_balance": "Wallet balance",
                     "scan_qrcode": "Scan QR code",
-                    "gas_limit": "",
-                    "data": "",
-                    "feel_level": ""
+                    "gas_limit": "Gas Limit",
+                    "data": "Data",
+                    "feel_level": "Fee:"
                 },
                 "placeholder": {
                     "to_address": "Wallet address...",
@@ -1275,35 +1278,35 @@
                 "description": "Please enter your top secret recovery data to restore your wallet."
             },
             "export_private_key": {
-                "title": "",
-                "desc": ""
+                "title": "Export at your risk!",
+                "desc": "Anyone with your Private Key will have FULL access to your wallet!!!"
             },
             "setting": {
-                "title": "",
-                "error": "",
-                "header": "",
+                "title": "Settings",
+                "error": "Invalid wallets",
+                "header": "Setting wallets",
                 "success": {
-                    "restore": "",
-                    "save_alternative_currency": "",
-                    "save_crypto_address": ""
+                    "restore": "Your Wallet restore success",
+                    "save_alternative_currency": "Save currency selected!",
+                    "save_crypto_address": "Save format crypto address seleted!"
                 },
                 "label": {
-                    "alternative_currency": "",
-                    "select_alternative_currency": "",
-                    "crypto_address": "",
-                    "select_crypto_address": "",
-                    "short_address": "",
-                    "shortest_address": "",
-                    "hide_address": "",
-                    "passcode": "",
-                    "push_notifications": "",
-                    "community": "",
-                    "wallet_account": ""
+                    "alternative_currency": "Currency",
+                    "select_alternative_currency": "Select currency",
+                    "crypto_address": "Cryptocurrency address",
+                    "select_crypto_address": "Select cryptocurrency address",
+                    "short_address": "Show short address",
+                    "shortest_address": "Show shortest address",
+                    "hide_address": "Hide address",
+                    "passcode": "Passcode",
+                    "push_notifications": "Push Notifications",
+                    "community": "Community",
+                    "wallet_account": "Wallet Account"
                 },
                 "button": {
-                    "restore": ""
+                    "restore": "Restore now"
                 },
-                "description": ""
+                "description": "Please enter your top secret recovery data to restore your wallet."
             },
             "import": {
                 "title": "Add new / Import coin"
@@ -1334,12 +1337,12 @@
                     "step1_label": "I understand that if I lose my passphrase, I lose access to my account.",
                     "step2_msg1": "Record these words carefully. Don't email it or screenshot it.",
                     "step3_msg1": "Tap to put these words in the correct order.",
-                    "need_secure": "",
-                    "need_backup": ""
+                    "need_secure": "Need secure",
+                    "need_backup": "Needs Backup"
                 },
                 "button": {
                     "continue": "Continue",
-                    "verify": "Verify your passsphrase",
+                    "verify": "Verify your passphrase",
                     "copy_clipboard": "Copy to clipboard",
                     "ok": "OK"
                 },
@@ -1353,7 +1356,7 @@
                 "header": "Wallet address",
                 "header2": "Custom Amount",
                 "message": "Share your public wallet address to receive",
-                "title2": "",
+                "title2": "MY DESPOSIT ADDRESS",
                 "label": {
                     "address": "Address",
                     "amount": "Amount",
@@ -1364,14 +1367,14 @@
                     "choose_wallet": "Choose a wallet ..."
                 },
                 "link": {
-                    "copy_address": "",
-                    "download_qrcode": ""
+                    "copy_address": "Copy address",
+                    "download_qrcode": "Download QR code"
                 },
                 "button": {
                     "share": "Copy to share",
                     "request_amount": "Request Specific amount ➔",
                     "done": "Done",
-                    "text": ""
+                    "text": "Copy address"
                 },
                 "success": {
                     "share": "Wallet address copied to clipboard."
@@ -1383,7 +1386,7 @@
                     "select_coints": "Select coins",
                     "wallet_key": "Wallet key",
                     "main_net": "Mainnet wallets",
-                    "test_net": "Testnet wallets",
+                    "test_net": "Testnet",
                     "header_coins": "Cryptocurrencies",
                     "header_tokens": "ERC20 Tokens",
                     "header_collectibles": "ERC721 Collectibles"
@@ -1399,7 +1402,7 @@
                 "button": {
                     "create": "Create wallet",
                     "add_new": "+ Add new",
-                    "done": "",
+                    "done": "Done",
                     "request_free_eth": "Request free ETH"
                 },
                 "error": {
@@ -1417,32 +1420,32 @@
                 "title": "View transaction history",
                 "header": "Transaction history",
                 "label": {
-                    "balance_hidden": "",
+                    "balance_hidden": "Balance Hidden",
                     "failed": "Failed",
-                    "pending": "",
+                    "pending": "Pending",
                     "unconfirmed": "Unconfirmed",
                     "balance": "Balance",
                     "transactions": "Transactions",
                     "status": "Status",
                     "confirmations": "confirmations",
                     "success": "success",
-                    "error": "",
-                    "detail_etherscan": "",
-                    "detail_blockchaininfo": "",
-                    "view_all_etherscan": "",
-                    "self": "",
-                    "sent": "",
-                    "received": "",
-                    "create": "",
-                    "transfer": "",
-                    "from": "",
-                    "to": "",
-                    "internal_transactions": "",
-                    "no_trans": "",
-                    "no_internal_trans": "",
-                    "coming_soon": "",
-                    "send": "",
-                    "receive": ""
+                    "error": "Error",
+                    "detail_etherscan": "View detail on etherscan.io",
+                    "detail_blockchaininfo": "View detail on bitpay.com",
+                    "view_all_etherscan": "Watch etherscan",
+                    "self": "Self",
+                    "sent": "Sent",
+                    "received": "Received",
+                    "create": "Create",
+                    "transfer": "transfer",
+                    "from": "from",
+                    "to": "to",
+                    "internal_transactions": "Internal",
+                    "no_trans": "No transactions yet",
+                    "no_internal_trans": "No internal transactions yet",
+                    "coming_soon": "Coming soon ...",
+                    "send": "Send",
+                    "receive": "Receive"
                 }
             }
         }
@@ -1459,12 +1462,12 @@
     },
     "bitcoin_cash": {
         "error": {
-            "invalid_address": "",
-            "invalid_address2": "",
-            "insufficient": ""
+            "invalid_address": "You can only send tokens to BitcoinCash address",
+            "invalid_address2": "Please enter a valid receiving address.",
+            "insufficient": "You have insufficient coin to make the transfer."
         },
         "success": {
-            "transaction": ""
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "ethereum": {
@@ -1472,7 +1475,7 @@
             "invalid_address": "You can only send tokens to Ethereum address",
             "invalid_address2": "Please enter a valid receiving address.",
             "insufficient": "You have insufficient coin to make the transfer.",
-            "insufficient_gas": ""
+            "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
         },
         "success": {
             "transaction": "Your transaction will appear on blockchain in about 30 seconds."
@@ -1480,13 +1483,13 @@
     },
     "ripple": {
         "error": {
-            "invalid_address": "",
-            "invalid_address2": "",
-            "insufficient": "",
-            "insufficient_gas": ""
+            "invalid_address": "You can only send tokens to Ripple address",
+            "invalid_address2": "Please enter a valid receiving address.",
+            "insufficient": "You have insufficient coin to make the transfer.",
+            "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
         },
         "success": {
-            "transaction": ""
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "chat": {
@@ -1603,105 +1606,105 @@
     "WHITE_PAPER_END": "And it actually works",
     "WHITE_PAPER_END_1": "Hey, thanks for reading. Ninja will go live on the testnet on 5 June! We’re excited to hear your thoughts.",
     "atm_cash_transfer": {
-        "to_wallet_address": "",
-        "copy_address_or_scan_qr": "",
-        "we_will_send_coin_to_this_address_desc": "",
-        "amount": "",
-        "transfer": "",
-        "scan_qr_code": "",
-        "invalid_address_valid": "",
-        "success_msg": "",
-        "title": ""
+        "to_wallet_address": "TO WALLER ADDRESS",
+        "copy_address_or_scan_qr": "Copy address or scan QR code",
+        "we_will_send_coin_to_this_address_desc": "We will send coins to this address after receiving your bank receipt.",
+        "amount": "WANTED AMOUNT",
+        "transfer": "Next",
+        "scan_qr_code": "Scan QR code",
+        "invalid_address_valid": "Invalid wallet address",
+        "success_msg": "Success!",
+        "title": "New Order"
     },
     "atm_cash_transfer_info": {
-        "payment_detail": "",
-        "order_will_expire_in": "",
-        "expired": "",
-        "customer_amount": "",
-        "amount": "",
-        "account_name": "",
-        "account_number": "",
-        "bank_name": "",
-        "bank_id": "",
-        "reference_code": "",
-        "important": "",
-        "notice_desc": "",
-        "upload_btn": "",
-        "done_btn": "",
-        "copied": "",
-        "title": "",
-        "amount_info": ""
+        "payment_detail": "Payment detail",
+        "order_will_expire_in": "This order will expire in ",
+        "expired": "Expired",
+        "customer_amount": "CUSTOMER AMOUNT",
+        "amount": "YOUR AMOUNT",
+        "account_name": "ACCOUNT NAME",
+        "account_number": "ACCOUNT NUMBER",
+        "bank_name": "BANK NAME",
+        "bank_id": "BANK ID",
+        "reference_code": "REFERENCE CODE",
+        "important": "IMPORTANT: ",
+        "notice_desc": "You must send the exact amount & reference code as instructed and upload the payment proof below so we can proceed sending coins to you.",
+        "upload_btn": "Upload your bank receipt",
+        "done_btn": "Done",
+        "copied": "Copied to clipboard!",
+        "title": "Payment detail",
+        "amount_info": "Profit = Customer Amount - Your Amount"
     },
     "buy_coin": {
         "label": {
             "header": {
-                "buy_crypto": "",
-                "with_ninja_coin": ""
+                "buy_crypto": "Buy crypto",
+                "with_ninja_coin": " with Ninja Coin"
             },
-            "description": "",
-            "common_packages": "",
+            "description": "Ninja has some of the best prices around",
+            "common_packages": "Common packages:",
             "payment_methods": {
-                "bank": "",
-                "cod": "",
-                "cod_info": ""
+                "bank": "Bank Transfer",
+                "cod": "COD",
+                "cod_info": "Cash on delivery."
             },
             "verify": {
                 "notYet": {
-                    "title": "",
-                    "action": ""
+                    "title": "You are not verified yet! Verify now to start trading with good price.",
+                    "action": "Verify now"
                 },
                 "rejected": {
-                    "title": "",
-                    "action": ""
+                    "title": "Your verification is rejected. Please try again.",
+                    "action": "Verify now"
                 },
                 "processing": {
-                    "title": "",
-                    "action": ""
+                    "title": "We are verifying your account. Please kindly wait.",
+                    "action": "Please wait"
                 },
                 "verified": {
-                    "need_selfie_verifiy": ""
+                    "need_selfie_verifiy": "You are buying more than 500 usd. Please verify your account to increase the limit"
                 }
             },
-            "success": ""
+            "success": "Succesful!"
         },
-        "buy_package_without_wallet_address_notice": ""
+        "buy_package_without_wallet_address_notice": "Sorry Ninja, something went wrong. Please choose your wallet first."
     },
     "bank_info": {
-        "transfer_detail_text": "",
-        "account_name": "",
-        "account_number": "",
-        "bank_id": "",
-        "bank_name": ""
+        "transfer_detail_text": " PLEASE MAKE PAYMENT TO THIS DETAILS",
+        "account_name": "Account name",
+        "account_number": "Account number",
+        "bank_id": "Bank ID",
+        "bank_name": "Bank name"
     },
     "buy_coin_transaction": {
-        "code": "",
+        "code": "Code",
         "statusValues": {
-            "pending": "",
-            "processing": "",
-            "success": "",
-            "transferring": "",
-            "cancelled": "",
-            "fiat_transferring": "",
-            "transfer_failed": "",
-            "expired": "",
-            "rejected": ""
+            "pending": "Created",
+            "processing": "Processing",
+            "success": "Success",
+            "transferring": "Transferring coin",
+            "cancelled": "Canceled",
+            "fiat_transferring": "Transferring money",
+            "transfer_failed": "Failed",
+            "expired": "Expired",
+            "rejected": "Rejected"
         }
     },
-    "buy_coin_transaction.text.no_history": "",
+    "buy_coin_transaction.text.no_history": "No order yet. Don't miss our good price and <strong><a href=\"https://ninja.org/coin\">create one now!</a></strong>",
     "wallet_selector": {
-        "your_wallet": "",
-        "wallet_dont_match_error": ""
+        "your_wallet": "Your wallets",
+        "wallet_dont_match_error": "The address and type of crypto don’t match. Please check"
     },
-    "buy_coin_confirm_popup.msg": "",
-    "buy_coin_confirm_popup.confirm_text": "",
-    "buy_coin_confirm_popup.cancel_text": "",
-    "buy_coin.verify.need_selfie_verifiy": "",
-    "buy_coin.verify.need_selfie_verifiy_action": "",
+    "buy_coin_confirm_popup.msg": "Buy {amount} {currency} with {fiatAmount} {fiatCurrency}?",
+    "buy_coin_confirm_popup.confirm_text": "Confirm",
+    "buy_coin_confirm_popup.cancel_text": "Cancel",
+    "buy_coin.verify.need_selfie_verifiy": "You are buying more than {fiatAmount} {fiatCurrency}. Please verify your account to increase the limit",
+    "buy_coin.verify.need_selfie_verifiy_action": "Verify now",
     "review": {
-        "title": "",
+        "title": "Review",
         "label": {
-            "description": "",
-            "submitButtonTitle": ""
+            "description": "How do you feel?",
+            "submitButtonTitle": "Submit"
         }
     }
 }

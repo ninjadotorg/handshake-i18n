@@ -217,6 +217,7 @@
     "ex.error.325": "%%%.ex.error.325%%%",
     "ex.error.326": "%%%.ex.error.326%%%",
     "ex.error.327": "%%%.ex.error.327%%%",
+    "ex.error.331": "%%%.ex.error.331%%%",
     "ex.error.default": "%%%.ex.error.default%%%",
     "ex.earlyBird.label.1": "%%%.ex.earlyBird.label.1%%%",
     "ex.earlyBird.label.2": "%%%.ex.earlyBird.label.2%%%",
@@ -824,6 +825,7 @@
     },
     "me": {
         "profile": {
+            "head_text": "%%%.me.profile.head_text%%%",
             "username": {
                 "exist": "%%%.me.profile.username.exist%%%",
                 "success": "%%%.me.profile.username.success%%%",
@@ -1020,7 +1022,8 @@
             "buy_btn": "%%%.create.cod_form.buy_btn%%%",
             "your_address": "%%%.create.cod_form.your_address%%%",
             "your_phone": "%%%.create.cod_form.your_phone%%%",
-            "time": "%%%.create.cod_form.time%%%"
+            "time": "%%%.create.cod_form.time%%%",
+            "default_time": "%%%.create.cod_form.default_time%%%"
         },
         "cash": {
             "credit": {
