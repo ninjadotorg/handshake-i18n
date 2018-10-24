@@ -874,7 +874,7 @@
     },
     "me": {
         "profile": {
-            "head_text": "Our verification process only takes a few minutes in working hour. It will be longer during night time and weekend.",
+            "head_text": "Our verification process typically takes just a few minutes. This may take slightly longer outside business hours. Your information will remain 100% private.",
             "username": {
                 "exist": "Name already exists",
                 "success": "您的昵称已被记录",
@@ -901,7 +901,7 @@
                             "invalidDocument": "Please choose a document type",
                             "invalidFrontImage": "Please upload front page of your document",
                             "invalidBackImage": "Please upload back page of your document",
-                            "invalidEmail": "Please upload email of your document",
+                            "invalidEmail": "Please fill in your email address",
                             "invalidSelfieImage": "Please upload a selife photo with your document"
                         }
                     },
@@ -943,32 +943,41 @@
                     }
                 },
                 "email": {
-                    "label": "电子邮件验证",
+                    "label": "Email",
                     "desc1": "You may prefer to receive updates and notifications via email. This is also optional.",
-                    "desc2": "Prefer to receive notifications and updates via email?",
+                    "desc2": "Verify your email. You will receive transaction info through this email address",
                     "desc3": "输入您的电子邮件",
                     "desc4": "Enter the secret code sent to your email.",
                     "button": {
-                        "send": "发送​​",
+                        "send": "OK",
                         "submit": "验证你的邮箱"
                     }
                 },
                 "id_verification": {
                     "label": "ID Verification",
-                    "desc1": "Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations",
-                    "desc2": "Name",
-                    "desc3": "Valid Document Number",
-                    "desc4": "Document type",
-                    "desc5": "Identity Card Front Side",
-                    "desc6": "Please make sure that the photo is complete and clearly visible, in JPG or PNG format. Id card must be in the valid period.",
-                    "desc7": "Identity Card Back Side",
-                    "desc8": "Identity Card Front Side With Ninja Background",
-                    "desc9": "Please make sure that the photo is complete and clearly visible, in JPG format And make sure the text in the paper exactly is  ‘Ninja.org MMDDYY’",
+                    "desc1": "To comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations.",
+                    "desc2": "Full Name",
+                    "desc3": "Document Number",
+                    "desc4": "Document Type",
+                    "desc5": "Front Side",
+                    "desc6": "Please upload a JPG or PNG of both sides of your passport, ID card or driving license.",
+                    "desc7": "Back Side",
+                    "desc8": "Selfie with Identity Card",
+                    "desc9": "Please take a selfie with your previous ID card and a piece of paper writing \"I am in Ninja's dojo\". Make sure that the photo is complete and clearly visible, in JPG or PNG format.",
                     "desc10": "Email",
+                    "desc11": "Identification Document",
+                    "desc12": "Level 1 verification: Trade with a limit of 500 USD a day.",
+                    "desc13": "Level 2 verification: Trade with the top limit of 5000 USD a day.",
                     "uploading": "Uploading",
                     "button": {
                         "upload": "Upload file",
                         "submit": "Submit"
+                    },
+                    "status": {
+                        "processing": "Processing",
+                        "level1": "Level 1",
+                        "finished": "Finished",
+                        "rejected": "Rejected"
                     }
                 }
             }
