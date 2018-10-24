@@ -559,6 +559,9 @@
             "desc": "Decide your own working hours. Have the freedom and flexbility to work anytime, anywhere"
         }
     ],
+    "landing_page.coin.breadcrumb": "Ninja Coin",
+    "landing_page.coin.heading": "Frequently asked questions",
+    "landing_page.coin.subHeading": " ",
     "MOT_TITLE": "The anonymous exchange of anything",
     "MOT_CONTENT_1": "Open",
     "MOT_CONTENT_2": "on your mobile browser to gain anonymous entry.",
@@ -781,6 +784,52 @@
         {
             "question": "Once you have my data, do you have it forever?",
             "answer": "Yes all of the data that you contribute will be stored on the blockchain, this means it cannot be deleted. It also means that you will continue to receive payouts on DAD as long as your data is being sold."
+        }
+    ],
+    "landing_page.coin.faq": [
+        {
+            "question": "About Ninja Coin",
+            "answer": "Ninja Coin is a product of Shanzhai Limited - a Hong Kong-based company with offices in Ho Chi Minh City, New York and California. We provide a platform where people can buy crypto more conveniently, safely and with the most attractive price"
+        },
+        {
+            "question": "How do I buy coin on Ninja?",
+            "answer": "Step 1: Visit <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\n              Step 2: Verify your identity<br/>\n              Step 3: Select/Scan your crypto wallet<br/>\n              Step 4: Enter the amount of coin you want to buy (or the amount of fiat money you want to use to buy coin)<br/>\n              Step 5: Choose your buying method: Bank Transfer/COD<br/>\n              Step 6: Click Buy<br/>\n              Step 7: Make payment according to your buying method:<br/>\n              <ul>\n                <li>If you choose Bank Transfer: make a bank transfer</li>\n                <li>If you choose COD: Enter your address, time and phone number. Wait for Ninja to come and pay with bank account/credit card/cash</li>\n              </ul>\n"
+        },
+        {
+            "question": "How to create account on Ninja?",
+            "answer": "Ninja Coin will create an account for you immediately the first time you visit us at <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong> instead of traditional login with email/username and password. However, you can only purchase after you’ve done the verification process\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Transaction Value</th>\n              <th>Verification Information Required</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><$500</td>\n                <td>Photo of your ID (both sides)</td>\n              </tr>\n              <tr>\n                <td><$5000</td>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
+        },
+        {
+            "question": "Why do I need to verify my identity?",
+            "answer": "Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations. We do not and will never sell or rent your personal information to any third parties"
+        },
+        {
+            "question": "Is buying coin on Ninja secure?",
+            "answer": "Every transaction on Ninja is covered 100% by a warranty with value up to $1000 each"
+        },
+        {
+            "question": "What is the maximum amount can I purchase?",
+            "answer": "The maximum amount depends on user verification level and is up to <strong>$5000/day/user</strong> by now. We are working on expanding it in the near future\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Verification Level</th>\n              <th>Maximum amount</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Photo of your ID (both sides)</td>\n                <td>$500/user/day</td>\n              </tr>\n              <tr>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                </td>\n                <td>$5000/user/day</td>\n              </tr>\n          </tbody>\n      </table>\n"
+        },
+        {
+            "question": "What payment method can I use?",
+            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Buying method</th>\n              <th>Payment method</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Bank Transfer (Buying online)</td>\n                <td>Bank transfer</td>\n              </tr>\n              <tr>\n                <td>COD (Buying offline)</td>\n                <td>Bank transfer<br/>\n                    Credit card<br/>\n                    Cash\n                    </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>For buying online, you conduct the payment separately from the platform. We will transfer the coin to your wallet once we have received your payment</li>\n                <li>For buying offline, we will arrange a meetup with the time and address you provide. You can pay with your bank account, credit card or cash after you have received your coin from Ninja</li>\n              </ul>"
+        },
+        {
+            "question": "How long should I wait to receive my coin?",
+            "answer": "It depends on the time for the bank to process transactions (for buying online) and for the blockchain network to do the confirmations, which usually only takes a few minutes"
+        },
+        {
+            "question": "What happens if the price changes during my transaction?",
+            "answer": "Your price is fixed at the time you place a buy order. Therefore, all the later changes in price will not affect your transaction"
+        },
+        {
+            "question": "What are the fees?",
+            "answer": "We only takes 2% fee when you pay with credit card. Other payment options remain free"
+        },
+        {
+            "question": "How can I contact for support?",
+            "answer": "Feel free to contact us via live chat if you need any support for buying coin on Ninja"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -1645,7 +1694,9 @@
                 "with_ninja_coin": " with Ninja Coin"
             },
             "description": "Ninja has some of the best prices around",
-            "common_packages": "Common packages:",
+            "common_packages": "One-click Purchases",
+            "basic_package_name": "Starter",
+            "pro_package_name": "Master",
             "payment_methods": {
                 "bank": "Bank Transfer",
                 "cod": "COD",
@@ -1653,7 +1704,7 @@
             },
             "verify": {
                 "notYet": {
-                    "title": "You are not verified yet It only take a few minutes!",
+                    "title": "To start trading, please take a few minutes to verify your account.",
                     "action": "Verify now"
                 },
                 "rejected": {
@@ -1665,12 +1716,20 @@
                     "action": "Please wait"
                 },
                 "verified": {
-                    "need_selfie_verifiy": "You are buying more than 500 usd. Please verify your account to increase the limit"
+                    "level_1": {
+                        "title": "You're ready to trade! Your max daily limit is now 500 USD. Want more?",
+                        "action": "Provide additional verification"
+                    },
+                    "level_2": {
+                        "title": "You're fully verified. Your limit has now been increased to the max of 5000 USD!",
+                        "action": ""
+                    },
+                    "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
                 }
             },
             "success": "Succesful!"
         },
-        "buy_package_without_wallet_address_notice": "Sorry Ninja, something went wrong. Please choose your wallet first."
+        "buy_package_without_wallet_address_notice": "Please choose your wallet first."
     },
     "bank_info": {
         "transfer_detail_text": " PLEASE MAKE PAYMENT TO THIS DETAILS",
@@ -1706,7 +1765,7 @@
     "review": {
         "title": "Review",
         "label": {
-            "description": "How do you feel?",
+            "description": "How is your experience with Ninja Coin?",
             "submitButtonTitle": "Submit"
         }
     }
