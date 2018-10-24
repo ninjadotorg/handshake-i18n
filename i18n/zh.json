@@ -1291,7 +1291,8 @@
                     "scan_qrcode": "扫描二维码",
                     "gas_limit": "Gas Limit",
                     "data": "Data",
-                    "feel_level": "Fee:"
+                    "feel_level": "Fee:",
+                    "max_amount": "Max amount"
                 },
                 "placeholder": {
                     "to_address": "钱包地址",
@@ -1300,7 +1301,11 @@
                 "text": {
                     "confirm_transfer": "是否确认转账？"
                 },
-                "error": "你没有足够的代币！",
+                "error": {
+                    "not_enough_coin": "You don't have enough coin right now.",
+                    "max_amount": "Your balance isn't enough to transaction fee.",
+                    "wallet_not_found": " wallet is not found to transfer."
+                },
                 "button": {
                     "transfer": "转账",
                     "confirm": "确认"
