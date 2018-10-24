@@ -1291,7 +1291,8 @@
                     "scan_qrcode": "%%%.wallet.action.transfer.label.scan_qrcode%%%",
                     "gas_limit": "%%%.wallet.action.transfer.label.gas_limit%%%",
                     "data": "%%%.wallet.action.transfer.label.data%%%",
-                    "feel_level": "%%%.wallet.action.transfer.label.feel_level%%%"
+                    "feel_level": "%%%.wallet.action.transfer.label.feel_level%%%",
+                    "max_amount": "%%%.wallet.action.transfer.label.max_amount%%%"
                 },
                 "placeholder": {
                     "to_address": "%%%.wallet.action.transfer.placeholder.to_address%%%",
@@ -1300,7 +1301,11 @@
                 "text": {
                     "confirm_transfer": "%%%.wallet.action.transfer.text.confirm_transfer%%%"
                 },
-                "error": "%%%.wallet.action.transfer.error%%%",
+                "error": {
+                    "not_enough_coin": "%%%.wallet.action.transfer.error.not_enough_coin%%%",
+                    "max_amount": "%%%.wallet.action.transfer.error.max_amount%%%",
+                    "wallet_not_found": "%%%.wallet.action.transfer.error.wallet_not_found%%%"
+                },
                 "button": {
                     "transfer": "%%%.wallet.action.transfer.button.transfer%%%",
                     "confirm": "%%%.wallet.action.transfer.button.confirm%%%"
