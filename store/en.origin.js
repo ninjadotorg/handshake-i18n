@@ -965,10 +965,19 @@
                     "desc8": "%%%.me.profile.text.id_verification.desc8%%%",
                     "desc9": "%%%.me.profile.text.id_verification.desc9%%%",
                     "desc10": "%%%.me.profile.text.id_verification.desc10%%%",
+                    "desc11": "%%%.me.profile.text.id_verification.desc11%%%",
+                    "desc12": "%%%.me.profile.text.id_verification.desc12%%%",
+                    "desc13": "%%%.me.profile.text.id_verification.desc13%%%",
                     "uploading": "%%%.me.profile.text.id_verification.uploading%%%",
                     "button": {
                         "upload": "%%%.me.profile.text.id_verification.button.upload%%%",
                         "submit": "%%%.me.profile.text.id_verification.button.submit%%%"
+                    },
+                    "status": {
+                        "processing": "%%%.me.profile.text.id_verification.status.processing%%%",
+                        "level1": "%%%.me.profile.text.id_verification.status.level1%%%",
+                        "finished": "%%%.me.profile.text.id_verification.status.finished%%%",
+                        "rejected": "%%%.me.profile.text.id_verification.status.rejected%%%"
                     }
                 }
             }
