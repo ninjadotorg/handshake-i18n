@@ -559,6 +559,9 @@
             "desc": "%%%.landing_page.become_atm.categories.2.desc%%%"
         }
     ],
+    "landing_page.coin.breadcrumb": "%%%.landing_page.coin.breadcrumb%%%",
+    "landing_page.coin.heading": "%%%.landing_page.coin.heading%%%",
+    "landing_page.coin.subHeading": "%%%.landing_page.coin.subHeading%%%",
     "MOT_TITLE": "%%%.MOT_TITLE%%%",
     "MOT_CONTENT_1": "%%%.MOT_CONTENT_1%%%",
     "MOT_CONTENT_2": "%%%.MOT_CONTENT_2%%%",
@@ -781,6 +784,52 @@
         {
             "question": "%%%.landing_page.dad.faq.9.question%%%",
             "answer": "%%%.landing_page.dad.faq.9.answer%%%"
+        }
+    ],
+    "landing_page.coin.faq": [
+        {
+            "question": "%%%.landing_page.coin.faq.0.question%%%",
+            "answer": "%%%.landing_page.coin.faq.0.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.1.question%%%",
+            "answer": "%%%.landing_page.coin.faq.1.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.2.question%%%",
+            "answer": "%%%.landing_page.coin.faq.2.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.3.question%%%",
+            "answer": "%%%.landing_page.coin.faq.3.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.4.question%%%",
+            "answer": "%%%.landing_page.coin.faq.4.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.5.question%%%",
+            "answer": "%%%.landing_page.coin.faq.5.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.6.question%%%",
+            "answer": "%%%.landing_page.coin.faq.6.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.7.question%%%",
+            "answer": "%%%.landing_page.coin.faq.7.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.8.question%%%",
+            "answer": "%%%.landing_page.coin.faq.8.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.9.question%%%",
+            "answer": "%%%.landing_page.coin.faq.9.answer%%%"
+        },
+        {
+            "question": "%%%.landing_page.coin.faq.10.question%%%",
+            "answer": "%%%.landing_page.coin.faq.10.answer%%%"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -1646,6 +1695,8 @@
             },
             "description": "%%%.buy_coin.label.description%%%",
             "common_packages": "%%%.buy_coin.label.common_packages%%%",
+            "basic_package_name": "%%%.buy_coin.label.basic_package_name%%%",
+            "pro_package_name": "%%%.buy_coin.label.pro_package_name%%%",
             "payment_methods": {
                 "bank": "%%%.buy_coin.label.payment_methods.bank%%%",
                 "cod": "%%%.buy_coin.label.payment_methods.cod%%%",
@@ -1665,6 +1716,14 @@
                     "action": "%%%.buy_coin.label.verify.processing.action%%%"
                 },
                 "verified": {
+                    "level_1": {
+                        "title": "%%%.buy_coin.label.verify.verified.level_1.title%%%",
+                        "action": "%%%.buy_coin.label.verify.verified.level_1.action%%%"
+                    },
+                    "level_2": {
+                        "title": "%%%.buy_coin.label.verify.verified.level_2.title%%%",
+                        "action": "%%%.buy_coin.label.verify.verified.level_2.action%%%"
+                    },
                     "need_selfie_verifiy": "%%%.buy_coin.label.verify.verified.need_selfie_verifiy%%%"
                 }
             },
