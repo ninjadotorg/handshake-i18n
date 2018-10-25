@@ -1704,29 +1704,29 @@
     "buy_coin": {
         "label": {
             "header": {
-                "buy_crypto": "Buy crypto",
-                "with_ninja_coin": " with Ninja Coin"
+                "buy_crypto": "Mua Coin Giá Tốt",
+                "with_ninja_coin": " tại Ninja Coin"
             },
-            "description": "Ninja has some of the best prices around",
-            "common_packages": "One-click Purchases",
+            "description": "Ninja cam kết giá tốt nhất thị trường",
+            "common_packages": "Mua Nhanh",
             "basic_package_name": "Starter",
             "pro_package_name": "Master",
             "payment_methods": {
-                "bank": "Bank Transfer",
-                "cod": "COD",
-                "cod_info": "State your time and place for meeting up and we will exchange in person."
+                "bank": "Chuyển Khoản",
+                "cod": "Tiền Mặt",
+                "cod_info": "Chúng tôi sẽ giao dịch trực tiếp bằng tiền mặt theo thời gian và địa điểm của bạn."
             },
             "verify": {
                 "notYet": {
-                    "title": "To start trading, please take a few minutes to verify your account.",
-                    "action": "Verify now"
+                    "title": "Vui lòng xác minh tài khoản của bạn để bắt đầu giao dịch.",
+                    "action": "Xác nhận ngay"
                 },
                 "rejected": {
                     "title": "Your verification is rejected. Please try again.",
-                    "action": "Verify now"
+                    "action": "Xác nhận ngay"
                 },
                 "processing": {
-                    "title": "Verifying your account. We will send you an email once we are done.",
+                    "title": "Đang xác minh tài khoản. Chúng tôi sẽ gửi email cho bạn khi hoàn tất.",
                     "action": "Please wait"
                 },
                 "verified": {
