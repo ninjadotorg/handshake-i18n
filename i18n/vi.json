@@ -134,7 +134,7 @@
     "ex.label.purchase": "Purchase",
     "ex.label.cost": "Cost",
     "ex.label.amount": "Amount",
-    "ex.exchange.status.created": "Verifying",
+    "ex.exchange.status.created": "Đang xác nhận",
     "ex.exchange.status.active": "Active",
     "ex.exchange.status.closing": "Processing",
     "ex.exchange.status.closed": "Deleted",
@@ -298,7 +298,7 @@
     "escrow.label.yourSellingPrice": "Your selling price",
     "escrow.label.sellingPriceCaption": "= Market price + your percentage",
     "escrow.btn.depositNow": "Deposit now",
-    "escrow.btn.depositSuccessMessage": "Succesful!",
+    "escrow.btn.depositSuccessMessage": "Thành công!",
     "escrow.label.wallet.setDefaultWallet": "You must set default wallet {currency}",
     "dashboard.heading": "Dashboard",
     "dashboard.label.overview": "Overview",
@@ -1719,54 +1719,54 @@
             "verify": {
                 "notYet": {
                     "title": "Vui lòng xác minh tài khoản của bạn để bắt đầu giao dịch.",
-                    "action": "Xác nhận ngay"
+                    "action": "Xác minh ngay"
                 },
                 "rejected": {
-                    "title": "Your verification is rejected. Please try again.",
-                    "action": "Xác nhận ngay"
+                    "title": "Xác minh tài khoản bị từ chối. Vui lòng thử lại.",
+                    "action": "Xác minh ngay"
                 },
                 "processing": {
                     "title": "Đang xác minh tài khoản. Chúng tôi sẽ gửi email cho bạn khi hoàn tất.",
-                    "action": "Please wait"
+                    "action": "Vui lòng chờ"
                 },
                 "verified": {
                     "level_1": {
-                        "title": "You're ready to trade! Your max daily limit is now 500 USD. Want more?",
-                        "action": "Provide additional verification"
+                        "title": "Giao dịch ngay! Bạn có thể mua tối đa 500 USD/ngày. Cần nhiều hơn?",
+                        "action": "Xác minh thêm"
                     },
                     "level_2": {
-                        "title": "You're fully verified. Your limit has now been increased to the max of 5000 USD!",
+                        "title": "Xác minh tài khoản hoàn tất. Bạn có thể mua tối đa 5000 USD/ngày!",
                         "action": ""
                     },
-                    "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
+                    "need_selfie_verifiy": "Bạn đang mua lượng coin nhiều hơn 500 Usd. Vui lòng xác minh bổ sung để mua được nhiều hơn"
                 }
             },
             "success": "Succesful!"
         },
-        "buy_package_without_wallet_address_notice": "Please choose your wallet first."
+        "buy_package_without_wallet_address_notice": "Vui lòng chọn địa chỉ ví."
     },
     "bank_info": {
-        "transfer_detail_text": " PLEASE MAKE PAYMENT TO THIS DETAILS",
-        "account_name": "Account name",
-        "account_number": "Account number",
-        "bank_id": "Bank ID",
-        "bank_name": "Bank name"
+        "transfer_detail_text": " THÔNG TIN CHUYỂN KHOẢN",
+        "account_name": "Tên tài khoản",
+        "account_number": "Số tài khoản",
+        "bank_id": "Mã ngân hàng",
+        "bank_name": "Tên ngân hàng"
     },
     "buy_coin_transaction": {
-        "code": "Code",
+        "code": "Mã giao dịch",
         "statusValues": {
-            "pending": "Created",
-            "processing": "Processing",
-            "success": "Success",
-            "transferring": "Transferring coin",
-            "cancelled": "Canceled",
-            "fiat_transferring": "Transferring money",
-            "transfer_failed": "Failed",
-            "expired": "Expired",
-            "rejected": "Rejected"
+            "pending": "Đã tạo",
+            "processing": "Đang xử lý",
+            "success": "Hoàn tất",
+            "transferring": "Đang chuyển coin",
+            "cancelled": "Huỷ",
+            "fiat_transferring": "Đang chuyển tiền",
+            "transfer_failed": "Thất bại",
+            "expired": "Hết hạn",
+            "rejected": "Bị từ chối"
         }
     },
-    "buy_coin_transaction.text.no_history": "No order yet. Don't miss our good price and <strong><a href=\"https://ninja.org/coin\">create one now!</a></strong>",
+    "buy_coin_transaction.text.no_history": "Chưa có giao dịch. <strong><a href=\"https://ninja.org/coin\">Mua coin giá tốt ngay!</a></strong>",
     "wallet_selector": {
         "your_wallet": "Your wallets",
         "wallet_dont_match_error": "The address and type of crypto don’t match. Please check"
@@ -1774,8 +1774,8 @@
     "buy_coin_confirm_popup.msg": "Buy {amount} {currency} with {fiatAmount} {fiatCurrency}?",
     "buy_coin_confirm_popup.confirm_text": "Confirm",
     "buy_coin_confirm_popup.cancel_text": "Cancel",
-    "buy_coin.verify.need_selfie_verifiy": "You are buying more than {fiatAmount} {fiatCurrency}. Please verify your account to increase the limit",
-    "buy_coin.verify.need_selfie_verifiy_action": "Verify now",
+    "buy_coin.verify.need_selfie_verifiy": "Bạn đang mua nhiều hơn {fiatAmount} {fiatCurrency}. Vui lòng xác minh thêm để nâng hạn mức giao dịch",
+    "buy_coin.verify.need_selfie_verifiy_action": "Xác minh ngay",
     "review": {
         "title": "Review",
         "label": {
