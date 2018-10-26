@@ -1275,7 +1275,8 @@
                 "button_redeem": "%%%.wallet.action.redeem.button_redeem%%%",
                 "button_check": "%%%.wallet.action.redeem.button_check%%%",
                 "swipe_button_redeem": "%%%.wallet.action.redeem.swipe_button_redeem%%%",
-                "find_code": "%%%.wallet.action.redeem.find_code%%%"
+                "find_code": "%%%.wallet.action.redeem.find_code%%%",
+                "invalid_code": "%%%.wallet.action.redeem.invalid_code%%%"
             },
             "remove": {
                 "title": "%%%.wallet.action.remove.title%%%",
