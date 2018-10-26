@@ -136,7 +136,7 @@
     "ex.label.amount": "Amount",
     "ex.exchange.status.created": "Đang xác nhận",
     "ex.exchange.status.active": "Active",
-    "ex.exchange.status.closing": "Processing",
+    "ex.exchange.status.closing": "Đang xử lý...",
     "ex.exchange.status.closed": "Deleted",
     "ex.exchange.status.shaking": "Processing",
     "ex.exchange.status.shake": "Processing",
@@ -145,7 +145,7 @@
     "ex.exchange.status.pre_shaking": "Processing",
     "ex.exchange.status.pre_shake": "Processing",
     "ex.exchange.status.rejecting": "Processing",
-    "ex.exchange.status.rejected": "Rejected",
+    "ex.exchange.status.rejected": "Đã từ chối",
     "ex.exchange.status.cancelling": "Processing",
     "ex.exchange.status.cancelled": "Cancelled",
     "ex.shop.explanation.created": "This may take a few minutes. Good things come to those who wait.",
@@ -162,7 +162,7 @@
     "ex.shop.explanation.rejected": "",
     "ex.shop.explanation.cancelling": "Cancelling your offer. Please wait a few minutes.",
     "ex.shop.explanation.cancelled": "",
-    "ex.cc.status.processing": "Processing",
+    "ex.cc.status.processing": "Đang xử lý...",
     "ex.cc.status.success": "Done",
     "ex.cc.status.cancelled": "Failed",
     "ex.shop.status.created": "Setting up your ATM",
@@ -960,23 +960,23 @@
                     "desc3": "Số chứng minh nhân dân",
                     "desc4": "Loại giấy tờ",
                     "desc5": "Mặt trước",
-                    "desc6": "Please upload a JPG or PNG of both sides of your passport, ID card or driving license.",
-                    "desc7": "Back Side",
-                    "desc8": "Selfie with Identity Card",
-                    "desc9": "Please take a selfie with your previous ID card and a piece of paper writing \"I am in Ninja's dojo\". Make sure that the photo is complete and clearly visible, in JPG or PNG format.",
+                    "desc6": "Xin vui lòng tải ảnh cả hai mặt của chứng minh nhân dân, bằng lái xe hoặc hộ chiếu của bạn dưới định dạng JPG hoặc PNG.",
+                    "desc7": "Mặt sau",
+                    "desc8": "Hình chụp của bạn với chứng minh nhân dân",
+                    "desc9": "Xin vui lòng chụp một tấm hình của bạn với chứng minh nhân dân của mình khi đang cầm một tờ giấy có ghi \"I am in Ninja's dojo\". Hãy đảm bảo rằng hình ảnh rõ nét, dễ nhìn và ở định dạng JPG hoặc PNG.",
                     "desc10": "Email",
-                    "desc11": "Identification Document",
-                    "desc12": "Level 1 verification: Trade with a limit of 500 USD a day.",
-                    "desc13": "Level 2 verification: Trade with the top limit of 5000 USD a day.",
-                    "uploading": "Uploading",
+                    "desc11": "Tài liệu xác minh danh tính",
+                    "desc12": "Xác minh cấp 1: hạn mức giao dịch tối đa $500/ngày.",
+                    "desc13": "Xác minh cấp 2: hạn mức giao dịch tối đa $5.000/ngày.",
+                    "uploading": "Đang tải lên...",
                     "button": {
-                        "upload": "Upload file",
+                        "upload": "Đăng tải hình ảnh",
                         "submit": "Gửi"
                     },
                     "status": {
-                        "processing": "Processing",
-                        "level1": "Level 1",
-                        "finished": "Finished",
+                        "processing": "Đang xử lý...",
+                        "level1": "Cấp độ 1",
+                        "finished": "Đã hoàn thành",
                         "rejected": "Xác minh danh tính bị từ chối. Xin vui lòng thử lại."
                     }
                 }
@@ -1009,7 +1009,7 @@
             },
             "transaction": {
                 "amount": "Amount",
-                "processing": "Processing...",
+                "processing": "Đang xử lý...",
                 "deposit": {
                     "title": "DEPOSIT",
                     "percentage": "Percentage"
@@ -1269,13 +1269,14 @@
             "redeem": {
                 "title": "Redeem to coin",
                 "your_code": "Reedem code",
-                "giftcard": "Gift card",
+                "giftcard": "Gift Amount",
                 "value": "Value",
                 "agree_text": "By clicking REDEEM, you agree to Gift Card & Promotional code {0} as applicable",
                 "button_redeem": "Redeem now",
                 "button_check": "Check redeem code",
                 "swipe_button_redeem": "Swipe to redeem",
-                "find_code": "How do find claim code?"
+                "find_code": "How do find claim code?",
+                "invalid_code": "Invalid redeem code"
             },
             "remove": {
                 "title": "Remove",
