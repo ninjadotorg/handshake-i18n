@@ -1169,7 +1169,7 @@
             "success": {
                 "submit_telegram": "Welcome to our telegram group!",
                 "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Your email has been verified.",
+                "confirm_code": "Email của bạn đã được xác nhận thành công.",
                 "verify_code": "Mã xác nhận đã được gửi tới email của bạn.",
                 "get_token": "Success! 60 shurikens have been added to your wallet.",
                 "copy_link": "Referral link copied to clipboard."
@@ -1714,7 +1714,7 @@
             "payment_methods": {
                 "bank": "Chuyển Khoản",
                 "cod": "Tiền Mặt",
-                "cod_info": "Chúng tôi sẽ giao dịch trực tiếp bằng tiền mặt theo thời gian và địa điểm của bạn."
+                "cod_info": "Chúng tôi sẽ giao dịch trực tiếp bằng tiền mặt theo thời gian và địa điểm mà bạn cung cấp."
             },
             "verify": {
                 "notYet": {
@@ -1726,24 +1726,24 @@
                     "action": "Xác minh ngay"
                 },
                 "processing": {
-                    "title": "Đang xác minh tài khoản. Chúng tôi sẽ gửi email cho bạn khi hoàn tất.",
+                    "title": "Đang xác minh tài khoản. Chúng tôi sẽ gửi email cho bạn ngay khi xác minh thành công.",
                     "action": "Vui lòng chờ"
                 },
                 "verified": {
                     "level_1": {
-                        "title": "Giao dịch ngay! Bạn có thể mua tối đa 500 USD/ngày. Cần nhiều hơn?",
+                        "title": "Bạn đã sẵn sàng để giao dịch! Hạn mức tối đa của bạn là $500/ngày. Muốn nhiều hơn?",
                         "action": "Xác minh thêm"
                     },
                     "level_2": {
                         "title": "Xác minh tài khoản hoàn tất. Bạn có thể mua tối đa 5000 USD/ngày!",
                         "action": ""
                     },
-                    "need_selfie_verifiy": "Bạn đang mua lượng coin nhiều hơn 500 Usd. Vui lòng xác minh bổ sung để mua được nhiều hơn"
+                    "need_selfie_verifiy": "Bạn đã mua quá hạn mức $500/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên $5.000/ngày"
                 }
             },
             "success": "Succesful!"
         },
-        "buy_package_without_wallet_address_notice": "Vui lòng chọn địa chỉ ví."
+        "buy_package_without_wallet_address_notice": "Xin vui lòng nhập địa chỉ ví."
     },
     "bank_info": {
         "transfer_detail_text": " THÔNG TIN CHUYỂN KHOẢN",
