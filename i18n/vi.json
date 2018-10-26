@@ -275,7 +275,7 @@
     "ex.discover.label.dashboard": "New Order",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
     "cc.label.1": "Mua crypto bằng credit card",
-    "cc.label.2": "Ninja has some of the best prices around",
+    "cc.label.2": "Ninja cam kết mang đến giá thành tốt nhất thị trường",
     "cc.label.3": "Common packages:",
     "cc.btn.buyNow": "Buy now",
     "cc.btn.payNow": "Pay now",
@@ -308,7 +308,7 @@
     "dashboard.btn.reactivate": "Activate",
     "dashboard.btn.depositing": "Depositing...",
     "dashboard.btn.topUpByCC": "Top up ATM with credit card",
-    "dashboard.btn.scanQRCode": "Scan QR code",
+    "dashboard.btn.scanQRCode": "Quét mã QR",
     "dashboard.btn.depositEscrow": "Deposit to Escrow",
     "dashboard.btn.withdrawEscrow": "Withdraw",
     "dashboard.label.amountSold": "Crypto sold",
@@ -813,7 +813,7 @@
         },
         {
             "question": "What payment method can I use?",
-            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Buying method</th>\n              <th>Payment method</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Bank Transfer (Buying online)</td>\n                <td>Bank transfer</td>\n              </tr>\n              <tr>\n                <td>COD (Buying offline)</td>\n                <td>Bank transfer<br/>\n                    Credit card<br/>\n                    Cash\n                    </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>For buying online, you conduct the payment separately from the platform. We will transfer the coin to your wallet once we have received your payment</li>\n                <li>For buying offline, we will arrange a meetup with the time and address you provide. You can pay with your bank account, credit card or cash after you have received your coin from Ninja</li>\n              </ul>"
+            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Hình thức mua</th>\n              <th>Phương thức thanh toán</td>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Chuyển khoản ngân hàng (mua online)</td>\n                <td>Chuyển khoản ngân hàng</td>\n              </tr>\n              <tr>\n                <td>Giao dịch trực tiếp (mua offline)</td>\n                <td>Chuyển khoản ngân hàng<br/>\n                    Credit card<br/>\n                    Tiền mặt\n              </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>Khi mua online, bạn sẽ chuyển khoản trước cho Ninja. Khi nhận được tiền, Ninja sẽ ngay lập tức chuyển coin vào địa chỉ ví của bạn</li>\n                <li>Khi mua offline, Ninja sẽ đến đúng theo thời gian và địa điểm bạn cung cấp để thực hiện giao dịch. Bạn có thể thanh toán bằng thẻ ngân hàng, thẻ credit hoặc tiền mặt sau khi đã nhận được đúng số coin từ Ninja</li>\n              </ul>\n"
         },
         {
             "question": "How long should I wait to receive my coin?",
@@ -883,8 +883,8 @@
             "verify": {
                 "alert": {
                     "send": {
-                        "phone": "We sent the secret code to your phone.",
-                        "email": "We sent a verification code to your email."
+                        "phone": "Ninja đã gửi mã số bí mật đến điện thoại của bạn.",
+                        "email": "Ninja đã gửi mã xác nhận đến email của bạn."
                     },
                     "notValid": {
                         "server": {
@@ -906,8 +906,8 @@
                         }
                     },
                     "require": {
-                        "phone": "Please enter your verify code.",
-                        "email": "Please enter your verify code."
+                        "phone": "Xin vui lòng nhập mã xác nhận của bạn.",
+                        "email": "Xin vui lòng nhập mã xác nhận của bạn."
                     },
                     "success": {
                         "phone": "Phone number securely saved.",
@@ -915,8 +915,8 @@
                         "idVerification": "Your documents has been submitted"
                     },
                     "cannot": {
-                        "phone": "Can't verify your phone, please check your code",
-                        "email": "Can't verify your email, please check your code.",
+                        "phone": "Không thể xác nhận số điện thoại của bạn. Xin hãy nhập chính xác mã xác nhận",
+                        "email": "Không thể xác nhận email của bạn. Xin hãy nhập chính xác mã xác nhận.",
                         "idVerification": "Can't submit your documents, please try again",
                         "idVerification2": "Can't submit your documents."
                     }
@@ -936,7 +936,7 @@
                     "desc1": "To send you free ETH sometimes, we’ll need your phone number to verify that you are not a robot. This is optional.",
                     "desc2": "We only send humans rewards.",
                     "desc3": "Please verify your phone number.",
-                    "desc4": "Enter the secret code sent to your phone.",
+                    "desc4": "Xin hãy nhập mã xác nhận đã được gửi đến số điện thoại của bạn.",
                     "button": {
                         "send": "Send",
                         "submit": "Verify your number"
@@ -947,7 +947,7 @@
                     "desc1": "You may prefer to receive updates and notifications via email. This is also optional.",
                     "desc2": "Verify your email. You will receive transaction info through this email address",
                     "desc3": "Enter your email",
-                    "desc4": "Enter the secret code sent to your email.",
+                    "desc4": "Xin hãy nhập mã xác nhận đã được gửi đến email của bạn.",
                     "button": {
                         "send": "OK",
                         "submit": "Verify your email"
@@ -1076,12 +1076,12 @@
     },
     "create": {
         "cod_form": {
-            "cod": "Cash on Delivery",
-            "buy_btn": "Buy",
-            "your_address": "Only available in Ho Chi Minh City for now",
-            "your_phone": "Phone number",
-            "time": "Time to delivery & Note",
-            "default_time": "As soon as possible"
+            "cod": "Thanh toán bằng tiền mặt",
+            "buy_btn": "Mua",
+            "your_address": "Hiện tại chỉ có duy nhất tại TP. Hồ Chí Minh",
+            "your_phone": "Số điện thoại",
+            "time": "Thời điểm giao dịch và lưu ý",
+            "default_time": "Càng sớm càng tốt"
         },
         "cash": {
             "credit": {
@@ -1162,15 +1162,15 @@
             "error": {
                 "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
                 "submit_twitter": "You haven't followed us yet. Please try again.",
-                "confirm_code": "Verification code is wrong. Please try again!",
-                "verify_code": "Can't send verify email",
+                "confirm_code": "Mã xác nhận không đúng. Xin hãy thử lại!",
+                "verify_code": "Không thể gửi email xác nhận",
                 "get_token": "Referral incomplete. Please try again."
             },
             "success": {
                 "submit_telegram": "Welcome to our telegram group!",
                 "submit_twitter": "Thanks for following us on Twitter.",
                 "confirm_code": "Your email has been verified.",
-                "verify_code": "Verification code has been sent to your email.",
+                "verify_code": "Mã xác nhận đã được gửi tới email của bạn.",
                 "get_token": "Success! 60 shurikens have been added to your wallet.",
                 "copy_link": "Referral link copied to clipboard."
             },
@@ -1196,7 +1196,7 @@
             "placeholder": {
                 "telegram_username": "Your telegram alias",
                 "twitter_username": "Your twitter username",
-                "email": "Verification code",
+                "email": "Mã xác nhận",
                 "email2": "Your favourite fake email"
             },
             "label": {
@@ -1673,11 +1673,11 @@
     "WHITE_PAPER_END_1": "Hey, thanks for reading. Ninja will go live on the testnet on 5 June! We’re excited to hear your thoughts.",
     "atm_cash_transfer": {
         "to_wallet_address": "TO WALLER ADDRESS",
-        "copy_address_or_scan_qr": "Copy address or scan QR code",
-        "we_will_send_coin_to_this_address_desc": "We will send coins to this address after receiving your bank receipt.",
+        "copy_address_or_scan_qr": "Xin hãy nhập địa chỉ ví hoặc quét mã QR",
+        "we_will_send_coin_to_this_address_desc": "Ninja sẽ gửi coin đến địa chỉ ví của bạn ngay sau khi chúng tôi nhận được biên lai thanh toán.",
         "amount": "WANTED AMOUNT",
         "transfer": "Next",
-        "scan_qr_code": "Scan QR code",
+        "scan_qr_code": "Quét mã QR",
         "invalid_address_valid": "Invalid wallet address",
         "success_msg": "Success!",
         "title": "New Order"
@@ -1690,12 +1690,12 @@
         "amount": "YOUR AMOUNT",
         "account_name": "ACCOUNT NAME",
         "account_number": "ACCOUNT NUMBER",
-        "bank_name": "BANK NAME",
-        "bank_id": "BANK ID",
+        "bank_name": "Tên ngân hàng",
+        "bank_id": "Tên tài khoản",
         "reference_code": "REFERENCE CODE",
         "important": "IMPORTANT: ",
         "notice_desc": "You must send the exact amount & reference code as instructed and upload the payment proof below so we can proceed sending coins to you.",
-        "upload_btn": "Upload your bank receipt",
+        "upload_btn": "Xin hãy tải lên biên lai thanh toán",
         "done_btn": "Done",
         "copied": "Copied to clipboard!",
         "title": "Payment detail",
@@ -1709,8 +1709,8 @@
             },
             "description": "Ninja cam kết giá tốt nhất thị trường",
             "common_packages": "Mua Nhanh",
-            "basic_package_name": "Starter",
-            "pro_package_name": "Master",
+            "basic_package_name": "Nhập môn",
+            "pro_package_name": "Lão làng",
             "payment_methods": {
                 "bank": "Chuyển Khoản",
                 "cod": "Tiền Mặt",
@@ -1779,7 +1779,7 @@
     "review": {
         "title": "Review",
         "label": {
-            "description": "How is your experience with Ninja Coin?",
+            "description": "Bạn đánh giá trải nghiệm của mình với Ninja Coin như thế nào?",
             "submitButtonTitle": "Submit"
         }
     }
