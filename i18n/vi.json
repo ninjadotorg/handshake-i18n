@@ -274,7 +274,7 @@
     "ex.discover.label.manage.atm": "My ATM",
     "ex.discover.label.dashboard": "New Order",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
-    "cc.label.1": "Buy crypto with credit card",
+    "cc.label.1": "Mua crypto bằng credit card",
     "cc.label.2": "Ninja has some of the best prices around",
     "cc.label.3": "Common packages:",
     "cc.btn.buyNow": "Buy now",
@@ -789,7 +789,7 @@
     "landing_page.coin.faq": [
         {
             "question": "About Ninja Coin",
-            "answer": "Ninja Coin is a product of Shanzhai Limited - a Hong Kong-based company with offices in Ho Chi Minh City, New York and California. We provide a platform where people can buy crypto more conveniently, safely and with the most attractive price"
+            "answer": "Ninja Coin là một ứng dụng được phát triển bởi Shanzhai Limited - một công ty Hong Kong có văn phòng đại diện tại New York, California và TP. Hồ Chí Minh. Chúng tôi mong muốn tạo ra một nền tảng có thể giúp mọi người mua bán tiền mã hóa thuận tiện, an toàn với mức giá hấp dẫn nhất"
         },
         {
             "question": "How do I buy coin on Ninja?",
