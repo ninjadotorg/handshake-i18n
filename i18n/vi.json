@@ -793,7 +793,7 @@
         },
         {
             "question": "How do I buy coin on Ninja?",
-            "answer": "Bước 1: Truy cập vào <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\nBước 2: Xác minh danh tính của bạn<br/>\nBước 3: Nhập địa chỉ ví<br/> \nBước 4: Nhập số lượng crypto bạn muốn mua (hoặc số lượng tiền bạn muốn dùng để mua crypto)<br/>\nBước 5: Chọn hình thức thanh toán: Chuyển khoản qua ngân hàng/Giao dịch trực tiếp<br/>\nBước 6: Ấn 'Mua'<br/>\nBước 7: Thanh toán theo hình thức đã chọn:<br/>\n<ul>\n <li>Nếu chọn chuyển khoản qua ngân hàng, xin hãy thực hiện giao dịch <li>\n <li>Nếu chọn giao dịch trực tiếp, xin hãy nhập địa chỉ, số điện thoại và thời điểm bạn muốn thực hiện giao dịch. Ninja Coin sẽ đến tận nơi để hoàn thành giao dịch. Với hình thức này, bạn có thể thanh toán bằng tiền mặt hoặc quẹt thẻ <li>\n</ul>\n"
+            "answer": "Bước 1: Truy cập vào <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\nBước 2: Xác minh danh tính của bạn<br/>\nBước 3: Nhập địa chỉ ví<br/> \nBước 4: Nhập số lượng crypto bạn muốn mua (hoặc số lượng tiền bạn muốn dùng để mua crypto)<br/>\nBước 5: Chọn hình thức thanh toán: Chuyển khoản qua ngân hàng/Giao dịch trực tiếp<br/>\nBước 6: Ấn 'Mua'<br/>\nBước 7: Thanh toán theo hình thức đã chọn:<br/>\n<ul>\n <li>Nếu chọn chuyển khoản qua ngân hàng, xin hãy thực hiện giao dịch <li>\n <li>Nếu chọn giao dịch trực tiếp, xin hãy nhập địa chỉ, số điện thoại và thời điểm bạn muốn thực hiện giao dịch. Ninja Coin sẽ đến tận nơi để hoàn thành giao dịch. Với hình thức này, bạn có thể thanh toán bằng tiền mặt hoặc quẹt thẻ tín dụng <li>\n</ul>\n"
         },
         {
             "question": "How to create account on Ninja?",
@@ -809,7 +809,7 @@
         },
         {
             "question": "What is the maximum amount can I purchase?",
-            "answer": "Hiện tại, giới hạn cho mỗi người dùng phụ thuộc vào mức độ xác minh danh tính, lên đến <strong>$5000/người/ngày. Ninja vẫn đang tiếp tục nỗ lực để có thể nâng hạn mức này lên trong tương lai gần.\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Mức độ xác minh danh tính</th>\n              <th>Số lượng tối đa</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)</td>\n                <td>$500/người/ngày</td>\n              </tr>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Hình chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                </td>\n                <td>$5000/người/ngày</td>\n              </tr>\n          </tbody>\n      </table>\n\n"
+            "answer": "Hiện tại, giới hạn cho mỗi người dùng phụ thuộc vào mức độ xác minh danh tính, lên đến <strong>$5000/người/ngày. Ninja vẫn đang tiếp tục nỗ lực để có thể nâng hạn mức này lên trong tương lai gần.\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Mức độ xác minh danh tính</th>\n              <th>Số lượng tối đa</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt) hoặc hộ chiếu</td>\n                <td>$500/người/ngày</td>\n              </tr>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt) hoặc hộ chiếu<br/>\n                    Hình chụp của bạn với chứng minh nhân dân/ hộ chiếu cùng tờ giấy có chữ \"Ninja Coin\"\n                </td>\n                <td>$5000/người/ngày</td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
             "question": "What payment method can I use?",
@@ -878,7 +878,7 @@
             "username": {
                 "exist": "Tên tài khoản này đã có người sử dụng. Xin vui lòng chọn tên khác.",
                 "success": "Nickname của bạn đã được xác nhận",
-                "required": "Yêu cầu tên"
+                "required": "Yêu cầu nhập tên"
             },
             "verify": {
                 "alert": {
@@ -1078,7 +1078,7 @@
         "cod_form": {
             "cod": "Thanh toán bằng tiền mặt",
             "buy_btn": "Mua",
-            "your_address": "Hiện tại chỉ có duy nhất tại TP. Hồ Chí Minh",
+            "your_address": "Hiện tại chỉ có tại Tp. Hồ Chí Minh",
             "your_phone": "Số điện thoại",
             "time": "Thời điểm giao dịch và lưu ý",
             "default_time": "Càng sớm càng tốt"
@@ -1169,7 +1169,7 @@
             "success": {
                 "submit_telegram": "Welcome to our telegram group!",
                 "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Email của bạn đã được xác nhận thành công.",
+                "confirm_code": "Email của bạn đã được xác minh thành công.",
                 "verify_code": "Mã xác nhận đã được gửi tới email của bạn.",
                 "get_token": "Success! 60 shurikens have been added to your wallet.",
                 "copy_link": "Referral link copied to clipboard."
