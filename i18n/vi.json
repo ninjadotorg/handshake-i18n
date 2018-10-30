@@ -820,16 +820,16 @@
             "answer": "Sẽ phải phụ thuộc vào thời gian ngân hàng xử lí các giao dịch (khi mua online) và thời gian hệ thống blockchain xác nhận giao dịch trên chuỗi khối, nhưng thường cũng chỉ mất vài phút là bạn sẽ nhận được coin của mình."
         },
         {
-            "question": "What happens if the price changes during my transaction?",
-            "answer": "Your price is fixed at the time you place a buy order. Therefore, all the later changes in price will not affect your transaction"
+            "question": "Sẽ thế nào nếu giá cả thay đổi khi tôi đang thực hiện giao dịch?",
+            "answer": "Giá mua đã được chốt ngay khi bạn thực hiện lệnh mua. Giá cả thay đổi từ sau đó hoàn toàn không ảnh hưởng đến giao dịch của bạn."
         },
         {
-            "question": "What are the fees?",
-            "answer": "We only takes 2% fee when you pay with credit card. Other payment options remain free"
+            "question": "Phí giao dịch là bao nhiêu?",
+            "answer": "Ninja chỉ tính 2% phí giao dịch khi bạn thanh toán bằng thẻ credit. Chuyển khoản qua ngân hàng hoặc thanh toán trực tiếp bằng tiền mặt hoàn toàn không tốn phí."
         },
         {
-            "question": "How can I contact for support?",
-            "answer": "Feel free to contact us via live chat if you need any support for buying coin on Ninja"
+            "question": "Khi cần hỗ trợ, tôi có thể liên lạc bộ phận nào?",
+            "answer": "Hãy sử dụng tính năng live chat để nhận được sự trợ giúp kịp thời khi mua bán tiền mã hóa trên Ninja."
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
