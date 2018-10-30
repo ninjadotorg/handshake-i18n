@@ -817,7 +817,7 @@
         },
         {
             "question": "Mất bao lâu để tôi có thể nhận coin của mình?",
-            "answer": "Sẽ phải phụ thuộc vào thời gian ngân hàng xử lí các giao dịch (khi mua online) và thời gian hệ thống blockchain xác nhận giao dịch trên chuỗi khối, nhưng thường cũng chỉ mất vài phút là bạn sẽ nhận được coin của mình."
+            "answer": "Thời gian nhận coin phụ thuộc vào thời gian ngân hàng xử lí các giao dịch (khi mua online) và thời gian hệ thống blockchain xác nhận giao dịch trên chuỗi khối, nhưng thường cũng chỉ mất vài phút là bạn sẽ nhận được coin của mình"
         },
         {
             "question": "Sẽ thế nào nếu giá cả thay đổi khi tôi đang thực hiện giao dịch?",
