@@ -14,7 +14,8 @@
             "bet": "%%%.app.navigation.bet%%%",
             "credit": "%%%.app.navigation.credit%%%",
             "shop": "%%%.app.navigation.shop%%%",
-            "ninjaCoin": "%%%.app.navigation.ninjaCoin%%%"
+            "ninjaCoin": "%%%.app.navigation.ninjaCoin%%%",
+            "invest": "%%%.app.navigation.invest%%%"
         }
     },
     "buy": "%%%.buy%%%",
