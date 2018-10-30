@@ -14,7 +14,8 @@
             "bet": "wetten",
             "credit": "CC",
             "shop": "Shop",
-            "ninjaCoin": "Coin"
+            "ninjaCoin": "Coin",
+            "invest": "Invest"
         }
     },
     "buy": "Kaufen",
