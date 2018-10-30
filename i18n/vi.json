@@ -788,36 +788,36 @@
     ],
     "landing_page.coin.faq": [
         {
-            "question": "About Ninja Coin",
+            "question": "Giới thiệu Ninja Coin",
             "answer": "Ninja Coin là một ứng dụng được phát triển bởi Shanzhai Limited - một công ty Hong Kong có văn phòng đại diện tại New York, California và TP. Hồ Chí Minh. Chúng tôi mong muốn tạo ra một nền tảng có thể giúp mọi người mua bán tiền mã hóa thuận tiện, an toàn với mức giá hấp dẫn nhất"
         },
         {
-            "question": "How do I buy coin on Ninja?",
+            "question": "Mua tiền mã hóa trên Ninja như thế nào?",
             "answer": "Bước 1: Truy cập vào <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\nBước 2: Xác minh danh tính của bạn<br/>\nBước 3: Nhập địa chỉ ví<br/> \nBước 4: Nhập số lượng crypto bạn muốn mua (hoặc số lượng tiền bạn muốn dùng để mua crypto)<br/>\nBước 5: Chọn hình thức thanh toán: Chuyển khoản qua ngân hàng/Giao dịch trực tiếp<br/>\nBước 6: Ấn 'Mua'<br/>\nBước 7: Thanh toán theo hình thức đã chọn:<br/>\n<ul>\n <li>Nếu chọn chuyển khoản qua ngân hàng, xin hãy thực hiện giao dịch <li>\n <li>Nếu chọn giao dịch trực tiếp, xin hãy nhập địa chỉ, số điện thoại và thời điểm bạn muốn thực hiện giao dịch. Ninja Coin sẽ đến tận nơi để hoàn thành giao dịch. Với hình thức này, bạn có thể thanh toán bằng tiền mặt hoặc quẹt thẻ tín dụng <li>\n</ul>\n"
         },
         {
-            "question": "How to create account on Ninja?",
+            "question": "Tạo tài khoản trên Ninja như thế nào?",
             "answer": "Ninja Coin sẽ tạo cho bạn một tài khoản ngay từ lần đầu tiên bạn truy cập vào địa chỉ <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong>. Bạn sẽ Không cần tạo tài khoản để đăng nhập. Tuy nhiên, bạn chỉ có thể mua bán trên Ninja Coin sau khi đã hoàn thành các bước xác minh danh tính\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Giá trị giao dịch</th>\n              <th>Yêu cầu</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><$500</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)</td>\n              </tr>\n              <tr>\n                <td><$5000</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Ảnh chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
-            "question": "Why do I need to verify my identity?",
+            "question": "Tại sao tôi cần phải xác minh danh tính?",
             "answer": "Ninja yêu cầu người dùng phải xác minh danh tính để tuân thủ những điều luật về phòng chống rửa tiền cũng như phòng chống tội phạm tài chính. Những thông tin của người dùng sẽ được giữ kín tuyệt đối, không bao giờ bị tiết lộ cho một bên thứ ba."
         },
         {
-            "question": "Is buying coin on Ninja secure?",
+            "question": "Mua tiền mã hóa trên Ninja có an toàn không?",
             "answer": "Tất cả các giao dịch trên Ninja đều có bảo hiểm tiền gửi 100% lên đến $1000 mỗi giao dịch"
         },
         {
-            "question": "What is the maximum amount can I purchase?",
+            "question": "Hạn mức tối đa mà tôi có thể mua?",
             "answer": "Hiện tại, giới hạn cho mỗi người dùng phụ thuộc vào mức độ xác minh danh tính, lên đến <strong>$5000/người/ngày. Ninja vẫn đang tiếp tục nỗ lực để có thể nâng hạn mức này lên trong tương lai gần.\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Mức độ xác minh danh tính</th>\n              <th>Số lượng tối đa</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt) hoặc hộ chiếu</td>\n                <td>$500/người/ngày</td>\n              </tr>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt) hoặc hộ chiếu<br/>\n                    Hình chụp của bạn với chứng minh nhân dân/ hộ chiếu cùng tờ giấy có chữ \"Ninja Coin\"\n                </td>\n                <td>$5000/người/ngày</td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
-            "question": "What payment method can I use?",
+            "question": "Ninja chấp nhận những phương thức thanh toán nào?",
             "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Hình thức mua</th>\n              <th>Phương thức thanh toán</td>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Chuyển khoản ngân hàng (mua online)</td>\n                <td>Chuyển khoản ngân hàng</td>\n              </tr>\n              <tr>\n                <td>Giao dịch trực tiếp (mua offline)</td>\n                <td>Chuyển khoản ngân hàng<br/>\n                    Credit card<br/>\n                    Tiền mặt\n              </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>Khi mua online, bạn sẽ chuyển khoản trước cho Ninja. Khi nhận được tiền, Ninja sẽ ngay lập tức chuyển coin vào địa chỉ ví của bạn</li>\n                <li>Khi mua offline, Ninja sẽ đến đúng theo thời gian và địa điểm bạn cung cấp để thực hiện giao dịch. Bạn có thể thanh toán bằng thẻ ngân hàng, thẻ credit hoặc tiền mặt sau khi đã nhận được đúng số coin từ Ninja</li>\n              </ul>\n"
         },
         {
-            "question": "How long should I wait to receive my coin?",
-            "answer": "It depends on the time for the bank to process transactions (for buying online) and for the blockchain network to do the confirmations, which usually only takes a few minutes"
+            "question": "Mất bao lâu để tôi có thể nhận coin của mình?",
+            "answer": "Sẽ phải phụ thuộc vào thời gian ngân hàng xử lí các giao dịch (khi mua online) và thời gian hệ thống blockchain xác nhận giao dịch trên chuỗi khối, nhưng thường cũng chỉ mất vài phút là bạn sẽ nhận được coin của mình."
         },
         {
             "question": "What happens if the price changes during my transaction?",
