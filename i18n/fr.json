@@ -299,7 +299,7 @@
     "escrow.label.yourSellingPrice": "Your selling price",
     "escrow.label.sellingPriceCaption": "= Market price + your percentage",
     "escrow.btn.depositNow": "Deposit now",
-    "escrow.btn.depositSuccessMessage": "Succesful!",
+    "escrow.btn.depositSuccessMessage": "Successful!",
     "escrow.label.wallet.setDefaultWallet": "You must set default wallet {currency}",
     "dashboard.heading": "Dashboard",
     "dashboard.label.overview": "Overview",
@@ -1743,7 +1743,7 @@
                     "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
                 }
             },
-            "success": "Succesful!"
+            "success": "Successful!"
         },
         "buy_package_without_wallet_address_notice": "Please choose your wallet first."
     },
@@ -1778,11 +1778,63 @@
     "buy_coin_confirm_popup.cancel_text": "Cancel",
     "buy_coin.verify.need_selfie_verifiy": "You are buying more than {fiatAmount} {fiatCurrency}. Please verify your account to increase the limit",
     "buy_coin.verify.need_selfie_verifiy_action": "Verify now",
+    "sell_coin_confirm_popup.msg": "Sell {amount} {currency} for {fiatAmount}?",
+    "sell_coin_confirm_popup.confirm_text": "Confirm",
+    "sell_coin_confirm_popup.cancel_text": "Cancel",
     "review": {
         "title": "Review",
         "label": {
             "description": "How is your experience with Ninja Coin?",
-            "submitButtonTitle": "Submit"
+            "submitButtonTitle": "Submit",
+            "loadMore": "Load more",
+            "comments": "comments"
         }
-    }
+    },
+    "sell_coin": {
+        "label": "Sell coin",
+        "order": {
+            "inputs": {
+                "currency": {
+                    "amount": "Amount"
+                },
+                "bank_owner": "Account Name",
+                "bank_name": "Bank Name",
+                "bank_number": "Account Number",
+                "phone": "Phone Number"
+            },
+            "btn": {
+                "submit_order": "Next"
+            }
+        },
+        "summary": {
+            "label": "Your Selling Order",
+            "info": {
+                "code": "Code",
+                "receiving": "Receiving",
+                "selling": "Selling",
+                "address": "Address",
+                "notes": [
+                    "Note 1",
+                    "Note 2"
+                ]
+            },
+            "btn": {
+                "close_summary": "Finish"
+            }
+        }
+    },
+    "coin_crypto": {
+        "price_panel": {
+            "price": "Price",
+            "sell": "Sell",
+            "buy": "Buy"
+        },
+        "contact": {
+            "faq": "FAQs",
+            "chat_with_us": "Chat with us Online Support",
+            "phone_cs": "0902 425 186"
+        }
+    },
+    "coin_tabs.sell": "SELL COIN",
+    "coin_tabs.buy": "BUY COIN"
 }
