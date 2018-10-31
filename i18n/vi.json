@@ -116,7 +116,7 @@
     "ex.me.label.with": "With",
     "ex.me.label.from": "From",
     "ex.me.label.about": "About",
-    "ex.btn.confirm": "Confirm",
+    "ex.btn.confirm": "Xác nhận",
     "ex.btn.OK": "OK",
     "ex.btn.notNow": "Not now",
     "ex.btn.topup.now": "Top up now ",
@@ -236,7 +236,7 @@
     "btn.reject": "Reject",
     "btn.complete": "Complete",
     "btn.withdraw": "Withdraw",
-    "btn.cancel": "Cancel",
+    "btn.cancel": "Huỷ",
     "btn.close": "Close",
     "btn.accept": "Accept",
     "btn.delete": "Delete",
@@ -1142,7 +1142,7 @@
                     "processing": "Pending",
                     "success": "Success",
                     "transferring": "Sending coins...",
-                    "cancelled": "Canceled",
+                    "cancelled": "Huỷ",
                     "fiat_transfering": "Sending money...",
                     "transfer_failed": "Failed"
                 },
@@ -1178,7 +1178,7 @@
             "button": {
                 "verified": "Verified",
                 "verify": "Verify",
-                "confirm": "Confirm",
+                "confirm": "Xác nhận",
                 "reset_email": "Reset email",
                 "get_token": "Just give me tokens"
             },
@@ -1284,7 +1284,7 @@
                 "header": "Are you sure?",
                 "message": "This will permanently delete your wallet.",
                 "button_yes": "Yes, remove",
-                "button_cancel": "Cancel"
+                "button_cancel": "Huỷ"
             },
             "transfer": {
                 "title": "Transfer coins",
@@ -1319,7 +1319,7 @@
                 },
                 "button": {
                     "transfer": "Transfer",
-                    "confirm": "Confirm"
+                    "confirm": "Xác nhận"
                 }
             },
             "copy": {
@@ -1331,7 +1331,7 @@
                 "title": "Set as default {0} wallet "
             },
             "cancel": {
-                "title": "Cancel"
+                "title": "Huỷ"
             },
             "restore": {
                 "title": "Restore wallets",
@@ -1737,7 +1737,7 @@
                         "action": "Xác minh thêm"
                     },
                     "level_2": {
-                        "title": "Xác minh tài khoản hoàn tất. Bạn có thể mua tối đa 5000 USD/ngày!",
+                        "title": "Xác minh tài khoản hoàn tất. Hạn mức của bạn có tăng lên tối đa 5000 USD/ngày!",
                         "action": ""
                     },
                     "need_selfie_verifiy": "Bạn đã mua quá hạn mức $500/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên $5.000/ngày"
@@ -1770,7 +1770,7 @@
     },
     "buy_coin_transaction.text.no_history": "Chưa có giao dịch. <strong><a href=\"https://ninja.org/coin\">Mua coin giá tốt ngay!</a></strong>",
     "wallet_selector": {
-        "your_wallet": "Your wallets",
+        "your_wallet": "Ví của bạn",
         "wallet_dont_match_error": "Đây không phải địa chỉ ví đúng với loại coin bạn muốn mua. Xin vui lòng kiểm tra lại."
     },
     "buy_coin_confirm_popup.msg": "Mua {amount} {currency} với {fiatAmount} {fiatCurrency}?",
