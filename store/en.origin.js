@@ -1778,11 +1778,63 @@
     "buy_coin_confirm_popup.cancel_text": "%%%.buy_coin_confirm_popup.cancel_text%%%",
     "buy_coin.verify.need_selfie_verifiy": "%%%.buy_coin.verify.need_selfie_verifiy%%%",
     "buy_coin.verify.need_selfie_verifiy_action": "%%%.buy_coin.verify.need_selfie_verifiy_action%%%",
+    "sell_coin_confirm_popup.msg": "%%%.sell_coin_confirm_popup.msg%%%",
+    "sell_coin_confirm_popup.confirm_text": "%%%.sell_coin_confirm_popup.confirm_text%%%",
+    "sell_coin_confirm_popup.cancel_text": "%%%.sell_coin_confirm_popup.cancel_text%%%",
     "review": {
         "title": "%%%.review.title%%%",
         "label": {
             "description": "%%%.review.label.description%%%",
-            "submitButtonTitle": "%%%.review.label.submitButtonTitle%%%"
+            "submitButtonTitle": "%%%.review.label.submitButtonTitle%%%",
+            "loadMore": "%%%.review.label.loadMore%%%",
+            "comments": "%%%.review.label.comments%%%"
         }
-    }
+    },
+    "sell_coin": {
+        "label": "%%%.sell_coin.label%%%",
+        "order": {
+            "inputs": {
+                "currency": {
+                    "amount": "%%%.sell_coin.order.inputs.currency.amount%%%"
+                },
+                "bank_owner": "%%%.sell_coin.order.inputs.bank_owner%%%",
+                "bank_name": "%%%.sell_coin.order.inputs.bank_name%%%",
+                "bank_number": "%%%.sell_coin.order.inputs.bank_number%%%",
+                "phone": "%%%.sell_coin.order.inputs.phone%%%"
+            },
+            "btn": {
+                "submit_order": "%%%.sell_coin.order.btn.submit_order%%%"
+            }
+        },
+        "summary": {
+            "label": "%%%.sell_coin.summary.label%%%",
+            "info": {
+                "code": "%%%.sell_coin.summary.info.code%%%",
+                "receiving": "%%%.sell_coin.summary.info.receiving%%%",
+                "selling": "%%%.sell_coin.summary.info.selling%%%",
+                "address": "%%%.sell_coin.summary.info.address%%%",
+                "notes": [
+                    "%%%.sell_coin.summary.info.notes.0%%%",
+                    "%%%.sell_coin.summary.info.notes.1%%%"
+                ]
+            },
+            "btn": {
+                "close_summary": "%%%.sell_coin.summary.btn.close_summary%%%"
+            }
+        }
+    },
+    "coin_crypto": {
+        "price_panel": {
+            "price": "%%%.coin_crypto.price_panel.price%%%",
+            "sell": "%%%.coin_crypto.price_panel.sell%%%",
+            "buy": "%%%.coin_crypto.price_panel.buy%%%"
+        },
+        "contact": {
+            "faq": "%%%.coin_crypto.contact.faq%%%",
+            "chat_with_us": "%%%.coin_crypto.contact.chat_with_us%%%",
+            "phone_cs": "%%%.coin_crypto.contact.phone_cs%%%"
+        }
+    },
+    "coin_tabs.sell": "%%%.coin_tabs.sell%%%",
+    "coin_tabs.buy": "%%%.coin_tabs.buy%%%"
 }
