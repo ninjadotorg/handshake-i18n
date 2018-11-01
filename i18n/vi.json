@@ -1809,7 +1809,7 @@
         "summary": {
             "label": "Your Selling Order",
             "info": {
-                "code": "Code",
+                "code": "Mã giao dịch",
                 "receiving": "Receiving",
                 "selling": "Selling",
                 "address": "Address",
