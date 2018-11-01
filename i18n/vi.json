@@ -20,7 +20,7 @@
     },
     "buy": "Mua",
     "sell": "Bán",
-    "amount": "amount",
+    "amount": "Số lượng",
     "askUsingCreditCard": "for {total} {fiatCurrency} using card?",
     "change": "Change",
     "ccNumber": "Number",
@@ -38,7 +38,7 @@
     "offerHandShakeExchangeContentMeDone": "{offerType} {something} for {amount} {currency}",
     "instantOfferHandShakeContent": "You{just}{offerType} {amount} {currency} for {total} {currency_symbol} on your card",
     "offerDistanceContent": "{distance} away",
-    "transactonOfferInfo": "Successful ({success}) / Failed ({failed})",
+    "transactonOfferInfo": "Thành công ({success}) / Thất bại ({failed})",
     "createOfferConfirm": "You are about to {type} {something} by {amount} {currency}",
     "handshakeOfferConfirm": "You are about to {type} {something} for {amount} {currency}",
     "rejectOfferConfirm": "Do you want to Reject this order? You will not be able to make transactions for 4 hours.",
@@ -63,7 +63,7 @@
     "updateOfferStoreConfirm": "Update your ATM?",
     "notEnoughCoinInWalletStores": "You don't have enough coin right now. Do you want to top up your wallet?",
     "addOfferItemSuccessMassage": "Success! Your order is now listed on Ninja",
-    "deleteOfferItemSuccessMassage": "You have successfully deleted your order.",
+    "deleteOfferItemSuccessMassage": "Bạn đã hủy giao dịch thành công.",
     "shakeOfferItemSuccessMassage": "You have successfully shaked on Ninja",
     "acceptOfferItemSuccessMassage": "Good news! Your order has been accepted.",
     "cancelOfferItemSuccessMassage": "Your order has been cancelled!",
@@ -99,7 +99,7 @@
     "ex.createLocal.label.something": "What is it called?",
     "ex.createLocal.placeholder.anyItem": "any item or service",
     "ex.createLocal.label.coin": "Coin",
-    "ex.createLocal.label.amount": "Amount",
+    "ex.createLocal.label.amount": "Số lượng",
     "ex.createLocal.label.phone": "Phone",
     "ex.createLocal.label.address": "Meet-up place",
     "ex.createLocal.label.uploadImage": "Upload an image of your product",
@@ -110,7 +110,7 @@
     "ex.credit.banner.text": "Sell crypto quickly online. 100% secure. Set your own rates",
     "ex.discover.banner.btnText": "BECOME AN ATM",
     "ex.credit.banner.btnText": "SELL CRYPTO NOW",
-    "ex.discover.shakeDetail.label.amount": "Amount",
+    "ex.discover.shakeDetail.label.amount": "Số lượng",
     "ex.discover.shakeDetail.label.total": "Total",
     "ex.discover.shakeDetail.label.maximum": "Maximum:",
     "ex.me.label.with": "With",
@@ -133,22 +133,22 @@
     "ex.label.seller": "Seller",
     "ex.label.sale": "Sale",
     "ex.label.purchase": "Purchase",
-    "ex.label.cost": "Cost",
-    "ex.label.amount": "Amount",
+    "ex.label.cost": "Giá",
+    "ex.label.amount": "Số lượng",
     "ex.exchange.status.created": "Đang xác nhận",
     "ex.exchange.status.active": "Active",
     "ex.exchange.status.closing": "Đang xử lý...",
     "ex.exchange.status.closed": "Deleted",
-    "ex.exchange.status.shaking": "Processing",
-    "ex.exchange.status.shake": "Processing",
-    "ex.exchange.status.completing": "Processing",
-    "ex.exchange.status.completed": "Success",
-    "ex.exchange.status.pre_shaking": "Processing",
-    "ex.exchange.status.pre_shake": "Processing",
-    "ex.exchange.status.rejecting": "Processing",
+    "ex.exchange.status.shaking": "Đang xử lý...",
+    "ex.exchange.status.shake": "Đang xử lý...",
+    "ex.exchange.status.completing": "Đang xử lý...",
+    "ex.exchange.status.completed": "Thành công",
+    "ex.exchange.status.pre_shaking": "Đang xử lý...",
+    "ex.exchange.status.pre_shake": "Đang xử lý...",
+    "ex.exchange.status.rejecting": "Đang xử lý...",
     "ex.exchange.status.rejected": "Đã từ chối",
-    "ex.exchange.status.cancelling": "Processing",
-    "ex.exchange.status.cancelled": "Cancelled",
+    "ex.exchange.status.cancelling": "Đang xử lý...",
+    "ex.exchange.status.cancelled": "Đã hủy",
     "ex.shop.explanation.created": "This may take a few minutes. Good things come to those who wait.",
     "ex.shop.explanation.active": "Your ATM is now visible on the map!",
     "ex.shop.explanation.closing": "Please wait a few minutes.",
@@ -164,18 +164,18 @@
     "ex.shop.explanation.cancelling": "Cancelling your offer. Please wait a few minutes.",
     "ex.shop.explanation.cancelled": "",
     "ex.cc.status.processing": "Đang xử lý...",
-    "ex.cc.status.success": "Done",
-    "ex.cc.status.cancelled": "Failed",
+    "ex.cc.status.success": "Hoàn thành",
+    "ex.cc.status.cancelled": "Thất bại",
     "ex.shop.status.created": "Setting up your ATM",
     "ex.shop.status.active": "ATM listed",
     "ex.shop.status.closing": "Deleting your ATM",
-    "ex.shop.status.closed": "Deleted",
-    "ex.shop.shake.status.pre_shaking": "Processing",
-    "ex.shop.shake.status.pre_shake": "Processing",
-    "ex.shop.shake.status.shaking": "Processing",
-    "ex.shop.shake.status.shake": "Processing",
-    "ex.shop.shake.status.rejecting": "Processing",
-    "ex.shop.shake.status.rejected": "Rejected",
+    "ex.shop.status.closed": "Đã xóa",
+    "ex.shop.shake.status.pre_shaking": "Đang xử lý...",
+    "ex.shop.shake.status.pre_shake": "Đang xử lý...",
+    "ex.shop.shake.status.shaking": "Đang xử lý...",
+    "ex.shop.shake.status.shake": "Đang xử lý...",
+    "ex.shop.shake.status.rejecting": "Đang xử lý...",
+    "ex.shop.shake.status.rejected": "Đã từ chối",
     "ex.shop.shake.status.completing": "Processing",
     "ex.shop.shake.status.completed": "Success",
     "ex.shop.shake.status.cancelling": "Processing",
@@ -192,7 +192,7 @@
     "ex.shop.shake.button.using.scan.address": "Use scanned address",
     "ex.shop.shake.button.using.default.address": "Use Ninja address",
     "ex.shop.shake.button.using.scan.rescan": "Rescan address",
-    "ex.shop.dashboard.label.transaction.successfull.failed": "Transactions successful/failed",
+    "ex.shop.dashboard.label.transaction.successfull.failed": "Giao dịch thành công/thất bại",
     "ex.shop.dashboard.label.transaction.pending": "Transactions pending",
     "ex.shop.dashboard.label.revenue": "Bought/sold revenue",
     "ex.shop.dashboard.label.transaction.total": "Total bought/sold",
@@ -278,7 +278,7 @@
     "cc.label.1": "Mua crypto bằng credit card",
     "cc.label.2": "Ninja cam kết mang đến giá thành tốt nhất thị trường",
     "cc.label.3": "Common packages:",
-    "cc.btn.buyNow": "Buy now",
+    "cc.btn.buyNow": "Mua ngay",
     "cc.btn.payNow": "Pay now",
     "cc.label.basic": "Basic",
     "cc.label.pro": "Pro",
@@ -299,7 +299,7 @@
     "escrow.label.yourSellingPrice": "Your selling price",
     "escrow.label.sellingPriceCaption": "= Market price + your percentage",
     "escrow.btn.depositNow": "Deposit now",
-    "escrow.btn.depositSuccessMessage": "Successful!",
+    "escrow.btn.depositSuccessMessage": "Thành công!",
     "escrow.label.wallet.setDefaultWallet": "You must set default wallet {currency}",
     "dashboard.heading": "Dashboard",
     "dashboard.label.overview": "Overview",
@@ -902,7 +902,7 @@
                             "invalidDocument": "Xin vui lòng chọn loại giấy tờ",
                             "invalidFrontImage": "Xin vui lòng tải lên hình ảnh mặt trước của chứng minh nhân dân",
                             "invalidBackImage": "Xin vui lòng tải lên hình ảnh mặt sau của chứng minh nhân dân",
-                            "invalidEmail": "Your email address is missing! Are you sure you don’t want to receive transaction info?",
+                            "invalidEmail": "Bạn chưa cập nhật địa chỉ email! Bạn có chắc không muốn nhận thông báo về các giao dịch?",
                             "invalidSelfieImage": "Xin vui lòng tải lên hình ảnh bạn chụp chung với chứng minh nhân dân hoặc hộ chiếu của mình"
                         }
                     },
@@ -956,7 +956,7 @@
                 },
                 "id_verification": {
                     "label": "Xác minh danh tính",
-                    "desc1": "To comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations.",
+                    "desc1": "Để tuân thủ những điều luật và quy định về phòng chống rửa tiền (AML) và phòng chống tội phạm tài chính (CTF).",
                     "desc2": "Họ và tên",
                     "desc3": "Số chứng minh nhân dân",
                     "desc4": "Loại giấy tờ",
@@ -1006,10 +1006,10 @@
         "credit": {
             "overview": {
                 "askToDeactive": "Pause your coin selling?",
-                "messageDeactiveSuccess": "Pause successfully"
+                "messageDeactiveSuccess": "Tạm dừng thành công"
             },
             "transaction": {
-                "amount": "Amount",
+                "amount": "Số lượng",
                 "processing": "Đang xử lý...",
                 "deposit": {
                     "title": "DEPOSIT",
@@ -1028,14 +1028,14 @@
                 "instant": {
                     "title": "PURCHASE ORDER",
                     "buying": "Buying",
-                    "cost": "Cost"
+                    "cost": "Giá"
                 }
             },
             "withdraw": {
                 "title": "Withdraw money",
                 "yourBalance": "Your balance (USD)",
                 "yourPapalName": "Your Paypal email",
-                "amount": "Amount (USD)",
+                "amount": "Số lượng (USD)",
                 "buttonTitle": "Withdraw to your PayPal",
                 "description": "<span>It will take within a day for us <br /> to transfer money into your account.</span>",
                 "askToWithdraw": "Do you want to withdraw?",
@@ -1106,7 +1106,7 @@
                 "addressHint": "Enter your address...",
                 "bankInfo": "Bank info",
                 "ccInfo": "CC info",
-                "statusTitle": "Status",
+                "statusTitle": "Trạng thái",
                 "personalAtm": "Personal ATM",
                 "storeAtm": "Store ATM",
                 "confirmCreateAtm": "Create your ATM?",
@@ -1118,7 +1118,7 @@
             "confirm_button": {
                 "desc": "Are you sure?",
                 "confirm": "Sure",
-                "cancel": "Cancel"
+                "cancel": "Huỷ"
             },
             "button": {
                 "create": "Create my ATM",
@@ -1134,21 +1134,21 @@
                 "sunday": "Sunday"
             },
             "transactions": {
-                "amount": "Amount",
-                "needToTransfer": "Cost",
-                "status": "Status",
-                "to_wallet": "To Wallet",
+                "amount": "Số lượng",
+                "needToTransfer": "Giá",
+                "status": "Trạng thái",
+                "to_wallet": "Đến địa chỉ ví",
                 "statusValues": {
-                    "processing": "Pending",
-                    "success": "Success",
-                    "transferring": "Sending coins...",
+                    "processing": "Đang chờ",
+                    "success": "Thành công",
+                    "transferring": "Đang chuyển coin...",
                     "cancelled": "Huỷ",
-                    "fiat_transfering": "Sending money...",
-                    "transfer_failed": "Failed"
+                    "fiat_transfering": "Đang chuyển tiền...",
+                    "transfer_failed": "Thất bại"
                 },
                 "messageTransfer": "You haven't transferred yet.",
                 "transferNow": " View detail",
-                "cancel_order": "Cancel",
+                "cancel_order": "Huỷ",
                 "review_order": "Review"
             }
         }
@@ -1294,12 +1294,12 @@
                 },
                 "label": {
                     "from_wallet": "From wallet",
-                    "to_address": "Đến địa chỉ",
+                    "to_address": "Đến địa chỉ ví",
                     "to_address2": "To address",
-                    "amount": "Amount",
+                    "amount": "Số lượng",
                     "usd": "USD",
                     "wallet_balance": "Wallet balance",
-                    "scan_qrcode": "Scan QR code",
+                    "scan_qrcode": "Quét mã QR",
                     "gas_limit": "Gas Limit",
                     "data": "Data",
                     "feel_level": "Fee:",
@@ -1427,7 +1427,7 @@
                 "title2": "MY DESPOSIT ADDRESS",
                 "label": {
                     "address": "Address",
-                    "amount": "Amount",
+                    "amount": "Số lượng",
                     "usd": "USD"
                 },
                 "placeholder": {
@@ -1479,7 +1479,7 @@
                 }
             },
             "scan_qrcode": {
-                "header": "Scan QR code"
+                "header": "Quét mã QR"
             },
             "transaction": {
                 "header": "Transaction details"
@@ -1494,7 +1494,7 @@
                     "unconfirmed": "Unconfirmed",
                     "balance": "Balance",
                     "transactions": "Transactions",
-                    "status": "Status",
+                    "status": "Trạng thái",
                     "confirmations": "confirmations",
                     "success": "success",
                     "error": "Error",
@@ -1743,7 +1743,7 @@
                     "need_selfie_verifiy": "Bạn đã mua quá hạn mức $500/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên $5.000/ngày"
                 }
             },
-            "success": "Successful!"
+            "success": "Thành công!"
         },
         "buy_package_without_wallet_address_notice": "Xin vui lòng nhập địa chỉ ví."
     },
@@ -1780,14 +1780,14 @@
     "buy_coin.verify.need_selfie_verifiy_action": "Xác minh ngay",
     "sell_coin_confirm_popup.msg": "Sell {amount} {currency} for {fiatAmount}?",
     "sell_coin_confirm_popup.confirm_text": "Confirm",
-    "sell_coin_confirm_popup.cancel_text": "Cancel",
+    "sell_coin_confirm_popup.cancel_text": "Huỷ",
     "review": {
         "title": "Ý kiến đánh giá",
         "label": {
             "description": "Bạn đánh giá trải nghiệm của mình với Ninja Coin như thế nào?",
             "submitButtonTitle": "Đăng",
             "loadMore": "Load more",
-            "comments": "comments"
+            "comments": "bình luận"
         }
     },
     "sell_coin": {
@@ -1795,7 +1795,7 @@
         "order": {
             "inputs": {
                 "currency": {
-                    "amount": "Amount"
+                    "amount": "Số lượng"
                 },
                 "bank_owner": "Account Name",
                 "bank_name": "Bank Name",
