@@ -267,9 +267,9 @@
     "ex.sort.distance": "Distance",
     "ex.sort.price": "Best Price",
     "ex.sort.rating": "Rating",
-    "ex.sort.price.buy.btc": "Buy BTC",
+    "ex.sort.price.buy.btc": "Mua BTC",
     "ex.sort.price.sell.btc": "Sell BTC",
-    "ex.sort.price.buy.eth": "Buy ETH",
+    "ex.sort.price.buy.eth": "Mua ETH",
     "ex.sort.price.sell.eth": "Sell ETH",
     "ex.discover.label.open.atm": "Open your ATM",
     "ex.discover.label.manage.atm": "My ATM",
@@ -1791,7 +1791,7 @@
         }
     },
     "sell_coin": {
-        "label": "Sell coin",
+        "label": "Bán",
         "order": {
             "inputs": {
                 "currency": {
@@ -1825,16 +1825,16 @@
     },
     "coin_crypto": {
         "price_panel": {
-            "price": "Price",
-            "sell": "Sell",
-            "buy": "Buy"
+            "price": "Giá",
+            "sell": "Bán",
+            "buy": "Mua"
         },
         "contact": {
-            "faq": "FAQs",
-            "chat_with_us": "Chat with us Online Support",
+            "faq": "Những câu hỏi thường gặp",
+            "chat_with_us": "Hỗ trợ trực tuyến",
             "phone_cs": "0902 425 186"
         }
     },
-    "coin_tabs.sell": "SELL COIN",
-    "coin_tabs.buy": "BUY COIN"
+    "coin_tabs.sell": "Bán",
+    "coin_tabs.buy": "MUA"
 }
