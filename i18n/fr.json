@@ -1352,7 +1352,7 @@
             "setting": {
                 "title": "Settings",
                 "error": "Invalid wallets",
-                "header": "Setting wallets",
+                "header": "Wallet Settings",
                 "success": {
                     "restore": "Your Wallet restore success",
                     "save_alternative_currency": "Save currency selected!",
@@ -1369,7 +1369,8 @@
                     "passcode": "Passcode",
                     "push_notifications": "Push Notifications",
                     "community": "Community",
-                    "wallet_account": "Wallet Account"
+                    "wallet_account": "Wallet Account",
+                    "support": "Support"
                 },
                 "button": {
                     "restore": "Restore now"
