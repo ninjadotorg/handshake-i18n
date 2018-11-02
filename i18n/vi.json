@@ -1778,8 +1778,8 @@
     "buy_coin_confirm_popup.cancel_text": "Huỷ",
     "buy_coin.verify.need_selfie_verifiy": "Bạn đang mua nhiều hơn {fiatAmount} {fiatCurrency}. Vui lòng xác minh thêm để nâng hạn mức giao dịch",
     "buy_coin.verify.need_selfie_verifiy_action": "Xác minh ngay",
-    "sell_coin_confirm_popup.msg": "Sell {amount} {currency} for {fiatAmount}?",
-    "sell_coin_confirm_popup.confirm_text": "Confirm",
+    "sell_coin_confirm_popup.msg": "Bán {amount} {currency} với giá {fiatAmount}?",
+    "sell_coin_confirm_popup.confirm_text": "Xác nhận",
     "sell_coin_confirm_popup.cancel_text": "Huỷ",
     "review": {
         "title": "Ý kiến đánh giá",
@@ -1797,29 +1797,29 @@
                 "currency": {
                     "amount": "Số lượng"
                 },
-                "bank_owner": "Account Name",
-                "bank_name": "Bank Name",
-                "bank_number": "Account Number",
-                "phone": "Phone Number"
+                "bank_owner": "Tên tài khoản",
+                "bank_name": "Tên ngân hàng",
+                "bank_number": "Số tài khoản",
+                "phone": "Số điện thoại"
             },
             "btn": {
-                "submit_order": "Next"
+                "submit_order": "Tiếp"
             }
         },
         "summary": {
-            "label": "Your Selling Order",
+            "label": "Thông tin giao dịch",
             "info": {
                 "code": "Mã giao dịch",
-                "receiving": "Receiving",
-                "selling": "Selling",
-                "address": "Address",
+                "receiving": "Nhận",
+                "selling": "Bán",
+                "address": "Địa chỉ ví",
                 "notes": [
-                    "Note 1",
-                    "Note 2"
+                    "Ghi chú",
+                    "Ghi chú"
                 ]
             },
             "btn": {
-                "close_summary": "Finish"
+                "close_summary": "Hoàn thành"
             }
         }
     },
