@@ -1176,7 +1176,7 @@
                 "copy_link": "Referral link copied to clipboard."
             },
             "button": {
-                "verified": "Verified",
+                "verified": "Xác nhận thành công",
                 "verify": "Verify",
                 "confirm": "Xác nhận",
                 "reset_email": "Reset email",
@@ -1678,7 +1678,7 @@
         "copy_address_or_scan_qr": "Xin hãy nhập địa chỉ ví hoặc quét mã QR",
         "we_will_send_coin_to_this_address_desc": "Ninja sẽ gửi coin đến địa chỉ ví của bạn ngay sau khi chúng tôi nhận được biên lai thanh toán.",
         "amount": "WANTED AMOUNT",
-        "transfer": "Next",
+        "transfer": "Tiếp theo",
         "scan_qr_code": "Quét mã QR",
         "invalid_address_valid": "Invalid wallet address",
         "success_msg": "Success!",
@@ -1803,7 +1803,7 @@
                 "phone": "Số điện thoại"
             },
             "btn": {
-                "submit_order": "Tiếp"
+                "submit_order": "Tiếp theo"
             }
         },
         "summary": {

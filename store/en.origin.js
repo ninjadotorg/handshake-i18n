@@ -1369,7 +1369,8 @@
                     "passcode": "%%%.wallet.action.setting.label.passcode%%%",
                     "push_notifications": "%%%.wallet.action.setting.label.push_notifications%%%",
                     "community": "%%%.wallet.action.setting.label.community%%%",
-                    "wallet_account": "%%%.wallet.action.setting.label.wallet_account%%%"
+                    "wallet_account": "%%%.wallet.action.setting.label.wallet_account%%%",
+                    "support": "%%%.wallet.action.setting.label.support%%%"
                 },
                 "button": {
                     "restore": "%%%.wallet.action.setting.button.restore%%%"
