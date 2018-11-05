@@ -1814,10 +1814,15 @@
                 "receiving": "%%%.sell_coin.summary.info.receiving%%%",
                 "selling": "%%%.sell_coin.summary.info.selling%%%",
                 "address": "%%%.sell_coin.summary.info.address%%%",
-                "notes": [
-                    "%%%.sell_coin.summary.info.notes.0%%%",
-                    "%%%.sell_coin.summary.info.notes.1%%%"
-                ]
+                "notes": {
+                    "main_note": "%%%.sell_coin.summary.info.notes.main_note%%%",
+                    "sub_note": "%%%.sell_coin.summary.info.notes.sub_note%%%",
+                    "list": [
+                        "%%%.sell_coin.summary.info.notes.list.0%%%",
+                        "%%%.sell_coin.summary.info.notes.list.1%%%",
+                        "%%%.sell_coin.summary.info.notes.list.2%%%"
+                    ]
+                }
             },
             "btn": {
                 "close_summary": "%%%.sell_coin.summary.btn.close_summary%%%"
