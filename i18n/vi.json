@@ -1819,8 +1819,8 @@
                     "sub_note": "(Bạn có thể không nhận được tiền nếu bỏ qua bước này)",
                     "list": [
                         "Xin vui lòng chuyển coin đến đúng địa chỉ ví ở trên",
-                        "The price of the crypto fluctuates constantly; therefore, we only keep this price for 5 minutes",
-                        "We will transfer the fiat to you as soon as there is 1 confirmation on the network."
+                        "Vì thị trường thay đổi liên tục, giá đã chốt sẽ chỉ được giữ trong 5 phút",
+                        "Ninja sẽ chuyển tiền cho bạn ngay khi có xác nhận đầu tiên từ hệ thống."
                     ]
                 }
             },
