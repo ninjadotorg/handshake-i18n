@@ -1697,11 +1697,11 @@
         "bank_id": "Mã ngân hàng",
         "reference_code": "Mã giao dịch",
         "important": "Lưu ý: ",
-        "notice_desc": "Xin vui lòng tải lên hóa đơn giao dịch. Coin sẽ được chuyển đi ngay khi giao dịch được xác nhận.",
+        "notice_desc": "Số tiền thanh toán phải khớp với mã giao dịch. Coin sẽ được chuyển đi ngay khi giao dịch được xác nhận.",
         "upload_btn": "Xin hãy tải lên biên lai thanh toán",
-        "done_btn": "Done",
-        "copied": "Copied to clipboard!",
-        "title": "Payment detail",
+        "done_btn": "Hoàn thành",
+        "copied": "Đã sao chép vào bộ nhớ tạm!",
+        "title": "Chi tiết giao dịch",
         "amount_info": "Profit = Customer Amount - Your Amount"
     },
     "buy_coin": {
@@ -1734,14 +1734,14 @@
                 },
                 "verified": {
                     "level_1": {
-                        "title": "Bạn đã sẵn sàng để giao dịch! Hạn mức tối đa của bạn là $500/ngày. Muốn nhiều hơn?",
-                        "action": "Xác minh thêm"
+                        "title": "Bạn được mua tối đa 12.000.000 VNĐ/ngày. Muốn mua nhiều hơn?",
+                        "action": "Xin vui lòng xác minh thêm"
                     },
                     "level_2": {
-                        "title": "Xác minh tài khoản hoàn tất. Hạn mức của bạn có tăng lên tối đa 5000 USD/ngày!",
+                        "title": "Xác minh tài khoản hoàn tất. Bạn có thể mua tối đa 120.000.000 VNĐ/ngày!",
                         "action": ""
                     },
-                    "need_selfie_verifiy": "Bạn đã mua quá hạn mức $500/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên $5.000/ngày"
+                    "need_selfie_verifiy": "Bạn đã mua quá hạn mức 12.000.000 VNĐ/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên 120.000.000 VNĐ/ngày"
                 }
             },
             "success": "Thành công!"
@@ -1814,10 +1814,15 @@
                 "receiving": "Nhận",
                 "selling": "Bán",
                 "address": "Địa chỉ ví",
-                "notes": [
-                    "Ghi chú",
-                    "Ghi chú"
-                ]
+                "notes": {
+                    "main_note": "NOTE: YOU HAVE TO CLICK \"FINISH\" TO COMPLETE THE TRANSACTION",
+                    "sub_note": "(Transaction may be lost if you forget to complete this step)",
+                    "list": [
+                        "Please transfer the exact number to the above address",
+                        "The price of the crypto fluctuates constantly; therefore, we only keep this price for 5 minutes",
+                        "We will transfer the fiat to you as soon as there is 1 confirmation on the network."
+                    ]
+                }
             },
             "btn": {
                 "close_summary": "Hoàn thành"
@@ -1833,7 +1838,7 @@
         "contact": {
             "faq": "Những câu hỏi thường gặp",
             "chat_with_us": "Hỗ trợ trực tuyến",
-            "phone_cs": "0902 425 186"
+            "phone_cs": "097 550 4082"
         }
     },
     "coin_tabs.sell": "Bán",
