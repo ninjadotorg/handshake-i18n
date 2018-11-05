@@ -1815,10 +1815,10 @@
                 "selling": "Bán",
                 "address": "Địa chỉ ví",
                 "notes": {
-                    "main_note": "NOTE: YOU HAVE TO CLICK \"FINISH\" TO COMPLETE THE TRANSACTION",
-                    "sub_note": "(Transaction may be lost if you forget to complete this step)",
+                    "main_note": "Lưu ý: phải ấn \"Hoàn thành\" để hoàn tất giao dịch",
+                    "sub_note": "(Bạn có thể không nhận được tiền nếu bỏ qua bước này)",
                     "list": [
-                        "Please transfer the exact number to the above address",
+                        "Xin vui lòng chuyển coin đến đúng địa chỉ ví ở trên",
                         "The price of the crypto fluctuates constantly; therefore, we only keep this price for 5 minutes",
                         "We will transfer the fiat to you as soon as there is 1 confirmation on the network."
                     ]
