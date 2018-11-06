@@ -219,6 +219,7 @@
     "ex.error.326": "Tạm thời không đủ coin. Xin vui lòng nhập số lượng nhỏ hơn.",
     "ex.error.327": "Credit item status is invalid",
     "ex.error.331": "Vượt quá hạn mức 120.000.000 VNĐ/ngày. Xin vui lòng nhập lại số lượng nhỏ hơn hoặc thử lại vào ngày mai.",
+    "ex.error.331.sell": "That exceeds your 5000 USD daily limit. Please enter a smaller amount or come back tomorrow.",
     "ex.error.default": "Oops! Something went wrong.",
     "ex.earlyBird.label.1": "WELCOME TO OUR <br/> EARLY BIRD PROGRAM!",
     "ex.earlyBird.label.2": "Create your ATM with <br /><span class=\"intro-amount\">{freeETH} ETH</span> free now!",
