@@ -1792,7 +1792,36 @@
         }
     },
     "sell_coin": {
-        "label": "%%%.sell_coin.label%%%",
+        "label": {
+            "header": {
+                "title": "%%%.sell_coin.label.header.title%%%"
+            },
+            "verify": {
+                "notYet": {
+                    "title": "%%%.sell_coin.label.verify.notYet.title%%%",
+                    "action": "%%%.sell_coin.label.verify.notYet.action%%%"
+                },
+                "rejected": {
+                    "title": "%%%.sell_coin.label.verify.rejected.title%%%",
+                    "action": "%%%.sell_coin.label.verify.rejected.action%%%"
+                },
+                "processing": {
+                    "title": "%%%.sell_coin.label.verify.processing.title%%%",
+                    "action": "%%%.sell_coin.label.verify.processing.action%%%"
+                },
+                "verified": {
+                    "level_1": {
+                        "title": "%%%.sell_coin.label.verify.verified.level_1.title%%%",
+                        "action": "%%%.sell_coin.label.verify.verified.level_1.action%%%"
+                    },
+                    "level_2": {
+                        "title": "%%%.sell_coin.label.verify.verified.level_2.title%%%",
+                        "action": "%%%.sell_coin.label.verify.verified.level_2.action%%%"
+                    },
+                    "need_selfie_verifiy": "%%%.sell_coin.label.verify.verified.need_selfie_verifiy%%%"
+                }
+            }
+        },
         "order": {
             "inputs": {
                 "currency": {
