@@ -794,11 +794,11 @@
         },
         {
             "question": "Mua tiền mã hóa trên Ninja như thế nào?",
-            "answer": "Bước 1: Truy cập vào <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\nBước 2: Xác minh danh tính của bạn<br/>\nBước 3: Nhập địa chỉ ví<br/> \nBước 4: Nhập số lượng crypto bạn muốn mua (hoặc số lượng tiền bạn muốn dùng để mua crypto)<br/>\nBước 5: Chọn hình thức thanh toán: Chuyển khoản qua ngân hàng/Giao dịch trực tiếp<br/>\nBước 6: Ấn 'Mua'<br/>\nBước 7: Thanh toán theo hình thức đã chọn:<br/>\n<ul>\n <li>Nếu chọn chuyển khoản qua ngân hàng, xin hãy thực hiện giao dịch <li>\n <li>Nếu chọn giao dịch trực tiếp, xin hãy nhập địa chỉ, số điện thoại và thời điểm bạn muốn thực hiện giao dịch. Ninja Coin sẽ đến tận nơi để hoàn thành giao dịch. Với hình thức này, bạn có thể thanh toán bằng tiền mặt hoặc quẹt thẻ tín dụng <li>\n</ul>\n"
+            "answer": "Bước 1: Truy cập vào <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\nBước 2: Xác minh danh tính của bạn<br/>\nBước 3: Nhập địa chỉ ví<br/> \nBước 4: Nhập số lượng crypto bạn muốn mua (hoặc số lượng tiền bạn muốn dùng để mua crypto)<br/>\nBước 5: Chọn hình thức thanh toán: Chuyển khoản qua ngân hàng/Giao dịch trực tiếp<br/>\nBước 6: Ấn 'Mua'<br/>\nBước 7: Thanh toán theo hình thức đã chọn:<br/>\n<ul>\n <li>Nếu chọn chuyển khoản qua ngân hàng, xin hãy thực hiện giao dịch </li>\n <li>Nếu chọn giao dịch trực tiếp, xin hãy nhập địa chỉ, số điện thoại và thời điểm bạn muốn thực hiện giao dịch. Ninja Coin sẽ đến tận nơi để hoàn thành giao dịch. Với hình thức này, bạn có thể thanh toán bằng tiền mặt hoặc quẹt thẻ tín dụng </li>\n</ul>\n"
         },
         {
             "question": "Tạo tài khoản trên Ninja như thế nào?",
-            "answer": "Ninja Coin sẽ tạo cho bạn một tài khoản ngay từ lần đầu tiên bạn truy cập vào địa chỉ <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong>. Bạn sẽ Không cần tạo tài khoản để đăng nhập. Tuy nhiên, bạn chỉ có thể mua bán trên Ninja Coin sau khi đã hoàn thành các bước xác minh danh tính\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Giá trị giao dịch</th>\n              <th>Yêu cầu</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><$500</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)</td>\n              </tr>\n              <tr>\n                <td><$5000</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Ảnh chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "answer": "Ninja Coin sẽ tạo cho bạn một tài khoản ngay từ lần đầu tiên bạn truy cập vào địa chỉ <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong>. Bạn sẽ Không cần tạo tài khoản để đăng nhập. Tuy nhiên, bạn chỉ có thể mua bán trên Ninja Coin sau khi đã hoàn thành các bước xác minh danh tính\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Giá trị giao dịch</th>\n              <th>Yêu cầu</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><12.000.000 VNĐ</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)</td>\n              </tr>\n              <tr>\n                <td><120.000.000 VNĐ</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Ảnh chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
             "question": "Tại sao tôi cần phải xác minh danh tính?",
@@ -810,7 +810,7 @@
         },
         {
             "question": "Hạn mức tối đa mà tôi có thể mua?",
-            "answer": "Hiện tại, giới hạn cho mỗi người dùng phụ thuộc vào mức độ xác minh danh tính, lên đến <strong>$5000/người/ngày. Ninja vẫn đang tiếp tục nỗ lực để có thể nâng hạn mức này lên trong tương lai gần.\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Mức độ xác minh danh tính</th>\n              <th>Số lượng tối đa</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt) hoặc hộ chiếu</td>\n                <td>$500/người/ngày</td>\n              </tr>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt) hoặc hộ chiếu<br/>\n                    Hình chụp của bạn với chứng minh nhân dân/ hộ chiếu cùng tờ giấy có chữ \"Ninja Coin\"\n                </td>\n                <td>$5000/người/ngày</td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "answer": "Hiện tại, giới hạn cho mỗi người dùng phụ thuộc vào mức độ xác minh danh tính, lên đến <strong>120.000.000 VNĐ/người/ngày</strong>. Ninja vẫn đang tiếp tục nỗ lực để có thể nâng hạn mức này lên trong tương lai gần.\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Mức độ xác minh danh tính</th>\n              <th>Số lượng tối đa</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)</td>\n                <td>12.000.000 VNĐ/người/ngày</td>\n              </tr>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Hình chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                </td>\n                <td>120.000.000 VNĐ/người/ngày</td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
             "question": "Ninja chấp nhận những phương thức thanh toán nào?",
@@ -1792,7 +1792,36 @@
         }
     },
     "sell_coin": {
-        "label": "Bán",
+        "label": {
+            "header": {
+                "title": "Bán"
+            },
+            "verify": {
+                "notYet": {
+                    "title": "Xin vui lòng xác minh tài khoản để bắt đầu giao dịch.",
+                    "action": "Xác minh ngay"
+                },
+                "rejected": {
+                    "title": "Xác minh tài khoản thất bại. Xin vui lòng thử lại.",
+                    "action": "Xác minh ngay"
+                },
+                "processing": {
+                    "title": "Tài khoản đang được xác minh. Bạn sẽ nhận được email ngay khi quá trình xác minh hoàn tất.",
+                    "action": "Xin vui lòng đợi"
+                },
+                "verified": {
+                    "level_1": {
+                        "title": "Bạn được bán tối đa 12.000.000 VNĐ/ngày. Muốn bán nhiều hơn?",
+                        "action": "Xin vui lòng xác minh thêm"
+                    },
+                    "level_2": {
+                        "title": "Xác minh tài khoản hoàn tất. Bạn được bán tối đa 120.000.000 VNĐ/ngày!",
+                        "action": ""
+                    },
+                    "need_selfie_verifiy": "Bạn đã mua quá hạn mức 12.000.000 VNĐ/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên 120.000.000 VNĐ/ngày"
+                }
+            }
+        },
         "order": {
             "inputs": {
                 "currency": {
