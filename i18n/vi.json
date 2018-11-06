@@ -1116,9 +1116,9 @@
                 "no_history": "You do not have any order yet."
             },
             "confirm_button": {
-                "desc": "Are you sure?",
-                "confirm": "Sure",
-                "cancel": "Huỷ"
+                "desc": "Bạn có chắc không?",
+                "confirm": "Có",
+                "cancel": "Không"
             },
             "button": {
                 "create": "Create my ATM",
@@ -1146,7 +1146,7 @@
                     "fiat_transfering": "Đang chuyển tiền...",
                     "transfer_failed": "Thất bại"
                 },
-                "messageTransfer": "You haven't transferred yet.",
+                "messageTransfer": "Bạn vẫn chưa chuyển coin.",
                 "transferNow": " View detail",
                 "cancel_order": "Huỷ",
                 "review_order": "Review"
