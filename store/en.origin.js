@@ -220,6 +220,7 @@
     "ex.error.327": "%%%.ex.error.327%%%",
     "ex.error.331": "%%%.ex.error.331%%%",
     "ex.error.331.sell": "%%%.ex.error.331.sell%%%",
+    "ex.error.332": "%%%.ex.error.332%%%",
     "ex.error.default": "%%%.ex.error.default%%%",
     "ex.earlyBird.label.1": "%%%.ex.earlyBird.label.1%%%",
     "ex.earlyBird.label.2": "%%%.ex.earlyBird.label.2%%%",
@@ -1852,7 +1853,8 @@
                         "%%%.sell_coin.summary.info.notes.list.1%%%",
                         "%%%.sell_coin.summary.info.notes.list.2%%%"
                     ]
-                }
+                },
+                "confirm_leave": "%%%.sell_coin.summary.info.confirm_leave%%%"
             },
             "btn": {
                 "close_summary": "%%%.sell_coin.summary.btn.close_summary%%%"
