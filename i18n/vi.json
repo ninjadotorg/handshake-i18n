@@ -220,6 +220,7 @@
     "ex.error.327": "Credit item status is invalid",
     "ex.error.331": "Vượt quá hạn mức 120.000.000 VNĐ/ngày. Xin vui lòng nhập lại số lượng nhỏ hơn hoặc thử lại vào ngày mai.",
     "ex.error.331.sell": "That exceeds your 5000 USD daily limit. Please enter a smaller amount or come back tomorrow.",
+    "ex.error.332": "You haven’t transfered coin yet! Please check",
     "ex.error.default": "Oops! Something went wrong.",
     "ex.earlyBird.label.1": "WELCOME TO OUR <br/> EARLY BIRD PROGRAM!",
     "ex.earlyBird.label.2": "Create your ATM with <br /><span class=\"intro-amount\">{freeETH} ETH</span> free now!",
@@ -1852,7 +1853,8 @@
                         "Vì thị trường thay đổi liên tục, giá đã chốt sẽ chỉ được giữ trong 5 phút",
                         "Ninja sẽ chuyển tiền cho bạn ngay khi có xác nhận đầu tiên từ hệ thống."
                     ]
-                }
+                },
+                "confirm_leave": "You are about to leave this page. Your order will be lost"
             },
             "btn": {
                 "close_summary": "Hoàn thành"
