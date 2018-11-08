@@ -1026,6 +1026,7 @@ The PEX Matching Engine will then find another order that bets against the odds 
 %%%.wallet.action.transfer.label.usd%%%,"USD"
 %%%.wallet.action.transfer.label.wallet_balance%%%,"Wallet balance"
 %%%.wallet.action.transfer.label.scan_qrcode%%%,"Scan QR code"
+%%%.wallet.action.transfer.label.init_scanner%%%,"Initiating Camera. Please wait"
 %%%.wallet.action.transfer.label.gas_limit%%%,"Gas Limit"
 %%%.wallet.action.transfer.label.data%%%,"Data"
 %%%.wallet.action.transfer.label.feel_level%%%,"Fee:"

@@ -1302,6 +1302,7 @@
                     "usd": "%%%.wallet.action.transfer.label.usd%%%",
                     "wallet_balance": "%%%.wallet.action.transfer.label.wallet_balance%%%",
                     "scan_qrcode": "%%%.wallet.action.transfer.label.scan_qrcode%%%",
+                    "init_scanner": "%%%.wallet.action.transfer.label.init_scanner%%%",
                     "gas_limit": "%%%.wallet.action.transfer.label.gas_limit%%%",
                     "data": "%%%.wallet.action.transfer.label.data%%%",
                     "feel_level": "%%%.wallet.action.transfer.label.feel_level%%%",
