@@ -1302,6 +1302,7 @@
                     "usd": "美元",
                     "wallet_balance": "钱包余额",
                     "scan_qrcode": "扫描二维码",
+                    "init_scanner": "Initiating Camera. Please wait",
                     "gas_limit": "Gas Limit",
                     "data": "Data",
                     "feel_level": "Fee:",

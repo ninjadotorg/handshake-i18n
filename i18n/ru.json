@@ -1302,6 +1302,7 @@
                     "usd": "USD",
                     "wallet_balance": "Баланс кошелька",
                     "scan_qrcode": "Сканировать QR-код",
+                    "init_scanner": "Initiating Camera. Please wait",
                     "gas_limit": "Gas Limit",
                     "data": "Data",
                     "feel_level": "Fee:",
