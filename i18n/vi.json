@@ -1302,7 +1302,7 @@
                     "usd": "USD",
                     "wallet_balance": "Wallet balance",
                     "scan_qrcode": "Quét mã QR",
-                    "init_scanner": "Initiating Camera. Please wait",
+                    "init_scanner": "Đang khởi động camera. Xin vui lòng chờ...",
                     "gas_limit": "Gas Limit",
                     "data": "Data",
                     "feel_level": "Fee:",
