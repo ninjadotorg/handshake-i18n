@@ -227,7 +227,7 @@
     "ex.earlyBird.btn": "Open ATM",
     "error.required": "Bắt buộc",
     "error.requiredOne": "Vui lòng điền đủ thông tin",
-    "error.greaterThan": "Must be greater than {min}",
+    "error.greaterThan": "Mức tối thiểu là {min}",
     "error.lessThan": "Must be less than {max}",
     "error.greaterThan.equal": "Must be equal or greater than {min}",
     "error.lessThan.equal": "Must be less than or equal {max}",
@@ -586,7 +586,7 @@
             "link": "https://t.me/ninja_org"
         }
     ],
-    "COIN_EXCHANGE_LP_FAQ_TITLE": "Frequently asked questions",
+    "COIN_EXCHANGE_LP_FAQ_TITLE": "Những câu hỏi thường gặp",
     "landing_page.cash.faq": [
         {
             "question": "What’s the difference between Ninja ATM and other crypto ATMs?",
