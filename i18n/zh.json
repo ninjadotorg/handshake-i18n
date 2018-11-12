@@ -9,13 +9,13 @@
             "exchanges": "已兑换",
             "whisper": "私信",
             "wallet": "钱包",
-            "setting": "Me",
+            "setting": "我",
             "atm": "ATM",
-            "bet": "Bet",
+            "bet": "押注",
             "credit": "CC",
-            "shop": "Shop",
-            "ninjaCoin": "Coin",
-            "invest": "Invest"
+            "shop": "商店",
+            "ninjaCoin": "金币",
+            "invest": "投资"
         }
     },
     "buy": "买入",
@@ -26,7 +26,7 @@
     "ccNumber": "数量",
     "ccExpire": "到期",
     "ccCVC": "CVC",
-    "overCCLimit": "You have reached your credit card limit({currency}{limit} per day)! You have already used {currency}{amount} today.",
+    "overCCLimit": "您已达到信用卡限额（{currency}{limit} 每天）！您今天已使用了 {amount}{currency}。",
     "required": "必填",
     "ccExpireTemplate": "月/年",
     "securityCode": "325",
