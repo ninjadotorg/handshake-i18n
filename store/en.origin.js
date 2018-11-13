@@ -1306,7 +1306,8 @@
                     "gas_limit": "%%%.wallet.action.transfer.label.gas_limit%%%",
                     "data": "%%%.wallet.action.transfer.label.data%%%",
                     "feel_level": "%%%.wallet.action.transfer.label.feel_level%%%",
-                    "max_amount": "%%%.wallet.action.transfer.label.max_amount%%%"
+                    "max_amount": "%%%.wallet.action.transfer.label.max_amount%%%",
+                    "from_contact": "%%%.wallet.action.transfer.label.from_contact%%%"
                 },
                 "placeholder": {
                     "to_address": "%%%.wallet.action.transfer.placeholder.to_address%%%",
@@ -1373,7 +1374,23 @@
                     "push_notifications": "%%%.wallet.action.setting.label.push_notifications%%%",
                     "community": "%%%.wallet.action.setting.label.community%%%",
                     "wallet_account": "%%%.wallet.action.setting.label.wallet_account%%%",
-                    "support": "%%%.wallet.action.setting.label.support%%%"
+                    "support": "%%%.wallet.action.setting.label.support%%%",
+                    "address_book": "%%%.wallet.action.setting.label.address_book%%%",
+                    "contact_name": "%%%.wallet.action.setting.label.contact_name%%%",
+                    "contact_email": "%%%.wallet.action.setting.label.contact_email%%%",
+                    "contact_address": "%%%.wallet.action.setting.label.contact_address%%%",
+                    "contact_send_money": "%%%.wallet.action.setting.label.contact_send_money%%%",
+                    "contact_remove": "%%%.wallet.action.setting.label.contact_remove%%%",
+                    "contact_empty_title": "%%%.wallet.action.setting.label.contact_empty_title%%%",
+                    "contact_empty_desc": "%%%.wallet.action.setting.label.contact_empty_desc%%%",
+                    "contact_empty_button": "%%%.wallet.action.setting.label.contact_empty_button%%%",
+                    "contact_add_contact_search_box": "%%%.wallet.action.setting.label.contact_add_contact_search_box%%%",
+                    "select_a_contact": "%%%.wallet.action.setting.label.select_a_contact%%%",
+                    "add_new_address": "%%%.wallet.action.setting.label.add_new_address%%%",
+                    "remove_new_address": "%%%.wallet.action.setting.label.remove_new_address%%%",
+                    "update_button_text": "%%%.wallet.action.setting.label.update_button_text%%%",
+                    "update_title_text": "%%%.wallet.action.setting.label.update_title_text%%%",
+                    "select_an_address": "%%%.wallet.action.setting.label.select_an_address%%%"
                 },
                 "button": {
                     "restore": "%%%.wallet.action.setting.button.restore%%%"
