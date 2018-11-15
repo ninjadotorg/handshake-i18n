@@ -1334,7 +1334,7 @@ The PEX Matching Engine will then find another order that bets against the odds 
 %%%.buy_coin.label.pro_package_name%%%,"Master"
 %%%.buy_coin.label.payment_methods.bank%%%,"Bank Transfer"
 %%%.buy_coin.label.payment_methods.cod%%%,"COD"
-%%%.buy_coin.label.payment_methods.cod_info%%%,"State your time and place for meeting up and we will exchange in person."
+%%%.buy_coin.label.payment_methods.cod_info%%%,"State your time and place for meeting up and we will exchange in person"
 %%%.buy_coin.label.verify.notYet.title%%%,"To start trading, please take a few minutes to verify your account."
 %%%.buy_coin.label.verify.notYet.action%%%,"Verify now"
 %%%.buy_coin.label.verify.rejected.title%%%,"Your verification is rejected. Please try again."
