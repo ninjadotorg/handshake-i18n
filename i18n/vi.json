@@ -1737,7 +1737,7 @@
             "payment_methods": {
                 "bank": "Chuyển Khoản",
                 "cod": "Tiền Mặt",
-                "cod_info": "Chúng tôi sẽ giao dịch trực tiếp bằng tiền mặt theo thời gian và địa điểm mà bạn cung cấp."
+                "cod_info": "State your time and place for meeting up and we will exchange in person"
             },
             "verify": {
                 "notYet": {
