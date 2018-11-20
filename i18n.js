@@ -7,7 +7,8 @@ const ko = require('./i18n/ko.json');
 const ru = require('./i18n/ru.json');
 const zh = require('./i18n/zh.json');
 const vi = require('./i18n/vi.json');
+const zh_hk = require('./i18n/zh_hk.json');
 
 module.exports = {
-  de, es, fr, ja, ko, ru, zh, vi,
+  de, es, fr, ja, ko, ru, zh, vi, zh_hk,
 };
