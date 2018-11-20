@@ -150,7 +150,8 @@ function unparser() {
     ko: 'ko',
     ru: 'ru',
     'zh-CN': 'zh',
-    vi: 'vi'
+    vi: 'vi',
+    'zh-HK': 'zh_hk',
   };
   handleDir(unzipDir);
   fs.createReadStream(zipFile)
