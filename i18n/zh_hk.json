@@ -1784,86 +1784,86 @@
             "success": "Success",
             "transferring": "Transferring coin",
             "cancelled": "Canceled",
-            "fiat_transferring": "Transferring money",
-            "transfer_failed": "Failed",
-            "expired": "Expired",
-            "rejected": "Rejected"
+            "fiat_transferring": "轉移資金",
+            "transfer_failed": "失敗",
+            "expired": "過期",
+            "rejected": "拒絕"
         }
     },
     "buy_coin_transaction.text.no_history": "No order yet. Don't miss our good price and <strong><a href=\"https://ninja.org/coin\">create one now!</a></strong>",
     "wallet_selector": {
-        "your_wallet": "Your wallets",
-        "wallet_dont_match_error": "The address and type of crypto don’t match. Please check"
+        "your_wallet": "您的錢包",
+        "wallet_dont_match_error": "加密的位址和類型不匹配。請檢查"
     },
     "buy_coin_confirm_popup.msg": "Buy {amount} {currency} with {fiatAmount} {fiatCurrency}?",
-    "buy_coin_confirm_popup.confirm_text": "Confirm",
-    "buy_coin_confirm_popup.cancel_text": "Cancel",
+    "buy_coin_confirm_popup.confirm_text": "確認",
+    "buy_coin_confirm_popup.cancel_text": "取消",
     "buy_coin.verify.need_selfie_verifiy": "You are buying more than {fiatAmount} {fiatCurrency}. Please verify your account to increase the limit",
-    "buy_coin.verify.need_selfie_verifiy_action": "Verify now",
+    "buy_coin.verify.need_selfie_verifiy_action": "立即驗證",
     "sell_coin_confirm_popup.msg": "Sell {amount} {currency} for {fiatAmount}?",
-    "sell_coin_confirm_popup.confirm_text": "Confirm",
-    "sell_coin_confirm_popup.cancel_text": "Cancel",
+    "sell_coin_confirm_popup.confirm_text": "確認",
+    "sell_coin_confirm_popup.cancel_text": "取消",
     "review": {
-        "title": "Review",
+        "title": "檢討",
         "label": {
-            "description": "How is your experience with Ninja Coin?",
-            "submitButtonTitle": "Submit",
-            "loadMore": "Load more",
-            "comments": "comments"
+            "description": "你在忍者硬幣的經歷如何？",
+            "submitButtonTitle": "提交",
+            "loadMore": "載入更多",
+            "comments": "評論"
         }
     },
     "sell_coin": {
         "label": {
             "header": {
-                "title": "Sell coin"
+                "title": "出售硬幣"
             },
             "verify": {
                 "notYet": {
-                    "title": "To start trading, please take a few minutes to verify your account.",
-                    "action": "Verify now"
+                    "title": "要開始交易, 請花幾分鐘來驗證您的帳戶。",
+                    "action": "立即驗證"
                 },
                 "rejected": {
-                    "title": "Your verification is rejected. Please try again.",
-                    "action": "Verify now"
+                    "title": "您的驗證將被拒絕。請再試一次。",
+                    "action": "立即驗證"
                 },
                 "processing": {
-                    "title": "Verifying your account. We will send you an email once we are done.",
-                    "action": "Please wait"
+                    "title": "驗證您的帳戶。我們將向您發送一封電子郵件, 我們完成後。",
+                    "action": "請稍候"
                 },
                 "verified": {
                     "level_1": {
-                        "title": "You're ready to trade! Your max daily limit is now 500 USD. Want more?",
-                        "action": "Provide additional verification"
+                        "title": "你已經準備好交易了! 您的每日最高限額為500美元。想要更多？",
+                        "action": "提供額外的驗證"
                     },
                     "level_2": {
-                        "title": "You're fully verified. Your limit has now been increased to the max of 5000 USD!",
+                        "title": "你已經完全被證實了您的限制現在已增加到最大5000美元!",
                         "action": ""
                     },
-                    "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
+                    "need_selfie_verifiy": "你買的是500多美元。請提供額外的驗證, 以提高您的限制"
                 }
             }
         },
         "order": {
             "inputs": {
                 "currency": {
-                    "amount": "Amount"
+                    "amount": "量"
                 },
-                "bank_owner": "Account Name",
-                "bank_name": "Bank Name",
-                "bank_number": "Account Number",
-                "phone": "Phone Number"
+                "bank_owner": "帳戶名稱",
+                "bank_name": "銀行名稱",
+                "bank_number": "帳戶號碼",
+                "phone": "電話號碼"
             },
             "btn": {
-                "submit_order": "Next"
+                "submit_order": "下"
             }
         },
         "summary": {
-            "label": "Your Selling Order",
+            "label": "您的銷售訂單",
             "info": {
-                "code": "Code",
-                "receiving": "Receiving",
-                "selling": "Selling",
-                "address": "Address",
+                "code": "代碼",
+                "receiving": "接收",
+                "selling": "銷售",
+                "address": "位址",
                 "notes": {
                     "main_note": "注: 您必須點擊 \"完成\" 來完成交易",
                     "sub_note": "(如果您忘記完成此步驟, 事務可能會丟失)",
