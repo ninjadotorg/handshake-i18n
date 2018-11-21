@@ -1557,18 +1557,18 @@
             "insufficient": "You have insufficient coin to make the transfer."
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
     "ethereum": {
         "error": {
             "invalid_address": "You can only send tokens to Ethereum address",
-            "invalid_address2": "Please enter a valid receiving address.",
+            "invalid_address2": "請輸入有效的接收位址。",
             "insufficient": "You have insufficient coin to make the transfer.",
             "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
     "ripple": {
@@ -1579,7 +1579,7 @@
             "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
     "chat": {
@@ -1697,72 +1697,72 @@
     "WHITE_PAPER_END_1": "Hey, thanks for reading. Ninja will go live on the testnet on 5 June! We’re excited to hear your thoughts.",
     "atm_cash_transfer": {
         "to_wallet_address": "TO WALLER ADDRESS",
-        "copy_address_or_scan_qr": "Copy address or scan QR code",
-        "we_will_send_coin_to_this_address_desc": "We will send coins to this address after receiving your bank receipt.",
+        "copy_address_or_scan_qr": "複製位址或掃描二維碼",
+        "we_will_send_coin_to_this_address_desc": "我們將在收到您的銀行收據後將硬幣發送到此位址。",
         "amount": "WANTED AMOUNT",
-        "transfer": "Next",
-        "scan_qr_code": "Scan QR code",
+        "transfer": "下",
+        "scan_qr_code": "掃描二維碼",
         "invalid_address_valid": "Invalid wallet address",
         "success_msg": "Success!",
         "title": "New Order"
     },
     "atm_cash_transfer_info": {
-        "payment_detail": "Payment detail",
-        "order_will_expire_in": "This order will expire in ",
-        "expired": "Expired",
+        "payment_detail": "付款詳情",
+        "order_will_expire_in": "此訂單將在 ",
+        "expired": "過期",
         "customer_amount": "CUSTOMER AMOUNT",
         "amount": "YOUR AMOUNT",
-        "account_name": "ACCOUNT NAME",
-        "account_number": "ACCOUNT NUMBER",
-        "bank_name": "BANK NAME",
-        "bank_id": "BANK ID",
-        "reference_code": "REFERENCE CODE",
-        "important": "IMPORTANT: ",
-        "notice_desc": "You must send the exact amount & reference code as instructed and upload the payment proof below so we can proceed sending coins to you.",
-        "upload_btn": "Upload your bank receipt",
-        "done_btn": "Done",
-        "copied": "Copied to clipboard!",
-        "title": "Payment detail",
+        "account_name": "帳戶名稱",
+        "account_number": "帳戶號碼",
+        "bank_name": "銀行名稱",
+        "bank_id": "銀行 ID",
+        "reference_code": "參考代碼",
+        "important": "重要： ",
+        "notice_desc": "您必須按照指示發送確切的金額和參考代碼, 並在下面上傳付款證明, 以便我們可以繼續向您發送硬幣。",
+        "upload_btn": "上傳您的銀行收據",
+        "done_btn": "做",
+        "copied": "複製到剪貼簿!",
+        "title": "付款詳情",
         "amount_info": "Profit = Customer Amount - Your Amount"
     },
     "buy_coin": {
         "label": {
             "header": {
-                "buy_crypto": "Buy crypto",
-                "with_ninja_coin": " with Ninja Coin"
+                "buy_crypto": "購買加密產品",
+                "with_ninja_coin": " 與忍者硬幣"
             },
-            "description": "Ninja has some of the best prices around",
-            "common_packages": "One-click Purchases",
-            "basic_package_name": "Starter HK",
-            "pro_package_name": "Master",
+            "description": "忍者有一些最好的價格周圍",
+            "common_packages": "一鍵購買",
+            "basic_package_name": "起 動 器",
+            "pro_package_name": "主人",
             "payment_methods": {
-                "bank": "Bank Transfer",
+                "bank": "銀行轉帳",
                 "cod": "COD",
                 "cod_info": "State your time and place for meeting up and we will exchange in person."
             },
             "verify": {
                 "notYet": {
-                    "title": "To start trading, please take a few minutes to verify your account.",
-                    "action": "Verify now"
+                    "title": "要開始交易, 請花幾分鐘來驗證您的帳戶。",
+                    "action": "立即驗證"
                 },
                 "rejected": {
-                    "title": "Your verification is rejected. Please try again.",
-                    "action": "Verify now"
+                    "title": "您的驗證將被拒絕。請再試一次。",
+                    "action": "立即驗證"
                 },
                 "processing": {
-                    "title": "Verifying your account. We will send you an email once we are done.",
-                    "action": "Please wait"
+                    "title": "驗證您的帳戶。我們將向您發送一封電子郵件, 我們完成後。",
+                    "action": "請稍候"
                 },
                 "verified": {
                     "level_1": {
-                        "title": "You're ready to trade! Your max daily limit is now 500 USD. Want more?",
-                        "action": "Provide additional verification"
+                        "title": "你已經準備好交易了! 您的每日最高限額為500美元。想要更多？",
+                        "action": "提供額外的驗證"
                     },
                     "level_2": {
-                        "title": "You're fully verified. Your limit has now been increased to the max of 5000 USD!",
+                        "title": "你已經完全被證實了您的限制現在已增加到最大5000美元!",
                         "action": ""
                     },
-                    "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
+                    "need_selfie_verifiy": "你買的是500多美元。請提供額外的驗證, 以提高您的限制"
                 }
             },
             "success": "成功！"
