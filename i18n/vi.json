@@ -258,10 +258,12 @@
     "ex.landing.tryTelegram.label": "Try out the platform for FREE by joining the conversation on Telegram",
     "ex.landing.tryTelegram.btn": "Join Telegram",
     "ex.about.label.about": "About",
-    "ex.about.description": "Ninja Cash is a peer to peer decentralized cryptocurrency exchange - where you remain anonymous. We got rid of extensive KYC practices, and then we put it on the blockchain. We welcome into our dojo anyone interested in disruption, games of stealth, and decentralized tech.<br/><br/>Ninjas create blockchain powered solutions that are both practical and playful, and apply them to industries plagued by rampant fraud, greedy middlemen and pointless bureaucracy.<br/><br/>Our team of ninjas is based in California, United States.",
-    "ex.about.label.connectWith": "Connect with the team",
-    "ex.about.label.website": "Website",
-    "ex.about.label.telegram": "Telegram",
+    "ex.about.description": "Shanzhai Limited is a technology company founded in 2015 based in Hong Kong. Working in e-commerce field, we aimed at providing customers satisfying experience in purchasing online. To follow growing trend towards crypto, Shanzhai has made a leap into crypto area by launching a new crypto online exchange named CoinBowl.<br/><br/>Coinbowl.com is a new crypto exchange specifically designed for people living in Asia, who have had limited access to crypto markets. CoinBowl enables users to trade large amounts of crypto at great prices. Users can buy or sell an uncapped quantity of crypto with 1 price for 1 order.<br/><br/>This movement is expected to continue our run of success in other fields and transform Shanzhai into a diversified investment company. We also have offices in New York, California, Jakarta, Manila and Phnom Penh.",
+    "ex.about.label.connectWith": "COMPANY INFO:",
+    "ex.about.label.website": "Name",
+    "ex.about.label.website.value": "Shanzhai Limited",
+    "ex.about.label.telegram": "Mailing Address",
+    "ex.about.label.telegram.value": "Flat A, 18/F, 88 Commercial Building, 28-34 Wing Lok Street, Sheung Wan, Hong Kong",
     "ex.about.label.medium": "Medium",
     "ex.about.label.github": "Github",
     "ex.about.label.twitter": "Twitter",
@@ -562,7 +564,7 @@
             "desc": "Decide your own working hours. Have the freedom and flexbility to work anytime, anywhere"
         }
     ],
-    "landing_page.coin.breadcrumb": "Ninja Coin",
+    "landing_page.coin.breadcrumb": "CoinBowl",
     "landing_page.coin.heading": "Frequently asked questions",
     "landing_page.coin.subHeading": " ",
     "MOT_TITLE": "The anonymous exchange of anything",
@@ -791,48 +793,44 @@
     ],
     "landing_page.coin.faq": [
         {
-            "question": "Giới thiệu Ninja Coin",
-            "answer": "Ninja Coin là một ứng dụng được phát triển bởi Shanzhai Limited - một công ty Hong Kong có văn phòng đại diện tại New York, California và TP. Hồ Chí Minh. Chúng tôi mong muốn tạo ra một nền tảng có thể giúp mọi người mua bán tiền mã hóa thuận tiện, an toàn với mức giá hấp dẫn nhất"
+            "question": "What is CoinBowl?",
+            "answer": "<p>Coinbowl.com is an online exchange developed by Shanzhai Limited, a Hong Kong based company, offering bulk crypto purchasing at competitive prices with full delivery service.</p>"
         },
         {
-            "question": "Mua tiền mã hóa trên Ninja như thế nào?",
-            "answer": "Bước 1: Truy cập vào <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\nBước 2: Xác minh danh tính của bạn<br/>\nBước 3: Nhập địa chỉ ví<br/> \nBước 4: Nhập số lượng crypto bạn muốn mua (hoặc số lượng tiền bạn muốn dùng để mua crypto)<br/>\nBước 5: Chọn hình thức thanh toán: Chuyển khoản qua ngân hàng/Giao dịch trực tiếp<br/>\nBước 6: Ấn 'Mua'<br/>\nBước 7: Thanh toán theo hình thức đã chọn:<br/>\n<ul>\n <li>Nếu chọn chuyển khoản qua ngân hàng, xin hãy thực hiện giao dịch </li>\n <li>Nếu chọn giao dịch trực tiếp, xin hãy nhập địa chỉ, số điện thoại và thời điểm bạn muốn thực hiện giao dịch. Ninja Coin sẽ đến tận nơi để hoàn thành giao dịch. Với hình thức này, bạn có thể thanh toán bằng tiền mặt hoặc quẹt thẻ tín dụng </li>\n</ul>\n"
+            "question": "How to sign up a CoinBowl account?",
+            "answer": "<p>Simply visiting <a href=\"https://coinbowl.com\">https://coinbowl.com</a>, verifying your ID by email or phone number then you are ready to trade on CoinBowl platform. <br />Indeed, your purchase limit is approximately proportional to the level of ID verification.</p>"
         },
         {
-            "question": "Tạo tài khoản trên Ninja như thế nào?",
-            "answer": "Ninja Coin sẽ tạo cho bạn một tài khoản ngay từ lần đầu tiên bạn truy cập vào địa chỉ <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong>. Bạn sẽ Không cần tạo tài khoản để đăng nhập. Tuy nhiên, bạn chỉ có thể mua bán trên Ninja Coin sau khi đã hoàn thành các bước xác minh danh tính\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Giá trị giao dịch</th>\n              <th>Yêu cầu</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><12.000.000 VNĐ</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)</td>\n              </tr>\n              <tr>\n                <td><120.000.000 VNĐ</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Ảnh chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "question": "Why do I need to verify my identity?",
+            "answer": "<p>Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations. We will not, in any circumstances, share your personal information with other individuals or organizations without your permission except when applicable by law.</p>"
         },
         {
-            "question": "Tại sao tôi cần phải xác minh danh tính?",
-            "answer": "Ninja yêu cầu người dùng phải xác minh danh tính để tuân thủ những điều luật về phòng chống rửa tiền cũng như phòng chống tội phạm tài chính. Những thông tin của người dùng sẽ được giữ kín tuyệt đối, không bao giờ bị tiết lộ cho một bên thứ ba."
+            "question": "What is the maximum limit on purchasing?",
+            "answer": "<p>When you fully verify your ID, you can purchase crypto unlimited on CoinBowl. <br /> Level 1 Verification: email required. Purchase limit: 500$/day. <br /> Level 2 Verification: phone number required. Purchase limit: 2,000$/day. <br /> Level 3 Verification: a picture of ID required. Purchase limit: 5,000$/day. <br /> Level 4 Verification: a selfie of user and his/her ID. Purchase limit: unlimited.</p>"
         },
         {
-            "question": "Mua tiền mã hóa trên Ninja có an toàn không?",
-            "answer": "Tất cả các giao dịch trên Ninja đều có bảo hiểm tiền gửi 100% lên đến $1000 mỗi giao dịch"
+            "question": "How to buy crypto on CoinBowl?",
+            "answer": "<p>Step 1: Scan or fill in the address of your crypto wallet. <br /> Step 2: Choose the type of crypto and fill in the number you want to buy. <br /> Step 3: Choose a suitable payment method between COD and bank transfer. <br /> Step 4: Finish the transaction accordingly to the payment method.</p>\n<ul style=\"list-style-type: disc;\">\n<li>COD: make a direct payment at specified public place and time. Coinbowl accepts both cash and credit card payment.</li>\n<li>Bank transfer: make a bank transfer to CoinBowl&rsquo;s local bank account.</li>\n</ul>\n<p>Step 5: You will receive your coin as soon as your payment is successfully processed.</p>"
         },
         {
-            "question": "Hạn mức tối đa mà tôi có thể mua?",
-            "answer": "Hiện tại, giới hạn cho mỗi người dùng phụ thuộc vào mức độ xác minh danh tính, lên đến <strong>120.000.000 VNĐ/người/ngày</strong>. Ninja vẫn đang tiếp tục nỗ lực để có thể nâng hạn mức này lên trong tương lai gần.\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Mức độ xác minh danh tính</th>\n              <th>Số lượng tối đa</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)</td>\n                <td>12.000.000 VNĐ/người/ngày</td>\n              </tr>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Hình chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                </td>\n                <td>120.000.000 VNĐ/người/ngày</td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "question": "How to sell crypto on CoinBowl?",
+            "answer": "<p>Step 1: Choose the type and fill in the number of crypto you want to sell.<br /> Step 2: Fill in the information of your bank account.<br /> Step 3: Transfer coin to the CoinBowl&rsquo;s wallet.<br /> Step 4: You will get your money in your bank account as the coin is successfully transferred to our wallet.</p>"
         },
         {
             "question": "Ninja chấp nhận những phương thức thanh toán nào?",
-            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Hình thức mua</th>\n              <th>Phương thức thanh toán</td>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Chuyển khoản ngân hàng (mua online)</td>\n                <td>Chuyển khoản ngân hàng</td>\n              </tr>\n              <tr>\n                <td>Giao dịch trực tiếp (mua offline)</td>\n                <td>Chuyển khoản ngân hàng<br/>\n                    Credit card<br/>\n                    Tiền mặt\n              </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>Khi mua online, bạn sẽ chuyển khoản trước cho Ninja. Khi nhận được tiền, Ninja sẽ ngay lập tức chuyển coin vào địa chỉ ví của bạn</li>\n                <li>Khi mua offline, Ninja sẽ đến đúng theo thời gian và địa điểm bạn cung cấp để thực hiện giao dịch. Bạn có thể thanh toán bằng thẻ ngân hàng, thẻ credit hoặc tiền mặt sau khi đã nhận được đúng số coin từ Ninja</li>\n              </ul>\n"
+            "answer": "<p>You can pay via various payment method including bank transfer, cash and credit card payment.</p>"
         },
         {
-            "question": "Mất bao lâu để tôi có thể nhận coin của mình?",
-            "answer": "Thời gian nhận coin phụ thuộc vào thời gian ngân hàng xử lí các giao dịch (khi mua online) và thời gian hệ thống blockchain xác nhận giao dịch trên chuỗi khối, nhưng thường cũng chỉ mất vài phút là bạn sẽ nhận được coin của mình"
+            "question": "How much are the fees?",
+            "answer": "<p>Only 2% value of transaction is charged when paying by credit card. Other payment options are free.</p>"
         },
         {
-            "question": "Sẽ thế nào nếu giá cả thay đổi khi tôi đang thực hiện giao dịch?",
-            "answer": "Giá mua đã được chốt ngay khi bạn thực hiện lệnh mua. Giá cả thay đổi từ sau đó hoàn toàn không ảnh hưởng đến giao dịch của bạn."
+            "question": "How long does it take to finish a transaction?",
+            "answer": "<p>It depends on the situation of blockchain and banking network at that time, but normally around 3-5 minutes.</p>"
         },
         {
-            "question": "Phí giao dịch là bao nhiêu?",
-            "answer": "Ninja chỉ tính 2% phí giao dịch khi bạn thanh toán bằng thẻ credit. Chuyển khoản qua ngân hàng hoặc thanh toán trực tiếp bằng tiền mặt hoàn toàn không tốn phí."
-        },
-        {
-            "question": "Khi cần hỗ trợ, tôi có thể liên lạc bộ phận nào?",
-            "answer": "Hãy sử dụng tính năng live chat để nhận được sự trợ giúp kịp thời khi mua bán tiền mã hóa trên Ninja."
+            "question": "How to contact CoinBowl support?",
+            "answer": "<p>If you encounter any problem, feel free to contact us via live chat box or email <a class=\"landing-link\" href=\"mailto:support@coinbowl.com\" target=\"_top\">support@coinbowl.com</a>.</p>"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -922,6 +920,9 @@
                         "email": "Không thể xác nhận email của bạn. Xin hãy nhập chính xác mã xác nhận.",
                         "idVerification": "Không thể tải lên tài liệu của bạn. Xin vui lòng thử lại.",
                         "idVerification2": "Không thể tải lên tài liệu của bạn."
+                    },
+                    "exist": {
+                        "email": "Your email already exists."
                     }
                 }
             },
@@ -1081,7 +1082,7 @@
         "cod_form": {
             "cod": "Thanh toán bằng tiền mặt",
             "buy_btn": "Mua",
-            "your_address": "Only available in Ho Chi Minh City for now",
+            "your_address": "Only available in Hongkong for now",
             "your_phone": "Số điện thoại",
             "time": "Thời điểm giao dịch và lưu ý",
             "default_time": "Càng sớm càng tốt"
@@ -1887,8 +1888,8 @@
         },
         "contact": {
             "faq": "Những câu hỏi thường gặp",
-            "chat_with_us": "Chat with us Online Support",
-            "phone_cs": "097 550 4082"
+            "chat_with_us": "About us",
+            "phone_cs": " "
         }
     },
     "coin_tabs.sell": "Bán",
