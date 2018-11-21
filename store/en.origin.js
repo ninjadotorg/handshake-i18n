@@ -261,7 +261,9 @@
     "ex.about.description": "%%%.ex.about.description%%%",
     "ex.about.label.connectWith": "%%%.ex.about.label.connectWith%%%",
     "ex.about.label.website": "%%%.ex.about.label.website%%%",
+    "ex.about.label.website.value": "%%%.ex.about.label.website.value%%%",
     "ex.about.label.telegram": "%%%.ex.about.label.telegram%%%",
+    "ex.about.label.telegram.value": "%%%.ex.about.label.telegram.value%%%",
     "ex.about.label.medium": "%%%.ex.about.label.medium%%%",
     "ex.about.label.github": "%%%.ex.about.label.github%%%",
     "ex.about.label.twitter": "%%%.ex.about.label.twitter%%%",
@@ -829,10 +831,6 @@
         {
             "question": "%%%.landing_page.coin.faq.9.question%%%",
             "answer": "%%%.landing_page.coin.faq.9.answer%%%"
-        },
-        {
-            "question": "%%%.landing_page.coin.faq.10.question%%%",
-            "answer": "%%%.landing_page.coin.faq.10.answer%%%"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -922,6 +920,9 @@
                         "email": "%%%.me.profile.verify.alert.cannot.email%%%",
                         "idVerification": "%%%.me.profile.verify.alert.cannot.idVerification%%%",
                         "idVerification2": "%%%.me.profile.verify.alert.cannot.idVerification2%%%"
+                    },
+                    "exist": {
+                        "email": "%%%.me.profile.verify.alert.exist.email%%%"
                     }
                 }
             },
