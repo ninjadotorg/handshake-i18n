@@ -1765,25 +1765,25 @@
                     "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
                 }
             },
-            "success": "Successful!"
+            "success": "成功！"
         },
-        "buy_package_without_wallet_address_notice": "Please choose your wallet first."
+        "buy_package_without_wallet_address_notice": "請先選擇你的錢包。"
     },
     "bank_info": {
-        "transfer_detail_text": " PLEASE MAKE PAYMENT TO THIS DETAILS",
-        "account_name": "Account name",
-        "account_number": "Account number",
-        "bank_id": "Bank ID",
-        "bank_name": "Bank name"
+        "transfer_detail_text": " 請將付款條件安排在此詳細資訊中",
+        "account_name": "帳戶名稱",
+        "account_number": "帳戶號碼",
+        "bank_id": "銀行 id",
+        "bank_name": "銀行名稱"
     },
     "buy_coin_transaction": {
-        "code": "Code",
+        "code": "代碼",
         "statusValues": {
-            "pending": "Created",
-            "processing": "Processing",
-            "success": "Success",
-            "transferring": "Transferring coin",
-            "cancelled": "Canceled",
+            "pending": "創建",
+            "processing": "處理",
+            "success": "成功",
+            "transferring": "轉移硬幣",
+            "cancelled": "取消",
             "fiat_transferring": "轉移資金",
             "transfer_failed": "失敗",
             "expired": "過期",
