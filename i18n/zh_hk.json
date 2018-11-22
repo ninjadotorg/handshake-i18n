@@ -793,36 +793,36 @@
     ],
     "landing_page.coin.faq": [
         {
-            "question": "What is CoinBowl?",
-            "answer": "<p>Coinbowl.com is an online exchange developed by Shanzhai Limited, a Hong Kong based company, offering bulk crypto purchasing at competitive prices with full delivery service.</p>"
+            "question": "什么是 CoinBowl?",
+            "answer": "<p> Coinbowl.com是由香港公司 Shanzhai Limited 开发的在线交易平台，提供具有竞争力的价格的批量加密服务，并提供全面的送货服务。</p>"
         },
         {
-            "question": "How to sign up a CoinBowl account?",
-            "answer": "<p>Simply visiting <a href=\"https://coinbowl.com\">https://coinbowl.com</a>, verifying your ID by email or phone number then you are ready to trade on CoinBowl platform. <br />Indeed, your purchase limit is approximately proportional to the level of ID verification.</p>"
+            "question": "如何注册CoinBowl账户？",
+            "answer": "<p>只需访问<a href=\"https://coinbowl.com\"> https://coinbowl.com </a>，通过电子邮件或电话号码验证您的ID，即可在CoinBowl平台上进行交易。 <br />实际上，您的购买限额大致与身份验证的级别成正比。</p>"
         },
         {
-            "question": "Why do I need to verify my identity?",
-            "answer": "<p>Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations. We will not, in any circumstances, share your personal information with other individuals or organizations without your permission except when applicable by law.</p>"
+            "question": "为什么我需要验证我的身份？",
+            "answer": "<p>您的帐户必须经过验证，以遵守相关的反洗钱（AML）和反恐融资（CTF）法律法规。 在任何情况下，未经您的许可，我们不会与其他个人或组织分享您的个人信息，除非法律适用。</p>"
         },
         {
-            "question": "What is the maximum limit on purchasing?",
-            "answer": "<p>When you fully verify your ID, you can purchase crypto unlimited on CoinBowl. <br /> Level 1 Verification: email required. Purchase limit: 500$/day. <br /> Level 2 Verification: phone number required. Purchase limit: 2,000$/day. <br /> Level 3 Verification: a picture of ID required. Purchase limit: 5,000$/day. <br /> Level 4 Verification: a selfie of user and his/her ID. Purchase limit: unlimited.</p>"
+            "question": "购买的最高限额是多少？",
+            "answer": "<p>当您完全验证您的ID时，您可以在CoinBowl上购买无限加密。 <br/> 1级验证：需要电子邮件。 购买限额：500美元/天。 <br/> 2级验证：需要电话号码。 购买限额：2,000美元/天。 <br/> 3级验证：需要ID的图片。 购买限额：5,000美元/天。 <br/> 4级验证：用户自拍和他/她的身份证。 购买限额：无限制。</p>"
         },
         {
-            "question": "How to buy crypto on CoinBowl?",
-            "answer": "<p>Step 1: Scan or fill in the address of your crypto wallet. <br /> Step 2: Choose the type of crypto and fill in the number you want to buy. <br /> Step 3: Choose a suitable payment method between COD and bank transfer. <br /> Step 4: Finish the transaction accordingly to the payment method.</p>\n<ul style=\"list-style-type: disc;\">\n<li>COD: make a direct payment at specified public place and time. Coinbowl accepts both cash and credit card payment.</li>\n<li>Bank transfer: make a bank transfer to CoinBowl&rsquo;s local bank account.</li>\n</ul>\n<p>Step 5: You will receive your coin as soon as your payment is successfully processed.</p>"
+            "question": "如何在CoinBowl上购买加密？",
+            "answer": "<p>第1步：扫描或填写加密钱包的地址。 <br/>步骤2：选择加密类型并填写您要购买的号码。 <br/>第3步：在COD和银行转帐之间选择合适的付款方式。 <br/>步骤4：根据付款方式完成交易。</p>\n<ul style =“list-style-type：disc;”>\n<li> COD：在指定的公共场所和时间直接付款。 Coinbowl接受现金和信用卡付款。</li>\n<li>银行转帐：将银行转帐到CoinBowl的本地银行帐户。</li>\n</ul>\n<p>第5步：您的付款成功处理后，您将立即收到硬币。</p>"
         },
         {
-            "question": "How to sell crypto on CoinBowl?",
-            "answer": "<p>Step 1: Choose the type and fill in the number of crypto you want to sell.<br /> Step 2: Fill in the information of your bank account.<br /> Step 3: Transfer coin to the CoinBowl&rsquo;s wallet.<br /> Step 4: You will get your money in your bank account as the coin is successfully transferred to our wallet.</p>"
+            "question": "如何在CoinBowl上出售加密？",
+            "answer": "<p>步骤1：选择类型并填写您要出售的加密数量。<br/>步骤2：填写您的银行帐户信息。<br/>步骤3：将硬币转移到CoinBowl＆rsquo; 钱包。<br/>第4步：当硬币成功转移到我们的钱包中时，您将在银行账户中获得资金。</p>"
         },
         {
-            "question": "What payment method can I use?",
-            "answer": "<p>You can pay via various payment method including bank transfer, cash and credit card payment.</p>"
+            "question": "我可以使用哪种付款方式？",
+            "answer": "<p>您可以通过各种付款方式付款，包括银行转帐，现金和信用卡付款。</p>"
         },
         {
-            "question": "How much are the fees?",
-            "answer": "<p>Only 2% value of transaction is charged when paying by credit card. Other payment options are free.</p>"
+            "question": "费用是多少？",
+            "answer": "<p>使用信用卡付款时，只收取2％的交易价值。 其他付款方式是免费的。</p>"
         },
         {
             "question": "How long does it take to finish a transaction?",
