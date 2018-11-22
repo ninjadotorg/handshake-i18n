@@ -929,47 +929,47 @@
             "text": {
                 "verified": "Verified",
                 "username": {
-                    "label": "Nick Name",
-                    "desc1": "What do they call you?",
+                    "label": "尼克姓名",
+                    "desc1": "他們叫你什麼？",
                     "button": {
-                        "submit": "Save"
+                        "submit": "救"
                     }
                 },
                 "phone": {
-                    "label": "Phone Number",
-                    "desc1": "To send you free ETH sometimes, we’ll need your phone number to verify that you are not a robot. This is optional.",
-                    "desc2": "We only send humans rewards.",
-                    "desc3": "Please verify your phone number.",
-                    "desc4": "Enter the secret code sent to your phone.",
+                    "label": "電話號碼",
+                    "desc1": "為了有時向您免費發送 eth, 我們需要您的電話號碼來驗證您不是機器人。這是可選的。",
+                    "desc2": "我們只給人類發送獎勵。",
+                    "desc3": "請驗證您的電話號碼。",
+                    "desc4": "輸入發送到您手機的密碼。",
                     "button": {
-                        "send": "Send",
-                        "submit": "Verify your number"
+                        "send": "發送",
+                        "submit": "驗證您的號碼"
                     }
                 },
                 "email": {
-                    "label": "Email",
-                    "desc1": "You may prefer to receive updates and notifications via email. This is also optional.",
-                    "desc2": "Verify your email. You will receive transaction info through this email address",
-                    "desc3": "Enter your email",
-                    "desc4": "Enter the secret code sent to your email.",
+                    "label": "電子郵件",
+                    "desc1": "您可能更喜歡通過電子郵件接收更新和通知。這也是可選的。",
+                    "desc2": "驗證您的電子郵件。您將通過此電子郵件地址接收交易資訊",
+                    "desc3": "輸入您的電子郵件",
+                    "desc4": "輸入發送到您的電子郵件的密碼。",
                     "button": {
                         "send": "OK",
-                        "submit": "Verify your email"
+                        "submit": "驗證您的電子郵件"
                     }
                 },
                 "id_verification": {
-                    "label": "ID Verification",
-                    "desc1": "To comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations.",
-                    "desc2": "Full Name",
-                    "desc3": "Document Number",
-                    "desc4": "Document Type",
-                    "desc5": "Front Side",
-                    "desc6": "Please upload a JPG or PNG of both sides of your passport, ID card or driving license.",
-                    "desc7": "Back Side",
-                    "desc8": "Selfie with Identity Card",
-                    "desc9": "Please take a selfie with your previous ID card and a piece of paper writing \"I am in Ninja's dojo\". Make sure that the photo is complete and clearly visible, in JPG or PNG format.",
-                    "desc10": "Email",
-                    "desc11": "Identification Document",
+                    "label": "身份證驗證",
+                    "desc1": "遵守相關的反洗錢和反恐融資法律和條例。",
+                    "desc2": "全名",
+                    "desc3": "檔編號",
+                    "desc4": "文件類型",
+                    "desc5": "正面",
+                    "desc6": "請上傳護照、身份證或駕駛執照雙方的 jpg 或 png。",
+                    "desc7": "背面",
+                    "desc8": "帶身份證的自拍",
+                    "desc9": "請拿一個自拍與您以前的身份證和一張紙寫 \"我在忍者的道場\"。確保照片是完整的, 清晰可見, 在 jpg 或 png 格式。",
+                    "desc10": "電子郵件",
+                    "desc11": "身份證明檔",
                     "desc12": "1級驗證: 每天500美元的交易限額。",
                     "desc13": "2級驗證: 每天最高限額為5000美元。",
                     "uploading": "上傳",
