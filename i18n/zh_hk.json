@@ -825,12 +825,12 @@
             "answer": "<p>使用信用卡付款时，只收取2％的交易价值。 其他付款方式是免费的。</p>"
         },
         {
-            "question": "How long does it take to finish a transaction?",
-            "answer": "<p>It depends on the situation of blockchain and banking network at that time, but normally around 3-5 minutes.</p>"
+            "question": "完成交易需要多长时间？",
+            "answer": "<p>这取决于当时区块链和银行网络的情况，但通常在3-5分钟左右。</p>"
         },
         {
-            "question": "How to contact CoinBowl support?",
-            "answer": "<p>If you encounter any problem, feel free to contact us via live chat box or email <a class=\"landing-link\" href=\"mailto:support@coinbowl.com\" target=\"_top\">support@coinbowl.com</a>.</p>"
+            "question": "如何联系CoinBowl支持？",
+            "answer": "<p>如果您遇到任何问题，请随时通过在线聊天框联系我们或发送电子邮件至<a class=\"landing-link\" href=\"mailto:support@coinbowl.com\" target=\"_top\">支持@ coinbowl。COM</a>。</p>"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
