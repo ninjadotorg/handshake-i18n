@@ -970,18 +970,18 @@
                     "desc9": "Please take a selfie with your previous ID card and a piece of paper writing \"I am in Ninja's dojo\". Make sure that the photo is complete and clearly visible, in JPG or PNG format.",
                     "desc10": "Email",
                     "desc11": "Identification Document",
-                    "desc12": "Level 1 verification: Trade with a limit of 500 USD a day.",
-                    "desc13": "Level 2 verification: Trade with the top limit of 5000 USD a day.",
-                    "uploading": "Uploading",
+                    "desc12": "1級驗證: 每天500美元的交易限額。",
+                    "desc13": "2級驗證: 每天最高限額為5000美元。",
+                    "uploading": "上傳",
                     "button": {
-                        "upload": "Upload file",
-                        "submit": "Submit"
+                        "upload": "上傳檔",
+                        "submit": "提交"
                     },
                     "status": {
-                        "processing": "Processing",
-                        "level1": "Level 1",
-                        "finished": "Finished",
-                        "rejected": "Rejected"
+                        "processing": "處理",
+                        "level1": "第1層",
+                        "finished": "完成",
+                        "rejected": "拒絕"
                     }
                 }
             }
@@ -1009,11 +1009,11 @@
         "credit": {
             "overview": {
                 "askToDeactive": "Pause your coin selling?",
-                "messageDeactiveSuccess": "Pause successfully"
+                "messageDeactiveSuccess": "暫停成功"
             },
             "transaction": {
-                "amount": "Amount",
-                "processing": "Processing...",
+                "amount": "量",
+                "processing": "處理。。。",
                 "deposit": {
                     "title": "DEPOSIT",
                     "percentage": "Percentage"
@@ -1031,14 +1031,14 @@
                 "instant": {
                     "title": "PURCHASE ORDER",
                     "buying": "Buying",
-                    "cost": "Cost"
+                    "cost": "成本"
                 }
             },
             "withdraw": {
                 "title": "Withdraw money",
                 "yourBalance": "Your balance (USD)",
                 "yourPapalName": "Your Paypal email",
-                "amount": "Amount (USD)",
+                "amount": "量 (USD)",
                 "buttonTitle": "Withdraw to your PayPal",
                 "description": "<span>It will take within a day for us <br /> to transfer money into your account.</span>",
                 "askToWithdraw": "Do you want to withdraw?",
@@ -1049,7 +1049,7 @@
             },
             "withdrawSuccess": {
                 "description": "Withdraw successfully!",
-                "descriptionTransfer": "We will make the transfer very shortly within 24 hours",
+                "descriptionTransfer": "我們將在24小時內儘快進行換乘",
                 "buttonTitle": "Back to your dashboard"
             },
             "deposit": {
@@ -1080,12 +1080,12 @@
     },
     "create": {
         "cod_form": {
-            "cod": "Cash on Delivery",
+            "cod": "貨到付款",
             "buy_btn": "購買",
             "your_address": "Only available in Hongkong for now",
-            "your_phone": "Phone number",
-            "time": "Time to delivery & Note",
-            "default_time": "As soon as possible"
+            "your_phone": "電話號碼",
+            "time": "交貨時間和說明",
+            "default_time": "儘快"
         },
         "cash": {
             "credit": {
@@ -1109,7 +1109,7 @@
                 "addressHint": "Enter your address...",
                 "bankInfo": "Bank info",
                 "ccInfo": "CC info",
-                "statusTitle": "Status",
+                "statusTitle": "地位",
                 "personalAtm": "Personal ATM",
                 "storeAtm": "Store ATM",
                 "confirmCreateAtm": "Create your ATM?",
@@ -1119,9 +1119,9 @@
                 "no_history": "You do not have any order yet."
             },
             "confirm_button": {
-                "desc": "Are you sure?",
-                "confirm": "Sure",
-                "cancel": "Cancel"
+                "desc": "是否確定？",
+                "confirm": "確定",
+                "cancel": "取消"
             },
             "button": {
                 "create": "Create my ATM",
@@ -1137,19 +1137,19 @@
                 "sunday": "Sunday"
             },
             "transactions": {
-                "amount": "Amount",
-                "needToTransfer": "Cost",
-                "status": "Status",
-                "to_wallet": "To Wallet",
+                "amount": "量",
+                "needToTransfer": "成本",
+                "status": "地位",
+                "to_wallet": "到電子錢包",
                 "statusValues": {
-                    "processing": "Pending",
-                    "success": "Success",
-                    "transferring": "Sending coins...",
-                    "cancelled": "Canceled",
-                    "fiat_transfering": "Sending money...",
-                    "transfer_failed": "Failed"
+                    "processing": "等待",
+                    "success": "成功",
+                    "transferring": "發送硬幣..。",
+                    "cancelled": "取消",
+                    "fiat_transfering": "寄錢.....。",
+                    "transfer_failed": "失敗"
                 },
-                "messageTransfer": "You haven't transferred yet.",
+                "messageTransfer": "你還沒調職呢",
                 "transferNow": " View detail",
                 "cancel_order": "Cancel",
                 "review_order": "Review"
@@ -1167,14 +1167,14 @@
                 "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
                 "submit_twitter": "You haven't followed us yet. Please try again.",
                 "confirm_code": "Verification code is wrong. Please try again!",
-                "verify_code": "Can't send verify email",
+                "verify_code": "無法發送驗證電子郵件",
                 "get_token": "Referral incomplete. Please try again."
             },
             "success": {
                 "submit_telegram": "Welcome to our telegram group!",
                 "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Your email has been verified.",
-                "verify_code": "Verification code has been sent to your email.",
+                "confirm_code": "您的電子郵件已被驗證。",
+                "verify_code": "驗證碼已發送到您的電子郵件。",
                 "get_token": "Success! 60 shurikens have been added to your wallet.",
                 "copy_link": "Referral link copied to clipboard."
             },
