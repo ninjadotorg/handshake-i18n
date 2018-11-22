@@ -588,7 +588,7 @@
             "link": "https://t.me/ninja_org"
         }
     ],
-    "COIN_EXCHANGE_LP_FAQ_TITLE": "Frequently asked questions",
+    "COIN_EXCHANGE_LP_FAQ_TITLE": "常見問答集",
     "landing_page.cash.faq": [
         {
             "question": "What’s the difference between Ninja ATM and other crypto ATMs?",
@@ -903,23 +903,23 @@
                             "invalidFrontImage": "請上傳您的檔首頁",
                             "invalidBackImage": "請上傳您的文檔的回頁",
                             "invalidEmail": "Your email address is missing! Are you sure you don’t want to receive transaction info?",
-                            "invalidSelfieImage": "Please upload a selife photo with your document"
+                            "invalidSelfieImage": "請上傳與您的檔的 selfie 照片"
                         }
                     },
                     "require": {
-                        "phone": "Please enter your verify code.",
-                        "email": "Please enter your verify code."
+                        "phone": "請輸入您的驗證碼。",
+                        "email": "請輸入您的驗證碼。"
                     },
                     "success": {
-                        "phone": "Phone number securely saved.",
-                        "email": "Your email has been verified.",
-                        "idVerification": "Your documents has been submitted"
+                        "phone": "安全保存的電話號碼。",
+                        "email": "您的電子郵件已被驗證。",
+                        "idVerification": "您的檔已提交"
                     },
                     "cannot": {
-                        "phone": "Can't verify your phone, please check your code",
-                        "email": "Can't verify your email, please check your code.",
-                        "idVerification": "Can't submit your documents, please try again",
-                        "idVerification2": "Can't submit your documents."
+                        "phone": "無法驗證您的手機, 請檢查您的代碼",
+                        "email": "無法驗證您的電子郵件, 請檢查您的代碼。",
+                        "idVerification": "無法提交您的文檔, 請重試",
+                        "idVerification2": "無法提交您的文檔。"
                     },
                     "exist": {
                         "email": "Your email already exists."
@@ -927,7 +927,7 @@
                 }
             },
             "text": {
-                "verified": "Verified",
+                "verified": "驗證",
                 "username": {
                     "label": "尼克姓名",
                     "desc1": "他們叫你什麼？",
@@ -1082,7 +1082,7 @@
         "cod_form": {
             "cod": "貨到付款",
             "buy_btn": "購買",
-            "your_address": "Only available in Hongkong for now",
+            "your_address": "目前仅在香港有售",
             "your_phone": "電話號碼",
             "time": "交貨時間和說明",
             "default_time": "儘快"
@@ -1737,8 +1737,8 @@
             "pro_package_name": "主人",
             "payment_methods": {
                 "bank": "銀行轉帳",
-                "cod": "COD",
-                "cod_info": "State your time and place for meeting up and we will exchange in person."
+                "cod": "货到付款",
+                "cod_info": "說明你開會的時間和地點, 我們將親自交流。"
             },
             "verify": {
                 "notYet": {
@@ -1888,7 +1888,7 @@
         },
         "contact": {
             "faq": "常見問題 解答",
-            "chat_with_us": "About us",
+            "chat_with_us": "關於我們",
             "phone_cs": " "
         }
     },
