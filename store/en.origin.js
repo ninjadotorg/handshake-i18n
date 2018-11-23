@@ -988,6 +988,11 @@
                         "level1": "%%%.me.profile.text.id_verification.status.level1%%%",
                         "finished": "%%%.me.profile.text.id_verification.status.finished%%%",
                         "rejected": "%%%.me.profile.text.id_verification.status.rejected%%%"
+                    },
+                    "documents": {
+                        "passport": "%%%.me.profile.text.id_verification.documents.passport%%%",
+                        "driverLicense": "%%%.me.profile.text.id_verification.documents.driverLicense%%%",
+                        "idCard": "%%%.me.profile.text.id_verification.documents.idCard%%%"
                     }
                 }
             }
