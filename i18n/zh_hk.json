@@ -1717,7 +1717,7 @@
         "order_will_expire_in": "此訂單將在 ",
         "expired": "過期",
         "customer_amount": "CUSTOMER AMOUNT",
-        "amount": "YOUR AMOUNT",
+        "amount": "你的金额",
         "account_name": "帳戶名稱",
         "account_number": "帳戶號碼",
         "bank_name": "銀行名稱",
@@ -1801,12 +1801,12 @@
         "your_wallet": "您的錢包",
         "wallet_dont_match_error": "加密的位址和類型不匹配。請檢查"
     },
-    "buy_coin_confirm_popup.msg": "Buy {amount} {currency} with {fiatAmount} {fiatCurrency}?",
+    "buy_coin_confirm_popup.msg": "購買{amount} {currency} 與{fiatAmount} {fiatCurrency}?",
     "buy_coin_confirm_popup.confirm_text": "確認",
     "buy_coin_confirm_popup.cancel_text": "取消",
     "buy_coin.verify.need_selfie_verifiy": "您購買的不僅僅是 {fiatAmount} {fiatCurrency}。請驗證您的帳戶以提高限制",
     "buy_coin.verify.need_selfie_verifiy_action": "立即驗證",
-    "sell_coin_confirm_popup.msg": "Sell {amount} {currency} for {fiatAmount}?",
+    "sell_coin_confirm_popup.msg": "为 {fiatAmount} 卖{amount} {currency}？",
     "sell_coin_confirm_popup.confirm_text": "確認",
     "sell_coin_confirm_popup.cancel_text": "取消",
     "review": {
