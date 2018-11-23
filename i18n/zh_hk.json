@@ -233,7 +233,7 @@
     "ex.earlyBird.btn": "Open ATM",
     "error.required": "必填項目",
     "error.requiredOne": "你需要填寫其中的一個!",
-    "error.greaterThan": "必須大於 \"div class=\"notranslate\">0 </div>",
+    "error.greaterThan": "必須大於 {min}",
     "error.lessThan": "Must be less than {max}",
     "error.greaterThan.equal": "Must be equal or greater than {min}",
     "error.lessThan.equal": "Must be less than or equal {max}",
@@ -279,7 +279,7 @@
     "ex.sort.rating": "Rating",
     "ex.sort.price.buy.btc": "購買 比特幣",
     "ex.sort.price.sell.btc": "Sell BTC",
-    "ex.sort.price.buy.eth": "購買 以太坊",
+    "ex.sort.price.buy.eth": "購買 以太幣",
     "ex.sort.price.sell.eth": "Sell ETH",
     "ex.discover.label.open.atm": "Open your ATM",
     "ex.discover.label.manage.atm": "My ATM",
@@ -895,8 +895,8 @@
                     },
                     "notValid": {
                         "server": {
-                            "phone": "這不是一個真實的數字。 更加努力。",
-                            "email": "那不是真正的電子郵件。 更加努力。"
+                            "phone": "這不是一個真實的數字. 請再嘗試.\n",
+                            "email": "那不是真正的電子郵件. 請再嘗試."
                         },
                         "client": {
                             "phone": "有效的電話號碼會更好地工作。",
@@ -906,10 +906,10 @@
                             "invalidFullName": "請輸入您的姓名",
                             "invalidIDNumber": "請輸入有效的憑證編號",
                             "invalidDocument": "請選擇文件類型",
-                            "invalidFrontImage": "請上傳您的檔首頁",
+                            "invalidFrontImage": "請上傳您的首頁檔",
                             "invalidBackImage": "請上傳您的文檔的回頁",
-                            "invalidEmail": "Your email address is missing! Are you sure you don’t want to receive transaction info?",
-                            "invalidSelfieImage": "請上傳與您的檔的 selfie 照片"
+                            "invalidEmail": "您的電子郵件地址丟失! 確認不希望接收交易記錄資訊嗎？",
+                            "invalidSelfieImage": "請上傳與您的檔的自拍照片"
                         }
                     },
                     "require": {
@@ -935,10 +935,10 @@
             "text": {
                 "verified": "驗證",
                 "username": {
-                    "label": "尼克姓名",
+                    "label": "別名",
                     "desc1": "他們叫你什麼？",
                     "button": {
-                        "submit": "救"
+                        "submit": "記録"
                     }
                 },
                 "phone": {
@@ -1804,7 +1804,7 @@
     "buy_coin_confirm_popup.msg": "Buy {amount} {currency} with {fiatAmount} {fiatCurrency}?",
     "buy_coin_confirm_popup.confirm_text": "確認",
     "buy_coin_confirm_popup.cancel_text": "取消",
-    "buy_coin.verify.need_selfie_verifiy": "You are buying more than {fiatAmount} {fiatCurrency}. Please verify your account to increase the limit",
+    "buy_coin.verify.need_selfie_verifiy": "您購買的不僅僅是 {fiatAmount} {fiatCurrency}。請驗證您的帳戶以提高限制",
     "buy_coin.verify.need_selfie_verifiy_action": "立即驗證",
     "sell_coin_confirm_popup.msg": "Sell {amount} {currency} for {fiatAmount}?",
     "sell_coin_confirm_popup.confirm_text": "確認",
