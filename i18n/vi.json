@@ -18,6 +18,12 @@
             "invest": "Invest"
         }
     },
+    "coinbowl": {
+        "name": "Coinbowl",
+        "fullname": "Coinbowl: Buy and Sell Large Amount Of Bitcoin",
+        "description": "Buy and Sell Bitcoin and other cryptocurrency in large amount. Support bank transfer, cash and credit card. All transactions are insured",
+        "keywords": "Blockchain technology, Ethereum, Bitcoin, Cryptocurrency, Crypto, exchange platform, buy bitcoin with cash, buy large amount of bitcoin"
+    },
     "buy": "Mua",
     "sell": "Bán",
     "amount": "Số lượng",
@@ -793,44 +799,44 @@
     ],
     "landing_page.coin.faq": [
         {
-            "question": "About Ninja Coin",
-            "answer": "Ninja Coin is a product of Shanzhai Limited - a Hong Kong-based company with offices in Ho Chi Minh City, New York and California. We provide a platform where people can buy crypto more conveniently, safely and with the most attractive price"
+            "question": "What is CoinBowl?",
+            "answer": "<p>Coinbowl.com is an online exchange developed by Shanzhai Limited, a Hong Kong based company, offering bulk crypto purchasing at competitive prices with full delivery service.</p>"
         },
         {
-            "question": "How do I buy coin on Ninja?",
-            "answer": "Step 1: Visit <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\n              Step 2: Verify your identity<br/>\n              Step 3: Select/Scan your crypto wallet<br/>\n              Step 4: Enter the amount of coin you want to buy (or the amount of fiat money you want to use to buy coin)<br/>\n              Step 5: Choose your buying method: Bank Transfer/COD<br/>\n              Step 6: Click Buy<br/>\n              Step 7: Make payment according to your buying method:<br/>\n              <ul>\n                <li>If you choose Bank Transfer: make a bank transfer</li>\n                <li>If you choose COD: Enter your address, time and phone number. Wait for Ninja to come and pay with bank account/credit card/cash</li>\n              </ul>\n"
-        },
-        {
-            "question": "How to create account on Ninja?",
-            "answer": "Ninja Coin will create an account for you immediately the first time you visit us at <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong> instead of traditional login with email/username and password. However, you can only purchase after you’ve done the verification process\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Transaction Value</th>\n              <th>Verification Information Required</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><$500</td>\n                <td>Photo of your ID (both sides)</td>\n              </tr>\n              <tr>\n                <td><$5000</td>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "question": "How to sign up a CoinBowl account?",
+            "answer": "<p>Simply visiting <a href=\"https://coinbowl.com\">https://coinbowl.com</a>, verifying your ID by email or phone number then you are ready to trade on CoinBowl platform. <br />Indeed, your purchase limit is approximately proportional to the level of ID verification.</p>"
         },
         {
             "question": "Why do I need to verify my identity?",
-            "answer": "Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations. We do not and will never sell or rent your personal information to any third parties"
+            "answer": "<p>Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations. We will not, in any circumstances, share your personal information with other individuals or organizations without your permission except when applicable by law.</p>"
         },
         {
-            "question": "Is buying coin on Ninja secure?",
-            "answer": "Every transaction on Ninja is covered 100% by a warranty with value up to $1000 each"
+            "question": "What is the maximum limit on purchasing?",
+            "answer": "<p>When you fully verify your ID, you can purchase crypto unlimited on CoinBowl. <br /> Level 1 Verification: email required. Purchase limit: 500$/day. <br /> Level 2 Verification: phone number required. Purchase limit: 2,000$/day. <br /> Level 3 Verification: a picture of ID required. Purchase limit: 5,000$/day. <br /> Level 4 Verification: a selfie of user and his/her ID. Purchase limit: unlimited.</p>"
         },
         {
-            "question": "What is the maximum amount can I purchase?",
-            "answer": "The maximum amount depends on user verification level and is up to <strong>$5000/day/user</strong> by now. We are working on expanding it in the near future\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Verification Level</th>\n              <th>Maximum amount</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Photo of your ID (both sides)</td>\n                <td>$500/user/day</td>\n              </tr>\n              <tr>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                </td>\n                <td>$5000/user/day</td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "question": "How to buy crypto on CoinBowl?",
+            "answer": "<p>Step 1: Scan or fill in the address of your crypto wallet. <br /> Step 2: Choose the type of crypto and fill in the number you want to buy. <br /> Step 3: Choose a suitable payment method between COD and bank transfer. <br /> Step 4: Finish the transaction accordingly to the payment method.</p>\n<ul style=\"list-style-type: disc;\">\n<li>COD: make a direct payment at specified public place and time. Coinbowl accepts both cash and credit card payment.</li>\n<li>Bank transfer: make a bank transfer to CoinBowl&rsquo;s local bank account.</li>\n</ul>\n<p>Step 5: You will receive your coin as soon as your payment is successfully processed.</p>"
+        },
+        {
+            "question": "How to sell crypto on CoinBowl?",
+            "answer": "<p>Step 1: Choose the type and fill in the number of crypto you want to sell.<br /> Step 2: Fill in the information of your bank account.<br /> Step 3: Transfer coin to the CoinBowl&rsquo;s wallet.<br /> Step 4: You will get your money in your bank account as the coin is successfully transferred to our wallet.</p>"
         },
         {
             "question": "Ninja chấp nhận những phương thức thanh toán nào?",
-            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Buying method</th>\n              <th>Payment method</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Bank Transfer (Buying online)</td>\n                <td>Bank transfer</td>\n              </tr>\n              <tr>\n                <td>COD (Buying offline)</td>\n                <td>Bank transfer<br/>\n                    Credit card<br/>\n                    Cash\n                    </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>For buying online, you conduct the payment separately from the platform. We will transfer the coin to your wallet once we have received your payment</li>\n                <li>For buying offline, we will arrange a meetup with the time and address you provide. You can pay with your bank account, credit card or cash after you have received your coin from Ninja</li>\n              </ul>"
+            "answer": "<p>You can pay via various payment method including bank transfer, cash and credit card payment.</p>"
         },
         {
-            "question": "How long should I wait to receive my coin?",
-            "answer": "It depends on the time for the bank to process transactions (for buying online) and for the blockchain network to do the confirmations, which usually only takes a few minutes"
+            "question": "How much are the fees?",
+            "answer": "<p>Only 2% value of transaction is charged when paying by credit card. Other payment options are free.</p>"
         },
         {
-            "question": "What happens if the price changes during my transaction?",
-            "answer": "Your price is fixed at the time you place a buy order. Therefore, all the later changes in price will not affect your transaction"
+            "question": "How long does it take to finish a transaction?",
+            "answer": "<p>It depends on the situation of blockchain and banking network at that time, but normally around 3-5 minutes.</p>"
         },
         {
-            "question": "What are the fees?",
-            "answer": "We only takes 2% fee when you pay with credit card. Other payment options remain free"
+            "question": "How to contact CoinBowl support?",
+            "answer": "<p>If you encounter any problem, feel free to contact us via live chat box or email <a class=\"landing-link\" href=\"mailto:support@coinbowl.com\" target=\"_top\">support@coinbowl.com</a>.</p>"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -922,7 +928,7 @@
                         "idVerification2": "Không thể tải lên tài liệu của bạn."
                     },
                     "exist": {
-                        "email": "%%%.me.profile.verify.alert.exist.email%%%"
+                        "email": "Your email already exists."
                     }
                 }
             },
@@ -1308,7 +1314,7 @@
                     "data": "Data",
                     "feel_level": "Fee:",
                     "max_amount": "Max amount",
-                    "from_contact": "%%%.wallet.action.transfer.label.from_contact%%%"
+                    "from_contact": "From contacts"
                 },
                 "placeholder": {
                     "to_address": "Wallet address...",
@@ -1376,22 +1382,22 @@
                     "community": "Community",
                     "wallet_account": "Wallet Account",
                     "support": "Support",
-                    "address_book": "%%%.wallet.action.setting.label.address_book%%%",
-                    "contact_name": "%%%.wallet.action.setting.label.contact_name%%%",
-                    "contact_email": "%%%.wallet.action.setting.label.contact_email%%%",
-                    "contact_address": "%%%.wallet.action.setting.label.contact_address%%%",
-                    "contact_send_money": "%%%.wallet.action.setting.label.contact_send_money%%%",
-                    "contact_remove": "%%%.wallet.action.setting.label.contact_remove%%%",
-                    "contact_empty_title": "%%%.wallet.action.setting.label.contact_empty_title%%%",
-                    "contact_empty_desc": "%%%.wallet.action.setting.label.contact_empty_desc%%%",
-                    "contact_empty_button": "%%%.wallet.action.setting.label.contact_empty_button%%%",
-                    "contact_add_contact_search_box": "%%%.wallet.action.setting.label.contact_add_contact_search_box%%%",
-                    "select_a_contact": "%%%.wallet.action.setting.label.select_a_contact%%%",
-                    "add_new_address": "%%%.wallet.action.setting.label.add_new_address%%%",
-                    "remove_new_address": "%%%.wallet.action.setting.label.remove_new_address%%%",
-                    "update_button_text": "%%%.wallet.action.setting.label.update_button_text%%%",
-                    "update_title_text": "%%%.wallet.action.setting.label.update_title_text%%%",
-                    "select_an_address": "%%%.wallet.action.setting.label.select_an_address%%%"
+                    "address_book": "Address Book",
+                    "contact_name": "Name",
+                    "contact_email": "Email",
+                    "contact_address": "Address",
+                    "contact_send_money": "Send Money",
+                    "contact_remove": "Remove",
+                    "contact_empty_title": "No contacts yet",
+                    "contact_empty_desc": "Get started by adding your first one.",
+                    "contact_empty_button": "Add contact",
+                    "contact_add_contact_search_box": "Search a contact ...",
+                    "select_a_contact": "Select a contact",
+                    "add_new_address": "+ add new",
+                    "remove_new_address": "remove",
+                    "update_button_text": "Update",
+                    "update_title_text": "Update contact",
+                    "select_an_address": "Select an address"
                 },
                 "button": {
                     "restore": "Restore now"
