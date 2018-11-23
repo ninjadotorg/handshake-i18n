@@ -793,44 +793,44 @@
     ],
     "landing_page.coin.faq": [
         {
-            "question": "什么是 CoinBowl?",
-            "answer": "<p> Coinbowl.com是由香港公司 Shanzhai Limited 开发的在线交易平台，提供具有竞争力的价格的批量加密服务，并提供全面的送货服务。</p>"
+            "question": "About Ninja Coin",
+            "answer": "Ninja Coin is a product of Shanzhai Limited - a Hong Kong-based company with offices in Ho Chi Minh City, New York and California. We provide a platform where people can buy crypto more conveniently, safely and with the most attractive price"
         },
         {
-            "question": "如何注册CoinBowl账户？",
-            "answer": "<p>只需访问<a href=\"https://coinbowl.com\"> https://coinbowl.com </a>，通过电子邮件或电话号码验证您的ID，即可在CoinBowl平台上进行交易。 <br />实际上，您的购买限额大致与身份验证的级别成正比。</p>"
+            "question": "How do I buy coin on Ninja?",
+            "answer": "Step 1: Visit <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\n              Step 2: Verify your identity<br/>\n              Step 3: Select/Scan your crypto wallet<br/>\n              Step 4: Enter the amount of coin you want to buy (or the amount of fiat money you want to use to buy coin)<br/>\n              Step 5: Choose your buying method: Bank Transfer/COD<br/>\n              Step 6: Click Buy<br/>\n              Step 7: Make payment according to your buying method:<br/>\n              <ul>\n                <li>If you choose Bank Transfer: make a bank transfer</li>\n                <li>If you choose COD: Enter your address, time and phone number. Wait for Ninja to come and pay with bank account/credit card/cash</li>\n              </ul>\n"
         },
         {
-            "question": "为什么我需要验证我的身份？",
-            "answer": "<p>您的帐户必须经过验证，以遵守相关的反洗钱（AML）和反恐融资（CTF）法律法规。 在任何情况下，未经您的许可，我们不会与其他个人或组织分享您的个人信息，除非法律适用。</p>"
+            "question": "How to create account on Ninja?",
+            "answer": "Ninja Coin will create an account for you immediately the first time you visit us at <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong> instead of traditional login with email/username and password. However, you can only purchase after you’ve done the verification process\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Transaction Value</th>\n              <th>Verification Information Required</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><$500</td>\n                <td>Photo of your ID (both sides)</td>\n              </tr>\n              <tr>\n                <td><$5000</td>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
-            "question": "购买的最高限额是多少？",
-            "answer": "<p>当您完全验证您的ID时，您可以在CoinBowl上购买无限加密。 <br/> 1级验证：需要电子邮件。 购买限额：500美元/天。 <br/> 2级验证：需要电话号码。 购买限额：2,000美元/天。 <br/> 3级验证：需要ID的图片。 购买限额：5,000美元/天。 <br/> 4级验证：用户自拍和他/她的身份证。 购买限额：无限制。</p>"
+            "question": "Why do I need to verify my identity?",
+            "answer": "Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations. We do not and will never sell or rent your personal information to any third parties"
         },
         {
-            "question": "如何在CoinBowl上购买加密？",
-            "answer": "<p>第1步：扫描或填写加密钱包的地址。 <br/>步骤2：选择加密类型并填写您要购买的号码。 <br/>第3步：在COD和银行转帐之间选择合适的付款方式。 <br/>步骤4：根据付款方式完成交易。</p>\n<ul style =“list-style-type：disc;”>\n<li> COD：在指定的公共场所和时间直接付款。 Coinbowl接受现金和信用卡付款。</li>\n<li>银行转帐：将银行转帐到CoinBowl的本地银行帐户。</li>\n</ul>\n<p>第5步：您的付款成功处理后，您将立即收到硬币。</p>"
+            "question": "Is buying coin on Ninja secure?",
+            "answer": "Every transaction on Ninja is covered 100% by a warranty with value up to $1000 each"
         },
         {
-            "question": "如何在CoinBowl上出售加密？",
-            "answer": "<p>步骤1：选择类型并填写您要出售的加密数量。<br/>步骤2：填写您的银行帐户信息。<br/>步骤3：将硬币转移到CoinBowl＆rsquo; 钱包。<br/>第4步：当硬币成功转移到我们的钱包中时，您将在银行账户中获得资金。</p>"
+            "question": "What is the maximum amount can I purchase?",
+            "answer": "The maximum amount depends on user verification level and is up to <strong>$5000/day/user</strong> by now. We are working on expanding it in the near future\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Verification Level</th>\n              <th>Maximum amount</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Photo of your ID (both sides)</td>\n                <td>$500/user/day</td>\n              </tr>\n              <tr>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                </td>\n                <td>$5000/user/day</td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
             "question": "我可以使用哪种付款方式？",
-            "answer": "<p>您可以通过各种付款方式付款，包括银行转帐，现金和信用卡付款。</p>"
+            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Buying method</th>\n              <th>Payment method</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Bank Transfer (Buying online)</td>\n                <td>Bank transfer</td>\n              </tr>\n              <tr>\n                <td>COD (Buying offline)</td>\n                <td>Bank transfer<br/>\n                    Credit card<br/>\n                    Cash\n                    </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>For buying online, you conduct the payment separately from the platform. We will transfer the coin to your wallet once we have received your payment</li>\n                <li>For buying offline, we will arrange a meetup with the time and address you provide. You can pay with your bank account, credit card or cash after you have received your coin from Ninja</li>\n              </ul>"
         },
         {
-            "question": "费用是多少？",
-            "answer": "<p>使用信用卡付款时，只收取2％的交易价值。 其他付款方式是免费的。</p>"
+            "question": "How long should I wait to receive my coin?",
+            "answer": "It depends on the time for the bank to process transactions (for buying online) and for the blockchain network to do the confirmations, which usually only takes a few minutes"
         },
         {
-            "question": "完成交易需要多长时间？",
-            "answer": "<p>这取决于当时区块链和银行网络的情况，但通常在3-5分钟左右。</p>"
+            "question": "What happens if the price changes during my transaction?",
+            "answer": "Your price is fixed at the time you place a buy order. Therefore, all the later changes in price will not affect your transaction"
         },
         {
-            "question": "如何联系CoinBowl支持？",
-            "answer": "<p>如果您遇到任何问题，请随时通过在线聊天框联系我们或发送电子邮件至<a class=\"landing-link\" href=\"mailto:support@coinbowl.com\" target=\"_top\">支持@ coinbowl。COM</a>。</p>"
+            "question": "What are the fees?",
+            "answer": "We only takes 2% fee when you pay with credit card. Other payment options remain free"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -922,7 +922,7 @@
                         "idVerification2": "無法提交您的文檔。"
                     },
                     "exist": {
-                        "email": "Your email already exists."
+                        "email": "%%%.me.profile.verify.alert.exist.email%%%"
                     }
                 }
             },
@@ -1308,7 +1308,7 @@
                     "data": "Data",
                     "feel_level": "Fee:",
                     "max_amount": "Max amount",
-                    "from_contact": "From contacts"
+                    "from_contact": "%%%.wallet.action.transfer.label.from_contact%%%"
                 },
                 "placeholder": {
                     "to_address": "Wallet address...",
@@ -1376,22 +1376,22 @@
                     "community": "Community",
                     "wallet_account": "Wallet Account",
                     "support": "Support",
-                    "address_book": "Address Book",
-                    "contact_name": "Name",
-                    "contact_email": "Email",
-                    "contact_address": "Address",
-                    "contact_send_money": "Send Money",
-                    "contact_remove": "Remove",
-                    "contact_empty_title": "No contacts yet",
-                    "contact_empty_desc": "Get started by adding your first one.",
-                    "contact_empty_button": "Add contact",
-                    "contact_add_contact_search_box": "Search a contact ...",
-                    "select_a_contact": "Select a contact",
-                    "add_new_address": "+ add new",
-                    "remove_new_address": "remove",
-                    "update_button_text": "Update",
-                    "update_title_text": "Update contact",
-                    "select_an_address": "Select an address"
+                    "address_book": "%%%.wallet.action.setting.label.address_book%%%",
+                    "contact_name": "%%%.wallet.action.setting.label.contact_name%%%",
+                    "contact_email": "%%%.wallet.action.setting.label.contact_email%%%",
+                    "contact_address": "%%%.wallet.action.setting.label.contact_address%%%",
+                    "contact_send_money": "%%%.wallet.action.setting.label.contact_send_money%%%",
+                    "contact_remove": "%%%.wallet.action.setting.label.contact_remove%%%",
+                    "contact_empty_title": "%%%.wallet.action.setting.label.contact_empty_title%%%",
+                    "contact_empty_desc": "%%%.wallet.action.setting.label.contact_empty_desc%%%",
+                    "contact_empty_button": "%%%.wallet.action.setting.label.contact_empty_button%%%",
+                    "contact_add_contact_search_box": "%%%.wallet.action.setting.label.contact_add_contact_search_box%%%",
+                    "select_a_contact": "%%%.wallet.action.setting.label.select_a_contact%%%",
+                    "add_new_address": "%%%.wallet.action.setting.label.add_new_address%%%",
+                    "remove_new_address": "%%%.wallet.action.setting.label.remove_new_address%%%",
+                    "update_button_text": "%%%.wallet.action.setting.label.update_button_text%%%",
+                    "update_title_text": "%%%.wallet.action.setting.label.update_title_text%%%",
+                    "select_an_address": "%%%.wallet.action.setting.label.select_an_address%%%"
                 },
                 "button": {
                     "restore": "Restore now"

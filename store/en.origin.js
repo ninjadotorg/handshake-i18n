@@ -18,6 +18,12 @@
             "invest": "%%%.app.navigation.invest%%%"
         }
     },
+    "coinbowl": {
+        "name": "%%%.coinbowl.name%%%",
+        "fullname": "%%%.coinbowl.fullname%%%",
+        "description": "%%%.coinbowl.description%%%",
+        "keywords": "%%%.coinbowl.keywords%%%"
+    },
     "buy": "%%%.buy%%%",
     "sell": "%%%.sell%%%",
     "amount": "%%%.amount%%%",
