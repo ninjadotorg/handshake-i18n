@@ -988,6 +988,11 @@
                         "level1": "第1層",
                         "finished": "完成",
                         "rejected": "拒絕"
+                    },
+                    "documents": {
+                        "passport": "護照",
+                        "driverLicense": "駕駛執照",
+                        "idCard": "政府身份证"
                     }
                 }
             }

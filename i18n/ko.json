@@ -988,6 +988,11 @@
                         "level1": "Level 1",
                         "finished": "Finished",
                         "rejected": "Rejected"
+                    },
+                    "documents": {
+                        "passport": "Passport",
+                        "driverLicense": "Driver License",
+                        "idCard": "Government ID Card"
                     }
                 }
             }

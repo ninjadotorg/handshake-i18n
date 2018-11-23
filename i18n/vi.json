@@ -988,6 +988,11 @@
                         "level1": "Cấp độ 1",
                         "finished": "Đã hoàn thành",
                         "rejected": "Xác minh danh tính bị từ chối. Xin vui lòng thử lại."
+                    },
+                    "documents": {
+                        "passport": "Passport",
+                        "driverLicense": "Driver License",
+                        "idCard": "Government ID Card"
                     }
                 }
             }
