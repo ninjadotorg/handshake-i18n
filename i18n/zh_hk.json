@@ -944,7 +944,7 @@
                 "phone": {
                     "label": "電話號碼",
                     "desc1": "為了有時向您免費發送 eth, 我們需要您的電話號碼來驗證您不是機器人。這是可選的。",
-                    "desc2": "我們只給人類發送獎勵。",
+                    "desc2": "我們只給真人發送獎勵。",
                     "desc3": "請驗證您的電話號碼。",
                     "desc4": "輸入發送到您手機的密碼。",
                     "button": {
@@ -954,7 +954,7 @@
                 },
                 "email": {
                     "label": "電子郵件",
-                    "desc1": "您可能更喜歡通過電子郵件接收更新和通知。這也是可選的。",
+                    "desc1": "您可能喜歡通過電子郵件接收更新和通知。這也是可選的。",
                     "desc2": "驗證您的電子郵件。您將通過此電子郵件地址接收交易資訊",
                     "desc3": "輸入您的電子郵件",
                     "desc4": "輸入發送到您的電子郵件的密碼。",
@@ -978,7 +978,7 @@
                     "desc11": "身份證明檔",
                     "desc12": "1級驗證: 每天500美元的交易限額。",
                     "desc13": "2級驗證: 每天最高限額為5000美元。",
-                    "uploading": "上傳",
+                    "uploading": "上傳中",
                     "button": {
                         "upload": "上傳檔",
                         "submit": "提交"
@@ -1023,8 +1023,8 @@
                 "messageDeactiveSuccess": "暫停成功"
             },
             "transaction": {
-                "amount": "量",
-                "processing": "處理。。。",
+                "amount": "金額",
+                "processing": "處理中。。。",
                 "deposit": {
                     "title": "DEPOSIT",
                     "percentage": "Percentage"
@@ -1049,7 +1049,7 @@
                 "title": "Withdraw money",
                 "yourBalance": "Your balance (USD)",
                 "yourPapalName": "Your Paypal email",
-                "amount": "量 (USD)",
+                "amount": "金額",
                 "buttonTitle": "Withdraw to your PayPal",
                 "description": "<span>It will take within a day for us <br /> to transfer money into your account.</span>",
                 "askToWithdraw": "Do you want to withdraw?",
@@ -1120,7 +1120,7 @@
                 "addressHint": "Enter your address...",
                 "bankInfo": "Bank info",
                 "ccInfo": "CC info",
-                "statusTitle": "地位",
+                "statusTitle": "狀態",
                 "personalAtm": "Personal ATM",
                 "storeAtm": "Store ATM",
                 "confirmCreateAtm": "Create your ATM?",
@@ -1148,9 +1148,9 @@
                 "sunday": "Sunday"
             },
             "transactions": {
-                "amount": "量",
+                "amount": "金額",
                 "needToTransfer": "成本",
-                "status": "地位",
+                "status": "狀態",
                 "to_wallet": "到電子錢包",
                 "statusValues": {
                     "processing": "等待",
@@ -1310,7 +1310,7 @@
                     "from_wallet": "From wallet",
                     "to_address": "到錢包位址",
                     "to_address2": "To address",
-                    "amount": "量",
+                    "amount": "金額",
                     "usd": "USD",
                     "wallet_balance": "Wallet balance",
                     "scan_qrcode": "掃描二維碼",
@@ -1460,7 +1460,7 @@
                 "title2": "MY DESPOSIT ADDRESS",
                 "label": {
                     "address": "Address",
-                    "amount": "量",
+                    "amount": "金額",
                     "usd": "USD"
                 },
                 "placeholder": {
@@ -1527,7 +1527,7 @@
                     "unconfirmed": "Unconfirmed",
                     "balance": "Balance",
                     "transactions": "Transactions",
-                    "status": "地位",
+                    "status": "狀態",
                     "confirmations": "confirmations",
                     "success": "success",
                     "error": "Error",
@@ -1740,12 +1740,12 @@
         "label": {
             "header": {
                 "buy_crypto": "購買加密產品",
-                "with_ninja_coin": " 與忍者硬幣"
+                "with_ninja_coin": " 與 CoinBowl"
             },
-            "description": "忍者有一些最好的價格周圍",
+            "description": "CoinBowl 有一些最好的價格周圍",
             "common_packages": "一鍵購買",
             "basic_package_name": "起 動 器",
-            "pro_package_name": "主人",
+            "pro_package_name": "主要項目",
             "payment_methods": {
                 "bank": "銀行轉帳",
                 "cod": "货到付款",
@@ -1790,7 +1790,7 @@
     "buy_coin_transaction": {
         "code": "代碼",
         "statusValues": {
-            "pending": "創建",
+            "pending": "創立",
             "processing": "處理",
             "success": "成功",
             "transferring": "轉移硬幣",
@@ -1857,7 +1857,7 @@
         "order": {
             "inputs": {
                 "currency": {
-                    "amount": "量"
+                    "amount": "金額"
                 },
                 "bank_owner": "帳戶名稱",
                 "bank_name": "銀行名稱",
