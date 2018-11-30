@@ -14,6 +14,7 @@
 %%%.app.navigation.shop%%%,"Shop"
 %%%.app.navigation.ninjaCoin%%%,"Coin"
 %%%.app.navigation.invest%%%,"Invest"
+%%%.app.navigation.feed%%%,"Feed"
 %%%.coinbowl.name%%%,"Coinbowl"
 %%%.coinbowl.fullname%%%,"Coinbowl：购买和出售大量比特币"
 %%%.coinbowl.description%%%,"大量购买和出售比特币和其他加密货币。 支持银行转账，现金和信用卡。 所有交易都有保险"

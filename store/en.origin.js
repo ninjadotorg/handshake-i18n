@@ -15,7 +15,8 @@
             "credit": "%%%.app.navigation.credit%%%",
             "shop": "%%%.app.navigation.shop%%%",
             "ninjaCoin": "%%%.app.navigation.ninjaCoin%%%",
-            "invest": "%%%.app.navigation.invest%%%"
+            "invest": "%%%.app.navigation.invest%%%",
+            "feed": "%%%.app.navigation.feed%%%"
         }
     },
     "coinbowl": {
