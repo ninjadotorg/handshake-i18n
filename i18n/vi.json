@@ -3,7 +3,7 @@
         "name": "Ninja",
         "fullname": "Ninja: Anonymous Peer-to-Peer Prediction Exchange",
         "description": "Anonymous Peer-to-Peer Prediction Exchange",
-        "loading": "Loading...",
+        "loading": "Đang tải...",
         "navigation": {
             "me": "Me",
             "exchanges": "Exchanges",
