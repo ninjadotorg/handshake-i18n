@@ -26,7 +26,7 @@
     "babel-plugin-dynamic-import-node": "^2.2.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "dotenv": "^6.0.0",
-    "fast-csv": "^2.4.1",
+    "fast-csv": "^4.3.6",
     "lodash": "^4.17.10",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
